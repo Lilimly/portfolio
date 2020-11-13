@@ -1,4 +1,4 @@
 ---
-title: 'post 2'
+title: 'Hello world !'
 ---
-lorem bla blab bllalsgrzuriagbuazg
+Salut les copains comment ça va ?
