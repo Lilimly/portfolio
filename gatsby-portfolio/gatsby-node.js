@@ -7,8 +7,8 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
         const slug = createFilePath ({ node, getNode, basePath: 'content'});
         createNodeField({
             node,
-            name: 'slug',
-            value: slug,
+            name: `slug`,
+            value: `/blog${slug}`,
         })
     }
 }
@@ -24,6 +24,7 @@ exports.createPages = async function ({ actions, graphql }) {
                         }
                     }
                 }
+                totalCount
             }
         }
     `)
@@ -35,4 +36,19 @@ exports.createPages = async function ({ actions, graphql }) {
             context: {slug: slug},
         })
     })
+
+    const perPage =2;
+    const nbPage = Math.ceil(data.allMarkdownRemark.totalCount / perPage);
+
+    // creation page index des posts
+   for (let i = 0; i < nbPage; i++) { 
+        actions.createPage({
+            path: i < 1 ? "/blog" : `/blog/${i + 1}` ,
+            component: require.resolve(`./src/template/list.js`),
+            context: {
+                limit: perPage,
+                skip: i * perPage,
+            },
+        })
+    }
 }
