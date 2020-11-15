@@ -1,6 +1,7 @@
 ---
 title: 'Coucou les gens'
 date: '2020-02-18'
+img: './Buzz-l-Eclair.jpg'
 ---
 Juste pour savoir ...
 Moi ça va et ça marche !

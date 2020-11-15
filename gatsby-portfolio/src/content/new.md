@@ -1,6 +1,7 @@
 ---
 title: 'New de chez new'
 date: '2020-11-10'
+img: './kiki.jpg'
 ---
 Juste pour savoir ...
 Moi ça va et ça marche !

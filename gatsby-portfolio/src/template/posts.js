@@ -1,5 +1,6 @@
 import React from "react";
 import { graphql } from "gatsby";
+import Img from "gatsby-image";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
@@ -10,6 +11,14 @@ const Posts = ({ data }) => {
         <Layout>
             <SEO title={post.frontmatter.title} />
             <div>
+                {
+                    post.frontmatter.img && (
+                        <Img 
+                            placeholderStyle={{ backgroungColor: 'red'}}
+                            fluid={post.frontmatter.img.childImageSharp.fluid}
+                        />
+                    )
+                }
                 <h1>{post.frontmatter.title}</h1>
                 <div dangerouslySetInnerHTML={{ __html: post.html}} />
             </div>
@@ -23,6 +32,13 @@ export const query = graphql`
             html
             frontmatter {
                 title
+                img {
+                    childImageSharp {
+                        fluid {
+                            ...GatsbyImageSharpFluid
+                        }
+                    }
+                }
             }
         }
     }

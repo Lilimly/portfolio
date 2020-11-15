@@ -1,6 +1,7 @@
 ---
 title: 'Vive Gatsby !'
 date: '2019-04-01'
+img: './luigi_722.jpg'
 ---
 Moi j'aime Gatsby et je veux le faire savoir !
 En route pour de nouvelles aventure ! c'est cool

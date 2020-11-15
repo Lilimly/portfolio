@@ -1,6 +1,7 @@
 ---
 title: 'Hello world !'
 date: '2020-05-01'
+img: './kirby.jpeg'
 ---
 Salut les copains comment ça va ?
 Aujourd'hui je me suis promené au lac et c'était top !

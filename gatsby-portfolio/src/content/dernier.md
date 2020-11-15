@@ -1,6 +1,7 @@
 ---
 title: 'The last'
 date: '2020-05-17'
+img: './dora-exploratrice.jpg'
 ---
 Juste pour savoir ...
 Moi ça va et ça marche !

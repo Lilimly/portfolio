@@ -1,6 +1,7 @@
 ---
 title: 'Est-ce que ça marche ?'
 date: '2020-03-01'
+img: './images.jpeg'
 ---
 Juste pour savoir ...
 Moi ça va et ça marche !

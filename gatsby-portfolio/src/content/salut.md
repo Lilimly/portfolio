@@ -1,6 +1,7 @@
 ---
 title: 'Salut ?'
 date: '2018-06-01'
+img: './Super-Mario.jpg'
 ---
 Juste pour savoir ...
 Moi ça va et ça marche !
