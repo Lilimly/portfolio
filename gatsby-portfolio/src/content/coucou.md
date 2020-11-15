@@ -1,7 +1,7 @@
 ---
 title: 'Coucou les gens'
 date: '2020-02-18'
-img: './Buzz-l-Eclair.jpg'
+img: './articles/auckland-11.jpg'
 ---
 Juste pour savoir ...
 Moi ça va et ça marche !
@@ -13,3 +13,5 @@ Estimation du temps : quantité de temps de travail nécessaire à la réalisati
 Date de début et date de fin : planning des délais accordés pour réaliser vos actions,
 Objectifs : tels que définis par vos soins (SMART),
 Résultats obtenus : cette case est à remplir une fois la date de fin dépassée, et prend en compte votre réussite ou non par rapport aux objectifs fixés.
+
+![Buzz](./Buzz-l-Eclair.jpg)

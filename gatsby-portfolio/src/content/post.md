@@ -1,7 +1,7 @@
 ---
 title: 'Vive Gatsby !'
 date: '2019-04-01'
-img: './luigi_722.jpg'
+img: './articles/ile-gomera-21-scaled.jpg'
 ---
 Moi j'aime Gatsby et je veux le faire savoir !
 En route pour de nouvelles aventure ! c'est cool
@@ -14,3 +14,5 @@ offre ciblée et spécialisée : développement web
 
 taux horaire minimum : 
 250 jours ouvrés
+
+![Luigi](./luigi_722.jpg)

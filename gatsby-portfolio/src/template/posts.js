@@ -14,7 +14,7 @@ const Posts = ({ data }) => {
                 {
                     post.frontmatter.img && (
                         <Img 
-                            placeholderStyle={{ backgroungColor: 'red'}}
+                            placeholderStyle={{ backgroundColor: `blue`}}
                             fluid={post.frontmatter.img.childImageSharp.fluid}
                         />
                     )
@@ -35,7 +35,7 @@ export const query = graphql`
                 img {
                     childImageSharp {
                         fluid {
-                            ...GatsbyImageSharpFluid
+                            ...GatsbyImageSharpFluid_tracedSVG
                         }
                     }
                 }
