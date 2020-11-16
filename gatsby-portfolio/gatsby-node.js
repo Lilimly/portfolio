@@ -37,13 +37,13 @@ exports.createPages = async function ({ actions, graphql }) {
         })
     })
 
-    const perPage =2;
+    const perPage =1;
     const nbPage = Math.ceil(data.allMdx.totalCount / perPage);
 
     // creation page index des posts
    for (let i = 0; i < nbPage; i++) { 
         actions.createPage({
-            path: i < 1 ? "/blog" : `/blog/${i + 1}` ,
+            path: i < 1 ? "/" : `/${i + 1}` ,
             component: require.resolve(`./src/template/list.js`),
             context: {
                 limit: perPage,

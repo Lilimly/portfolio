@@ -8,7 +8,7 @@ const IndexPage = ({ data }) => {
     const { nodes, pageInfo } = data.allMdx;
     return (
         <Layout>
-            <SEO title="Blog Home" />
+            <SEO title="Aurélie Mlynarz | Développeuse web" />
             <h1>List posts</h1>
             {nodes.map((e) => 
                 <div key={"div" + e.frontmatter.title}>
@@ -26,7 +26,7 @@ const IndexPage = ({ data }) => {
             >
                 {pageInfo.hasPreviousPage ? (
                     <Link
-                        to={`${pageInfo.currentPage === 2 ? "/blog" : `/blog/${pageInfo.currentPage - 1}`}`}
+                        to={`${pageInfo.currentPage === 2 ? "/" : `/${pageInfo.currentPage - 1}`}`}
                     >
                         Previous
                     </Link>
@@ -34,7 +34,7 @@ const IndexPage = ({ data }) => {
                         <div />
                     )}
                 {pageInfo.hasNextPage && (
-                    <Link to={`/blog/${pageInfo.currentPage + 1}`}>Next</Link>
+                    <Link to={`/${pageInfo.currentPage + 1}`}>Next</Link>
                 )}
             </div>
         </Layout>
