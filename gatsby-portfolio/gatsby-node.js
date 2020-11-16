@@ -3,7 +3,7 @@ const { createFilePath } = require('gatsby-source-filesystem');
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
     const { createNodeField } = actions;
-    if (node.internal.type === 'MarkdownRemark') {
+    if (node.internal.type === 'MarkdownRemark' || node.internal.type === 'Mdx') {
         const slug = createFilePath ({ node, getNode, basePath: 'content'});
         createNodeField({
             node,
@@ -16,7 +16,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 exports.createPages = async function ({ actions, graphql }) {
     const { data } = await graphql(`
         query {
-            allMarkdownRemark {
+            allMdx {
                 edges {
                     node {
                         fields {
@@ -28,7 +28,7 @@ exports.createPages = async function ({ actions, graphql }) {
             }
         }
     `)
-    data.allMarkdownRemark.edges.forEach(edge => {
+    data.allMdx.edges.forEach(edge => {
         const { slug } = edge.node.fields;
         actions.createPage({
             path: slug,
@@ -38,7 +38,7 @@ exports.createPages = async function ({ actions, graphql }) {
     })
 
     const perPage =2;
-    const nbPage = Math.ceil(data.allMarkdownRemark.totalCount / perPage);
+    const nbPage = Math.ceil(data.allMdx.totalCount / perPage);
 
     // creation page index des posts
    for (let i = 0; i < nbPage; i++) { 

@@ -5,7 +5,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 
 const IndexPage = ({ data }) => {
-    const { nodes, pageInfo } = data.allMarkdownRemark;
+    const { nodes, pageInfo } = data.allMdx;
     return (
         <Layout>
             <SEO title="Blog Home" />
@@ -43,7 +43,7 @@ const IndexPage = ({ data }) => {
 
 export const query = graphql`
     query getPosts($skip: Int!, $limit: Int!) {
-        allMarkdownRemark(
+        allMdx(
             sort: { fields: frontmatter___date, order: DESC }
             limit: $limit
             skip: $skip
