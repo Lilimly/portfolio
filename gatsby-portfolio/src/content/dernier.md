@@ -17,6 +17,6 @@ Résultats obtenus : cette case est à remplir une fois la date de fin dépassé
 
 <ColorRed>Hello world</ColorRed>
 
-<Link to='/'>Retour à l'accueil</Link>
+<Link to='/blog/'>Retour aux projets</Link>
 
 ![Dora](./dora-exploratrice.jpg)

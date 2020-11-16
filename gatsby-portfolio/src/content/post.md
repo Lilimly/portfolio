@@ -15,6 +15,6 @@ offre ciblée et spécialisée : développement web
 taux horaire minimum : 
 250 jours ouvrés
 
-<Link to='/'>Retour à l'accueil</Link>
+<Link to='/blog/'>Retour aux projets</Link>
 
 ![Luigi](./luigi_722.jpg)
