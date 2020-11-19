@@ -2,46 +2,187 @@ body {
   background-color: whitesmoke;
 }
 
-body h1 {
+header {
+  background-color: #454545;
+  height: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  z-index: 9999;
+  top: 0;
+}
+
+header .header-div {
+  margin: 0em;
+  padding: 0em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .header-div img {
+  width: 4.2em;
+  margin: 0.3em 0em 0.3em 1.5em;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: -webkit-transform 300ms ease-in-out;
+  transition: -webkit-transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+}
+
+header .header-div img:hover {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  cursor: pointer;
+}
+
+header .header-div h2 {
+  margin: auto 0.5em auto 0.5em;
+  width: 40%;
+  font-size: 1em;
+  color: whitesmoke;
+}
+
+header .header-div .nav-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  margin: auto 2em auto auto;
+  width: 40%;
+}
+
+header .header-div .nav-items .nav-item {
+  margin: auto auto 0em auto;
+}
+
+header .header-div .nav-items .nav-item a {
+  color: #ff6347;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header .header-div .nav-items .nav-item a:hover {
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+header .header-div .nav-items .nav-item > .active {
+  color: whitesmoke;
+}
+
+header .header-div .hamburger {
+  display: none;
+}
+
+.main-div {
+  margin: 2em;
+}
+
+.main-div h1 {
+  text-align: center;
+  margin: 1em;
   color: #ff6347;
 }
 
-body p {
+.main-div p {
   color: #454545;
 }
 
-body a {
+.main-div a {
   font-weight: bold;
   color: indianred;
   font-size: 0.9em;
 }
 
-body a:hover {
+.main-div a:hover {
   color: #6e1313;
 }
 
-header {
-  background-color: #ff6347;
-  margin-bottom: 1.45rem;
+.main-div .image-div img {
+  margin: 1em;
+  -webkit-box-shadow: 0 0 10px #bababa;
+          box-shadow: 0 0 10px #bababa;
 }
 
-header .header-div {
-  margin: 0 auto;
-  max-width: 960;
-  padding: 1.45rem 1.0875rem;
+.main-div footer {
+  margin-top: 2rem;
 }
 
-header .header-div h2 {
-  margin: 0;
-  font-size: 1.2em;
+@media only screen and (max-width: 360px) {
+  header .header-div {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header .header-div img {
+    width: 3.8em;
+    margin: auto auto auto 1em;
+  }
+  header .header-div .nav-items {
+    display: none;
+  }
+  header .header-div .hamburger {
+    display: initial;
+  }
+  header .header-div .hamburger .menu-toggle {
+    margin: 1em;
+    width: auto;
+    -webkit-box-shadow: 0 0 10px #bababa;
+            box-shadow: 0 0 10px #bababa;
+  }
+  header .header-div .hamburger .menu-toggle .bar {
+    width: 30px;
+    height: 3px;
+    background-color: #ff6347;
+    margin: 6px 0;
+  }
+  header .header-div .hamburger .menu-toggle:hover {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    cursor: pointer;
+  }
 }
 
-header .header-div h2 a {
-  color: whitesmoke;
-  text-decoration: none;
-}
-
-header .header-div h2 a:hover {
-  color: #7c7b7b;
+@media only screen and (max-width: 780px) and (min-width: 360px) {
+  header .header-div {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header .header-div img {
+    width: 4em;
+    margin: auto auto auto 1em;
+  }
+  header .header-div .nav-items {
+    display: none;
+  }
+  header .header-div .hamburger {
+    display: initial;
+  }
+  header .header-div .hamburger .menu-toggle {
+    margin: 1em;
+    width: auto;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  header .header-div .hamburger .menu-toggle .bar {
+    width: 30px;
+    height: 3px;
+    background-color: #ff6347;
+    margin: 6px 0;
+  }
+  header .header-div .hamburger .menu-toggle:hover {
+    -webkit-box-shadow: 0 0 10px #bababa;
+            box-shadow: 0 0 10px #bababa;
+    cursor: pointer;
+  }
 }
 /*# sourceMappingURL=index.css.map */

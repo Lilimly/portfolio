@@ -2,10 +2,74 @@
 @import "./utils/_mixins.scss";
 @import "./utils/_responsive.scss";
 
-// éléments principaux de la page
+// éléments body
 body {
   background-color: $body_color;
+}
+
+// éléments du header
+header {
+  background-color: $text_color;
+  height: auto;
+  position: sticky;
+  width: 100%;
+  z-index: 9999;
+  top: 0;
+  .header-div {
+    margin: 0em;
+    padding: 0em;
+    display: flex;
+    img {
+      width: 4.2em;
+      margin: 0.3em 0em 0.3em 1.5em;
+      transform: scale(0.9);
+      transition: transform 300ms ease-in-out;
+      &:hover {
+        transform: scale(1);
+        cursor: pointer;
+      }
+    }
+    h2 {
+      margin: auto 0.5em auto 0.5em;
+      width: 40%;
+      font-size: 1em;
+      color: $body_color;
+    }
+    .nav-items {
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+      align-items: stretch;
+      margin: auto 2em auto auto;
+      width: 40%;
+      .nav-item {
+        margin: auto auto 0em auto;
+        a {
+          color: $primary_color;
+          text-decoration: none;
+          font-weight: bold;
+          &:hover {
+            color: $body_color;
+            cursor: pointer;
+          }
+        }
+        > .active {
+          color: $body_color;
+        }
+      }
+    }
+    .hamburger {
+      display: none;
+    }
+  }
+}
+
+// éléments main de la page
+.main-div {
+  margin: 2em;
   h1 {
+    text-align: center;
+    margin: 1em;
     color: $primary_color;
   }
   p {
@@ -14,24 +78,81 @@ body {
   a {
     @include text_link;
   }
+  .image-div{
+  img {
+    margin: 1em;
+    box-shadow: $box_shadow;
+  }}
+  footer {
+    margin-top: 2rem;
+  }
 }
 
-// éléments du header
-header {
-  background-color: $primary_color;
-  margin-bottom: 1.45rem;
-  .header-div {
-    margin: 0 auto;
-    max-width: 960;
-    padding: 1.45rem 1.0875rem;
-    h2 {
-      margin: 0;
-      font-size: 1.2em;
-      a {
-        color: $body_color;
-        text-decoration: none;
-        &:hover {
-          color: $nav_link_color;
+// responsive
+// écrans moins de 360px
+@media #{$x_small_screen}
+{
+  header {
+    .header-div {
+      justify-content: space-between;
+      img {
+        width: 3.8em;
+        margin: auto auto auto 1em;
+      }
+      .nav-items {
+        display: none;
+      }
+      .hamburger {
+        display: initial;
+        .menu-toggle {
+          margin: 1em;
+          width: auto;
+          box-shadow: $box_shadow;
+          .bar {
+            width: 30px;
+            height: 3px;
+            background-color: $primary_color;
+            margin: 6px 0;
+          }
+          &:hover {
+            box-shadow: none;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+
+// écrans plus de 360px et moins de 780 px 
+@media #{$small_screen}
+{
+  header {
+    .header-div {
+      justify-content: space-between;
+      img {
+        width: 4em;
+        margin: auto auto auto 1em;
+      }
+      .nav-items {
+        display: none;
+      }
+      .hamburger {
+        display: initial;
+        .menu-toggle {
+          margin: 1em;
+          width: auto;
+          box-shadow: none;
+          .bar {
+            width: 30px;
+            height: 3px;
+            background-color:$primary_color;
+            margin: 6px 0;
+          }
+          &:hover {
+            box-shadow: $box_shadow;
+            cursor: pointer;
+          }
         }
       }
     }
