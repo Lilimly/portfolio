@@ -8,7 +8,7 @@ body {
 }
 
 // éléments du header
-header {
+nav {
   background-color: $text_color;
   height: auto;
   position: sticky;
@@ -35,7 +35,7 @@ header {
       font-size: 1em;
       color: $body_color;
     }
-    .nav-items {
+    .nav-menu {
       display: flex;
       justify-content: space-between;
       list-style: none;
@@ -49,6 +49,7 @@ header {
           text-decoration: none;
           font-weight: bold;
           &:hover {
+            transition: all 0.2s ease-out;
             color: $body_color;
             cursor: pointer;
           }
@@ -66,10 +67,51 @@ header {
 
 // éléments main de la page
 .main-div {
-  margin: 2em;
-  h1 {
+  margin: 0em;
+  #section {
+    padding: 1em;
+    background-color: $body_color;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%
+  }
+  #section1 {
+    h2 {
+      color: $body_color;
+    }
+    padding: 1em;
+    background-color: $primary_color;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%
+  }
+  #section2 {
+    p {
+      color:  $text_color;
+    }
+    padding: 1em;
+    background-color: $body_color;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%
+  }
+  #section3 {
+    h2 {
+      color: $body_color;
+    }
+    padding: 1em;
+    background-color: $primary_color;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%
+  }
+  h2 {
     text-align: center;
-    margin: 1em;
+    margin: 0.5em;
     color: $primary_color;
   }
   p {
@@ -79,12 +121,37 @@ header {
     @include text_link;
   }
   .image-div{
-  img {
-    margin: 1em;
-    box-shadow: $box_shadow;
-  }}
+    img {
+      margin: 1em;
+    }
+  }
+  .button-top {
+    width: 100%;
+    background-color: $primary_color;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    button {
+      background-color: $body-color;
+      border-radius: 25%;
+      border: none;
+      transform: scale(1.2);
+      transition: transform 300ms ease-in-out;
+      padding: 0.3em;
+      &:hover {
+        transform: scale(1.4);
+        box-shadow: $box_shadow;
+        cursor: pointer;
+      }
+      svg {
+        color: $primary_color;
+      }
+    }
+  }
   footer {
-    margin-top: 2rem;
+    padding: 1em;
+    color: $body-color;
+    background-color: $text_color;
   }
 }
 
@@ -92,33 +159,47 @@ header {
 // écrans moins de 360px
 @media #{$x_small_screen}
 {
-  header {
+  nav {
     .header-div {
       justify-content: space-between;
       img {
-        width: 3.8em;
-        margin: auto auto auto 1em;
-      }
-      .nav-items {
-        display: none;
+        width: 3.5em;
+        margin: 0.4em auto 0.4em 1em;
       }
       .hamburger {
         display: initial;
-        .menu-toggle {
-          margin: 1em;
-          width: auto;
+        margin: auto 1.5em auto auto;
+        background-color: $body-color;
+        border-radius: 25%;
+        border: none;
+        transform: scale(1.3);
+        transition: transform 300ms ease-in-out;
+        &:hover {
+          transform: scale(1.5);
           box-shadow: $box_shadow;
-          .bar {
-            width: 30px;
-            height: 3px;
-            background-color: $primary_color;
-            margin: 6px 0;
-          }
-          &:hover {
-            box-shadow: none;
-            cursor: pointer;
-          }
+          cursor: pointer;
         }
+        svg {
+           color: $primary_color;
+        }
+      }
+      .nav-menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 90vh;
+        position: absolute;
+        top: 80px;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+      }
+      .nav-menu.active {
+        background: #242222;
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
       }
     }
   }
@@ -127,31 +208,60 @@ header {
 // écrans plus de 360px et moins de 780 px 
 @media #{$small_screen}
 {
-  header {
+  nav {
     .header-div {
       justify-content: space-between;
       img {
-        width: 4em;
-        margin: auto auto auto 1em;
-      }
-      .nav-items {
-        display: none;
+        width: 3.6em;
+        margin: 0.4em auto 0.4em 1em;
       }
       .hamburger {
         display: initial;
-        .menu-toggle {
-          margin: 1em;
-          width: auto;
-          box-shadow: none;
-          .bar {
-            width: 30px;
-            height: 3px;
-            background-color:$primary_color;
-            margin: 6px 0;
-          }
-          &:hover {
-            box-shadow: $box_shadow;
-            cursor: pointer;
+        margin: auto 1.5em auto auto;
+        background-color: $body-color;
+        transform: scale(1.3);
+        transition: transform 300ms ease-in-out;
+        border: none;
+        border-radius: 25%;
+        &:hover {
+          transform: scale(1.5);
+          box-shadow: $box_shadow;
+          cursor: pointer;
+        }
+        svg {
+           color: $primary_color;
+        }
+      }
+      .nav-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: top;
+        width: 100%;
+        height: 40vh;
+        position: absolute;
+        top: 70px;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+      }
+      .nav-menu.active {
+        background: $text-color;
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+        .nav-item {
+          text-align: center;
+          margin: 0em;
+          padding: 2rem;
+          width: 100%;
+          display: table;
+        }
+        .nav-item:hover {
+          background-color: $primary-color;
+          border-radius: 0;
+          a {
+            color: $body-color;
           }
         }
       }
