@@ -3,7 +3,7 @@ body {
 }
 
 nav {
-  background-color: #454545;
+  background-color: #023750;
   height: auto;
   position: -webkit-sticky;
   position: sticky;
@@ -120,7 +120,7 @@ nav .header-div .hamburger {
 }
 
 .main-div #section2 p {
-  color: #454545;
+  color: #023750;
 }
 
 .main-div #section3 {
@@ -143,7 +143,7 @@ nav .header-div .hamburger {
 }
 
 .main-div p {
-  color: #454545;
+  color: #023750;
 }
 
 .main-div a {
@@ -200,7 +200,7 @@ nav .header-div .hamburger {
 .main-div footer {
   padding: 1em;
   color: whitesmoke;
-  background-color: #454545;
+  background-color: #023750;
 }
 
 @media only screen and (max-width: 360px) {
@@ -244,22 +244,39 @@ nav .header-div .hamburger {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-pack: top;
+        -ms-flex-pack: top;
+            justify-content: top;
     width: 100%;
-    height: 90vh;
+    height: 40vh;
     position: absolute;
-    top: 80px;
+    top: 60px;
     left: -100%;
     opacity: 1;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
   }
   nav .header-div .nav-menu.active {
-    background: #242222;
+    background: #023750;
     left: 0;
     opacity: 1;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
     z-index: 1;
+  }
+  nav .header-div .nav-menu.active .nav-item {
+    text-align: center;
+    margin: 0em;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
+  nav .header-div .nav-menu.active .nav-item:hover {
+    background-color: #ff6347;
+    border-radius: 0;
+  }
+  nav .header-div .nav-menu.active .nav-item:hover a {
+    color: whitesmoke;
   }
 }
 
@@ -317,7 +334,7 @@ nav .header-div .hamburger {
     transition: all 0.5s ease;
   }
   nav .header-div .nav-menu.active {
-    background: #454545;
+    background: #023750;
     left: 0;
     opacity: 1;
     -webkit-transition: all 0.5s ease;

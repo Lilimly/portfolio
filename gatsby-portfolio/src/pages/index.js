@@ -4,7 +4,6 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Section from "../components/section";
 import Button from "../components/Button"
-import logo from "../images/logo.png";
 import {
   faCoffee,
   faAirFreshener,
@@ -19,9 +18,6 @@ const IndexPage = () => (
     <Section
       title="Bienvenue"
       icon={faCoffee}
-      image={logo}
-      classname="logo-page"
-      alt="Bienvenue"
       id="section"
     />
     <Section
