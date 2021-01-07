@@ -29,6 +29,13 @@
     display: flex;
     justify-content: space-evenly;
 }
+// paramètres sections
+@mixin section-style {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
 
 // paramètres liens effet zoom
 @mixin nav_link {

@@ -1,15 +1,24 @@
+// sass files
 @import "./utils/_variable.scss";
 @import "./utils/_mixins.scss";
 @import "./utils/_responsive.scss";
+
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 
 // éléments body
 body {
   background-color: $body_color;
 }
 
+* {
+  font-family: 'Comfortaa', cursive;
+}
+
 // éléments du header
 nav {
-  background-color: $text_color;
+  background-color: $body_color;
+  border-bottom: 1px solid $text_color;
   height: auto;
   position: sticky;
   width: 100%;
@@ -41,7 +50,7 @@ nav {
       list-style: none;
       align-items: stretch;
       margin: auto 2em auto auto;
-      width: 40%;
+      width: 60%;
       .nav-item {
         margin: auto auto 0em auto;
         a {
@@ -50,12 +59,12 @@ nav {
           font-weight: bold;
           &:hover {
             transition: all 0.2s ease-out;
-            color: $body_color;
+            color: $text_link_color;
             cursor: pointer;
           }
         }
         > .active {
-          color: $body_color;
+          color: $text_link_color;
         }
       }
     }
@@ -68,46 +77,48 @@ nav {
 // éléments main de la page
 .main-div {
   margin: 0em;
+  p {
+    font-size: 0.9em;
+  }
   #section {
-    padding: 1em;
+    padding: 2em;
+    height: 30em;
+    background-image: url("../images/img-header.jpg");
     background-color: $body_color;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%
+    @include section-style;
+    h2 {
+      font-family: 'Comfortaa', cursive;
+    }
   }
   #section1 {
+    padding: 1em 3em 1em 3em;
+    background-color: $body_color;
+    @include section-style;
     h2 {
-      color: $body_color;
+      font-family: 'Comfortaa', cursive;
+      color: $primary_color;
     }
-    padding: 1em;
-    background-color: $primary_color;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%
   }
   #section2 {
-    p {
-      color:  $text_color;
-    }
-    padding: 1em;
-    background-color: $body_color;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%
-  }
-  #section3 {
+    padding: 1em 3em 1em 3em;
+    background-color: $primary_color;
+    @include section-style;
     h2 {
       color: $body_color;
+      font-family: 'Comfortaa', cursive;
     }
-    padding: 1em;
-    background-color: $primary_color;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%
+    p {
+      color: $text_color;
+    }
+  }
+  #section3 {
+    padding: 1em 3em 1em 3em;
+    background-color: $body_color;
+    @include section-style;
+    h2 {
+      color: $primary_color;
+      font-family: 'Comfortaa', cursive;
+    }
   }
   h2 {
     text-align: center;
@@ -127,14 +138,12 @@ nav {
   }
   .button-top {
     width: 100%;
-    background-color: $primary_color;
-    padding: 1em;
-    display: flex;
-    justify-content: center;
+    padding-bottom: 2em;
+    @include flex_center;
     button {
-      background-color: $body-color;
       border-radius: 25%;
       border: none;
+      background-color: $body-color;
       transform: scale(1.2);
       transition: transform 300ms ease-in-out;
       padding: 0.3em;
@@ -145,6 +154,7 @@ nav {
       }
       svg {
         color: $primary_color;
+        background-color: $body-color;
       }
     }
   }
@@ -188,7 +198,7 @@ nav {
         flex-direction: column;
         justify-content: top;
         width: 100%;
-        height: 40vh;
+        height: 60vh;
         position: absolute;
         top: 60px;
         left: -100%;
@@ -252,7 +262,7 @@ nav {
         flex-direction: column;
         justify-content: top;
         width: 100%;
-        height: 40vh;
+        height: 60vh;
         position: absolute;
         top: 70px;
         left: -100%;

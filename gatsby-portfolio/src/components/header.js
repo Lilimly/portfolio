@@ -39,6 +39,19 @@ export default function Navbar () {
           }
         </button>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+        <li className="nav-item">
+            <Link
+              activeClass="active"
+              onClick={closeMobileMenu}
+              to="section"
+              spy={true}
+              smooth={true}
+              offset={-80}
+              duration={500}
+            >
+              Welcome !
+            </Link>
+          </li>
           <li className="nav-item">
             <Link
               activeClass="active"
