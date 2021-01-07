@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
 body {
-  background-color: #fcf8f6;
+  background-color: #fcfcfc;
 }
 
 * {
@@ -8,8 +8,8 @@ body {
 }
 
 nav {
-  background-color: #fcf8f6;
-  border-bottom: 1px solid #502978;
+  background-color: #fcfcfc;
+  border-bottom: 1px solid #34344A;
   height: auto;
   position: -webkit-sticky;
   position: sticky;
@@ -47,7 +47,7 @@ nav .header-div h2 {
   margin: auto 0.5em auto 0.5em;
   width: 40%;
   font-size: 1em;
-  color: #fcf8f6;
+  color: #fcfcfc;
 }
 
 nav .header-div .nav-menu {
@@ -70,7 +70,7 @@ nav .header-div .nav-menu .nav-item {
 }
 
 nav .header-div .nav-menu .nav-item a {
-  color: #ab557d;
+  color: #ee738b;
   text-decoration: none;
   font-weight: bold;
 }
@@ -78,12 +78,12 @@ nav .header-div .nav-menu .nav-item a {
 nav .header-div .nav-menu .nav-item a:hover {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-  color: #f8ae01;
+  color: #34344A;
   cursor: pointer;
 }
 
 nav .header-div .nav-menu .nav-item > .active {
-  color: #f8ae01;
+  color: #34344A;
 }
 
 nav .header-div .hamburger {
@@ -102,7 +102,7 @@ nav .header-div .hamburger {
   padding: 2em;
   height: 30em;
   background-image: url("../images/img-header.jpg");
-  background-color: #fcf8f6;
+  background-color: #fcfcfc;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -111,11 +111,12 @@ nav .header-div .hamburger {
 
 .main-div #section h2 {
   font-family: 'Comfortaa', cursive;
+  color: #ee738b;
 }
 
 .main-div #section1 {
   padding: 1em 3em 1em 3em;
-  background-color: #fcf8f6;
+  background-color: #fcfcfc;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -124,12 +125,12 @@ nav .header-div .hamburger {
 
 .main-div #section1 h2 {
   font-family: 'Comfortaa', cursive;
-  color: #ab557d;
+  color: #ee738b;
 }
 
 .main-div #section2 {
   padding: 1em 3em 1em 3em;
-  background-color: #ab557d;
+  background-color: #ee738b;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -137,17 +138,17 @@ nav .header-div .hamburger {
 }
 
 .main-div #section2 h2 {
-  color: #fcf8f6;
+  color: #fcfcfc;
   font-family: 'Comfortaa', cursive;
 }
 
 .main-div #section2 p {
-  color: #502978;
+  color: #34344A;
 }
 
 .main-div #section3 {
   padding: 1em 3em 1em 3em;
-  background-color: #fcf8f6;
+  background-color: #fcfcfc;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -155,28 +156,28 @@ nav .header-div .hamburger {
 }
 
 .main-div #section3 h2 {
-  color: #ab557d;
+  color: #ee738b;
   font-family: 'Comfortaa', cursive;
 }
 
 .main-div h2 {
   text-align: center;
   margin: 0.5em;
-  color: #ab557d;
+  color: #ee738b;
 }
 
 .main-div p {
-  color: #502978;
+  color: #34344A;
 }
 
 .main-div a {
   font-weight: bold;
-  color: #be9599;
+  color: #696999;
   font-size: 0.9em;
 }
 
 .main-div a:hover {
-  color: #f8ae01;
+  color: #34344A;
 }
 
 .main-div .image-div img {
@@ -197,9 +198,9 @@ nav .header-div .hamburger {
 .main-div .button-top button {
   border-radius: 25%;
   border: none;
-  background-color: #fcf8f6;
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  background-color: #fcfcfc;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
   -webkit-transition: -webkit-transform 300ms ease-in-out;
   transition: -webkit-transform 300ms ease-in-out;
   transition: transform 300ms ease-in-out;
@@ -208,22 +209,24 @@ nav .header-div .hamburger {
 }
 
 .main-div .button-top button:hover {
-  -webkit-transform: scale(1.4);
-          transform: scale(1.4);
-  -webkit-box-shadow: 0 0 10px #bababa;
-          box-shadow: 0 0 10px #bababa;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
   cursor: pointer;
 }
 
+.main-div .button-top button:hover svg {
+  color: #34344A;
+}
+
 .main-div .button-top button svg {
-  color: #ab557d;
-  background-color: #fcf8f6;
+  color: #ee738b;
+  background-color: #fcfcfc;
 }
 
 .main-div footer {
   padding: 1em;
-  color: #fcf8f6;
-  background-color: #502978;
+  color: #fcfcfc;
+  background-color: #ee738b;
 }
 
 @media only screen and (max-width: 360px) {
@@ -239,7 +242,7 @@ nav .header-div .hamburger {
   nav .header-div .hamburger {
     display: initial;
     margin: auto 1.5em auto auto;
-    background-color: #fcf8f6;
+    background-color: #fcfcfc;
     border-radius: 25%;
     border: none;
     -webkit-transform: scale(1.3);
@@ -250,14 +253,15 @@ nav .header-div .hamburger {
     transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
   }
   nav .header-div .hamburger:hover {
-    -webkit-transform: scale(1.5);
-            transform: scale(1.5);
-    -webkit-box-shadow: 0 0 10px #bababa;
-            box-shadow: 0 0 10px #bababa;
+    -webkit-transform: scale(1.6);
+            transform: scale(1.6);
     cursor: pointer;
   }
+  nav .header-div .hamburger:hover svg {
+    color: #34344A;
+  }
   nav .header-div .hamburger svg {
-    color: #ab557d;
+    color: #ee738b;
   }
   nav .header-div .nav-menu {
     display: -webkit-box;
@@ -280,7 +284,7 @@ nav .header-div .hamburger {
     transition: all 0.5s ease;
   }
   nav .header-div .nav-menu.active {
-    background: #502978;
+    background: #ee738b;
     left: 0;
     opacity: 1;
     -webkit-transition: all 0.5s ease;
@@ -294,12 +298,21 @@ nav .header-div .hamburger {
     width: 100%;
     display: table;
   }
+  nav .header-div .nav-menu.active .nav-item a {
+    color: #34344A;
+  }
+  nav .header-div .nav-menu.active .nav-item .active {
+    color: #fcfcfc;
+  }
   nav .header-div .nav-menu.active .nav-item:hover {
-    background-color: #ab557d;
+    background-color: #34344A;
     border-radius: 0;
   }
   nav .header-div .nav-menu.active .nav-item:hover a {
-    color: #fcf8f6;
+    color: #ee738b;
+  }
+  nav .header-div .nav-menu.active .nav-item:hover .active {
+    color: #fcfcfc;
   }
 }
 
@@ -316,7 +329,7 @@ nav .header-div .hamburger {
   nav .header-div .hamburger {
     display: initial;
     margin: auto 1.5em auto auto;
-    background-color: #fcf8f6;
+    background-color: #fcfcfc;
     -webkit-transform: scale(1.3);
             transform: scale(1.3);
     -webkit-transition: -webkit-transform 300ms ease-in-out;
@@ -334,7 +347,7 @@ nav .header-div .hamburger {
     cursor: pointer;
   }
   nav .header-div .hamburger svg {
-    color: #ab557d;
+    color: #ee738b;
   }
   nav .header-div .nav-menu {
     display: -webkit-box;
@@ -357,7 +370,7 @@ nav .header-div .hamburger {
     transition: all 0.5s ease;
   }
   nav .header-div .nav-menu.active {
-    background: #502978;
+    background: #ee738b;
     left: 0;
     opacity: 1;
     -webkit-transition: all 0.5s ease;
@@ -371,12 +384,21 @@ nav .header-div .hamburger {
     width: 100%;
     display: table;
   }
+  nav .header-div .nav-menu.active .nav-item a {
+    color: #34344A;
+  }
+  nav .header-div .nav-menu.active .nav-item .active {
+    color: #fcfcfc;
+  }
   nav .header-div .nav-menu.active .nav-item:hover {
-    background-color: #ab557d;
+    background-color: #34344A;
     border-radius: 0;
   }
   nav .header-div .nav-menu.active .nav-item:hover a {
-    color: #fcf8f6;
+    color: #ee738b;
+  }
+  nav .header-div .nav-menu.active .nav-item:hover .active {
+    color: #fcfcfc;
   }
 }
 /*# sourceMappingURL=index.css.map */

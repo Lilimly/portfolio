@@ -37,25 +37,12 @@
     width: 100%;
 }
 
-// paramètres liens effet zoom
-@mixin nav_link {
-    text-decoration: none;
-    color:$link_color;
-    font-weight: bold;
-    transform: scale(0.9);
-    transition: transform 300ms ease-in-out;
-    &:hover {
-        color: $text_link_color;
-        transform: scale(1);
-    }
-}
-
 @mixin text_link {
     font-weight: bold;
-    color: $link_color;
+    color: $text_link_color;
     font-size: 0.9em;
     &:hover {
-      color: $text_link_color;
+      color: $text-color;
     }
 }
 
@@ -65,7 +52,7 @@
     border-radius: 10px;
     margin: 20px auto 30px auto;
     background-color: $primary_color;
-    color: $main_color;
+    color: $text_color;
     font-weight: 500;
     font-size: 0.8em;
     padding: 8px;
