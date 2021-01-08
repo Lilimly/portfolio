@@ -9,7 +9,7 @@ body {
 
 nav {
   background-color: #fcfcfc;
-  border-bottom: 1px solid #34344A;
+  border-bottom: 1px solid #3a3a58;
   height: auto;
   position: -webkit-sticky;
   position: sticky;
@@ -78,12 +78,12 @@ nav .header-div .nav-menu .nav-item a {
 nav .header-div .nav-menu .nav-item a:hover {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-  color: #34344A;
+  color: #3a3a58;
   cursor: pointer;
 }
 
 nav .header-div .nav-menu .nav-item > .active {
-  color: #34344A;
+  color: #3a3a58;
 }
 
 nav .header-div .hamburger {
@@ -100,9 +100,10 @@ nav .header-div .hamburger {
 
 .main-div #section {
   padding: 2em;
-  height: 33em;
+  height: 34.5em;
   background-image: url("../images/img-header.jpg");
   background-color: #fcfcfc;
+  background-attachment: fixed;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -118,8 +119,10 @@ nav .header-div .hamburger {
 .main-div #section .section-content {
   background-color: #fcfcfc;
   opacity: 0.95;
-  width: 50%;
-  height: 60%;
+  width: 65%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
   margin: auto;
   padding: 1em;
   border-radius: 25px;
@@ -134,6 +137,60 @@ nav .header-div .hamburger {
 .main-div #section .section-content p {
   text-align: center;
   font-weight: bold;
+}
+
+.main-div #section .section-content a {
+  color: #ee738b;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.main-div #section .section-content a:hover {
+  color: #696999;
+  cursor: pointer;
+}
+
+.main-div #section .section-content .button-div {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-div #section .section-content .button-div button {
+  margin: 1em auto 1em auto;
+  width: auto;
+  border-radius: 25px;
+  border: 2px solid #3a3a58;
+  -webkit-box-shadow: 0 0 10px #bababa;
+          box-shadow: 0 0 10px #bababa;
+  background-color: #ee738b;
+  font-size: 0.8em;
+  padding: 10px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-transform 300ms ease-in-out;
+  transition: -webkit-transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+}
+
+.main-div #section .section-content .button-div button a {
+  color: #3a3a58;
+}
+
+.main-div #section .section-content .button-div button:hover {
+  background-color: #3a3a58;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+
+.main-div #section .section-content .button-div button:hover a {
+  color: #ee738b;
 }
 
 .main-div #section1 {
@@ -165,7 +222,7 @@ nav .header-div .hamburger {
 }
 
 .main-div #section2 p {
-  color: #34344A;
+  color: #3a3a58;
 }
 
 .main-div #section3 {
@@ -189,7 +246,7 @@ nav .header-div .hamburger {
 }
 
 .main-div p {
-  color: #34344A;
+  color: #3a3a58;
 }
 
 .main-div a {
@@ -199,7 +256,7 @@ nav .header-div .hamburger {
 }
 
 .main-div a:hover {
-  color: #34344A;
+  color: #3a3a58;
 }
 
 .main-div .image-div img {
@@ -237,7 +294,7 @@ nav .header-div .hamburger {
 }
 
 .main-div .button-top button:hover svg {
-  color: #34344A;
+  color: #3a3a58;
 }
 
 .main-div .button-top button svg {
@@ -280,7 +337,7 @@ nav .header-div .hamburger {
     cursor: pointer;
   }
   nav .header-div .hamburger:hover svg {
-    color: #34344A;
+    color: #3a3a58;
   }
   nav .header-div .hamburger svg {
     color: #ee738b;
@@ -321,13 +378,13 @@ nav .header-div .hamburger {
     display: table;
   }
   nav .header-div .nav-menu.active .nav-item a {
-    color: #34344A;
+    color: #3a3a58;
   }
   nav .header-div .nav-menu.active .nav-item .active {
     color: #fcfcfc;
   }
   nav .header-div .nav-menu.active .nav-item:hover {
-    background-color: #34344A;
+    background-color: #3a3a58;
     border-radius: 0;
   }
   nav .header-div .nav-menu.active .nav-item:hover a {
@@ -362,10 +419,8 @@ nav .header-div .hamburger {
     border-radius: 25%;
   }
   nav .header-div .hamburger:hover {
-    -webkit-transform: scale(1.5);
-            transform: scale(1.5);
-    -webkit-box-shadow: 0 0 10px #bababa;
-            box-shadow: 0 0 10px #bababa;
+    -webkit-transform: scale(1.6);
+            transform: scale(1.6);
     cursor: pointer;
   }
   nav .header-div .hamburger svg {
@@ -407,13 +462,13 @@ nav .header-div .hamburger {
     display: table;
   }
   nav .header-div .nav-menu.active .nav-item a {
-    color: #34344A;
+    color: #3a3a58;
   }
   nav .header-div .nav-menu.active .nav-item .active {
     color: #fcfcfc;
   }
   nav .header-div .nav-menu.active .nav-item:hover {
-    background-color: #34344A;
+    background-color: #3a3a58;
     border-radius: 0;
   }
   nav .header-div .nav-menu.active .nav-item:hover a {

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "gatsby";
+import { Link } from "react-scroll";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Section from "../components/section";
@@ -14,7 +14,43 @@ const IndexPage = () => (
     <div className="section" id="section">
       <div className="section-content">
         <h2>Welcome !</h2>
-        <p>Aurélie Mlynarz , Développeuse Web</p>
+        <p>Je suis Aurélie, Développeuse Web Fullstack.</p>
+        <p>Mon but : vous aider à créer votre site web moderne et responsive.</p>
+        <p>Pour en savoir plus, consultez {" "}
+          <Link
+            to="section1"
+            spy={true}
+            smooth={true}
+            offset={-80}
+            duration={500}
+          >
+            mon parcours
+          </Link> 
+          {" "} et {" "}
+          <Link
+              to="section2"
+              spy={true}
+              smooth={true}
+              offset={-80}
+              duration={500}
+          >
+            les différents projets
+          </Link> 
+          {" "} que j'ai réalisés.
+        </p>
+        <div className="button-div">
+          <button>            
+            <Link
+              to="section3"
+              spy={true}
+              smooth={true}
+              offset={-80}
+              duration={500}
+            >
+              Contactez-moi !
+            </Link>
+          </button>
+        </div>
       </div>
     </div>
     <Section

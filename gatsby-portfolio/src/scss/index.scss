@@ -82,16 +82,17 @@ nav {
   }
   #section {
     padding: 2em;
-    height: 33em;
+    height: 34.5em;
     background-image: url("../images/img-header.jpg");
     background-color: $body_color;
+    background-attachment: fixed;
     @include section-style;
     @include flex_center;
     .section-content {
       background-color: $body_color;
       opacity: 0.95;
-      width: 50%;
-      height: 60%;
+      width: 65%;
+      height: max-content;
       margin: auto;
       padding: 1em;
       border-radius: 25px;;
@@ -103,6 +104,23 @@ nav {
       p {
         text-align: center;
         font-weight: bold;
+      }
+      a {
+        color: $primary-color;
+        font-size: 1em;
+        font-weight: bold;
+        &:hover {
+          color: $text_link_color;
+          cursor: pointer;
+        }
+      }
+      .button-div {
+        width: 100%;
+        @include flex_center;
+        button {
+          margin: 1em auto 1em auto;
+          @include submit;
+        }
       }
     }
   }
@@ -278,8 +296,7 @@ nav {
         border: none;
         border-radius: 25%;
         &:hover {
-          transform: scale(1.5);
-          box-shadow: $box_shadow;
+          transform: scale(1.6);
           cursor: pointer;
         }
         svg {

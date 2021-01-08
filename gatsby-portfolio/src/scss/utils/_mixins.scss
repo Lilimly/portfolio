@@ -49,18 +49,23 @@
 // paramètres boutons validation animation zoom
 @mixin submit {
     width: auto;
-    border-radius: 10px;
-    margin: 20px auto 30px auto;
+    border-radius: 25px;
+    border: 2px solid $text-color;
+    box-shadow: $box_shadow;
     background-color: $primary_color;
-    color: $text_color;
-    font-weight: 500;
     font-size: 0.8em;
-    padding: 8px;
+    padding: 10px;
     transform: scale(1);
     transition: transform 300ms ease-in-out;
+    a {
+        color: $text-color;
+    }
     &:hover {
-        background-color: $primary_color;
+        background-color: $text_color;
         transform: scale(1.1);
-        color: $hover_color_link;
+        cursor: pointer;
+        a {
+            color: $primary-color;
+        }
     }
 }
