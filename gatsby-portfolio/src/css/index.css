@@ -100,18 +100,40 @@ nav .header-div .hamburger {
 
 .main-div #section {
   padding: 2em;
-  height: 30em;
+  height: 33em;
   background-image: url("../images/img-header.jpg");
   background-color: #fcfcfc;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.main-div #section h2 {
+.main-div #section .section-content {
+  background-color: #fcfcfc;
+  opacity: 0.95;
+  width: 50%;
+  height: 60%;
+  margin: auto;
+  padding: 1em;
+  border-radius: 25px;
+}
+
+.main-div #section .section-content h2 {
   font-family: 'Comfortaa', cursive;
   color: #ee738b;
+  font-weight: bold;
+}
+
+.main-div #section .section-content p {
+  text-align: center;
+  font-weight: bold;
 }
 
 .main-div #section1 {

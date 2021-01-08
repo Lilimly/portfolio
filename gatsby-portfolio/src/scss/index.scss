@@ -82,13 +82,28 @@ nav {
   }
   #section {
     padding: 2em;
-    height: 30em;
+    height: 33em;
     background-image: url("../images/img-header.jpg");
     background-color: $body_color;
     @include section-style;
-    h2 {
-      font-family: 'Comfortaa', cursive;
-      color: $primary_color;
+    @include flex_center;
+    .section-content {
+      background-color: $body_color;
+      opacity: 0.95;
+      width: 50%;
+      height: 60%;
+      margin: auto;
+      padding: 1em;
+      border-radius: 25px;;
+      h2 {
+        font-family: 'Comfortaa', cursive;
+        color: $primary_color;
+        font-weight: bold;
+      }
+      p {
+        text-align: center;
+        font-weight: bold;
+      }
     }
   }
   #section1 {
