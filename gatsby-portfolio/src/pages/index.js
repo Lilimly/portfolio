@@ -67,11 +67,11 @@ const IndexPage = () => (
           role="presentation"
         />
         <p>
-        Après une expérience de 13 ans dans le secteur de la petite enfance, j'ai décidé d'entamer une reconversion professionnelle pour me diriger vers l'univers du web.<br />
-        J'ai ainsi développé mon blog au cours d'un voyage d'un an autour du monde.<br />
-        Suite à cela, j'ai suivi une formation de Développeuse Web, durant laquelle j’ai acquis la maîtrise de différentes technologies et réalisé mes
+        Après une expérience de 13 ans dans le secteur de la petite enfance, j'ai décidé d'entamer une <strong>reconversion professionnelle</strong> pour me diriger vers ma passion : l'univers du web.<br />
+        J'ai ainsi développé mon blog au cours d'un voyage d'<strong>un an autour du monde</strong>.<br />
+        Suite à cela, j'ai suivi une <strong>formation de Développeuse Web</strong>, durant laquelle j’ai acquis la maîtrise de différentes technologies et réalisé mes
         premiers projets.<br />
-        Forte des compétences que j'ai acquises, je souhaite aujourd'hui vous aider à développer vos propres projets.
+        Forte des compétences que j'ai acquises, je souhaite aujourd'hui <strong>vous aider à développer vos propres projets</strong>.
         </p>
       </div>
       <VerticalTimeline>
@@ -84,7 +84,16 @@ const IndexPage = () => (
           <h4 className="vertical-timeline-element-subtitle">Paris</h4>
           <div>
           <p>
-            Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+            Développeuse web Fullstack, appétence pour le front.<br />
+            <ul>
+              <li><strong>Technologies maitrisées coté front</strong> : JavaScript, HTML5, CSS3, SASS.</li>
+              <li><strong>Framework front</strong> : ReactJS, Bootstrap.</li>
+              <li><strong>Technologies maitrisées coté back</strong> : NodeJS.</li>
+              <li><strong>Framework back</strong> : ExpressJS.</li>
+              <li><strong>Base de données</strong> : MongoDB, mySQL.</li>
+              <li><strong>ORM</strong> : Wordpress.</li>
+              <li><strong>Logiciel de versioning utilisé</strong> : Git et GitHub.</li>
+            </ul>
           </p>
             <button>            
               <Link
@@ -107,7 +116,15 @@ const IndexPage = () => (
           <h4 className="vertical-timeline-element-subtitle">Paris</h4>
           <div>
             <p>
-              Creative Direction, User Experience, Visual Design, SEO, Online Marketing
+            6 projets réalisés au cours de la formation : <br />
+            <ul>
+              <li><strong>Intégration d'une maquette</strong> en site web ( HTML / CSS )</li>
+              <li><strong>Dynamisation d'une page web</strong> - animations CSS ( HTML / SASS )</li>
+              <li><strong>Optimisation du référencement SEO</strong> d'un site web existant</li>
+              <li><strong>Création d'un de site e-commerce</strong> ( JavaScript )</li>
+              <li><strong>Construction d'une API sécurisée</strong> pour une application d'avis gastronomiques ( Node, Express, MongoDB )</li>
+              <li><strong>Création d'un réseau social</strong> d’entreprise ( ReactJS, Node / Express, mySQL )</li>
+            </ul>
             </p>
             <button>            
               <Link
@@ -129,7 +146,17 @@ const IndexPage = () => (
           <h3 className="vertical-timeline-element-title">Tour du monde !</h3>
           <div>
             <p>
-              User Experience, Visual Design
+              Un an de voyage autour du monde durant lequel j'ai développé mon premier blog : <strong>gotripics.com</strong><br />
+              <ul>
+                <li>Développement du site avec le CMS Wordpress</li>
+                <li>Optimisation du référencement SEO</li>
+                <li>Définition de la stratégie, des objectifs et du planning éditorial</li>
+                <li>Création de contenu</li>
+                <li>Veille concurrentielle et évolutions Web et réseaux sociaux</li>
+                <li>Animation et modération sur l'ensemble des plateformes</li>
+                <li>Suivi et analyse de l'évolution des chiffres d'audience</li>
+                <li>Élaboration et suivi des newsletters</li>
+              </ul>
             </p>
             <button>            
               <Link
@@ -151,7 +178,7 @@ const IndexPage = () => (
           <h3 className="vertical-timeline-element-title">Obtention du CAFERUIS</h3>
           <h4 className="vertical-timeline-element-subtitle">Paris</h4>
           <p>
-            User Experience, Visual Design
+            Obtention du Certificat d'Aptitude aux Fonctions d'Encadrement et de Responsable d'Unité d'Intervention Sociale.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -161,7 +188,15 @@ const IndexPage = () => (
           <h3 className="vertical-timeline-element-title">Directrice de crèche</h3>
           <h4 className="vertical-timeline-element-subtitle">Paris</h4>
           <p>
-            User Experience, Visual Design
+          Encadrement et évaluation d’une équipe pluridisciplinaire : <br />
+            <ul>
+              <li>Elaboration et mise en place du projet pédagogique en collaboration avec l’équipe éducative</li>
+              <li>Accompagnement et éveil d’un groupe d’enfants de 6 mois à 3 ans</li>
+              <li>Animation des réunions pédagogiques et informatives</li>
+              <li>Travail en lien avec nos partenaires (Mairie, Psychologue, Pédiatre...)</li>
+              <li>Accompagnement et encadrement de stagiaires</li>
+              <li>Gestion du planning et des congés de l’équipe</li>
+            </ul>
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -171,7 +206,12 @@ const IndexPage = () => (
           <h3 className="vertical-timeline-element-title">Educatrice de Jeunes Enfants</h3>
           <h4 className="vertical-timeline-element-subtitle">Paris</h4>
           <p>
-            User Experience, Visual Design
+            <ul>
+            <li>Accompagnement et éveil d’un groupe d’enfants de 6 mois à 3 ans</li>
+              <li>Elaboration et mise en place du projet pédagogique en collaboration avec l’équipe éducative</li>
+              <li>Animation des réunions pédagogiques et informatives</li>
+              <li>Accompagnement et encadrement de stagiaires</li>
+            </ul>
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -181,7 +221,7 @@ const IndexPage = () => (
           <h3 className="vertical-timeline-element-title">Obtention du Diplôme d'Etat d'EJE</h3>
           <h4 className="vertical-timeline-element-subtitle">Bordeaux</h4>
           <p>
-            User Experience, Visual Design
+          Obtention du Diplôme d'Etat d'Educatrice de Jeunes Enfants.
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
