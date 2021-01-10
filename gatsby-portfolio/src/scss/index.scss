@@ -332,6 +332,11 @@ nav {
     }
   }
   .main-div {
+    #section {
+      .section-content {
+        width: 90%;
+      }
+    }
     #section1 {
       .presentation {
         display: flex;
@@ -420,6 +425,11 @@ nav {
     }
   }
   .main-div {
+    #section {
+      .section-content {
+        width: 80%;
+      }
+    }
     #section1 {
       .presentation {
         display: flex;
@@ -441,6 +451,11 @@ nav {
 @media #{$medium_screen}
 {
   .main-div {
+    #section {
+      .section-content {
+        width: 70%;
+      }
+    }
     #section1 {
       .presentation {
         display: flex;

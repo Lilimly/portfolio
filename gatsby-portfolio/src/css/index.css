@@ -468,6 +468,9 @@ nav .header-div .hamburger {
   nav .header-div .nav-menu.active .nav-item:hover .active {
     color: #fcfcfc;
   }
+  .main-div #section .section-content {
+    width: 90%;
+  }
   .main-div #section1 .presentation {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -569,6 +572,9 @@ nav .header-div .hamburger {
   nav .header-div .nav-menu.active .nav-item:hover .active {
     color: #fcfcfc;
   }
+  .main-div #section .section-content {
+    width: 80%;
+  }
   .main-div #section1 .presentation {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -589,6 +595,9 @@ nav .header-div .hamburger {
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 780px) {
+  .main-div #section .section-content {
+    width: 70%;
+  }
   .main-div #section1 .presentation {
     display: -webkit-box;
     display: -ms-flexbox;
