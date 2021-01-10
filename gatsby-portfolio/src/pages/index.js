@@ -9,7 +9,11 @@ import Button from "../components/Button";
 import image from "../images/aurelie-mlynarz-photo.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  faAtom
+  faAtom,
+  faCode,
+  faGlobeAmericas,
+  faGraduationCap,
+  faBaby
 } from '@fortawesome/free-solid-svg-icons';
 
 const IndexPage = () => (
@@ -111,6 +115,7 @@ const IndexPage = () => (
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2020"
+          icon={<FontAwesomeIcon icon={faCode} />}
         >
           <h3 className="vertical-timeline-element-title">Formation Développeuse Web</h3>
           <h4 className="vertical-timeline-element-subtitle">Paris</h4>
@@ -142,6 +147,7 @@ const IndexPage = () => (
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2018 - 2019"
+          icon={<FontAwesomeIcon icon={faGlobeAmericas} />}
         >
           <h3 className="vertical-timeline-element-title">Tour du monde !</h3>
           <div>
@@ -172,6 +178,7 @@ const IndexPage = () => (
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2010 - 2018"
+          icon={<FontAwesomeIcon icon={faGraduationCap} />}
         >
           <h3 className="vertical-timeline-element-title">Obtention du CAFERUIS</h3>
           <h4 className="vertical-timeline-element-subtitle">Paris</h4>
@@ -182,6 +189,7 @@ const IndexPage = () => (
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2010 - 2018"
+          icon={<FontAwesomeIcon icon={faBaby} />}
         >
           <h3 className="vertical-timeline-element-title">Directrice de crèche</h3>
           <h4 className="vertical-timeline-element-subtitle">Paris</h4>
@@ -200,6 +208,7 @@ const IndexPage = () => (
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2005 - 2010"
+          icon={<FontAwesomeIcon icon={faBaby} />}
         >
           <h3 className="vertical-timeline-element-title">Educatrice de Jeunes Enfants</h3>
           <h4 className="vertical-timeline-element-subtitle">Paris</h4>
@@ -215,6 +224,7 @@ const IndexPage = () => (
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2004"
+          icon={<FontAwesomeIcon icon={faGraduationCap} />}
         >
           <h3 className="vertical-timeline-element-title">Obtention du Diplôme d'Etat d'EJE</h3>
           <h4 className="vertical-timeline-element-subtitle">Bordeaux</h4>
@@ -226,7 +236,6 @@ const IndexPage = () => (
     </div>
     <Section
       title="Projets"
-      icon={faAtom} 
       subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id nibh tortor id aliquet. Sed lectus vestibulum mattis ullamcorper velit sed. Nec nam aliquam sem et tortor. Elit eget gravida cum sociis natoque. Ipsum a arcu cursus vitae. Massa sapien faucibus et molestie ac feugiat sed. Turpis egestas maecenas pharetra convallis posuere morbi leo. Duis at consectetur lorem donec massa sapien faucibus et molestie. Purus sit amet luctus venenatis lectus. Pellentesque nec nam aliquam sem et tortor consequat id porta. Sapien et ligula ullamcorper malesuada. Fringilla ut morbi tincidunt augue interdum velit euismod. Vitae turpis massa sed elementum tempus egestas sed. Netus et malesuada fames ac turpis egestas integer eget aliquet. Blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada. Aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis.
       Nisi est sit amet facilisis. Vitae congue eu consequat ac felis. Facilisis mauris sit amet massa vitae tortor condimentum lacinia. Nisl condimentum id venenatis a condimentum. Rutrum tellus pellentesque eu tincidunt tortor. Semper auctor neque vitae tempus quam. Pellentesque adipiscing commodo elit at imperdiet dui accumsan sit. Mi ipsum faucibus vitae aliquet nec ullamcorper sit. Enim lobortis scelerisque fermentum dui faucibus. Volutpat ac tincidunt vitae semper quis lectus nulla at.
       Pellentesque id nibh tortor id aliquet lectus proin. Blandit cursus risus at ultrices mi. Iaculis eu non diam phasellus vestibulum lorem. Et odio pellentesque diam volutpat commodo. Sodales ut etiam sit amet nisl purus in. Adipiscing elit ut aliquam purus sit. Bibendum enim facilisis gravida neque convallis a cras. Duis at consectetur lorem donec massa sapien faucibus et molestie. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin. Non odio euismod lacinia at quis risus sed vulputate odio. Vel turpis nunc eget lorem dolor sed viverra ipsum. A lacus vestibulum sed arcu.
