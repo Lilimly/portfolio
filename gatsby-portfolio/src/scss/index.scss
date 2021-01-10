@@ -132,6 +132,33 @@ nav {
       font-family: 'Comfortaa', cursive;
       color: $primary_color;
     }
+    .vertical-timeline-element--work {
+      .vertical-timeline-element-content {
+        box-shadow: $box_shadow;
+        border: 2px solid $primary-color;
+        background-color: $body-color;
+        .vertical-timeline-element-content-arrow {
+          border-right: 7px solid  #ee738b;
+        }
+        .vertical-timeline-element-title {
+          font-family: 'Comfortaa', cursive;
+          color: $primary_color;
+        }
+        .vertical-timeline-element-subtitle {
+          font-family: 'Comfortaa', cursive;
+          color: $primary-color;
+          margin-top: 0.2em;
+        }
+        p {
+          color: $text-color;
+        }
+      }
+      .vertical-timeline-element-icon {
+        box-shadow: $box-shadow;
+        border: 3px solid $body-color;
+        background-color: $primary-color;
+      }
+    }
   }
   #section2 {
     padding: 1em 3em 1em 3em;

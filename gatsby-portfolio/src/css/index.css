@@ -163,13 +163,13 @@ nav .header-div .hamburger {
 .main-div #section .section-content .button-div button {
   margin: 1em auto 1em auto;
   width: auto;
-  border-radius: 25px;
+  border-radius: 30px;
   border: 2px solid #3a3a58;
   -webkit-box-shadow: 0 0 10px #bababa;
           box-shadow: 0 0 10px #bababa;
   background-color: #ee738b;
-  font-size: 0.8em;
-  padding: 10px;
+  font-size: 0.9em;
+  padding: 12px;
   -webkit-transform: scale(1);
           transform: scale(1);
   -webkit-transition: -webkit-transform 300ms ease-in-out;
@@ -205,6 +205,39 @@ nav .header-div .hamburger {
 .main-div #section1 h2 {
   font-family: 'Comfortaa', cursive;
   color: #ee738b;
+}
+
+.main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content {
+  -webkit-box-shadow: 0 0 10px #bababa;
+          box-shadow: 0 0 10px #bababa;
+  border: 2px solid #ee738b;
+  background-color: #fcfcfc;
+}
+
+.main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content .vertical-timeline-element-content-arrow {
+  border-right: 7px solid  #ee738b;
+}
+
+.main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content .vertical-timeline-element-title {
+  font-family: 'Comfortaa', cursive;
+  color: #ee738b;
+}
+
+.main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content .vertical-timeline-element-subtitle {
+  font-family: 'Comfortaa', cursive;
+  color: #ee738b;
+  margin-top: 0.2em;
+}
+
+.main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content p {
+  color: #3a3a58;
+}
+
+.main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-icon {
+  -webkit-box-shadow: 0 0 10px #bababa;
+          box-shadow: 0 0 10px #bababa;
+  border: 3px solid #fcfcfc;
+  background-color: #ee738b;
 }
 
 .main-div #section2 {
