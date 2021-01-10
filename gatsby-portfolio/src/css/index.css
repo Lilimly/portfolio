@@ -207,6 +207,33 @@ nav .header-div .hamburger {
   color: #ee738b;
 }
 
+.main-div #section1 .presentation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.main-div #section1 .presentation img {
+  width: 20%;
+  border-radius: 50%;
+  margin: 1em;
+  -webkit-box-shadow: 0 0 10px #bababa;
+          box-shadow: 0 0 10px #bababa;
+}
+
+.main-div #section1 .presentation p {
+  margin: auto 1em auto 1em;
+}
+
+.main-div #section1 .vertical-timeline::before {
+  background: #fac7d1;
+  width: 2px;
+}
+
 .main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content {
   -webkit-box-shadow: 0 0 10px #bababa;
           box-shadow: 0 0 10px #bababa;
@@ -215,7 +242,7 @@ nav .header-div .hamburger {
 }
 
 .main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content .vertical-timeline-element-content-arrow {
-  border-right: 7px solid  #ee738b;
+  border-right: 7px solid #ee738b;
 }
 
 .main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content .vertical-timeline-element-title {
@@ -233,11 +260,21 @@ nav .header-div .hamburger {
   color: #3a3a58;
 }
 
+.main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content button {
+  margin-top: 1em;
+}
+
 .main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-icon {
   -webkit-box-shadow: 0 0 10px #bababa;
           box-shadow: 0 0 10px #bababa;
   border: 3px solid #fcfcfc;
   background-color: #ee738b;
+}
+
+.main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-icon svg {
+  color: #fcfcfc;
+  width: 24px;
+  height: 24px;
 }
 
 .main-div #section2 {
@@ -426,6 +463,23 @@ nav .header-div .hamburger {
   nav .header-div .nav-menu.active .nav-item:hover .active {
     color: #fcfcfc;
   }
+  .main-div #section1 .presentation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main-div #section1 .presentation img {
+    width: 40%;
+    margin: 1em auto 1em auto;
+  }
+  .main-div #section1 .presentation p {
+    font-size: 0.8em;
+    margin: 1em auto 1em auto;
+  }
 }
 
 @media only screen and (max-width: 780px) and (min-width: 360px) {
@@ -509,6 +563,42 @@ nav .header-div .hamburger {
   }
   nav .header-div .nav-menu.active .nav-item:hover .active {
     color: #fcfcfc;
+  }
+  .main-div #section1 .presentation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main-div #section1 .presentation img {
+    width: 35%;
+    margin: 1em auto 1em auto;
+  }
+  .main-div #section1 .presentation p {
+    font-size: 0.8em;
+    margin: 1em auto 1em auto;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 780px) {
+  .main-div #section1 .presentation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main-div #section1 .presentation img {
+    width: 30%;
+    margin: 1em auto 1em auto;
+  }
+  .main-div #section1 .presentation p {
+    margin: 1em auto 1em auto;
   }
 }
 /*# sourceMappingURL=index.css.map */

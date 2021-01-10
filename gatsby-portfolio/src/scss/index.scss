@@ -132,13 +132,29 @@ nav {
       font-family: 'Comfortaa', cursive;
       color: $primary_color;
     }
+    .presentation {
+      @include row;
+      img {
+        width: 20%;
+        border-radius: 50%;
+        margin: 1em;
+        box-shadow: $box-shadow;
+      }
+      p {
+        margin: auto 1em auto 1em;
+      }
+    }
+    .vertical-timeline::before {
+      background: $vertical-timeline-color;
+      width: 2px;
+    }
     .vertical-timeline-element--work {
       .vertical-timeline-element-content {
         box-shadow: $box_shadow;
         border: 2px solid $primary-color;
         background-color: $body-color;
         .vertical-timeline-element-content-arrow {
-          border-right: 7px solid  #ee738b;
+          border-right: 7px solid  $primary-color;
         }
         .vertical-timeline-element-title {
           font-family: 'Comfortaa', cursive;
@@ -152,11 +168,20 @@ nav {
         p {
           color: $text-color;
         }
+        button {
+          margin-top: 1em;
+        }
       }
       .vertical-timeline-element-icon {
         box-shadow: $box-shadow;
         border: 3px solid $body-color;
         background-color: $primary-color;
+        
+        svg {
+          color: $body-color;
+          width: 24px;
+          height: 24px;
+        }
       }
     }
   }
@@ -302,6 +327,22 @@ nav {
       }
     }
   }
+  .main-div {
+    #section1 {
+      .presentation {
+        display: flex;
+        flex-direction: column;
+        img {
+          width: 40%;
+          margin: 1em auto 1em auto;
+        }
+        p {
+          font-size: 0.8em;
+          margin: 1em auto 1em auto;
+        }
+      }
+    }
+  }
 }
 
 // écrans plus de 360px et moins de 780 px 
@@ -370,6 +411,42 @@ nav {
           .active {
             color: $body_color;
           }
+        }
+      }
+    }
+  }
+  .main-div {
+    #section1 {
+      .presentation {
+        display: flex;
+        flex-direction: column;
+        img {
+          width: 35%;
+          margin: 1em auto 1em auto;
+        }
+        p {
+          font-size: 0.8em;
+          margin: 1em auto 1em auto;
+        }
+      }
+    }
+  }
+}
+
+// écrans de plus de 780 px et moins de 1024px 
+@media #{$medium_screen}
+{
+  .main-div {
+    #section1 {
+      .presentation {
+        display: flex;
+        flex-direction: column;
+        img {
+          width: 30%;
+          margin: 1em auto 1em auto;
+        }
+        p {
+          margin: 1em auto 1em auto;
         }
       }
     }

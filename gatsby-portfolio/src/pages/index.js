@@ -6,6 +6,8 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Section from "../components/section";
 import Button from "../components/Button";
+import image from "../images/aurelie-mlynarz-photo.jpg";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faAtom
 } from '@fortawesome/free-solid-svg-icons';
@@ -56,67 +58,131 @@ const IndexPage = () => (
       </div>
     </div>
     <div className="section" id="section1">
-      <h2>A propos</h2>
+      <h2>Mon parcours</h2>
+      <div className="presentation">
+      <img
+          src={image}
+          className="my-photo"
+          alt="Photo Aurélie Mlynarz"
+          role="presentation"
+        />
+        <p>
+        Après une expérience de 13 ans dans le secteur de la petite enfance, j'ai décidé d'entamer une reconversion professionnelle pour me diriger vers l'univers du web.<br />
+        J'ai ainsi développé mon blog au cours d'un voyage d'un an autour du monde.<br />
+        Suite à cela, j'ai suivi une formation de Développeuse Web, durant laquelle j’ai acquis la maîtrise de différentes technologies et réalisé mes
+        premiers projets.<br />
+        Forte des compétences que j'ai acquises, je souhaite aujourd'hui vous aider à développer vos propres projets.
+        </p>
+      </div>
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2011 - present"
+          date="2020 - present"
+          icon={<FontAwesomeIcon icon={faAtom} />}
         >
-            <h3 className="vertical-timeline-element-title">Creative Director</h3>
-            <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-            <p>
-              Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-            </p>
+          <h3 className="vertical-timeline-element-title">Développeuse Web Freelance</h3>
+          <h4 className="vertical-timeline-element-subtitle">Paris</h4>
+          <div>
+          <p>
+            Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+          </p>
+            <button>            
+              <Link
+                to="section2"
+                spy={true}
+                smooth={true}
+                offset={-80}
+                duration={500}
+              >
+                Projets en cours
+              </Link>
+            </button>
+          </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2010 - 2011"
+          date="2020"
         >
-            <h3 className="vertical-timeline-element-title">Art Director</h3>
-            <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+          <h3 className="vertical-timeline-element-title">Formation Développeuse Web</h3>
+          <h4 className="vertical-timeline-element-subtitle">Paris</h4>
+          <div>
             <p>
               Creative Direction, User Experience, Visual Design, SEO, Online Marketing
             </p>
+            <button>            
+              <Link
+                to="section2"
+                spy={true}
+                smooth={true}
+                offset={-80}
+                duration={500}
+              >
+                Voir les projets réalisés
+              </Link>
+            </button>
+          </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2008 - 2010"
+          date="2018 - 2019"
         >
-            <h3 className="vertical-timeline-element-title">Web Designer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
+          <h3 className="vertical-timeline-element-title">Tour du monde !</h3>
+          <div>
             <p>
               User Experience, Visual Design
             </p>
+            <button>            
+              <Link
+                to="section2"
+                spy={true}
+                smooth={true}
+                offset={-80}
+                duration={500}
+              >
+                Voir mon blog
+              </Link>
+            </button>
+          </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2006 - 2008"
+          date="2010 - 2018"
         >
-            <h3 className="vertical-timeline-element-title">Web Designer</h3>
-            <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-            <p>
-              User Experience, Visual Design
-            </p>
+          <h3 className="vertical-timeline-element-title">Obtention du CAFERUIS</h3>
+          <h4 className="vertical-timeline-element-subtitle">Paris</h4>
+          <p>
+            User Experience, Visual Design
+          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2006 - 2008"
+          date="2010 - 2018"
         >
-            <h3 className="vertical-timeline-element-title">Web Designer</h3>
-            <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-            <p>
-              User Experience, Visual Design
-            </p>
+          <h3 className="vertical-timeline-element-title">Directrice de crèche</h3>
+          <h4 className="vertical-timeline-element-subtitle">Paris</h4>
+          <p>
+            User Experience, Visual Design
+          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2006 - 2008"
+          date="2005 - 2010"
         >
-            <h3 className="vertical-timeline-element-title">Web Designer</h3>
-            <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-            <p>
-              User Experience, Visual Design
-            </p>
+          <h3 className="vertical-timeline-element-title">Educatrice de Jeunes Enfants</h3>
+          <h4 className="vertical-timeline-element-subtitle">Paris</h4>
+          <p>
+            User Experience, Visual Design
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2004"
+        >
+          <h3 className="vertical-timeline-element-title">Obtention du Diplôme d'Etat d'EJE</h3>
+          <h4 className="vertical-timeline-element-subtitle">Bordeaux</h4>
+          <p>
+            User Experience, Visual Design
+          </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>

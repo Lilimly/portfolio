@@ -62,7 +62,7 @@ export default function Navbar () {
               offset={-80}
               duration={500}
             >
-              A propos
+              Parcours
             </Link>
           </li>
           <li className="nav-item">
