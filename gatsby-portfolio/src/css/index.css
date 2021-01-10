@@ -265,6 +265,10 @@ nav .header-div .hamburger {
   margin-top: 1em;
 }
 
+.main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content button a {
+  text-decoration: none;
+}
+
 .main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-icon {
   -webkit-box-shadow: 0 0 10px #bababa;
           box-shadow: 0 0 10px #bababa;

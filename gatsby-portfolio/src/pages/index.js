@@ -103,7 +103,7 @@ const IndexPage = () => (
                 offset={-80}
                 duration={500}
               >
-                Projets en cours
+                Voir les projets en cours
               </Link>
             </button>
           </div>
@@ -146,7 +146,7 @@ const IndexPage = () => (
           <h3 className="vertical-timeline-element-title">Tour du monde !</h3>
           <div>
             <p>
-              Un an de voyage autour du monde durant lequel j'ai développé mon premier blog : <strong>gotripics.com</strong><br />
+              Un an de voyage autour du monde durant lequel j'ai développé mon blog : <strong>gotripics.com</strong><br />
               <ul>
                 <li>Développement du site avec le CMS Wordpress</li>
                 <li>Optimisation du référencement SEO</li>
@@ -158,16 +158,14 @@ const IndexPage = () => (
                 <li>Élaboration et suivi des newsletters</li>
               </ul>
             </p>
-            <button>            
-              <Link
-                to="section2"
-                spy={true}
-                smooth={true}
-                offset={-80}
-                duration={500}
+            <button>
+              <a 
+                href={"https://www.gotripics.com/"}
+                target="_blank"
+                rel="noopener"
               >
-                Voir mon blog
-              </Link>
+                Découvrez mon blog
+              </a>
             </button>
           </div>
         </VerticalTimelineElement>
