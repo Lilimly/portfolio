@@ -12,6 +12,6 @@ Atteignables (pour rester motivé sur le long-terme),
 Réalistes (au regard de votre expérience et du marché),
 Fixés dans le temps (avec un planning qui sera respecté).  
 
-<Link to='/blog/'>Retour aux projets</Link>
+<Link to='/projets/'>Retour aux projets</Link>
 
 ![Kirby](./kirby.jpeg)

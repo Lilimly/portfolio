@@ -8,7 +8,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
         createNodeField({
             node,
             name: `slug`,
-            value: `/blog${slug}`,
+            value: `/projets${slug}`,
         })
     }
 }
@@ -43,7 +43,7 @@ exports.createPages = async function ({ actions, graphql }) {
     // creation page index des posts
    for (let i = 0; i < nbPage; i++) { 
         actions.createPage({
-            path: i < 1 ? "/blog" : `/blog/${i + 1}` ,
+            path: i < 1 ? "/projets" : `/projets/${i + 1}` ,
             component: require.resolve(`./src/template/list.js`),
             context: {
                 limit: perPage,

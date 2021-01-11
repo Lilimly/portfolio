@@ -102,7 +102,7 @@ const TimeLine = () => (
               <a 
                 href={"https://www.gotripics.com/"}
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 Découvrez mon blog
               </a>

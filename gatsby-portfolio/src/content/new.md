@@ -14,6 +14,6 @@ Date de début et date de fin : planning des délais accordés pour réaliser vo
 Objectifs : tels que définis par vos soins (SMART),
 Résultats obtenus : cette case est à remplir une fois la date de fin dépassée, et prend en compte votre réussite ou non par rapport aux objectifs fixés.
 
-<Link to='/blog/'>Retour aux projets</Link>
+<Link to='/projets/'>Retour aux projets</Link>
 
 ![Kiki](./kiki.jpg)

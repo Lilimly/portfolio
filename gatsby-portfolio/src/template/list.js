@@ -9,7 +9,7 @@ const IndexPage = ({ data }) => {
     return (
         <Layout>
             <SEO title="Aurélie Mlynarz | Mes projets" />
-            <h1>List posts</h1>
+            <h1>Projets</h1>
             {nodes.map((e) => 
                 <div key={"div" + e.frontmatter.title}>
                     <h2 key={"h2" + e.frontmatter.title}>{e.frontmatter.title}</h2>
@@ -26,7 +26,7 @@ const IndexPage = ({ data }) => {
             >
                 {pageInfo.hasPreviousPage ? (
                     <Link
-                        to={`${pageInfo.currentPage === 2 ? "/blog/" : `/blog/${pageInfo.currentPage - 1}`}`}
+                        to={`${pageInfo.currentPage === 2 ? "/projets/" : `/projets/${pageInfo.currentPage - 1}`}`}
                     >
                         Previous
                     </Link>
@@ -34,9 +34,10 @@ const IndexPage = ({ data }) => {
                         <div />
                     )}
                 {pageInfo.hasNextPage && (
-                    <Link to={`/blog/${pageInfo.currentPage + 1}`}>Next</Link>
+                    <Link to={`/projets/${pageInfo.currentPage + 1}`}>Next</Link>
                 )}
             </div>
+            <Link to={'/'}>Retour à l'accueil</Link>
         </Layout>
     )
 }

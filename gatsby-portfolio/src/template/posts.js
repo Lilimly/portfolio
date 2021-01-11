@@ -1,5 +1,5 @@
 import React from "react";
-import { graphql } from "gatsby";
+import { graphql, Link } from "gatsby";
 import Img from "gatsby-image";
 import { MDXRenderer } from "gatsby-plugin-mdx";
 
@@ -23,6 +23,7 @@ const Posts = ({ data }) => {
                 <h1>{post.frontmatter.title}</h1>
                 <MDXRenderer>{post.body}</MDXRenderer>
             </div>
+            <Link to={'/'}>Retour à l'accueil</Link>
         </Layout>
     );
 }
