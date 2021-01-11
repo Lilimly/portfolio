@@ -12,9 +12,12 @@ const IndexPage = ({ data }) => {
             <h1>Projets</h1>
             {nodes.map((e) => 
                 <div key={"div" + e.frontmatter.title}>
-                    <h2 key={"h2" + e.frontmatter.title}>{e.frontmatter.title}</h2>
+                    <h2 key={"h2" + e.frontmatter.title}>
+                        <Link to={e.fields.slug} key={"link" + e.frontmatter.title}>
+                            {e.frontmatter.title}
+                        </Link>
+                    </h2>
                     <p key={"p" + e.frontmatter.title}>{e.excerpt}</p>
-                    <Link to={e.fields.slug} key={"link" + e.frontmatter.title}>{e.frontmatter.title}</Link>
                 </div>
             )}
             <div

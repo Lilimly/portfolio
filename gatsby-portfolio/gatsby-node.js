@@ -44,7 +44,7 @@ exports.createPages = async function ({ actions, graphql }) {
    for (let i = 0; i < nbPage; i++) { 
         actions.createPage({
             path: i < 1 ? "/projets" : `/projets/${i + 1}` ,
-            component: require.resolve(`./src/template/list.js`),
+            component: require.resolve(`./src/pages/index.js`),
             context: {
                 limit: perPage,
                 skip: i * perPage,

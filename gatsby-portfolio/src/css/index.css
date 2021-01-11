@@ -261,6 +261,10 @@ nav .header-div .hamburger {
   font-size: 0.9sem;
 }
 
+.main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content ul {
+  margin-top: 0.5em;
+}
+
 .main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content button {
   margin-top: 1em;
 }
@@ -296,8 +300,12 @@ nav .header-div .hamburger {
   font-family: 'Comfortaa', cursive;
 }
 
-.main-div #section2 p {
-  color: #3a3a58;
+.main-div #section2 .carousel {
+  margin: 3em 2em 3em 2em;
+}
+
+.main-div #section2 .carousel .slick-slider .carousel-items {
+  text-align: center;
 }
 
 .main-div #section3 {

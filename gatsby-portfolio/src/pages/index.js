@@ -1,10 +1,11 @@
 import React from "react";
-import { Link } from "gatsby"
+import { Link } from "gatsby";
 import Layout from "../components/layout";
 import TimeLine from "../components/TimeLine";
 import SEO from "../components/seo";
 import Section from "../components/section.jsx";
 import HeroBanner from "../components/HeroBanner.jsx";
+import SimpleSlider from "../components/Carousel.jsx";
 import Button from "../components/Button.jsx";
 import image from "../images/aurelie-mlynarz-photo.jpg";
 
@@ -36,8 +37,11 @@ const IndexPage = () => {
       </div>
       <div className="section" id="section2">
         <h2>Projets réalisés</h2>
-        <Link to="/projets/">Mes projets</Link>
+        <div className="carousel">
+          <SimpleSlider />
+        </div>
       </div>
+      <Link to="/projets/new/">Mes projets</Link>
       <Section
         title="Contact"
         subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id nibh tortor id aliquet. Sed lectus vestibulum mattis ullamcorper velit sed. Nec nam aliquam sem et tortor. Elit eget gravida cum sociis natoque. Ipsum a arcu cursus vitae. Massa sapien faucibus et molestie ac feugiat sed. Turpis egestas maecenas pharetra convallis posuere morbi leo. Duis at consectetur lorem donec massa sapien faucibus et molestie. Purus sit amet luctus venenatis lectus. Pellentesque nec nam aliquam sem et tortor consequat id porta. Sapien et ligula ullamcorper malesuada. Fringilla ut morbi tincidunt augue interdum velit euismod. Vitae turpis massa sed elementum tempus egestas sed. Netus et malesuada fames ac turpis egestas integer eget aliquet. Blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada. Aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis.

@@ -22,17 +22,17 @@ const TimeLine = () => (
           <h4 className="vertical-timeline-element-subtitle">Paris</h4>
           <div>
           <p>
-            Développeuse web Fullstack, appétence pour le front.<br />
-            <ul>
-              <li><strong>Technologies maitrisées coté front</strong> : JavaScript, HTML5, CSS3, SASS.</li>
-              <li><strong>Framework front</strong> : ReactJS, Bootstrap.</li>
-              <li><strong>Technologies maitrisées coté back</strong> : NodeJS.</li>
-              <li><strong>Framework back</strong> : ExpressJS.</li>
-              <li><strong>Base de données</strong> : MongoDB, mySQL.</li>
-              <li><strong>ORM</strong> : Wordpress.</li>
-              <li><strong>Logiciel de versioning utilisé</strong> : Git et GitHub.</li>
-            </ul>
+            Développeuse web Fullstack, appétence pour le front.
           </p>
+          <ul>
+            <li><strong>Technologies maitrisées coté front</strong> : JavaScript, HTML5, CSS3, SASS.</li>
+            <li><strong>Framework front</strong> : ReactJS, Bootstrap.</li>
+            <li><strong>Technologies maitrisées coté back</strong> : NodeJS.</li>
+            <li><strong>Framework back</strong> : ExpressJS.</li>
+            <li><strong>Base de données</strong> : MongoDB, mySQL.</li>
+            <li><strong>ORM</strong> : Wordpress.</li>
+            <li><strong>Logiciel de versioning utilisé</strong> : Git et GitHub.</li>
+          </ul>
             <button>            
               <Link
                 to="section2"
@@ -55,7 +55,8 @@ const TimeLine = () => (
           <h4 className="vertical-timeline-element-subtitle">Paris</h4>
           <div>
             <p>
-            6 projets réalisés au cours de la formation : <br />
+              6 projets réalisés au cours de la formation : 
+            </p>
             <ul>
               <li><strong>Intégration d'une maquette</strong> en site web ( HTML / CSS )</li>
               <li><strong>Dynamisation d'une page web</strong> - animations CSS ( HTML / SASS )</li>
@@ -64,7 +65,6 @@ const TimeLine = () => (
               <li><strong>Construction d'une API sécurisée</strong> pour une application d'avis gastronomiques ( Node, Express, MongoDB )</li>
               <li><strong>Création d'un réseau social</strong> d’entreprise ( ReactJS, Node / Express, mySQL )</li>
             </ul>
-            </p>
             <button>            
               <Link
                 to="section2"
@@ -86,18 +86,18 @@ const TimeLine = () => (
           <h3 className="vertical-timeline-element-title">Tour du monde !</h3>
           <div>
             <p>
-              Un an de voyage autour du monde durant lequel j'ai développé mon blog : <strong>gotripics.com</strong><br />
-              <ul>
-                <li>Développement du site avec le CMS Wordpress</li>
-                <li>Optimisation du référencement SEO</li>
-                <li>Définition de la stratégie, des objectifs et du planning éditorial</li>
-                <li>Création de contenu</li>
-                <li>Veille concurrentielle et évolutions Web et réseaux sociaux</li>
-                <li>Animation et modération sur l'ensemble des plateformes</li>
-                <li>Suivi et analyse de l'évolution des chiffres d'audience</li>
-                <li>Élaboration et suivi des newsletters</li>
-              </ul>
+              Un an de voyage autour du monde durant lequel j'ai développé mon blog : <strong>gotripics.com</strong>
             </p>
+            <ul>
+              <li>Développement du site avec le CMS Wordpress</li>
+              <li>Optimisation du référencement SEO</li>
+              <li>Définition de la stratégie, des objectifs et du planning éditorial</li>
+              <li>Création de contenu</li>
+              <li>Veille concurrentielle et évolutions Web et réseaux sociaux</li>
+              <li>Animation et modération sur l'ensemble des plateformes</li>
+              <li>Suivi et analyse de l'évolution des chiffres d'audience</li>
+              <li>Élaboration et suivi des newsletters</li>
+            </ul>
             <button>
               <a 
                 href={"https://www.gotripics.com/"}
@@ -128,16 +128,16 @@ const TimeLine = () => (
           <h3 className="vertical-timeline-element-title">Directrice de crèche</h3>
           <h4 className="vertical-timeline-element-subtitle">Paris</h4>
           <p>
-          Encadrement et évaluation d’une équipe pluridisciplinaire : <br />
-            <ul>
-              <li>Elaboration et mise en place du projet pédagogique en collaboration avec l’équipe éducative</li>
-              <li>Accompagnement et éveil d’un groupe d’enfants de 6 mois à 3 ans</li>
-              <li>Animation des réunions pédagogiques et informatives</li>
-              <li>Travail en lien avec nos partenaires (Mairie, Psychologue, Pédiatre...)</li>
-              <li>Accompagnement et encadrement de stagiaires</li>
-              <li>Gestion du planning et des congés de l’équipe</li>
-            </ul>
+            Encadrement et évaluation d’une équipe pluridisciplinaire :
           </p>
+          <ul>
+            <li>Elaboration et mise en place du projet pédagogique en collaboration avec l’équipe éducative</li>
+            <li>Accompagnement et éveil d’un groupe d’enfants de 6 mois à 3 ans</li>
+            <li>Animation des réunions pédagogiques et informatives</li>
+            <li>Travail en lien avec nos partenaires (Mairie, Psychologue, Pédiatre...)</li>
+            <li>Accompagnement et encadrement de stagiaires</li>
+            <li>Gestion du planning et des congés de l’équipe</li>
+          </ul>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -146,14 +146,12 @@ const TimeLine = () => (
         >
           <h3 className="vertical-timeline-element-title">Educatrice de Jeunes Enfants</h3>
           <h4 className="vertical-timeline-element-subtitle">Paris</h4>
-          <p>
             <ul>
-            <li>Accompagnement et éveil d’un groupe d’enfants de 6 mois à 3 ans</li>
+              <li>Accompagnement et éveil d’un groupe d’enfants de 6 mois à 3 ans</li>
               <li>Elaboration et mise en place du projet pédagogique en collaboration avec l’équipe éducative</li>
               <li>Animation des réunions pédagogiques et informatives</li>
               <li>Accompagnement et encadrement de stagiaires</li>
             </ul>
-          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"

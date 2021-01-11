@@ -23,7 +23,7 @@ const Posts = ({ data }) => {
                 <h1>{post.frontmatter.title}</h1>
                 <MDXRenderer>{post.body}</MDXRenderer>
             </div>
-            <Link to={'/'}>Retour à l'accueil</Link>
+            <Link to={'/#section2'}>Retour à l'accueil</Link>
         </Layout>
     );
 }
