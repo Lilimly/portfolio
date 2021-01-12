@@ -193,7 +193,8 @@ nav {
     }
   }
   #section2 {
-    padding: 1em 3em 1em 3em;
+    height: auto;
+    padding: 1em 2em 3em 2em;
     background-color: $primary_color;
     @include section-style;
     h2 {

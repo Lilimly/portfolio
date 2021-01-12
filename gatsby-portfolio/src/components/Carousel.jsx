@@ -7,11 +7,11 @@ import image from "../images/aurelie-mlynarz-photo.jpg";
 
 export default function SimpleSlider() {
     var settings = {
-    dots: true,
-    infinite: true,
-    speed: 800,
-    slidesToShow: 1,
-    slidesToScroll: 1
+        dots: true,
+        infinite: true,
+        speed: 800,
+        slidesToShow: 1,
+        slidesToScroll: 1
     };
 
     return (
