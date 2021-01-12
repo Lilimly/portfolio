@@ -3,18 +3,14 @@ title: 'Gotripics - Blog de Voyage'
 date: '2018-07-01'
 img: './articles/london-74-scaled.jpg'
 ---
-# Juste pour savoir ...
 
-## Moi ça va et ça marche !
-Je vais avoir un super portfolio !
-Opportunité (Plateforme, Agence, Annonce, Client Direct),
-Action : ce que vous souhaitez réaliser pour vous rapprocher d’un objectif,
-Étapes et phases : votre action décomposée en plusieurs étapes de travail,
+## Création d'un blog de voyage
 
-Estimation du temps : quantité de temps de travail nécessaire à la réalisation de l’action,
-Date de début et date de fin : planning des délais accordés pour réaliser vos actions,
-
-### Objectifs : tels que définis par vos soins (SMART),
-Résultats obtenus : cette case est à remplir une fois la date de fin dépassée, et prend en compte votre réussite ou non par rapport aux objectifs fixés.
+- Développement du site avec le CMS Wordpress
+- Optimisation du référencement SEO
+- Définition de la stratégie, des objectifs et du planning éditorial - Création de contenu
+- Veille concurrentielle et évolutions Web et réseaux sociaux - Animation et modération sur l'ensemble des plateformes
+- Suivi et analyse de l'évolution des chiffres d'audience
+- Élaboration et suivi des newsletters
 
 ![Mario](./Super-Mario.jpg)

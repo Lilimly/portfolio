@@ -3,16 +3,13 @@ title: 'Ohmyfood'
 date: '2019-04-01'
 img: './articles/ile-gomera-21-scaled.jpg'
 ---
-Moi j'aime Gatsby et je veux le faire savoir !
-En route pour de nouvelles aventure ! c'est cool
+## Dynamisation d'une page web
 
-Mise en place d’entreprise : 
-Etude de marché
-Clientèle cible
-offre ciblée et spécialisée : développement web
-3 offres : faible, moyen, élevé
+Développement du Frontend du site :
+- HTML5
+- animations CSS
+- SASS
 
-taux horaire minimum : 
-250 jours ouvrés
+Lien vers site, choix techniques
 
 ![Luigi](./luigi_722.jpg)

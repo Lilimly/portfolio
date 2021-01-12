@@ -194,7 +194,7 @@ nav .header-div .hamburger {
 }
 
 .main-div #section1 {
-  padding: 1em 3em 1em 3em;
+  padding: 1.5em 3em 1em 3em;
   background-color: #fcfcfc;
   background-position: center;
   background-size: cover;
@@ -288,7 +288,7 @@ nav .header-div .hamburger {
 
 .main-div #section2 {
   height: auto;
-  padding: 1em 2em 3em 2em;
+  padding: 1.5em 2em 3em 2em;
   background-color: #ee738b;
   background-position: center;
   background-size: cover;
@@ -317,7 +317,7 @@ nav .header-div .hamburger {
 
 .main-div #section2 .carousel .slick-slider .carousel-items {
   text-align: center;
-  margin: 1em auto 1em auto;
+  margin: 1em auto 3em auto;
 }
 
 .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div {
@@ -330,7 +330,7 @@ nav .header-div .hamburger {
           flex-direction: row;
   background-color: #fcfcfc;
   padding: 1em;
-  margin: auto 2em auto 2em;
+  margin: auto 2em 2em 2em;
   border: 2px solid #3a3a58;
   border-radius: 25px;
 }
@@ -344,7 +344,8 @@ nav .header-div .hamburger {
 }
 
 .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text {
-  width: 60%;
+  width: 70%;
+  margin: auto;
 }
 
 .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text h3 {
@@ -554,15 +555,18 @@ nav .header-div .hamburger {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin: auto 0.5em auto 0.5em;
+    margin: auto 0.5em 0em 0.5em;
   }
   .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div img {
-    width: 8em;
-    height: 8em;
-    margin: 1em auto 2em auto;
+    width: 7em;
+    height: 7em;
+    margin: 1em auto 1.5em auto;
   }
   .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text {
     width: auto;
+  }
+  .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text h4 {
+    font-size: 0.8em;
   }
 }
 
@@ -679,7 +683,7 @@ nav .header-div .hamburger {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin: auto 0.5em auto 0.5em;
+    margin: auto 0.5em 0em 0.5em;
   }
   .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div img {
     width: 9em;
@@ -719,6 +723,7 @@ nav .header-div .hamburger {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin-bottom: 0em;
   }
   .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div img {
     width: 10em;

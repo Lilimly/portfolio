@@ -4,15 +4,13 @@ date: '2020-02-18'
 img: './articles/auckland-11.jpg'
 ---
 
-Juste pour savoir ...
-Moi ça va et ça marche !
-Je vais avoir un super portfolio !
-Opportunité (Plateforme, Agence, Annonce, Client Direct),
-Action : ce que vous souhaitez réaliser pour vous rapprocher d’un objectif,
-Étapes et phases : votre action décomposée en plusieurs étapes de travail,
-Estimation du temps : quantité de temps de travail nécessaire à la réalisation de l’action,
-Date de début et date de fin : planning des délais accordés pour réaliser vos actions,
-Objectifs : tels que définis par vos soins (SMART),
-Résultats obtenus : cette case est à remplir une fois la date de fin dépassée, et prend en compte votre réussite ou non par rapport aux objectifs fixés.
+## Création d'un réseau social d’entreprise
+
+Développement Fullstack :
+- Coté front: JavaScript / React
+- Coté Back : Node.JS / Express.JS
+- Base de données : mySQL / Sequelize
+
+Expliquation et présentation du site.
 
 ![Buzz](./Buzz-l-Eclair.jpg)

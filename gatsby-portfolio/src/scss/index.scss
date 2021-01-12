@@ -125,7 +125,7 @@ nav {
     }
   }
   #section1 {
-    padding: 1em 3em 1em 3em;
+    padding: 1.5em 3em 1em 3em;
     background-color: $body_color;
     @include section-style;
     h2 {
@@ -194,7 +194,7 @@ nav {
   }
   #section2 {
     height: auto;
-    padding: 1em 2em 3em 2em;
+    padding: 1.5em 2em 3em 2em;
     background-color: $primary_color;
     @include section-style;
     h2 {
@@ -212,12 +212,12 @@ nav {
         height: auto;
         .carousel-items {
           text-align: center;
-          margin: 1em auto 1em auto;
+          margin: 1em auto 3em auto;
           .carousel-div {
             @include row;
             background-color: $body-color;
             padding: 1em;
-            margin: auto 2em auto 2em;
+            margin: auto 2em 2em 2em;
             border: 2px solid $text-color;
             border-radius: 25px;
             img {
@@ -227,7 +227,8 @@ nav {
               box-shadow: $box-shadow;
             }
             .carousel-text {
-              width: 60%;
+              width: 70%;
+              margin: auto;
               h3 {
                 color: $primary-color;
               }
@@ -397,14 +398,17 @@ nav {
           .carousel-items {
             .carousel-div {
               @include column;
-              margin: auto 0.5em auto 0.5em;
+              margin: auto 0.5em 0em 0.5em;
               img {
-                width: 8em;
-                height: 8em;
-                margin: 1em auto 2em auto;
+                width: 7em;
+                height: 7em;
+                margin: 1em auto 1.5em auto;
               }
               .carousel-text {
                 width: auto;
+                h4 {
+                  font-size: 0.8em;
+                }
               }
             }
           }
@@ -511,7 +515,7 @@ nav {
           .carousel-items {
             .carousel-div {
               @include column;
-              margin: auto 0.5em auto 0.5em;
+              margin: auto 0.5em 0em 0.5em;
               img {
                 width: 9em;
                 height: 9em;
@@ -556,6 +560,7 @@ nav {
           .carousel-items {
             .carousel-div {
               @include column;
+              margin-bottom: 0em;
               img {
                 width: 10em;
                 height: 10em;
