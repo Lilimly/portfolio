@@ -165,8 +165,8 @@ nav .header-div .hamburger {
   width: auto;
   border-radius: 30px;
   border: 2px solid #3a3a58;
-  -webkit-box-shadow: 0 0 10px #bababa;
-          box-shadow: 0 0 10px #bababa;
+  -webkit-box-shadow: 0 0 15px #fac7d1;
+          box-shadow: 0 0 15px #fac7d1;
   background-color: #ee738b;
   font-size: 0.9em;
   padding: 12px;
@@ -265,12 +265,46 @@ nav .header-div .hamburger {
   margin-top: 0.5em;
 }
 
-.main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content button {
-  margin-top: 1em;
+.main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline {
+  margin-top: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content button a {
+.main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline button {
+  width: auto;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 15px #fac7d1;
+          box-shadow: 0 0 15px #fac7d1;
+  background-color: #fcfcfc;
+  border: 2px solid #ee738b;
+  padding: 7px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-transform 300ms ease-in-out;
+  transition: -webkit-transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+}
+
+.main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline button a {
+  color: #3a3a58;
   text-decoration: none;
+}
+
+.main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline button:hover {
+  background-color: #3a3a58;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+
+.main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline button:hover a {
+  color: #ee738b;
 }
 
 .main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-icon {
@@ -354,6 +388,39 @@ nav .header-div .hamburger {
 
 .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text h4 {
   color: #3a3a58;
+}
+
+.main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text button {
+  width: auto;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 15px #fac7d1;
+          box-shadow: 0 0 15px #fac7d1;
+  background-color: #fcfcfc;
+  border: 2px solid #ee738b;
+  padding: 7px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-transform 300ms ease-in-out;
+  transition: -webkit-transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+  margin-top: 1em;
+}
+
+.main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text button a {
+  color: #3a3a58;
+  text-decoration: none;
+}
+
+.main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text button:hover {
+  background-color: #3a3a58;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+
+.main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text button:hover a {
+  color: #ee738b;
 }
 
 .main-div #section3 {

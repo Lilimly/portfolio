@@ -24,7 +24,7 @@ const HeroBanner = () => (
             offset={-80}
             duration={500}
         >
-          les différents projets
+          les projets
         </Link> 
         {" "} que j'ai réalisés.
       </p>

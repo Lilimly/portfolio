@@ -172,10 +172,11 @@ nav {
         ul {
           margin-top: 0.5em;
         }
-        button {
-          margin-top: 1em;
-          a {
-            text-decoration: none;
+        .button-timeline {
+          margin-top: 2em;
+          @include flex_center;
+          button {
+            @include button;
           }
         }
       }
@@ -234,6 +235,10 @@ nav {
               }
               h4 {
                 color: $text-color;
+              }
+              button {
+                @include button;
+                margin-top: 1em;
               }
             }
           }

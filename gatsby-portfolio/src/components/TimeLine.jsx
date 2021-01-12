@@ -21,29 +21,31 @@ const TimeLine = () => (
           <h3 className="vertical-timeline-element-title">Développeuse Web Freelance</h3>
           <h4 className="vertical-timeline-element-subtitle">Paris</h4>
           <div>
-          <p>
-            Développeuse web Fullstack, appétence pour le front.
-          </p>
-          <ul>
-            <li><strong>Technologies maitrisées coté front</strong> : JavaScript, HTML5, CSS3, SASS.</li>
-            <li><strong>Framework front</strong> : ReactJS, Bootstrap.</li>
-            <li><strong>Technologies maitrisées coté back</strong> : NodeJS.</li>
-            <li><strong>Framework back</strong> : ExpressJS.</li>
-            <li><strong>Base de données</strong> : MongoDB, mySQL.</li>
-            <li><strong>ORM</strong> : Wordpress.</li>
-            <li><strong>Logiciel de versioning utilisé</strong> : Git et GitHub.</li>
-          </ul>
-            <button>            
-              <Link
-                to="section2"
-                spy={true}
-                smooth={true}
-                offset={-80}
-                duration={500}
-              >
-                Voir les projets en cours
-              </Link>
-            </button>
+            <p>
+              Développeuse web Fullstack, appétence pour le front.
+            </p>
+            <ul>
+              <li><strong>Technologies maitrisées coté front</strong> : JavaScript, HTML5, CSS3, SASS.</li>
+              <li><strong>Framework front</strong> : ReactJS, Bootstrap.</li>
+              <li><strong>Technologies maitrisées coté back</strong> : NodeJS.</li>
+              <li><strong>Framework back</strong> : ExpressJS.</li>
+              <li><strong>Base de données</strong> : MongoDB, mySQL.</li>
+              <li><strong>ORM</strong> : Wordpress.</li>
+              <li><strong>Logiciel de versioning utilisé</strong> : Git et GitHub.</li>
+            </ul>
+            <div className="button-timeline">
+              <button>            
+                <Link
+                  to="section2"
+                  spy={true}
+                  smooth={true}
+                  offset={-80}
+                  duration={500}
+                >
+                  Voir les projets réalisés
+                </Link>
+              </button>
+            </div>
           </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -65,17 +67,19 @@ const TimeLine = () => (
               <li><strong>Construction d'une API sécurisée</strong> pour une application d'avis gastronomiques ( Node, Express, MongoDB )</li>
               <li><strong>Création d'un réseau social</strong> d’entreprise ( ReactJS, Node / Express, mySQL )</li>
             </ul>
-            <button>            
-              <Link
-                to="section2"
-                spy={true}
-                smooth={true}
-                offset={-80}
-                duration={500}
-              >
-                Voir les projets réalisés
-              </Link>
-            </button>
+            <div className="button-timeline">
+              <button>            
+                <Link
+                  to="section2"
+                  spy={true}
+                  smooth={true}
+                  offset={-80}
+                  duration={500}
+                >
+                  Voir les projets réalisés
+                </Link>
+              </button>
+            </div>
           </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -98,15 +102,17 @@ const TimeLine = () => (
               <li>Suivi et analyse de l'évolution des chiffres d'audience</li>
               <li>Élaboration et suivi des newsletters</li>
             </ul>
-            <button>
-              <a 
-                href={"https://www.gotripics.com/"}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Découvrez mon blog
-              </a>
-            </button>
+            <div className="button-timeline">
+              <button>
+                <a 
+                  href={"https://www.gotripics.com/"}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Découvrez mon blog
+                </a>
+              </button>
+            </div>
           </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement

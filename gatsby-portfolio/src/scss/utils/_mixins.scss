@@ -46,12 +46,12 @@
     }
 }
 
-// paramètres boutons validation animation zoom
+// paramètres bouton hero banner
 @mixin submit {
     width: auto;
     border-radius: 30px;
     border: 2px solid $text-color;
-    box-shadow: $box_shadow;
+    box-shadow: $primary-box-shadow;
     background-color: $primary_color;
     font-size: 0.9em;
     padding: 12px;
@@ -59,6 +59,30 @@
     transition: transform 300ms ease-in-out;
     a {
         color: $text-color;
+    }
+    &:hover {
+        background-color: $text_color;
+        transform: scale(1.1);
+        cursor: pointer;
+        a {
+            color: $primary-color;
+        }
+    }
+}
+
+// paramètres boutons généraux
+@mixin button {
+    width: auto;
+    border-radius: 10px;
+    box-shadow: $primary-box-shadow;
+    background-color: $body_color;
+    border: 2px solid $primary-color;
+    padding: 7px;
+    transform: scale(1);
+    transition: transform 300ms ease-in-out;
+    a {
+        color: $text-color;
+        text-decoration: none;
     }
     &:hover {
         background-color: $text_color;
