@@ -322,8 +322,11 @@ nav .header-div .hamburger {
 
 .main-div #section2 {
   height: auto;
+  background-image: url("../images/img-header.jpg");
+  background-color: #fcfcfc;
+  background-attachment: fixed;
   padding: 1.5em 2em 3em 2em;
-  background-color: #ee738b;
+  background-color: #f15156;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -404,7 +407,6 @@ nav .header-div .hamburger {
   transition: -webkit-transform 300ms ease-in-out;
   transition: transform 300ms ease-in-out;
   transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
-  margin-top: 1em;
 }
 
 .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text button a {
