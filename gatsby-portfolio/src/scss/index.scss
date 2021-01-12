@@ -214,15 +214,15 @@ nav {
           text-align: center;
           margin: 1em auto 1em auto;
           .carousel-div {
+            @include row;
             background-color: $body-color;
             padding: 1em;
             margin: auto 2em auto 2em;
             border: 2px solid $text-color;
             border-radius: 25px;
-            @include row;
             img {
-              width: 20%;
-              height: auto;
+              width: 10em;
+              height: 10em;
               margin: 1em;
               box-shadow: $box-shadow;
             }
@@ -390,6 +390,27 @@ nav {
         }
       }
     }
+    #section2 {
+      .carousel {
+        margin: 0.2em;
+        .slick-slider {
+          .carousel-items {
+            .carousel-div {
+              @include column;
+              margin: auto 0.5em auto 0.5em;
+              img {
+                width: 8em;
+                height: 8em;
+                margin: 1em auto 2em auto;
+              }
+              .carousel-text {
+                width: auto;
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
 
@@ -483,6 +504,27 @@ nav {
         }
       }
     }
+    #section2 {
+      .carousel {
+        margin: 0.2em;
+        .slick-slider {
+          .carousel-items {
+            .carousel-div {
+              @include column;
+              margin: auto 0.5em auto 0.5em;
+              img {
+                width: 9em;
+                height: 9em;
+                margin: 1em auto 2em auto;
+              }
+              .carousel-text {
+                width: auto;
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
 
@@ -505,6 +547,25 @@ nav {
         }
         p {
           margin: 1em auto 1em auto;
+        }
+      }
+    }
+    #section2 {
+      .carousel {
+        .slick-slider {
+          .carousel-items {
+            .carousel-div {
+              @include column;
+              img {
+                width: 10em;
+                height: 10em;
+                margin: 1em auto 2em auto;
+              }
+              .carousel-text {
+                width: auto;
+              }
+            }
+          }
         }
       }
     }

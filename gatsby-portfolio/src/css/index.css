@@ -321,11 +321,6 @@ nav .header-div .hamburger {
 }
 
 .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div {
-  background-color: #fcfcfc;
-  padding: 1em;
-  margin: auto 2em auto 2em;
-  border: 2px solid #3a3a58;
-  border-radius: 25px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -333,11 +328,16 @@ nav .header-div .hamburger {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  background-color: #fcfcfc;
+  padding: 1em;
+  margin: auto 2em auto 2em;
+  border: 2px solid #3a3a58;
+  border-radius: 25px;
 }
 
 .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div img {
-  width: 20%;
-  height: auto;
+  width: 10em;
+  height: 10em;
   margin: 1em;
   -webkit-box-shadow: 0 0 10px #bababa;
           box-shadow: 0 0 10px #bababa;
@@ -543,6 +543,27 @@ nav .header-div .hamburger {
     font-size: 0.8em;
     margin: 1em auto 1em auto;
   }
+  .main-div #section2 .carousel {
+    margin: 0.2em;
+  }
+  .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto 0.5em auto 0.5em;
+  }
+  .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div img {
+    width: 8em;
+    height: 8em;
+    margin: 1em auto 2em auto;
+  }
+  .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text {
+    width: auto;
+  }
 }
 
 @media only screen and (max-width: 780px) and (min-width: 360px) {
@@ -647,6 +668,27 @@ nav .header-div .hamburger {
     font-size: 0.8em;
     margin: 1em auto 1em auto;
   }
+  .main-div #section2 .carousel {
+    margin: 0.2em;
+  }
+  .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto 0.5em auto 0.5em;
+  }
+  .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div img {
+    width: 9em;
+    height: 9em;
+    margin: 1em auto 2em auto;
+  }
+  .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text {
+    width: auto;
+  }
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 780px) {
@@ -668,6 +710,23 @@ nav .header-div .hamburger {
   }
   .main-div #section1 .presentation p {
     margin: 1em auto 1em auto;
+  }
+  .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div img {
+    width: 10em;
+    height: 10em;
+    margin: 1em auto 2em auto;
+  }
+  .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text {
+    width: auto;
   }
 }
 /*# sourceMappingURL=index.css.map */

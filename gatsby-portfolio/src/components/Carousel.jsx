@@ -48,6 +48,31 @@ export default function SimpleSlider() {
                     role="presentation"
                 />
                     <div className="carousel-text">
+                        <h3>Mon portfolio</h3>
+                        <h4>Création de mon portfolio</h4>
+                        <p>
+                            Développement global de ce site :<br />
+                            Gatsby<br />
+                            React.JS<br />
+                            GraphQL
+                        </p>
+                        <button>            
+                            <Link to="/projets/portfolio/">
+                                Voir mon portfolio
+                            </Link>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div className="carousel-items">
+                <div className="carousel-div">
+                    <img
+                    src={image}
+                    className="my-photo"
+                    alt="Aurélie Mlynarz"
+                    role="presentation"
+                />
+                    <div className="carousel-text">
                         <h3>Groupomania</h3>
                         <h4>Création d'un réseau social d’entreprise</h4>
                         <p>
