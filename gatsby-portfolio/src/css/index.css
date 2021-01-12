@@ -300,12 +300,58 @@ nav .header-div .hamburger {
   font-family: 'Comfortaa', cursive;
 }
 
+.main-div #section2 p {
+  margin-top: 2em;
+  text-align: center;
+}
+
 .main-div #section2 .carousel {
-  margin: 3em 2em 3em 2em;
+  margin: 2em;
+  height: auto;
+}
+
+.main-div #section2 .carousel .slick-slider {
+  height: auto;
 }
 
 .main-div #section2 .carousel .slick-slider .carousel-items {
   text-align: center;
+  margin: 1em auto 1em auto;
+}
+
+.main-div #section2 .carousel .slick-slider .carousel-items .carousel-div {
+  background-color: #fcfcfc;
+  padding: 1em;
+  margin: auto 2em auto 2em;
+  border: 2px solid #3a3a58;
+  border-radius: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.main-div #section2 .carousel .slick-slider .carousel-items .carousel-div img {
+  width: 20%;
+  height: auto;
+  margin: 1em;
+  -webkit-box-shadow: 0 0 10px #bababa;
+          box-shadow: 0 0 10px #bababa;
+}
+
+.main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text {
+  width: 60%;
+}
+
+.main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text h3 {
+  color: #ee738b;
+}
+
+.main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text h4 {
+  color: #3a3a58;
 }
 
 .main-div #section3 {

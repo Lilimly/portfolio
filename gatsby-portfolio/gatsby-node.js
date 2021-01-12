@@ -36,19 +36,4 @@ exports.createPages = async function ({ actions, graphql }) {
             context: {slug: slug},
         })
     })
-
-    const perPage =1;
-    const nbPage = Math.ceil(data.allMdx.totalCount / perPage);
-
-    // creation page index des posts
-   for (let i = 0; i < nbPage; i++) { 
-        actions.createPage({
-            path: i < 1 ? "/projets" : `/projets/${i + 1}` ,
-            component: require.resolve(`./src/pages/index.js`),
-            context: {
-                limit: perPage,
-                skip: i * perPage,
-            },
-        })
-    }
 }

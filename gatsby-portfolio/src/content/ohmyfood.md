@@ -1,5 +1,5 @@
 ---
-title: 'Vive Gatsby !'
+title: 'Ohmyfood'
 date: '2019-04-01'
 img: './articles/ile-gomera-21-scaled.jpg'
 ---

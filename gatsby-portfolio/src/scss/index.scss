@@ -200,11 +200,41 @@ nav {
       color: $body_color;
       font-family: 'Comfortaa', cursive;
     }
+    p {
+      margin-top: 2em;
+      text-align: center;
+    }
     .carousel {
-      margin: 3em 2em 3em 2em;
+      margin: 2em;
+      height: auto;
       .slick-slider {
+        height: auto;
         .carousel-items {
           text-align: center;
+          margin: 1em auto 1em auto;
+          .carousel-div {
+            background-color: $body-color;
+            padding: 1em;
+            margin: auto 2em auto 2em;
+            border: 2px solid $text-color;
+            border-radius: 25px;
+            @include row;
+            img {
+              width: 20%;
+              height: auto;
+              margin: 1em;
+              box-shadow: $box-shadow;
+            }
+            .carousel-text {
+              width: 60%;
+              h3 {
+                color: $primary-color;
+              }
+              h4 {
+                color: $text-color;
+              }
+            }
+          }
         }
       }
     }

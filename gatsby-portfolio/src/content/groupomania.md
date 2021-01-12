@@ -1,8 +1,9 @@
 ---
-title: 'Est-ce que ça marche ?'
-date: '2020-03-01'
-img: './articles/bora-bora-15-scaled.jpg'
+title: 'Groupomania'
+date: '2020-02-18'
+img: './articles/auckland-11.jpg'
 ---
+
 Juste pour savoir ...
 Moi ça va et ça marche !
 Je vais avoir un super portfolio !
@@ -14,4 +15,4 @@ Date de début et date de fin : planning des délais accordés pour réaliser vo
 Objectifs : tels que définis par vos soins (SMART),
 Résultats obtenus : cette case est à remplir une fois la date de fin dépassée, et prend en compte votre réussite ou non par rapport aux objectifs fixés.
 
-![Image](./images.jpeg)
+![Buzz](./Buzz-l-Eclair.jpg)
