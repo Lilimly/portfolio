@@ -30,7 +30,7 @@ const TimeLine = () => (
               <li><strong>Technologies maitrisées coté back</strong> : NodeJS.</li>
               <li><strong>Framework back</strong> : ExpressJS.</li>
               <li><strong>Base de données</strong> : MongoDB, mySQL.</li>
-              <li><strong>ORM</strong> : Wordpress.</li>
+              <li><strong>CMS</strong> : Wordpress.</li>
               <li><strong>Logiciel de versioning utilisé</strong> : Git et GitHub.</li>
             </ul>
             <div className="button-timeline">

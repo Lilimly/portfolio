@@ -326,7 +326,6 @@ nav .header-div .hamburger {
   background-color: #fcfcfc;
   background-attachment: fixed;
   padding: 1.5em 2em 3em 2em;
-  background-color: #f15156;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -334,7 +333,7 @@ nav .header-div .hamburger {
 }
 
 .main-div #section2 h2 {
-  color: #fcfcfc;
+  color: #ee738b;
   font-family: 'Comfortaa', cursive;
 }
 
@@ -369,7 +368,7 @@ nav .header-div .hamburger {
   padding: 1em;
   margin: auto 2em 2em 2em;
   border: 2px solid #3a3a58;
-  border-radius: 25px;
+  border-radius: 15px;
 }
 
 .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div img {
@@ -437,6 +436,74 @@ nav .header-div .hamburger {
 .main-div #section3 h2 {
   color: #ee738b;
   font-family: 'Comfortaa', cursive;
+}
+
+.main-div #section3 p {
+  text-align: center;
+}
+
+.main-div #section3 form {
+  margin: 2em auto 2em auto;
+  border: 2px solid #ee738b;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main-div #section3 form .form-div {
+  padding: 1em;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main-div #section3 form .form-div label {
+  margin: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main-div #section3 form .form-div label input {
+  margin-top: 1em;
+}
+
+.main-div #section3 form .form-div label textarea {
+  margin-top: 1em;
+}
+
+.main-div #section3 form .button-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-div #section3 form .button-div button {
+  margin: 1em;
+}
+
+.main-div #section3 form .button-div input {
+  margin: 1em;
 }
 
 .main-div h2 {
