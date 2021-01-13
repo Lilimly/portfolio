@@ -125,7 +125,7 @@ nav {
     }
   }
   #section1 {
-    padding: 1.5em 3em 1em 3em;
+    padding: 1.5em 1em 1em 1em;
     background-color: $body_color;
     @include section-style;
     h2 {
@@ -135,7 +135,7 @@ nav {
     .presentation {
       @include row;
       img {
-        width: 20%;
+        width: 17%;
         border-radius: 50%;
         margin: 1em;
         box-shadow: $box-shadow;
@@ -261,7 +261,7 @@ nav {
     form {
       margin: 2em auto 2em auto;
       border: 2px solid $primary-color;
-      width: 50%;
+      width: 60%;
       @include flex_column;
       .form-div {
         padding: 1em;
@@ -417,6 +417,7 @@ nav {
       }
     }
     #section1 {
+      padding: 1.5em 1em 1em 1em;
       .presentation {
         display: flex;
         flex-direction: column;
@@ -427,6 +428,20 @@ nav {
         p {
           font-size: 0.8em;
           margin: 1em auto 1em auto;
+        }
+      }
+      h3 {
+        font-size: 1.1em;
+      }
+      h4 {
+        font-size: 0.9em;
+      }
+      p {
+        font-size: 0.8em;
+      }
+      ul {
+        li {
+          font-size: 0.8em;
         }
       }
     }
@@ -452,6 +467,11 @@ nav {
             }
           }
         }
+      }
+    }
+    #section3 {
+      form {
+        width: 100%;
       }
     }
   }
@@ -534,6 +554,7 @@ nav {
       }
     }
     #section1 {
+      padding: 1.5em 1em 1em 1em;
       .presentation {
         display: flex;
         flex-direction: column;
@@ -542,9 +563,12 @@ nav {
           margin: 1em auto 1em auto;
         }
         p {
-          font-size: 0.8em;
+          font-size: 1em;
           margin: 1em auto 1em auto;
         }
+      }
+      p {
+        font-size: 1em;
       }
     }
     #section2 {
@@ -566,6 +590,11 @@ nav {
             }
           }
         }
+      }
+    }
+    #section3 {
+      form {
+        width: 90%;
       }
     }
   }

@@ -194,7 +194,7 @@ nav .header-div .hamburger {
 }
 
 .main-div #section1 {
-  padding: 1.5em 3em 1em 3em;
+  padding: 1.5em 1em 1em 1em;
   background-color: #fcfcfc;
   background-position: center;
   background-size: cover;
@@ -218,7 +218,7 @@ nav .header-div .hamburger {
 }
 
 .main-div #section1 .presentation img {
-  width: 20%;
+  width: 17%;
   border-radius: 50%;
   margin: 1em;
   -webkit-box-shadow: 0 0 10px #bababa;
@@ -445,7 +445,7 @@ nav .header-div .hamburger {
 .main-div #section3 form {
   margin: 2em auto 2em auto;
   border: 2px solid #ee738b;
-  width: 50%;
+  width: 60%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -663,6 +663,9 @@ nav .header-div .hamburger {
   .main-div #section .section-content {
     width: 90%;
   }
+  .main-div #section1 {
+    padding: 1.5em 1em 1em 1em;
+  }
   .main-div #section1 .presentation {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -679,6 +682,18 @@ nav .header-div .hamburger {
   .main-div #section1 .presentation p {
     font-size: 0.8em;
     margin: 1em auto 1em auto;
+  }
+  .main-div #section1 h3 {
+    font-size: 1.1em;
+  }
+  .main-div #section1 h4 {
+    font-size: 0.9em;
+  }
+  .main-div #section1 p {
+    font-size: 0.8em;
+  }
+  .main-div #section1 ul li {
+    font-size: 0.8em;
   }
   .main-div #section2 .carousel {
     margin: 0.2em;
@@ -703,6 +718,9 @@ nav .header-div .hamburger {
   }
   .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text h4 {
     font-size: 0.8em;
+  }
+  .main-div #section3 form {
+    width: 100%;
   }
 }
 
@@ -791,6 +809,9 @@ nav .header-div .hamburger {
   .main-div #section .section-content {
     width: 80%;
   }
+  .main-div #section1 {
+    padding: 1.5em 1em 1em 1em;
+  }
   .main-div #section1 .presentation {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -805,8 +826,11 @@ nav .header-div .hamburger {
     margin: 1em auto 1em auto;
   }
   .main-div #section1 .presentation p {
-    font-size: 0.8em;
+    font-size: 1em;
     margin: 1em auto 1em auto;
+  }
+  .main-div #section1 p {
+    font-size: 1em;
   }
   .main-div #section2 .carousel {
     margin: 0.2em;
@@ -828,6 +852,9 @@ nav .header-div .hamburger {
   }
   .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text {
     width: auto;
+  }
+  .main-div #section3 form {
+    width: 90%;
   }
 }
 

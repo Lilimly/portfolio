@@ -9,37 +9,38 @@ class ContactForm extends React.Component {
         this.state = { feedbackMsg: null }
       }
   
-      handleSubmit(event) {
+    handleSubmit(event) {
         event.preventDefault()
 
         const formData = {}
         Object.keys(this.refs).map(key => (formData[key] = this.refs[key].value))
-      
+        
+        console.log(formData)
+        
         const axiosOptions = {
-          url: this.props.location.pathname,
-          method: "post",
-          headers: { "Content-Type": "application/x-www-form-urlencoded" },
-          data: qs.stringify(formData),
+            url: /localhost:8000/,
+            method: "post",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            data: qs.stringify(formData),
         }
 
         axios(axiosOptions)
-          .then(response => {
+            .then(response => {
             this.setState({
-              feedbackMsg: "Form submitted successfully!",
+                feedbackMsg: "Votre message a bien été envoyé !",
             })
             this.domRef.current.reset()
-          })
-          .catch(err =>
-            this.setState({
-              feedbackMsg: "Form could not be submitted.",
             })
-          )
-      }
+            .catch(err =>
+            this.setState({
+                feedbackMsg: "Une erreur s'est produite : " + err,
+            })
+        )
+    }
   
     render() {
         return (
             <>
-                {this.state.feedbackMsg && <p>{this.state.feedbackMsg}</p>}
                 <form 
                     ref={this.domRef}
                     name="Contact Form" 
@@ -58,6 +59,7 @@ class ContactForm extends React.Component {
                                 name="name" 
                                 id="name"
                                 ref="name"
+                                required
                             />
                         </label>
                         <label>
@@ -67,6 +69,7 @@ class ContactForm extends React.Component {
                                 name="email" 
                                 id="email" 
                                 ref="email"
+                                required
                             />
                         </label>
                         <label>
@@ -76,6 +79,7 @@ class ContactForm extends React.Component {
                                 name="subject" 
                                 id="subject" 
                                 ref="subject"
+                                required
                             />
                         </label>
                         <label>
@@ -85,6 +89,7 @@ class ContactForm extends React.Component {
                                 id="message" 
                                 rows="5" 
                                 ref="message"
+                                required
                             />
                         </label>
                     </div>
@@ -92,6 +97,7 @@ class ContactForm extends React.Component {
                         <button type="submit">Envoyer</button>
                         <input type="reset" value="Clear" />
                     </div>
+                    {this.state.feedbackMsg && <p>{this.state.feedbackMsg}</p>}
                 </form>
             </>
         )
@@ -99,3 +105,6 @@ class ContactForm extends React.Component {
 }
 
 export default ContactForm;
+
+// trouver méthode pour retrouver l'url de la page
+// exemple : url: this.props.location.pathname
