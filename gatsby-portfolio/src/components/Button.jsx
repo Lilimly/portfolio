@@ -18,7 +18,8 @@ export default function Navbar () {
           onClick={scrollToTop}
           onKeyDown={scrollToTop}
       >
-        Retour en haut !
+        Retour au top {' '} <FontAwesomeIcon icon={faHandPointUp} />
+
       </button>
     </div>
   )

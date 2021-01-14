@@ -298,7 +298,7 @@ nav .header-div .hamburger {
 
 .main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline button:hover {
   background-color: #ee738b;
-  border: 1.9px solid #3a3a58;
+  border: 1.9px solid #fc496d;
   color: #fcfcfc;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
@@ -428,7 +428,7 @@ nav .header-div .hamburger {
 
 .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text button:hover {
   background-color: #ee738b;
-  border: 1.9px solid #3a3a58;
+  border: 1.9px solid #fc496d;
   color: #fcfcfc;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
@@ -576,7 +576,7 @@ nav .header-div .hamburger {
 
 .main-div #section3 .big-form form .button-div button:hover {
   background-color: #ee738b;
-  border: 1.9px solid #3a3a58;
+  border: 1.9px solid #fc496d;
   color: #fcfcfc;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
@@ -612,7 +612,7 @@ nav .header-div .hamburger {
 
 .main-div #section3 .big-form form .button-div input:hover {
   background-color: #ee738b;
-  border: 1.9px solid #3a3a58;
+  border: 1.9px solid #fc496d;
   color: #fcfcfc;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
@@ -692,7 +692,7 @@ nav .header-div .hamburger {
 
 .main-div #section3 .big-form form .modal-div .modal-wrapper .modal button:hover {
   background-color: #ee738b;
-  border: 1.9px solid #3a3a58;
+  border: 1.9px solid #fc496d;
   color: #fcfcfc;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
@@ -707,10 +707,15 @@ nav .header-div .hamburger {
   background-color: #ee738b;
   height: 1px;
   width: 90%;
-  margin: 0em auto 2em auto;
+  margin: 0em auto 1em auto;
+}
+
+.main-div #section3 .big-form .social-contact {
+  padding: 1em;
 }
 
 .main-div #section3 .big-form .social-contact h3 {
+  color: #ee738b;
   text-align: center;
   font-size: 1em;
   font-family: 'Comfortaa', cursive;
@@ -751,7 +756,7 @@ nav .header-div .hamburger {
 
 .main-div #section3 .big-form .social-contact .button-div button:hover {
   background-color: #ee738b;
-  border: 1.9px solid #3a3a58;
+  border: 1.9px solid #fc496d;
   color: #fcfcfc;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
@@ -789,6 +794,7 @@ nav .header-div .hamburger {
 .main-div .button-top {
   width: 100%;
   padding-bottom: 2em;
+  margin: 2em auto 0em auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -798,31 +804,42 @@ nav .header-div .hamburger {
 }
 
 .main-div .button-top button {
-  border-radius: 5%;
-  border: 1px solid #ee738b;
+  width: auto;
+  border-radius: 5px;
   background-color: #fcfcfc;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  border: 1.9px solid #ee738b;
+  color: #ee738b;
+  padding: 7px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
   -webkit-transition: -webkit-transform 300ms ease-in-out;
   transition: -webkit-transform 300ms ease-in-out;
   transition: transform 300ms ease-in-out;
   transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
-  padding: 0.3em;
+  -webkit-box-shadow: 0 0 10px #fac7d1;
+          box-shadow: 0 0 10px #fac7d1;
+}
+
+.main-div .button-top button a {
+  color: #ee738b;
+  text-decoration: none;
 }
 
 .main-div .button-top button:hover {
-  -webkit-transform: scale(1.3);
-          transform: scale(1.3);
+  background-color: #ee738b;
+  border: 1.9px solid #fc496d;
+  color: #fcfcfc;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
   cursor: pointer;
 }
 
-.main-div .button-top button:hover svg {
-  color: #3a3a58;
+.main-div .button-top button:hover a {
+  color: #fcfcfc;
 }
 
 .main-div .button-top button svg {
-  color: #ee738b;
-  background-color: #fcfcfc;
+  margin-left: 0.5em;
 }
 
 .main-div footer {

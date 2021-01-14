@@ -370,10 +370,12 @@ nav {
         background-color: $primary-color;
         height: 1px;
         width: 90%;
-        margin: 0em auto 2em auto;
+        margin: 0em auto 1em auto;
        }
       .social-contact {
+        padding: 1em;
         h3 {
+          color: $primary-color;
           text-align: center;
           font-size: 1em;
           font-family: 'Comfortaa', cursive;
@@ -408,24 +410,12 @@ nav {
   .button-top {
     width: 100%;
     padding-bottom: 2em;
+    margin: 2em auto 0em auto;
     @include flex_center;
     button {
-      border-radius: 5%;
-      border: 1px solid $primary-color;
-      background-color: $body-color;
-      transform: scale(1.1);
-      transition: transform 300ms ease-in-out;
-      padding: 0.3em;
-      &:hover {
-        transform: scale(1.3);
-        cursor: pointer;
-        svg {
-          color: $text_color;
-        }
-      }
+      @include button;
       svg {
-        color: $primary_color;
-        background-color: $body-color;
+        margin-left: 0.5em;
       }
     }
   }
