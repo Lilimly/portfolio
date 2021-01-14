@@ -798,8 +798,8 @@ nav .header-div .hamburger {
 }
 
 .main-div .button-top button {
-  border-radius: 25%;
-  border: none;
+  border-radius: 5%;
+  border: 1px solid #ee738b;
   background-color: #fcfcfc;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
@@ -826,9 +826,11 @@ nav .header-div .hamburger {
 }
 
 .main-div footer {
-  padding: 1em;
-  color: #fcfcfc;
-  background-color: #ee738b;
+  padding: 1.5em;
+  color: #ee738b;
+  background-color: #fcfcfc;
+  text-align: center;
+  border-top: 1px solid #3a3a58;
 }
 
 @media only screen and (max-width: 360px) {

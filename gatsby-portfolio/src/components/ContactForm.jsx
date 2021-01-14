@@ -1,7 +1,6 @@
 import React from "react";
-import { navigate } from "gatsby"
-import axios from "axios"
-import * as qs from "query-string"
+import axios from "axios";
+import * as qs from "query-string";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
     faCat,
@@ -9,19 +8,46 @@ import {
     faGlobeAmericas
 } from '@fortawesome/free-solid-svg-icons';
 
-class ContactForm extends React.Component {
+class ContactForm extends React.PureComponent {
 
     constructor(props) {
         super(props)
         this.domRef = React.createRef()
         this.state = { 
             feedbackMsg: null,
-            isShowing: false
-            
+            isShowing: false,
+            rows: 3,
+			minRows: 3,
+			maxRows: 20,
         }
         this.handleClick = this.handleClick.bind(this);
+        this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
     }
+
+    handleChange = (event) => {
+		const textareaLineHeight = 24;
+		const { minRows, maxRows } = this.state;
+		
+		const previousRows = event.target.rows;
+  	    event.target.rows = minRows; // reset number of rows in textarea 
+		
+		const currentRows = ~~(event.target.scrollHeight / textareaLineHeight);
+    
+        if (currentRows === previousRows) {
+            event.target.rows = currentRows;
+        }
+            
+            if (currentRows >= maxRows) {
+                event.target.rows = maxRows;
+                event.target.scrollTop = event.target.scrollHeight;
+            }
+        
+        this.setState({
+            value: event.target.value,
+            rows: currentRows < maxRows ? currentRows : maxRows,
+        });
+	};
 
     handleClick(event) {
         event.preventDefault()
@@ -70,7 +96,7 @@ class ContactForm extends React.Component {
                     name="Contact Form" 
                     method="post" 
                     data-netlify="true" 
-                    action="/merci"
+                    action="/"
                     data-netlify-honeypot="bot-field" 
                     onSubmit={event => this.handleSubmit(event)}
                 >
@@ -111,15 +137,17 @@ class ContactForm extends React.Component {
                         </label>
                         <label>
                             Votre message
-                            <textarea 
+                            <textarea         
                                 name="message" 
                                 placeholder="Votre message" 
                                 id="message" 
-                                rows="5" 
+                                rows={this.state.rows}
                                 ref="message"
+                                onChange={this.handleChange}
                                 required
                             />
                         </label>
+                        
                     </div>
                     <div className="button-div">
                         <button type="submit">Envoyer</button>

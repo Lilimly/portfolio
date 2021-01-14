@@ -50,8 +50,8 @@ const IndexPage = () => {
           N'hésitez pas à m'écrire, je vous répondrai aussi rapidement que possible !
         </p>
         <ContactForm />
+        <Button />
       </div>
-      <Button />
     </Layout>
   )
 }
