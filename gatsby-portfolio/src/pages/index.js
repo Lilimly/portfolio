@@ -7,6 +7,12 @@ import SimpleSlider from "../components/Carousel.jsx";
 import ContactForm from "../components/ContactForm.jsx";
 import Button from "../components/Button.jsx";
 import image from "../images/aurelie-mlynarz-photo.jpg";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+    faCat,
+    faBeer,
+    faGlobeAmericas
+} from '@fortawesome/free-solid-svg-icons';
 
 const IndexPage = () => {
   return (
@@ -44,13 +50,53 @@ const IndexPage = () => {
         </div>
       </div>
       <div className="section" id="section3">
-        <h2>Contact</h2>
-        <p>
-          Une question, un devis ?<br /> 
-          N'hésitez pas à m'écrire, je vous répondrai aussi rapidement que possible !
-        </p>
-        <ContactForm />
-        <Button />
+        <div className="social-contact">
+          <div className="social-content">
+            <h3>Me contacter, c'est très simple !</h3>
+            <p>
+              Une question, un devis ?<br /> 
+              N'hésitez pas à m'écrire en remplissant ce formulaire et je vous répondrai aussi rapidement que possible !
+            </p>
+            <h3>Retrouvez-moi également sur les réseaux sociaux !</h3>
+            <div className="button-div">
+              <button>
+                <a 
+                  href={"https://www.linkedin.com/in/aurelie-mlynarz-1899421a1/"}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  alt="LinkedIn"
+                >
+                  <FontAwesomeIcon icon={faBeer} flip="both" />
+                </a>
+              </button>
+              <button>
+                <a 
+                  href={"https://github.com/Lilimly"}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  alt="GitHub"
+                >
+                  <FontAwesomeIcon icon={faCat} />
+                </a>
+              </button>
+              <button>
+                <a 
+                  href={"https://www.gotripics.com/"}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  alt="Gotripics"
+                >
+                  <FontAwesomeIcon icon={faGlobeAmericas} />
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className="the-form">
+          <h2>Contact</h2>
+          <ContactForm />
+          <Button />
+        </div>
       </div>
     </Layout>
   )

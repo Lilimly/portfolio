@@ -1,12 +1,6 @@
 import React from "react";
 import axios from "axios";
 import * as qs from "query-string";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-    faCat,
-    faBeer,
-    faGlobeAmericas
-} from '@fortawesome/free-solid-svg-icons';
 
 class ContactForm extends React.PureComponent {
 
@@ -150,8 +144,11 @@ class ContactForm extends React.PureComponent {
                         
                     </div>
                     <div className="button-div">
-                        <button type="submit">Envoyer</button>
-                        <input type="reset" value="Clear" />
+                        <button type="submit">
+                            <span>
+                                Envoyer !
+                            </span>
+                        </button>
                     </div>
                     {isShowing === true 
                         ? <div className="modal-div">
@@ -169,42 +166,6 @@ class ContactForm extends React.PureComponent {
                         : null
                     }    
                 </form>
-                <hr/>
-                <div className="social-contact">
-                    <h3>Retrouvez moi également ici :</h3>
-                    <div className="button-div">
-                        <button>
-                            <a 
-                                href={"https://www.linkedin.com/in/aurelie-mlynarz-1899421a1/"}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                alt="LinkedIn"
-                            >
-                                <FontAwesomeIcon icon={faBeer} flip="both" />
-                            </a>
-                        </button>
-                        <button>
-                            <a 
-                                href={"https://github.com/Lilimly"}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                alt="GitHub"
-                            >
-                                <FontAwesomeIcon icon={faCat} />
-                            </a>
-                        </button>
-                        <button>
-                            <a 
-                                href={"https://www.gotripics.com/"}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                alt="Gotripics"
-                            >
-                                <FontAwesomeIcon icon={faGlobeAmericas} />
-                            </a>
-                        </button>
-                    </div>
-                </div>
             </div>
         )
     }

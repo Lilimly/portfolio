@@ -29,16 +29,18 @@ const HeroBanner = () => (
         {" "} que j'ai réalisés.
       </p>
       <div className="button-div">
-        <button>            
-          <Link
-            to="section3"
-            spy={true}
-            smooth={true}
-            offset={-80}
-            duration={500}
-          >
-            Contactez-moi !
-          </Link>
+        <button> 
+          <span>          
+            <Link
+              to="section3"
+              spy={true}
+              smooth={true}
+              offset={-80}
+              duration={500}
+            >
+              Contactez-moi !
+            </Link>
+          </span> 
         </button>
       </div>
     </div>

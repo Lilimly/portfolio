@@ -14,11 +14,12 @@ export default function Navbar () {
   return (
     <div className="button-top">
       <button
-          alt="button"
-          onClick={scrollToTop}
-          onKeyDown={scrollToTop}
+        className="btn"
+        alt="button"
+        onClick={scrollToTop}
+        onKeyDown={scrollToTop}
       >
-        Retour au top {' '} <FontAwesomeIcon icon={faHandPointUp} />
+        <span>Retour au top {' '} <FontAwesomeIcon icon={faHandPointUp} /></span>
 
       </button>
     </div>
