@@ -90,12 +90,11 @@ nav {
     @include flex_center;
     .section-content {
       background-color: $body_color;
-      opacity: 0.95;
-      width: 65%;
+      width: 60%;
       height: max-content;
       margin: auto;
       padding: 1em;
-      border-radius: 25px;;
+      border-radius: 5px;
       h2 {
         font-family: 'Comfortaa', cursive;
         color: $primary_color;
@@ -206,6 +205,8 @@ nav {
     }
     p {
       margin-top: 2em;
+      font-size: 1em;
+      font-weight: bold;
       text-align: center;
     }
     .carousel {
@@ -221,12 +222,13 @@ nav {
             background-color: $body-color;
             padding: 1em;
             margin: auto 2em 2em 2em;
-            border: 2px solid $text-color;
-            border-radius: 15px;
+            border: 4px solid $primary-color;
+            border-radius: 5px;
             img {
               width: 10em;
               height: 10em;
               margin: 1em;
+              border-radius: 5px;
               box-shadow: $box-shadow;
             }
             .carousel-text {
@@ -234,9 +236,16 @@ nav {
               margin: auto;
               h3 {
                 color: $primary-color;
+                font-family: 'Comfortaa', cursive;
               }
               h4 {
                 color: $text-color;
+                
+                font-family: 'Comfortaa', cursive;
+              }
+              p {
+                font-size: 0.9em;
+                font-weight: 400;
               }
               button {
                 @include button;
@@ -258,33 +267,124 @@ nav {
     p {
       text-align: center;
     }
-    form {
+    .big-form {
       margin: 2em auto 2em auto;
       border: 2px solid $primary-color;
+      box-shadow: $primary-box-shadow;
+      border-radius: 5px;
       width: 60%;
-      @include flex_column;
-      .form-div {
-        padding: 1em;
-        width: 100%;
-        @include column;
-        label {
-          margin: 1em;
+      form {
+        @include flex_column;
+        .form-div {
+          padding: 1em;
+          width: 100%;
           @include column;
-          input {
-            margin-top: 1em;
+          label {
+            margin: 1em;
+            @include column;
+            input {
+              margin-top: 1em;
+              border: 1px solid $primary-color;
+              border-radius: 5px;
+              font-size: 0.9em;
+              padding: 0.5em;
+              &:hover {
+                border: 1.5px solid $primary-color;
+                box-shadow: $primary-box-shadow;
+              }
+              &:focus {
+                border: 2px solid $primary-color;
+                box-shadow: $primary-box-shadow;
+              }
+            }
+            textarea {
+              margin-top: 1em;
+              border: 1px solid $primary-color;
+              border-radius: 5px;
+              font-size: 0.9em;
+              padding: 0.5em;
+              &:hover {
+                border: 1.5px solid $primary-color;
+                box-shadow: $primary-box-shadow;
+              }
+              &:focus {
+                border: 2px solid $primary-color;
+                box-shadow: $primary-box-shadow;
+              }
+            }
           }
-          textarea {
-            margin-top: 1em;
+        }
+        .button-div {
+          @include flex_center;
+          button {
+            margin: auto 1em 0.5em 1em;
+            @include button;
+          }
+          input {
+            margin: auto 1em 0.5em 1em;
+            @include button;
+          }
+        }
+        .modal-div {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100vw;
+          height: 100vh;
+          z-index: 1040;
+          background-color: rgba(0, 0, 0, 0.6);
+          .modal-wrapper {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1050;
+            width: 100%;
+            height: 100%;
+            overflow-x: hidden;
+            overflow-y: auto;
+            outline: 0;
+            display: flex;
+            align-items: center;
+            .modal {
+              z-index: 100;
+              background: #fff;
+              border: 4px solid $primary-color;
+              position: relative;
+              margin: auto;
+              border-radius: 5px;
+              max-width: 500px;
+              width: 80%;
+              padding: 3em;
+              p {
+                color: $primary-color;
+              }
+              button {
+                @include button;
+                margin: 2em;
+              }
+            }
           }
         }
       }
-      .button-div {
-        @include flex_center;
-        button {
-          margin: 1em;
+      hr {
+        background-color: $primary-color;
+        height: 1px;
+        width: 90%;
+        margin: 0em auto 2em auto;
+       }
+      .social-contact {
+        h3 {
+          text-align: center;
+          font-size: 1em;
+          font-family: 'Comfortaa', cursive;
+          margin: 1em auto 2em auto;
         }
-        input {
-          margin: 1em;
+        .button-div {
+          @include flex_center;
+          button {
+            margin: auto 1em 1em 1em;
+            @include button;
+          }
         }
       }
     }
@@ -470,8 +570,13 @@ nav {
       }
     }
     #section3 {
-      form {
+      padding: 1em;
+      .big-form {
+        margin: 0em;
         width: 100%;
+        form {
+          width: 100%;
+        }
       }
     }
   }
@@ -593,8 +698,13 @@ nav {
       }
     }
     #section3 {
-      form {
-        width: 90%;
+      padding: 1em 1.5em 1em 1.5em;
+      .big-form {
+        margin: 0em;
+        width: 100%;
+        form {
+          width: 100%;
+        }
       }
     }
   }

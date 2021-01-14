@@ -118,14 +118,13 @@ nav .header-div .hamburger {
 
 .main-div #section .section-content {
   background-color: #fcfcfc;
-  opacity: 0.95;
-  width: 65%;
+  width: 60%;
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   margin: auto;
   padding: 1em;
-  border-radius: 25px;
+  border-radius: 5px;
 }
 
 .main-div #section .section-content h2 {
@@ -164,10 +163,10 @@ nav .header-div .hamburger {
   margin: 1em auto 1em auto;
   width: auto;
   border-radius: 30px;
-  border: 2px solid #3a3a58;
-  -webkit-box-shadow: 0 0 15px #fac7d1;
-          box-shadow: 0 0 15px #fac7d1;
-  background-color: #ee738b;
+  border: 2px solid #ee738b;
+  -webkit-box-shadow: 0 0 10px #fac7d1;
+          box-shadow: 0 0 10px #fac7d1;
+  background-color: #fac7d1;
   font-size: 0.9em;
   padding: 12px;
   -webkit-transform: scale(1);
@@ -183,14 +182,14 @@ nav .header-div .hamburger {
 }
 
 .main-div #section .section-content .button-div button:hover {
-  background-color: #3a3a58;
+  background-color: #ee738b;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   cursor: pointer;
 }
 
 .main-div #section .section-content .button-div button:hover a {
-  color: #ee738b;
+  color: #fcfcfc;
 }
 
 .main-div #section1 {
@@ -277,11 +276,10 @@ nav .header-div .hamburger {
 
 .main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline button {
   width: auto;
-  border-radius: 10px;
-  -webkit-box-shadow: 0 0 15px #fac7d1;
-          box-shadow: 0 0 15px #fac7d1;
+  border-radius: 5px;
   background-color: #fcfcfc;
-  border: 2px solid #ee738b;
+  border: 1.9px solid #ee738b;
+  color: #ee738b;
   padding: 7px;
   -webkit-transform: scale(1);
           transform: scale(1);
@@ -289,22 +287,26 @@ nav .header-div .hamburger {
   transition: -webkit-transform 300ms ease-in-out;
   transition: transform 300ms ease-in-out;
   transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+  -webkit-box-shadow: 0 0 10px #fac7d1;
+          box-shadow: 0 0 10px #fac7d1;
 }
 
 .main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline button a {
-  color: #3a3a58;
+  color: #ee738b;
   text-decoration: none;
 }
 
 .main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline button:hover {
-  background-color: #3a3a58;
+  background-color: #ee738b;
+  border: 1.9px solid #3a3a58;
+  color: #fcfcfc;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   cursor: pointer;
 }
 
 .main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline button:hover a {
-  color: #ee738b;
+  color: #fcfcfc;
 }
 
 .main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-icon {
@@ -339,6 +341,8 @@ nav .header-div .hamburger {
 
 .main-div #section2 p {
   margin-top: 2em;
+  font-size: 1em;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -367,14 +371,15 @@ nav .header-div .hamburger {
   background-color: #fcfcfc;
   padding: 1em;
   margin: auto 2em 2em 2em;
-  border: 2px solid #3a3a58;
-  border-radius: 15px;
+  border: 4px solid #ee738b;
+  border-radius: 5px;
 }
 
 .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div img {
   width: 10em;
   height: 10em;
   margin: 1em;
+  border-radius: 5px;
   -webkit-box-shadow: 0 0 10px #bababa;
           box-shadow: 0 0 10px #bababa;
 }
@@ -386,19 +391,25 @@ nav .header-div .hamburger {
 
 .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text h3 {
   color: #ee738b;
+  font-family: 'Comfortaa', cursive;
 }
 
 .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text h4 {
   color: #3a3a58;
+  font-family: 'Comfortaa', cursive;
+}
+
+.main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text p {
+  font-size: 0.9em;
+  font-weight: 400;
 }
 
 .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text button {
   width: auto;
-  border-radius: 10px;
-  -webkit-box-shadow: 0 0 15px #fac7d1;
-          box-shadow: 0 0 15px #fac7d1;
+  border-radius: 5px;
   background-color: #fcfcfc;
-  border: 2px solid #ee738b;
+  border: 1.9px solid #ee738b;
+  color: #ee738b;
   padding: 7px;
   -webkit-transform: scale(1);
           transform: scale(1);
@@ -406,22 +417,26 @@ nav .header-div .hamburger {
   transition: -webkit-transform 300ms ease-in-out;
   transition: transform 300ms ease-in-out;
   transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+  -webkit-box-shadow: 0 0 10px #fac7d1;
+          box-shadow: 0 0 10px #fac7d1;
 }
 
 .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text button a {
-  color: #3a3a58;
+  color: #ee738b;
   text-decoration: none;
 }
 
 .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text button:hover {
-  background-color: #3a3a58;
+  background-color: #ee738b;
+  border: 1.9px solid #3a3a58;
+  color: #fcfcfc;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   cursor: pointer;
 }
 
 .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text button:hover a {
-  color: #ee738b;
+  color: #fcfcfc;
 }
 
 .main-div #section3 {
@@ -442,10 +457,16 @@ nav .header-div .hamburger {
   text-align: center;
 }
 
-.main-div #section3 form {
+.main-div #section3 .big-form {
   margin: 2em auto 2em auto;
   border: 2px solid #ee738b;
+  -webkit-box-shadow: 0 0 10px #fac7d1;
+          box-shadow: 0 0 10px #fac7d1;
+  border-radius: 5px;
   width: 60%;
+}
+
+.main-div #section3 .big-form form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -458,7 +479,7 @@ nav .header-div .hamburger {
           flex-direction: column;
 }
 
-.main-div #section3 form .form-div {
+.main-div #section3 .big-form form .form-div {
   padding: 1em;
   width: 100%;
   display: -webkit-box;
@@ -470,7 +491,7 @@ nav .header-div .hamburger {
           flex-direction: column;
 }
 
-.main-div #section3 form .form-div label {
+.main-div #section3 .big-form form .form-div label {
   margin: 1em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -481,15 +502,47 @@ nav .header-div .hamburger {
           flex-direction: column;
 }
 
-.main-div #section3 form .form-div label input {
+.main-div #section3 .big-form form .form-div label input {
   margin-top: 1em;
+  border: 1px solid #ee738b;
+  border-radius: 5px;
+  font-size: 0.9em;
+  padding: 0.5em;
 }
 
-.main-div #section3 form .form-div label textarea {
-  margin-top: 1em;
+.main-div #section3 .big-form form .form-div label input:hover {
+  border: 1.5px solid #ee738b;
+  -webkit-box-shadow: 0 0 10px #fac7d1;
+          box-shadow: 0 0 10px #fac7d1;
 }
 
-.main-div #section3 form .button-div {
+.main-div #section3 .big-form form .form-div label input:focus {
+  border: 2px solid #ee738b;
+  -webkit-box-shadow: 0 0 10px #fac7d1;
+          box-shadow: 0 0 10px #fac7d1;
+}
+
+.main-div #section3 .big-form form .form-div label textarea {
+  margin-top: 1em;
+  border: 1px solid #ee738b;
+  border-radius: 5px;
+  font-size: 0.9em;
+  padding: 0.5em;
+}
+
+.main-div #section3 .big-form form .form-div label textarea:hover {
+  border: 1.5px solid #ee738b;
+  -webkit-box-shadow: 0 0 10px #fac7d1;
+          box-shadow: 0 0 10px #fac7d1;
+}
+
+.main-div #section3 .big-form form .form-div label textarea:focus {
+  border: 2px solid #ee738b;
+  -webkit-box-shadow: 0 0 10px #fac7d1;
+          box-shadow: 0 0 10px #fac7d1;
+}
+
+.main-div #section3 .big-form form .button-div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -498,12 +551,215 @@ nav .header-div .hamburger {
           justify-content: center;
 }
 
-.main-div #section3 form .button-div button {
-  margin: 1em;
+.main-div #section3 .big-form form .button-div button {
+  margin: auto 1em 0.5em 1em;
+  width: auto;
+  border-radius: 5px;
+  background-color: #fcfcfc;
+  border: 1.9px solid #ee738b;
+  color: #ee738b;
+  padding: 7px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-transform 300ms ease-in-out;
+  transition: -webkit-transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+  -webkit-box-shadow: 0 0 10px #fac7d1;
+          box-shadow: 0 0 10px #fac7d1;
 }
 
-.main-div #section3 form .button-div input {
-  margin: 1em;
+.main-div #section3 .big-form form .button-div button a {
+  color: #ee738b;
+  text-decoration: none;
+}
+
+.main-div #section3 .big-form form .button-div button:hover {
+  background-color: #ee738b;
+  border: 1.9px solid #3a3a58;
+  color: #fcfcfc;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+
+.main-div #section3 .big-form form .button-div button:hover a {
+  color: #fcfcfc;
+}
+
+.main-div #section3 .big-form form .button-div input {
+  margin: auto 1em 0.5em 1em;
+  width: auto;
+  border-radius: 5px;
+  background-color: #fcfcfc;
+  border: 1.9px solid #ee738b;
+  color: #ee738b;
+  padding: 7px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-transform 300ms ease-in-out;
+  transition: -webkit-transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+  -webkit-box-shadow: 0 0 10px #fac7d1;
+          box-shadow: 0 0 10px #fac7d1;
+}
+
+.main-div #section3 .big-form form .button-div input a {
+  color: #ee738b;
+  text-decoration: none;
+}
+
+.main-div #section3 .big-form form .button-div input:hover {
+  background-color: #ee738b;
+  border: 1.9px solid #3a3a58;
+  color: #fcfcfc;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+
+.main-div #section3 .big-form form .button-div input:hover a {
+  color: #fcfcfc;
+}
+
+.main-div #section3 .big-form form .modal-div {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1040;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.main-div #section3 .big-form form .modal-div .modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-div #section3 .big-form form .modal-div .modal-wrapper .modal {
+  z-index: 100;
+  background: #fff;
+  border: 4px solid #ee738b;
+  position: relative;
+  margin: auto;
+  border-radius: 5px;
+  max-width: 500px;
+  width: 80%;
+  padding: 3em;
+}
+
+.main-div #section3 .big-form form .modal-div .modal-wrapper .modal p {
+  color: #ee738b;
+}
+
+.main-div #section3 .big-form form .modal-div .modal-wrapper .modal button {
+  width: auto;
+  border-radius: 5px;
+  background-color: #fcfcfc;
+  border: 1.9px solid #ee738b;
+  color: #ee738b;
+  padding: 7px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-transform 300ms ease-in-out;
+  transition: -webkit-transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+  -webkit-box-shadow: 0 0 10px #fac7d1;
+          box-shadow: 0 0 10px #fac7d1;
+  margin: 2em;
+}
+
+.main-div #section3 .big-form form .modal-div .modal-wrapper .modal button a {
+  color: #ee738b;
+  text-decoration: none;
+}
+
+.main-div #section3 .big-form form .modal-div .modal-wrapper .modal button:hover {
+  background-color: #ee738b;
+  border: 1.9px solid #3a3a58;
+  color: #fcfcfc;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+
+.main-div #section3 .big-form form .modal-div .modal-wrapper .modal button:hover a {
+  color: #fcfcfc;
+}
+
+.main-div #section3 .big-form hr {
+  background-color: #ee738b;
+  height: 1px;
+  width: 90%;
+  margin: 0em auto 2em auto;
+}
+
+.main-div #section3 .big-form .social-contact h3 {
+  text-align: center;
+  font-size: 1em;
+  font-family: 'Comfortaa', cursive;
+  margin: 1em auto 2em auto;
+}
+
+.main-div #section3 .big-form .social-contact .button-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-div #section3 .big-form .social-contact .button-div button {
+  margin: auto 1em 1em 1em;
+  width: auto;
+  border-radius: 5px;
+  background-color: #fcfcfc;
+  border: 1.9px solid #ee738b;
+  color: #ee738b;
+  padding: 7px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-transform 300ms ease-in-out;
+  transition: -webkit-transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+  -webkit-box-shadow: 0 0 10px #fac7d1;
+          box-shadow: 0 0 10px #fac7d1;
+}
+
+.main-div #section3 .big-form .social-contact .button-div button a {
+  color: #ee738b;
+  text-decoration: none;
+}
+
+.main-div #section3 .big-form .social-contact .button-div button:hover {
+  background-color: #ee738b;
+  border: 1.9px solid #3a3a58;
+  color: #fcfcfc;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+
+.main-div #section3 .big-form .social-contact .button-div button:hover a {
+  color: #fcfcfc;
 }
 
 .main-div h2 {
@@ -719,7 +975,14 @@ nav .header-div .hamburger {
   .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text h4 {
     font-size: 0.8em;
   }
-  .main-div #section3 form {
+  .main-div #section3 {
+    padding: 1em;
+  }
+  .main-div #section3 .big-form {
+    margin: 0em;
+    width: 100%;
+  }
+  .main-div #section3 .big-form form {
     width: 100%;
   }
 }
@@ -853,8 +1116,15 @@ nav .header-div .hamburger {
   .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text {
     width: auto;
   }
-  .main-div #section3 form {
-    width: 90%;
+  .main-div #section3 {
+    padding: 1em 1.5em 1em 1.5em;
+  }
+  .main-div #section3 .big-form {
+    margin: 0em;
+    width: 100%;
+  }
+  .main-div #section3 .big-form form {
+    width: 100%;
   }
 }
 
