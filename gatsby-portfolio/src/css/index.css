@@ -183,10 +183,6 @@ nav .header-div .hamburger {
   color: #fcfcfc;
 }
 
-.main-div #section .section-content .button-div button span svg {
-  margin-left: 0.5em;
-}
-
 .main-div #section .section-content .button-div button span a {
   color: #fcfcfc;
 }
@@ -316,11 +312,6 @@ nav .header-div .hamburger {
   color: #ee738b;
 }
 
-.main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline button span svg {
-  margin-left: 0.5em;
-  color: #ee738b;
-}
-
 .main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline button span a {
   color: #ee738b;
   text-decoration: none;
@@ -329,10 +320,6 @@ nav .header-div .hamburger {
 }
 
 .main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline button:hover span {
-  color: #fcfcfc;
-}
-
-.main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline button:hover span svg {
   color: #fcfcfc;
 }
 
@@ -474,11 +461,6 @@ nav .header-div .hamburger {
   color: #ee738b;
 }
 
-.main-div #section2 .projects .projects-div .projects-items .projects-content .projects-text button span svg {
-  margin-left: 0.5em;
-  color: #ee738b;
-}
-
 .main-div #section2 .projects .projects-div .projects-items .projects-content .projects-text button span a {
   color: #ee738b;
   text-decoration: none;
@@ -487,10 +469,6 @@ nav .header-div .hamburger {
 }
 
 .main-div #section2 .projects .projects-div .projects-items .projects-content .projects-text button:hover span {
-  color: #fcfcfc;
-}
-
-.main-div #section2 .projects .projects-div .projects-items .projects-content .projects-text button:hover span svg {
   color: #fcfcfc;
 }
 
@@ -590,11 +568,6 @@ nav .header-div .hamburger {
   color: #ee738b;
 }
 
-.main-div #section2 .projects .projects-div-one .projects-items .projects-content .projects-text button span svg {
-  margin-left: 0.5em;
-  color: #ee738b;
-}
-
 .main-div #section2 .projects .projects-div-one .projects-items .projects-content .projects-text button span a {
   color: #ee738b;
   text-decoration: none;
@@ -603,10 +576,6 @@ nav .header-div .hamburger {
 }
 
 .main-div #section2 .projects .projects-div-one .projects-items .projects-content .projects-text button:hover span {
-  color: #fcfcfc;
-}
-
-.main-div #section2 .projects .projects-div-one .projects-items .projects-content .projects-text button:hover span svg {
   color: #fcfcfc;
 }
 
@@ -654,71 +623,44 @@ nav .header-div .hamburger {
   font-weight: bold;
 }
 
+.main-div #section3 .button-top {
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  -webkit-animation: fadeIn 700ms ease-in-out 1s both;
+          animation: fadeIn 700ms ease-in-out 1s both;
+}
+
 .main-div #section3 .button-top .btn {
-  border: none;
-  display: block;
-  text-align: center;
   cursor: pointer;
-  outline: none;
-  overflow: hidden;
-  position: relative;
-  font-weight: 700;
-  font-size: 1.2;
-  background-color: #fcfcfc;
+  padding: 10px 10px 5px 10px;
+  border-radius: 50%;
   border: 1px solid #ee738b;
+  background-color: #fcfcfc;
   -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  margin: 4em 2em 2em auto;
-  padding: 11px 18px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
-.main-div #section3 .button-top .btn span {
-  position: relative;
-  z-index: 1;
+.main-div #section3 .button-top .btn svg {
   color: #ee738b;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
-.main-div #section3 .button-top .btn span svg {
-  margin-left: 0.5em;
-  color: #ee738b;
+.main-div #section3 .button-top .btn:hover {
+  -webkit-transition: -webkit-transform 300ms ease-in-out;
+  transition: -webkit-transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background-color: #ee738b;
 }
 
-.main-div #section3 .button-top .btn span a {
-  color: #ee738b;
-  text-decoration: none;
-  position: relative;
-  z-index: 1;
-}
-
-.main-div #section3 .button-top .btn:hover span {
+.main-div #section3 .button-top .btn:hover svg {
   color: #fcfcfc;
-}
-
-.main-div #section3 .button-top .btn:hover span svg {
-  color: #fcfcfc;
-}
-
-.main-div #section3 .button-top .btn:hover span a {
-  color: #fcfcfc;
-}
-
-.main-div #section3 .button-top .btn:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 490%;
-  width: 140%;
-  background: #ee738b;
-  -webkit-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
-  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
-  transform: translateX(-98%) translateY(-25%) rotate(45deg);
-}
-
-.main-div #section3 .button-top .btn:hover:after {
-  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
-  transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
 
 .main-div #section3 .the-form {
@@ -836,10 +778,6 @@ nav .header-div .hamburger {
   color: #fcfcfc;
 }
 
-.main-div #section3 .the-form .big-form form .button-div button span svg {
-  margin-left: 0.5em;
-}
-
 .main-div #section3 .the-form .big-form form .button-div button span a {
   color: #fcfcfc;
 }
@@ -930,11 +868,6 @@ nav .header-div .hamburger {
   color: #ee738b;
 }
 
-.main-div #section3 .the-form .big-form form .modal-div .modal-wrapper .modal button span svg {
-  margin-left: 0.5em;
-  color: #ee738b;
-}
-
 .main-div #section3 .the-form .big-form form .modal-div .modal-wrapper .modal button span a {
   color: #ee738b;
   text-decoration: none;
@@ -943,10 +876,6 @@ nav .header-div .hamburger {
 }
 
 .main-div #section3 .the-form .big-form form .modal-div .modal-wrapper .modal button:hover span {
-  color: #fcfcfc;
-}
-
-.main-div #section3 .the-form .big-form form .modal-div .modal-wrapper .modal button:hover span svg {
   color: #fcfcfc;
 }
 
@@ -1017,7 +946,6 @@ nav .header-div .hamburger {
 .main-div footer .info-site {
   width: 50%;
   margin: auto;
-  font-size: 0.9em;
 }
 
 .main-div footer .button-div {
@@ -1027,25 +955,30 @@ nav .header-div .hamburger {
 
 .main-div footer .button-div p {
   margin-bottom: 0.5em;
+  color: #ee738b;
+  font-weight: bold;
 }
 
 .main-div footer .button-div button {
   margin: auto 0.5em auto 0.5em;
+  border: none;
   background-color: #fcfcfc;
-  border: 1px solid #ee738b;
-  border-radius: 5px;
 }
 
 .main-div footer .button-div button svg {
   color: #ee738b;
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+  -webkit-transition: -webkit-transform 300ms ease-in-out;
+  transition: -webkit-transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
 }
 
-.main-div footer .button-div button:hover {
-  background-color: #ee738b;
-}
-
-.main-div footer .button-div button:hover svg {
-  color: #fcfcfc;
+.main-div footer .button-div button svg:hover {
+  color: #3a3a58;
+  -webkit-transform: scale(1.8);
+          transform: scale(1.8);
 }
 
 @media only screen and (max-width: 360px) {
@@ -1166,9 +1099,6 @@ nav .header-div .hamburger {
     position: relative;
     z-index: 1;
     color: #fcfcfc;
-  }
-  .main-div #section .section-content .button-div button span svg {
-    margin-left: 0.5em;
   }
   .main-div #section .section-content .button-div button span a {
     color: #fcfcfc;

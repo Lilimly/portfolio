@@ -77,9 +77,6 @@
       position: relative; 
       z-index: 1;
       color: $body-color;
-      svg {
-        margin-left: 0.5em;
-      }
       a {
         color: $body-color;
       }
@@ -122,10 +119,6 @@
         position: relative; 
         z-index: 1;
         color: $primary-color;
-        svg {
-            margin-left: 0.5em;
-            color: $primary-color;
-        }
         a {
             color: $primary-color;
             text-decoration: none;
@@ -136,9 +129,6 @@
     &:hover {
         span {
             color: $body-color;
-            svg {
-                color: $body-color;
-            }
             a {
                 color: $body-color;
             }

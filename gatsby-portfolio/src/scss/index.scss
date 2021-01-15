@@ -310,10 +310,30 @@ nav {
       font-weight: bold;
     }
     .button-top {
+      position: fixed;
+      bottom: 0.5rem;
+      right: 0.5rem;
+      animation: fadeIn 700ms ease-in-out 1s both;
       .btn {
-        @include button;
-        margin: 4em 2em 2em auto;
-        padding: 11px 18px;
+        cursor: pointer;
+        padding: 10px 10px 5px 10px;
+        border-radius: 50%;
+        border: 1px solid $primary-color;
+        background-color: $body-color;
+        box-shadow: $button-box-shadow;
+        transform: scale(1);
+        svg {
+          color: $primary-color;
+          transform: scale(1)
+        }
+        &:hover {
+          transition: transform 300ms ease-in-out;
+          transform: scale(1.1);
+          background-color: $primary-color;
+          svg {
+            color: $body-color;
+          }
+        }
       }
     }
     .the-form {
@@ -441,26 +461,26 @@ nav {
     .info-site {
       width: 50%;
       margin: auto;
-      font-size: 0.9em;
     }
     .button-div {
       width: 50%;
       margin: auto;
       p {
         margin-bottom: 0.5em;
+        color: $primary-color;
+        font-weight: bold;
       }
       button {
         margin: auto 0.5em auto 0.5em;
+        border: none;
         background-color: $body-color;
-        border: 1px solid $primary-color;
-        border-radius: 5px;
         svg {
           color: $primary-color;
-        }
-        &:hover {
-          background-color: $primary-color;
-          svg {
-            color: $body-color;
+          transform: scale(1.4);
+          transition: transform 300ms ease-in-out;
+          &:hover {
+            color: $text-color;
+            transform: scale(1.8);
           }
         }
       }

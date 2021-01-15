@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { useStaticQuery, graphql, Link } from "gatsby";
+import { useStaticQuery, graphql } from "gatsby";
+import { Link } from "react-scroll";
 import { MDXProvider } from "@mdx-js/react";
 import Header from "./header.jsx";
 import "./layout.css";
@@ -34,17 +35,28 @@ const Layout = ({ children }) => {
           <div className="info-site">
             © {new Date().getFullYear()},
             {`  `}
-            <a href="/#section">www.lilicorp.com</a>
+            <Link
+                to="section"
+                spy={true}
+                smooth={true}
+                offset={-80}
+                duration={500}
+              >
+                www.lilicorp.com
+              </Link>
           </div>
           <div className="button-div">
-            <p>Me contacter :</p>
-            <button>
-              <a 
-                href={"/#section3"}
-                alt="mail"
+            <p>Mes contacts :</p>
+            <button>        
+              <Link
+                to="section3"
+                spy={true}
+                smooth={true}
+                offset={-80}
+                duration={500}
               >
                 <FontAwesomeIcon icon={faEnvelope} />
-              </a>
+              </Link>
             </button>
             <button>
               <a 

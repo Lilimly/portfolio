@@ -47,7 +47,7 @@ const IndexPage = () => {
         <h2>Me contacter</h2>
         <p>
           Une question, un devis ?<br /> 
-          N'hésitez pas à m'écrire en remplissant ce formulaire et je vous répondrai aussi rapidement que possible !
+          N'hésitez pas à m'écrire et je vous répondrai aussi rapidement que possible !
         </p>
         <div className="the-form">
           <ContactForm />
