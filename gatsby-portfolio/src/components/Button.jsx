@@ -2,7 +2,7 @@ import React from "react";
 import { animateScroll as scroll } from "react-scroll";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  faHandPointUp
+  faAngleDoubleUp
 } from '@fortawesome/free-solid-svg-icons';
 
 export default function Navbar () {
@@ -19,8 +19,10 @@ export default function Navbar () {
         onClick={scrollToTop}
         onKeyDown={scrollToTop}
       >
-        <span>Retour au top {' '} <FontAwesomeIcon icon={faHandPointUp} /></span>
-
+        <span>
+          Retour au top {' '} 
+          <FontAwesomeIcon icon={faAngleDoubleUp} />
+        </span>
       </button>
     </div>
   )

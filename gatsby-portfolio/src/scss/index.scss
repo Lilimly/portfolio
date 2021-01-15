@@ -173,10 +173,12 @@ nav {
           margin-top: 0.5em;
         }
         .button-timeline {
-          margin-top: 2em;
+          margin-top: 1em;
           @include flex_center;
           button {
             @include button;
+            margin: 1em auto 1em auto;
+            padding: 12px 40px;
           }
         }
       }
@@ -195,12 +197,10 @@ nav {
   }
   #section2 {
     height: auto;
+    border-top: 1px solid $primary-color;
     background: $body-color;
     padding: 1.5em 2em 3em 2em;
     @include section-style;
-    hr {
-      background-color: $primary-color;
-    }
     h2 {
       color: $primary_color;
       font-family: 'Comfortaa', cursive;
@@ -247,6 +247,8 @@ nav {
               }
               button {
                 @include button;
+                margin: 1em auto 1em auto;
+                padding: 12px 40px;
               }
             }
           }
@@ -284,6 +286,8 @@ nav {
               }
               button {
                 @include button;
+                margin: 1em auto 1em auto;
+                padding: 12px 40px;
               }
             }
           }
@@ -292,7 +296,7 @@ nav {
     }
   }
   #section3 {
-    padding: 1em 0em 1em 0em;
+    padding: 1.5em 0em 1em 0em;
     background-image: url("../images/laptop-desk.jpg");
     background-color: $body_color;
     background-attachment: fixed;
@@ -303,6 +307,14 @@ nav {
     }
     p {
       text-align: center;
+      font-weight: bold;
+    }
+    .button-top {
+      .btn {
+        @include button;
+        margin: 4em 2em 2em auto;
+        padding: 11px 18px;
+      }
     }
     .the-form {
       padding: 0.5em;
@@ -356,16 +368,7 @@ nav {
             button {
               margin: 0em auto 1em auto;
               @include submit;
-              padding: 15px 50px;
-            }
-          }
-          .button-top {
-            width: 100%;
-            padding-bottom: 2em;
-            margin: 2em auto 0em auto;
-            @include flex_center;
-            .btn {
-              @include button;
+              padding: 13px 50px;
             }
           }
           .modal-div {
@@ -434,6 +437,34 @@ nav {
     background-color: $body-color;
     text-align: center;
     border-top: 1px solid $text-color;
+    @include flex-space;
+    .info-site {
+      width: 50%;
+      margin: auto;
+      font-size: 0.9em;
+    }
+    .button-div {
+      width: 50%;
+      margin: auto;
+      p {
+        margin-bottom: 0.5em;
+      }
+      button {
+        margin: auto 0.5em auto 0.5em;
+        background-color: $body-color;
+        border: 1px solid $primary-color;
+        border-radius: 5px;
+        svg {
+          color: $primary-color;
+        }
+        &:hover {
+          background-color: $primary-color;
+          svg {
+            color: $body-color;
+          }
+        }
+      }
+    }
   }
 }
 
@@ -554,6 +585,11 @@ nav {
           font-size: 0.8em;
         }
       }
+      .button-timeline {
+        button {
+          font-size: 0.8em;
+        }
+      }
     }
     #section2 {
       padding: 1.5em 0.5em 1em 0.5em;
@@ -570,9 +606,11 @@ nav {
       }
     }
     #section3 {
-      padding: 0em;
       h2 {
         padding-top: 1em;
+      }
+      p {
+        padding: 0.2em 1em 0em 1em;
       }
       .the-form {
         .big-form {
@@ -692,9 +730,11 @@ nav {
       }
     }
     #section3 {
-      padding: 0em;
       h2 {
         padding-top: 1em;
+      }
+      p {
+        padding: 0.2em 1em 0em 1em;
       }
       .the-form {
         .big-form {
@@ -739,9 +779,11 @@ nav {
       }
     }
     #section3 {
-      padding: 0em;
       h2 {
         padding-top: 1em;
+      }
+      p {
+        padding: 0.2em 1em 0em 1em;
       }
       .the-form {
         .big-form {

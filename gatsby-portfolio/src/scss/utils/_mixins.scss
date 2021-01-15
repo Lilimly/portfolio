@@ -1,10 +1,4 @@
 // Paramètres flexbox
-@mixin flex_column {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
 @mixin column {
     display: flex;
     flex-direction: column;
@@ -20,6 +14,24 @@
     justify-content: center;
 }
 
+@mixin flex_column {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@mixin flex_row {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+@mixin flex_space {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
 @mixin flex_space_between {
     display: flex;
 	justify-content: space-between;
@@ -29,6 +41,7 @@
     display: flex;
     justify-content: space-evenly;
 }
+
 // paramètres sections
 @mixin section-style {
     background-position: center;
@@ -92,27 +105,60 @@
 
 // paramètres boutons généraux
 @mixin button {
-    width: auto;
-    border-radius: 5px;
-    background-color: $body_color;
-    border: 1.9px solid $primary-color;
-    color: $primary-color;
-    padding: 7px;
-    transform: scale(1);
-    transition: transform 300ms ease-in-out;
-    box-shadow: $primary-box-shadow;
-    a {
+    border: none;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    font-weight: 700;
+    font-size: 1.2;
+    background-color: $body-color;
+    
+    border: 1px solid $primary-color;
+    box-shadow: $button-box-shadow;
+    span {
+        position: relative; 
+        z-index: 1;
         color: $primary-color;
-        text-decoration: none;
+        svg {
+            margin-left: 0.5em;
+            color: $primary-color;
+        }
+        a {
+            color: $primary-color;
+            text-decoration: none;
+            position: relative; 
+            z-index: 1;
+        }
     }
     &:hover {
-        background-color: $primary_color;
-        border: 1.9px solid $border-button_color;
-        color: $body-color;
-        transform: scale(1.1);
-        cursor: pointer;
-        a {
+        span {
             color: $body-color;
+            svg {
+                color: $body-color;
+            }
+            a {
+                color: $body-color;
+            }
         }
+    }
+    &:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 490%;
+        width: 140%;
+        background: $primary_color;
+        -webkit-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+        -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+        transform: translateX(-98%) translateY(-25%) rotate(45deg);
+    }
+    &:hover:after {
+        -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+        transform: translateX(-9%) translateY(-25%) rotate(45deg);
     }
 }

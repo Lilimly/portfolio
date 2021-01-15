@@ -34,16 +34,18 @@ const TimeLine = () => (
               <li><strong>Logiciel de versioning utilisé</strong> : Git et GitHub.</li>
             </ul>
             <div className="button-timeline">
-              <button>            
-                <Link
-                  to="section2"
-                  spy={true}
-                  smooth={true}
-                  offset={-80}
-                  duration={500}
-                >
-                  Voir les projets réalisés
-                </Link>
+              <button>  
+                <span>         
+                  <Link
+                    to="section2"
+                    spy={true}
+                    smooth={true}
+                    offset={-80}
+                    duration={500}
+                  >
+                    Voir les projets
+                  </Link>
+                </span> 
               </button>
             </div>
           </div>
@@ -68,16 +70,18 @@ const TimeLine = () => (
               <li><strong>Création d'un réseau social</strong> d’entreprise ( ReactJS, Node / Express, mySQL )</li>
             </ul>
             <div className="button-timeline">
-              <button>            
-                <Link
-                  to="section2"
-                  spy={true}
-                  smooth={true}
-                  offset={-80}
-                  duration={500}
-                >
-                  Voir les projets réalisés
-                </Link>
+              <button>   
+                <span>        
+                  <Link
+                    to="section2"
+                    spy={true}
+                    smooth={true}
+                    offset={-80}
+                    duration={500}
+                  >
+                    Voir les projets
+                  </Link>
+                </span> 
               </button>
             </div>
           </div>
@@ -104,13 +108,15 @@ const TimeLine = () => (
             </ul>
             <div className="button-timeline">
               <button>
-                <a 
-                  href={"https://www.gotripics.com/"}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Découvrez mon blog
-                </a>
+                <span>
+                  <a 
+                    href={"https://www.gotripics.com/"}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Voir mon blog
+                  </a>
+                  </span>
               </button>
             </div>
           </div>

@@ -6,6 +6,7 @@ import HeroBanner from "../components/HeroBanner.jsx";
 import ProjectsCards from "../components/Projectscards.jsx";
 import ContactForm from "../components/ContactForm.jsx";
 import image from "../images/aurelie-mlynarz-photo.jpg";
+import Button from "../components/Button.jsx";
 
 const IndexPage = () => {
   return (
@@ -34,7 +35,6 @@ const IndexPage = () => {
         <TimeLine />
       </div>
       <div className="section" id="section2">
-        <hr />
         <h2>Projets réalisés</h2>
         <p>
           Petit topo sur les différents projets, adaptabilité à la demande, responsive, moderne ...
@@ -44,7 +44,7 @@ const IndexPage = () => {
         </div>
       </div>
       <div className="section" id="section3">
-        <h2>Contact</h2>
+        <h2>Me contacter</h2>
         <p>
           Une question, un devis ?<br /> 
           N'hésitez pas à m'écrire en remplissant ce formulaire et je vous répondrai aussi rapidement que possible !
@@ -52,6 +52,7 @@ const IndexPage = () => {
         <div className="the-form">
           <ContactForm />
         </div>
+        <Button />
       </div>
     </Layout>
   )
