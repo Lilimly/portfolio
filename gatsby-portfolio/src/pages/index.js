@@ -41,11 +41,12 @@ const IndexPage = () => {
         <TimeLine />
       </div>
       <div className="section" id="section2">
+        <hr />
         <h2>Projets réalisés</h2>
         <p>
           Petit topo sur les différents projets, adaptabilité à la demande, responsive, moderne ...
         </p>
-        <div className="carousel">
+        <div className="projects">
           <SimpleSlider />
         </div>
       </div>

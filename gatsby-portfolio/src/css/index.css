@@ -342,14 +342,16 @@ nav .header-div .hamburger {
 
 .main-div #section2 {
   height: auto;
-  background-image: url("../images/img-header.jpg");
-  background-color: #fcfcfc;
-  background-attachment: fixed;
+  background: #fcfcfc;
   padding: 1.5em 2em 3em 2em;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
+}
+
+.main-div #section2 hr {
+  background-color: #ee738b;
 }
 
 .main-div #section2 h2 {
@@ -364,21 +366,12 @@ nav .header-div .hamburger {
   text-align: center;
 }
 
-.main-div #section2 .carousel {
+.main-div #section2 .projects {
   margin: 2em;
   height: auto;
 }
 
-.main-div #section2 .carousel .slick-slider {
-  height: auto;
-}
-
-.main-div #section2 .carousel .slick-slider .carousel-items {
-  text-align: center;
-  margin: 1em auto 3em auto;
-}
-
-.main-div #section2 .carousel .slick-slider .carousel-items .carousel-div {
+.main-div #section2 .projects .projects-div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -386,43 +379,49 @@ nav .header-div .hamburger {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  background-color: #fcfcfc;
-  padding: 1em;
-  margin: auto 2em 2em 2em;
-  border: 4px solid #ee738b;
-  border-radius: 5px;
 }
 
-.main-div #section2 .carousel .slick-slider .carousel-items .carousel-div img {
-  width: 10em;
-  height: 10em;
-  margin: 1em;
-  border-radius: 5px;
+.main-div #section2 .projects .projects-div .carousel-items {
   -webkit-box-shadow: 0 0 10px #bababa;
           box-shadow: 0 0 10px #bababa;
+  text-align: center;
+  margin: 1em;
 }
 
-.main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text {
-  width: 70%;
+.main-div #section2 .projects .projects-div .carousel-items .carousel-div {
+  background-color: #fcfcfc;
+  border: 1px solid #ee738b;
+}
+
+.main-div #section2 .projects .projects-div .carousel-items .carousel-div img {
+  width: auto;
+  height: auto;
+}
+
+.main-div #section2 .projects .projects-div .carousel-items .carousel-div .carousel-text {
+  width: auto;
   margin: auto;
+  padding: 0em 0.5em 0.5em 0.5em;
 }
 
-.main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text h3 {
+.main-div #section2 .projects .projects-div .carousel-items .carousel-div .carousel-text h3 {
   color: #ee738b;
+  font-size: 1.2em;
   font-family: 'Comfortaa', cursive;
 }
 
-.main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text h4 {
+.main-div #section2 .projects .projects-div .carousel-items .carousel-div .carousel-text h4 {
   color: #3a3a58;
   font-family: 'Comfortaa', cursive;
+  font-size: 0.9em;
 }
 
-.main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text p {
+.main-div #section2 .projects .projects-div .carousel-items .carousel-div .carousel-text p {
   font-size: 0.9em;
   font-weight: 400;
 }
 
-.main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text button {
+.main-div #section2 .projects .projects-div .carousel-items .carousel-div .carousel-text button {
   width: auto;
   border-radius: 5px;
   background-color: #fcfcfc;
@@ -439,12 +438,12 @@ nav .header-div .hamburger {
           box-shadow: 0 0 10px #fac7d1;
 }
 
-.main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text button a {
+.main-div #section2 .projects .projects-div .carousel-items .carousel-div .carousel-text button a {
   color: #ee738b;
   text-decoration: none;
 }
 
-.main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text button:hover {
+.main-div #section2 .projects .projects-div .carousel-items .carousel-div .carousel-text button:hover {
   background-color: #ee738b;
   border: 1.9px solid #fc496d;
   color: #fcfcfc;
@@ -453,7 +452,89 @@ nav .header-div .hamburger {
   cursor: pointer;
 }
 
-.main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text button:hover a {
+.main-div #section2 .projects .projects-div .carousel-items .carousel-div .carousel-text button:hover a {
+  color: #fcfcfc;
+}
+
+.main-div #section2 .projects .projects-div-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.main-div #section2 .projects .projects-div-one .carousel-items {
+  width: 46.5%;
+  text-align: center;
+  margin: 1em;
+}
+
+.main-div #section2 .projects .projects-div-one .carousel-items .carousel-div {
+  background-color: #fcfcfc;
+  border: 1px solid #ee738b;
+}
+
+.main-div #section2 .projects .projects-div-one .carousel-items .carousel-div img {
+  width: auto;
+  height: auto;
+}
+
+.main-div #section2 .projects .projects-div-one .carousel-items .carousel-div .carousel-text {
+  width: auto;
+  margin: auto;
+  padding: 0.5em;
+}
+
+.main-div #section2 .projects .projects-div-one .carousel-items .carousel-div .carousel-text h3 {
+  color: #ee738b;
+  font-family: 'Comfortaa', cursive;
+}
+
+.main-div #section2 .projects .projects-div-one .carousel-items .carousel-div .carousel-text h4 {
+  color: #3a3a58;
+  font-family: 'Comfortaa', cursive;
+}
+
+.main-div #section2 .projects .projects-div-one .carousel-items .carousel-div .carousel-text p {
+  font-size: 0.9em;
+  font-weight: 400;
+}
+
+.main-div #section2 .projects .projects-div-one .carousel-items .carousel-div .carousel-text button {
+  width: auto;
+  border-radius: 5px;
+  background-color: #fcfcfc;
+  border: 1.9px solid #ee738b;
+  color: #ee738b;
+  padding: 7px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-transform 300ms ease-in-out;
+  transition: -webkit-transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+  -webkit-box-shadow: 0 0 10px #fac7d1;
+          box-shadow: 0 0 10px #fac7d1;
+}
+
+.main-div #section2 .projects .projects-div-one .carousel-items .carousel-div .carousel-text button a {
+  color: #ee738b;
+  text-decoration: none;
+}
+
+.main-div #section2 .projects .projects-div-one .carousel-items .carousel-div .carousel-text button:hover {
+  background-color: #ee738b;
+  border: 1.9px solid #fc496d;
+  color: #fcfcfc;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+
+.main-div #section2 .projects .projects-div-one .carousel-items .carousel-div .carousel-text button:hover a {
   color: #fcfcfc;
 }
 
@@ -483,14 +564,9 @@ nav .header-div .hamburger {
 }
 
 .main-div #section3 .social-contact {
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(50%, #ee738b), color-stop(50%, #fcfcfc));
-  background: linear-gradient(to bottom right, #ee738b 50%, #fcfcfc 50%);
-  width: 50%;
-  padding: 2em 0em 0em 2em;
-}
-
-.main-div #section3 .social-contact .social-content {
-  width: 60%;
+  background: #ee738b;
+  width: 40%;
+  padding: 2em;
 }
 
 .main-div #section3 .social-contact .social-content h3 {
@@ -551,8 +627,13 @@ nav .header-div .hamburger {
 }
 
 .main-div #section3 .the-form {
-  width: 50%;
-  padding: 0.5em 1em 0em 1em;
+  width: 60%;
+  padding: 0em;
+  background-color: #f8f2f3;
+}
+
+.main-div #section3 .the-form h2 {
+  margin: 1em 0em 0.5em 0em;
 }
 
 .main-div #section3 .the-form .big-form {
@@ -560,6 +641,7 @@ nav .header-div .hamburger {
   border: 2px solid #ee738b;
   -webkit-box-shadow: 0 0 10px #fac7d1;
           box-shadow: 0 0 10px #fac7d1;
+  background-color: #fcfcfc;
   border-radius: 2px;
   width: 90%;
 }
@@ -939,6 +1021,60 @@ nav .header-div .hamburger {
   .main-div #section .section-content {
     width: 90%;
   }
+  .main-div #section .section-content .button-div {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main-div #section .section-content .button-div button {
+    margin: 1em auto 1em auto;
+    border: none;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    font-weight: 700;
+    font-size: 1.2;
+    background-color: #222;
+    margin: 1em auto 1em auto;
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 15px 30px;
+  }
+  .main-div #section .section-content .button-div button span {
+    position: relative;
+    z-index: 1;
+    color: #fcfcfc;
+  }
+  .main-div #section .section-content .button-div button span svg {
+    margin-left: 0.5em;
+  }
+  .main-div #section .section-content .button-div button span a {
+    color: #fcfcfc;
+  }
+  .main-div #section .section-content .button-div button:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 490%;
+    width: 140%;
+    background: #ee738b;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+    transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  }
+  .main-div #section .section-content .button-div button:hover:after {
+    -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+    transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  }
   .main-div #section1 {
     padding: 1.5em 1em 1em 1em;
   }
@@ -971,10 +1107,13 @@ nav .header-div .hamburger {
   .main-div #section1 ul li {
     font-size: 0.8em;
   }
-  .main-div #section2 .carousel {
+  .main-div #section2 {
+    padding: 1.5em 0.5em 1em 0.5em;
+  }
+  .main-div #section2 .projects {
     margin: 0.2em;
   }
-  .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div {
+  .main-div #section2 .projects .projects-div {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -982,18 +1121,9 @@ nav .header-div .hamburger {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin: auto 0.5em 0em 0.5em;
   }
-  .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div img {
-    width: 7em;
-    height: 7em;
-    margin: 1em auto 1.5em auto;
-  }
-  .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text {
-    width: auto;
-  }
-  .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text h4 {
-    font-size: 0.8em;
+  .main-div #section2 .projects .projects-div-one .carousel-items {
+    width: 100%;
   }
   .main-div #section3 {
     padding: 0em;
@@ -1006,10 +1136,21 @@ nav .header-div .hamburger {
             flex-direction: column;
   }
   .main-div #section3 .social-contact:nth-child(1) {
+    background: #ee738b;
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
     width: 100%;
+    margin: 0em 0em 0em 0em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main-div #section3 .social-contact:nth-child(1) .social-content {
+    width: 90%;
   }
   .main-div #section3 .the-form:nth-child(2) {
     -webkit-box-ordinal-group: 2;
@@ -1134,10 +1275,13 @@ nav .header-div .hamburger {
   .main-div #section1 p {
     font-size: 1em;
   }
-  .main-div #section2 .carousel {
+  .main-div #section2 {
+    padding: 1.5em 0.5em 1em 0.5em;
+  }
+  .main-div #section2 .projects {
     margin: 0.2em;
   }
-  .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div {
+  .main-div #section2 .projects .projects-div {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1145,15 +1289,9 @@ nav .header-div .hamburger {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin: auto 0.5em 0em 0.5em;
   }
-  .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div img {
-    width: 9em;
-    height: 9em;
-    margin: 1em auto 2em auto;
-  }
-  .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text {
-    width: auto;
+  .main-div #section2 .projects .projects-div-one .carousel-items {
+    width: 100%;
   }
   .main-div #section3 {
     padding: 0em;
@@ -1166,10 +1304,20 @@ nav .header-div .hamburger {
             flex-direction: column;
   }
   .main-div #section3 .social-contact:nth-child(1) {
+    background: #ee738b;
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main-div #section3 .social-contact:nth-child(1) .social-content {
+    width: 90%;
   }
   .main-div #section3 .the-form:nth-child(2) {
     -webkit-box-ordinal-group: 2;
@@ -1206,23 +1354,14 @@ nav .header-div .hamburger {
   .main-div #section1 .presentation p {
     margin: 1em auto 1em auto;
   }
-  .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin-bottom: 0em;
+  .main-div #section2 {
+    padding: 1.5em 0.5em 1em 0.5em;
   }
-  .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div img {
-    width: 10em;
-    height: 10em;
-    margin: 1em auto 2em auto;
+  .main-div #section2 .projects {
+    margin: 0em;
   }
-  .main-div #section2 .carousel .slick-slider .carousel-items .carousel-div .carousel-text {
-    width: auto;
+  .main-div #section2 .projects .projects-div-one .carousel-items {
+    width: 45%;
   }
 }
 /*# sourceMappingURL=index.css.map */
