@@ -3,16 +3,9 @@ import Layout from "../components/layout";
 import TimeLine from "../components/TimeLine";
 import SEO from "../components/seo";
 import HeroBanner from "../components/HeroBanner.jsx";
-import SimpleSlider from "../components/Carousel.jsx";
+import ProjectsCards from "../components/Projectscards.jsx";
 import ContactForm from "../components/ContactForm.jsx";
-import Button from "../components/Button.jsx";
 import image from "../images/aurelie-mlynarz-photo.jpg";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-    faCat,
-    faBeer,
-    faGlobeAmericas
-} from '@fortawesome/free-solid-svg-icons';
 
 const IndexPage = () => {
   return (
@@ -47,56 +40,17 @@ const IndexPage = () => {
           Petit topo sur les différents projets, adaptabilité à la demande, responsive, moderne ...
         </p>
         <div className="projects">
-          <SimpleSlider />
+          <ProjectsCards />
         </div>
       </div>
       <div className="section" id="section3">
-        <div className="social-contact">
-          <div className="social-content">
-            <h3>Me contacter, c'est très simple !</h3>
-            <p>
-              Une question, un devis ?<br /> 
-              N'hésitez pas à m'écrire en remplissant ce formulaire et je vous répondrai aussi rapidement que possible !
-            </p>
-            <h3>Retrouvez-moi également sur les réseaux sociaux !</h3>
-            <div className="button-div">
-              <button>
-                <a 
-                  href={"https://www.linkedin.com/in/aurelie-mlynarz-1899421a1/"}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  alt="LinkedIn"
-                >
-                  <FontAwesomeIcon icon={faBeer} flip="both" />
-                </a>
-              </button>
-              <button>
-                <a 
-                  href={"https://github.com/Lilimly"}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  alt="GitHub"
-                >
-                  <FontAwesomeIcon icon={faCat} />
-                </a>
-              </button>
-              <button>
-                <a 
-                  href={"https://www.gotripics.com/"}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  alt="Gotripics"
-                >
-                  <FontAwesomeIcon icon={faGlobeAmericas} />
-                </a>
-              </button>
-            </div>
-          </div>
-        </div>
+        <h2>Contact</h2>
+        <p>
+          Une question, un devis ?<br /> 
+          N'hésitez pas à m'écrire en remplissant ce formulaire et je vous répondrai aussi rapidement que possible !
+        </p>
         <div className="the-form">
-          <h2>Contact</h2>
           <ContactForm />
-          <Button />
         </div>
       </div>
     </Layout>

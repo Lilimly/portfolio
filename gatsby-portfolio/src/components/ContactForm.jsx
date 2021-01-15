@@ -1,6 +1,7 @@
 import React from "react";
 import axios from "axios";
 import * as qs from "query-string";
+import Button from "../components/Button.jsx";
 
 class ContactForm extends React.PureComponent {
 
@@ -150,6 +151,7 @@ class ContactForm extends React.PureComponent {
                             </span>
                         </button>
                     </div>
+                    <Button />
                     {isShowing === true 
                         ? <div className="modal-div">
                             <div className="modal-wrapper">
