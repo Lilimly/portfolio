@@ -1,9 +1,15 @@
 import React from "react";
 import { Link } from "gatsby";
-import image from "../images/img-header.jpg";
-import cvImg from "../images/header-cv.jpg";
+import cvImg from "../images/header-cv.png";
 import ohmyfoodImg from "../images/header-ohmyfood.png";
 import chouetteImg from "../images/header-chouette-agence.png";
+import orinocoImg from "../images/header-orinoco.png";
+import piquanteImg from "../images/header-piquante.png";
+import portfolioImg from "../images/header-portfolio.png";
+import groupomaniaImg from "../images/header-groupomania.png";
+import gotripicsImg from "../images/header-gotripics.png";
+
+
 
 export default function ProjectsCards() {
 
@@ -13,9 +19,9 @@ export default function ProjectsCards() {
                 <div className="projects-items">
                     <div className="projects-content">
                         <img
-                        src={image}
+                        src={gotripicsImg}
                         className="my-photo"
-                        alt="Aurélie Mlynarz"
+                        alt="Villes à vivre"
                         role="presentation"
                         />
                         <div className="projects-text">
@@ -35,9 +41,9 @@ export default function ProjectsCards() {
                 <div  className="projects-items">
                     <div className="projects-content">
                         <img
-                        src={image}
+                        src={gotripicsImg}
                         className="my-photo"
-                        alt="Aurélie Mlynarz"
+                        alt="gotripics"
                         role="presentation"
                     />
                         <div className="projects-text">
@@ -59,9 +65,9 @@ export default function ProjectsCards() {
                 <div className="projects-items">
                     <div className="projects-content">
                         <img
-                        src={image}
+                        src={portfolioImg}
                         className="my-photo"
-                        alt="Aurélie Mlynarz"
+                        alt="portfolio"
                         role="presentation"
                     />
                         <div className="projects-text">
@@ -81,9 +87,9 @@ export default function ProjectsCards() {
                 <div className="projects-items">
                     <div className="projects-content">
                         <img
-                        src={image}
+                        src={groupomaniaImg}
                         className="my-photo"
-                        alt="Aurélie Mlynarz"
+                        alt="groupomania"
                         role="presentation"
                     />
                         <div className="projects-text">
@@ -105,7 +111,7 @@ export default function ProjectsCards() {
                 <div className="projects-items">
                     <div className="projects-content">
                         <img
-                        src={image}
+                        src={piquanteImg}
                         className="my-photo"
                         alt="Aurélie Mlynarz"
                         role="presentation"
@@ -127,9 +133,9 @@ export default function ProjectsCards() {
                 <div className="projects-items">
                     <div className="projects-content">
                         <img
-                        src={image}
+                        src={orinocoImg}
                         className="my-photo"
-                        alt="Aurélie Mlynarz"
+                        alt="orinoco"
                         role="presentation"
                     />
                         <div className="projects-text">
@@ -153,7 +159,7 @@ export default function ProjectsCards() {
                         <img
                         src={chouetteImg}
                         className="my-photo"
-                        alt="Aurélie Mlynarz"
+                        alt="Chouette Agence"
                         role="presentation"
                     />
                         <div className="projects-text">

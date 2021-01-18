@@ -1,7 +1,7 @@
 ---
 title: 'Villes à vivre'
 date: '2020-11-10'
-img: './articles/bora-bora-18-scaled.jpg'
+img: './articles/header-portfolio.jpg'
 ---
 
 ## Projet en cours !

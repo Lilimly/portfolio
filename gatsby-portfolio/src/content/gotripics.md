@@ -1,10 +1,17 @@
 ---
 title: 'Gotripics - Blog de Voyage'
 date: '2018-07-01'
-img: './articles/london-74-scaled.jpg'
+img: './articles/header-gotripics.png'
 ---
 
 ## Création d'un blog de voyage
+
+* Technologies utilisées : 
+    * Wordpress
+
+Au cours d'un voyage autour du monde j'ai créé mon blog voyage.
+
+Dans ce cadre j'ai développé les compétences suivantes :
 
 - Développement du site avec le CMS Wordpress
 - Optimisation du référencement SEO
@@ -13,4 +20,6 @@ img: './articles/london-74-scaled.jpg'
 - Suivi et analyse de l'évolution des chiffres d'audience
 - Élaboration et suivi des newsletters
 
-![Mario](./Super-Mario.jpg)
+![carnets de voyage](./img-gotripics/carnet-voyage-gotripics.png)
+
+Vous pouvez retrouver mon blog à l'adresse [gotripics.com](https://www.gotripics.com/).
