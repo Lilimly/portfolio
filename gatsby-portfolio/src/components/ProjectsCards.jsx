@@ -8,7 +8,7 @@ import piquanteImg from "../images/header-piquante.png";
 import portfolioImg from "../images/header-portfolio.png";
 import groupomaniaImg from "../images/header-groupomania.png";
 import gotripicsImg from "../images/header-gotripics.png";
-
+import vavImg from "../images/hearder-vav.png";
 
 
 export default function ProjectsCards() {
@@ -19,7 +19,7 @@ export default function ProjectsCards() {
                 <div className="projects-items">
                     <div className="projects-content">
                         <img
-                        src={gotripicsImg}
+                        src={vavImg}
                         className="my-photo"
                         alt="Villes à vivre"
                         role="presentation"
