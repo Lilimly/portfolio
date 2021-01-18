@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "gatsby";
 import image from "../images/img-header.jpg";
+import cvImg from "../images/header-cv.jpg";
+import ohmyfoodImg from "../images/header-ohmyfood.png";
+import chouetteImg from "../images/header-chouette-agence.png";
 
 export default function ProjectsCards() {
 
@@ -148,7 +151,7 @@ export default function ProjectsCards() {
                 <div className="projects-items">
                     <div className="projects-content">
                         <img
-                        src={image}
+                        src={chouetteImg}
                         className="my-photo"
                         alt="Aurélie Mlynarz"
                         role="presentation"
@@ -170,9 +173,9 @@ export default function ProjectsCards() {
                 <div className="projects-items">
                     <div className="projects-content">
                         <img
-                        src={image}
+                        src={ohmyfoodImg}
                         className="my-photo"
-                        alt="Aurélie Mlynarz"
+                        alt="ohmyfood"
                         role="presentation"
                     />
                         <div className="projects-text">
@@ -194,14 +197,14 @@ export default function ProjectsCards() {
                 <div  className="projects-items">
                     <div className="projects-content">
                         <img
-                        src={image}
+                        src={cvImg}
                         className="my-photo"
-                        alt="Aurélie Mlynarz"
+                        alt="cv Aurélie Mlynarz"
                         role="presentation"
                         />
                         <div className="projects-text">
                             <h3>CV</h3>
-                            <h4>Intégration web</h4>
+                            <h4>Intégration d'une maquette</h4>
                             <p>Petites lignes d'introduction sur le projet.</p>
                             <button>   
                                 <span>        

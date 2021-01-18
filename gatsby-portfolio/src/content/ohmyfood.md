@@ -1,15 +1,34 @@
 ---
 title: 'Ohmyfood'
-date: '2019-04-01'
-img: './articles/ile-gomera-21-scaled.jpg'
+date: '2020-06-15'
+img: './articles/header-ohmyfood.png'
 ---
 ## Dynamisation d'une page web
 
-Développement du Frontend du site :
-- HTML5
-- animations CSS
-- SASS
+* **Techniques utilisées** : 
+    * HTML5
+    * CSS3 
+    * SASS
+    * Git
 
-Lien vers site, choix techniques
+Sur ce projet, j'ai intégré la maquette Ohmyfood en y insérant différentes animations et des dégradés de couleurs CSS pour rendre le site plus interactif.
 
-![Luigi](./luigi_722.jpg)
+* Le projet est composé de 6 pages :
+    * une page d'accueil
+    * 4 pages menu
+    * 1 page pour les mentions légales
+
+
+Voici la page d'accueil :
+
+![page d'accueil ohmyfood](./img-ohmyfood/accueil-ohmyfood.png)
+
+Et un exemple d'une page menu :
+
+![menu ohmyfood](./img-ohmyfood/menu-ohmyfood.png)
+
+Pour l'ensemble de ce projet j'ai utilisé le **logiciel de versionning Git** et il est hébergé gratuitement avec GitHub Pages. Vous pouvez le consulter : [Ohmyfood](https://lilimly.github.io/ohmyfood/).
+
+Pour organiser mon code CSS j'ai utilisé le pré-processeur SASS.
+
+Retrouvez le **code source** de ce projet sur [mon espace GitHub](https://github.com/Lilimly/ohmyfood)

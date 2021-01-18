@@ -12,11 +12,11 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Aurélie Mlynarz - Développeuse Web" />
-      <div className="section" id="section">
+      <section className="section" id="section">
         <HeroBanner />
-      </div>
-      <div className="section" id="section1">
-        <h2>Mon parcours</h2>
+      </section>
+      <section className="section" id="section1">
+        <h1>Mon parcours</h1>
         <div className="presentation">
           <img
             src={image}
@@ -33,18 +33,18 @@ const IndexPage = () => {
           </p>
         </div>
         <TimeLine />
-      </div>
-      <div className="section" id="section2">
-        <h2>Projets réalisés</h2>
+      </section>
+      <section className="section" id="section2">
+        <h1>Projets réalisés</h1>
         <p>
           Petit topo sur les différents projets, adaptabilité à la demande, responsive, moderne ...
         </p>
         <div className="projects">
           <ProjectsCards />
         </div>
-      </div>
-      <div className="section" id="section3">
-        <h2>Me contacter</h2>
+      </section>
+      <section className="section" id="section3">
+        <h1>Me contacter</h1>
         <p>
           Une question, un devis ?<br /> 
           N'hésitez pas à m'écrire et je vous répondrai aussi rapidement que possible !
@@ -53,7 +53,7 @@ const IndexPage = () => {
           <ContactForm />
         </div>
         <Button />
-      </div>
+      </section>
     </Layout>
   )
 }

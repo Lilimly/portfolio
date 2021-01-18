@@ -11,19 +11,27 @@ const Posts = ({ data }) => {
     return (
         <Layout>
             <SEO title={post.frontmatter.title} />
-            <div>
+            <section className="project-page">
                 {
                     post.frontmatter.img && (
                         <Img 
-                            placeholderStyle={{ backgroundColor: `blue`}}
                             fluid={post.frontmatter.img.childImageSharp.fluid}
                         />
                     )
                 }
-                <h1>{post.frontmatter.title}</h1>
-                <MDXRenderer>{post.body}</MDXRenderer>
-            </div>
-            <Link to={'/#section2'}>Retour à l'accueil</Link>
+                <div className="project-content">
+                    <p className="date">Projet réalisé le {post.frontmatter.date}</p>
+                    <h1>{post.frontmatter.title}</h1>
+                    <MDXRenderer>{post.body}</MDXRenderer>
+                    <button>
+                        <span>
+                            <Link to={'/#section2'}>
+                                Retour à l'accueil
+                            </Link>
+                        </span>
+                    </button>
+                </div>
+            </section>
         </Layout>
     );
 }
@@ -34,6 +42,7 @@ export const query = graphql`
             body
             frontmatter {
                 title
+                date
                 img {
                     childImageSharp {
                         fluid {

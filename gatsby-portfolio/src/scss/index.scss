@@ -77,8 +77,53 @@ nav {
 // éléments main de la page
 .main-div {
   margin: 0em;
+  h1 {
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    margin: 0.5em;
+    color: $primary_color;
+    font-size: 2em;
+  }
+  h2 {
+    text-align: center;
+    margin: 0.5em;
+    color: $text_color;
+    font-family: 'Comfortaa', cursive;
+  }
   p {
+    color: $text_color;
     font-size: 0.9em;
+  }
+  a {
+    @include text_link;
+  }
+  .project-page {
+    .project-content {
+      padding: 1em;
+      h2 {
+        margin: 1em;
+      }
+      p {
+        img {
+          width: 10px;
+        }
+        a {
+          font-size: 1em;
+          color: $primary-color;
+          &:hover {
+            color: $text_link_color;
+          }
+        }
+      }
+      .date {
+        text-align: right;
+      }
+      button {
+        margin: 2em auto 2em auto;
+        @include button;
+            padding: 12px 30px;
+      }
+    }
   }
   #section {
     padding: 2em;
@@ -95,7 +140,7 @@ nav {
       margin: auto;
       padding: 1em;
       border-radius: 5px;
-      h2 {
+      h1 {
         font-family: 'Comfortaa', cursive;
         color: $primary_color;
         font-weight: bold;
@@ -128,7 +173,7 @@ nav {
     padding: 1.5em 1em 1em 1em;
     background-color: $body_color;
     @include section-style;
-    h2 {
+    h1 {
       font-family: 'Comfortaa', cursive;
       color: $primary_color;
     }
@@ -201,7 +246,7 @@ nav {
     background: $body-color;
     padding: 1.5em 2em 3em 2em;
     @include section-style;
-    h2 {
+    h1 {
       color: $primary_color;
       font-family: 'Comfortaa', cursive;
     }
@@ -301,7 +346,7 @@ nav {
     background-color: $body_color;
     background-attachment: fixed;
     @include section-style;
-    h2 {
+    h1 {
       color: $primary_color;
       font-family: 'Comfortaa', cursive;
     }
@@ -434,17 +479,6 @@ nav {
         }
       }
     }
-  }
-  h2 {
-    text-align: center;
-    margin: 0.5em;
-    color: $primary_color;
-  }
-  p {
-    color: $text_color;
-  }
-  a {
-    @include text_link;
   }
   .image-div{
     img {
@@ -626,7 +660,7 @@ nav {
       }
     }
     #section3 {
-      h2 {
+      h1 {
         padding-top: 1em;
       }
       p {
@@ -750,7 +784,7 @@ nav {
       }
     }
     #section3 {
-      h2 {
+      h1 {
         padding-top: 1em;
       }
       p {
@@ -799,7 +833,7 @@ nav {
       }
     }
     #section3 {
-      h2 {
+      h1 {
         padding-top: 1em;
       }
       p {
