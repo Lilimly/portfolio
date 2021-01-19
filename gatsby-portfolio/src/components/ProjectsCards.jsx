@@ -1,6 +1,13 @@
 import React from "react";
 import { Link } from "gatsby";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Icon, InlineIcon } from '@iconify/react';
+import gatsbyIcon from '@iconify/icons-cib/gatsby';
+import mysqlIcon from '@iconify/icons-cib/mysql';
+import mongodbIcon from '@iconify/icons-cib/mongodb';
+import expressIcon from '@iconify/icons-logos/express';
+
+
 import cvImg from "../images/header-cv.png";
 import ohmyfoodImg from "../images/header-ohmyfood.png";
 import chouetteImg from "../images/header-chouette-agence.png";
@@ -30,6 +37,8 @@ export default function ProjectsCards() {
                             <div className="tech-icon">
                                 <FontAwesomeIcon icon={["fab", "vuejs"]} size="2x"/>
                                 <FontAwesomeIcon icon={["fab", "sass"]} size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "git-square"]} size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "github"]} size="2x"/>
                             </div>
                             <button>    
                                 <span>
@@ -79,8 +88,10 @@ export default function ProjectsCards() {
                             <h3>Portfolio</h3>
                             <h4>Création de mon portfolio</h4>
                             <div className="tech-icon">
+                                <InlineIcon icon={gatsbyIcon} width={42} color="#ee738b" />
                                 <FontAwesomeIcon icon={["fab", "react"]} size="2x"/>
                                 <FontAwesomeIcon icon={["fab", "sass"]} size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "git-square"]} size="2x"/>
                             </div>
                             <button>       
                                 <span>   
@@ -105,9 +116,9 @@ export default function ProjectsCards() {
                             <h4>Création d'un réseau social d’entreprise</h4>
                             <div className="tech-icon">
                                 <FontAwesomeIcon icon={["fab", "react"]} size="2x"/>
+                                <Icon icon={mysqlIcon} color="#ee738b" width="42" height="42"  />
                                 <FontAwesomeIcon icon={["fab", "node"]} size="2x"/>
-                                <FontAwesomeIcon icon={["fab", "bootstrap"]} size="2x"/>
-                                <FontAwesomeIcon icon={["fab", "sass"]} size="2x"/>
+                                <Icon icon={expressIcon} width="42" height="42" />
                             </div>
                             <button>  
                                 <span>        
@@ -134,6 +145,9 @@ export default function ProjectsCards() {
                             <h4>Construction d'une API sécurisée</h4>
                             <div className="tech-icon">
                                 <FontAwesomeIcon icon={["fab", "node"]} size="2x"/>
+                                <Icon icon={expressIcon} width="42" height="42"/>
+                                <Icon icon={mongodbIcon} color="#ee738b" width="36" />
+                                <FontAwesomeIcon icon={["fab", "git-square"]} size="2x"/>
                             </div>
                             <button>  
                                 <span>         
@@ -159,6 +173,8 @@ export default function ProjectsCards() {
                             <div className="tech-icon">
                                 <FontAwesomeIcon icon={["fab", "sass"]} size="2x"/>
                                 <FontAwesomeIcon icon={["fab", "js-square"]} size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "git-square"]} size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "github"]} size="2x"/>
                             </div>
                             <button>     
                                 <span>     
@@ -187,6 +203,7 @@ export default function ProjectsCards() {
                                 <FontAwesomeIcon icon={["fab", "js-square"]} size="2x"/>
                                 <FontAwesomeIcon icon={["fab", "html5"]} size="2x"/>
                                 <FontAwesomeIcon icon={["fab", "css3-alt"]} size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "git-square"]} size="2x"/>
                             </div>
                             <button>   
                                 <span>        
@@ -213,6 +230,7 @@ export default function ProjectsCards() {
                                 <FontAwesomeIcon icon={["fab", "sass"]} size="2x"/>
                                 <FontAwesomeIcon icon={["fab", "html5"]} size="2x"/>
                                 <FontAwesomeIcon icon={["fab", "css3-alt"]} size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "git-square"]} size="2x"/>
                             </div>
                             <button>  
                                 <span>         
@@ -240,6 +258,8 @@ export default function ProjectsCards() {
                             <div className="tech-icon">
                                 <FontAwesomeIcon icon={["fab", "html5"]} size="2x"/>
                                 <FontAwesomeIcon icon={["fab", "css3-alt"]} size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "git-square"]} size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "github"]} size="2x"/>
                             </div>
                             <button>   
                                 <span>        
