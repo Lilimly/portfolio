@@ -541,9 +541,9 @@ nav .header-div .hamburger {
   font-size: 0.9em;
 }
 
-.main-div #section2 .projects .projects-div .projects-items .projects-content .projects-text p {
-  font-size: 0.9em;
-  font-weight: 400;
+.main-div #section2 .projects .projects-div .projects-items .projects-content .projects-text .tech-icon svg {
+  color: #ee738b;
+  margin: 0.5em;
 }
 
 .main-div #section2 .projects .projects-div .projects-items .projects-content .projects-text button {
@@ -648,9 +648,9 @@ nav .header-div .hamburger {
   font-family: 'Comfortaa', cursive;
 }
 
-.main-div #section2 .projects .projects-div-one .projects-items .projects-content .projects-text p {
-  font-size: 0.9em;
-  font-weight: 400;
+.main-div #section2 .projects .projects-div-one .projects-items .projects-content .projects-text .tech-icon svg {
+  color: #ee738b;
+  margin: 0.5em;
 }
 
 .main-div #section2 .projects .projects-div-one .projects-items .projects-content .projects-text button {

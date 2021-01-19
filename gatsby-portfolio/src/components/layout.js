@@ -5,13 +5,18 @@ import { Link } from "react-scroll";
 import { MDXProvider } from "@mdx-js/react";
 import Header from "./header.jsx";
 import "./layout.css";
+import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-    faCat,
-    faBeer,
     faGlobeAmericas,
     faEnvelope
 } from '@fortawesome/free-solid-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+
+library.add(
+  fab, 
+  faGlobeAmericas,
+  faEnvelope)
 
 const shortcodes = { Link }
 
@@ -65,7 +70,7 @@ const Layout = ({ children }) => {
                 rel="noopener noreferrer"
                 alt="LinkedIn"
               >
-                <FontAwesomeIcon icon={faBeer} />
+                <FontAwesomeIcon icon={["fab", "linkedin"]} />
               </a>
             </button>
             <button>
@@ -75,7 +80,7 @@ const Layout = ({ children }) => {
                 rel="noopener noreferrer"
                 alt="GitHub"
               >
-                <FontAwesomeIcon icon={faCat} />
+                <FontAwesomeIcon icon={["fab", "github"]} />
               </a>
             </button>
             <button>

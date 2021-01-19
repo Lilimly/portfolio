@@ -4,7 +4,6 @@ import 'react-vertical-timeline-component/style.min.css';
 import { Link } from "react-scroll";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  faAtom,
   faCode,
   faGlobeAmericas,
   faGraduationCap,
@@ -16,7 +15,7 @@ const TimeLine = () => (
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2020 - present"
-          icon={<FontAwesomeIcon icon={faAtom} />}
+          icon={<FontAwesomeIcon icon={["fab", "react"]} />}
         >
           <h3 className="vertical-timeline-element-title">Développeuse Web Freelance</h3>
           <h4 className="vertical-timeline-element-subtitle">Paris</h4>

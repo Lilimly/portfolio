@@ -7,7 +7,7 @@ img: './articles/hearder-vav.png'
 ## Projet en cours !
 * Technologies utilisées : 
     * Vue JS
-    * Bootstrap
+    * SASS
 
 Développement d'une partie du Frontend de ce site de comparaisons de villes développé en Vue.JS.
 

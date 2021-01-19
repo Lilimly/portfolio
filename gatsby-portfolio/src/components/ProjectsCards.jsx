@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import cvImg from "../images/header-cv.png";
 import ohmyfoodImg from "../images/header-ohmyfood.png";
 import chouetteImg from "../images/header-chouette-agence.png";
@@ -9,7 +10,6 @@ import portfolioImg from "../images/header-portfolio.png";
 import groupomaniaImg from "../images/header-groupomania.png";
 import gotripicsImg from "../images/header-gotripics.png";
 import vavImg from "../images/hearder-vav.png";
-
 
 export default function ProjectsCards() {
 
@@ -27,7 +27,10 @@ export default function ProjectsCards() {
                         <div className="projects-text">
                             <h3>Villes à Vivre</h3>
                             <h4>Projet en cours !</h4>
-                            <p>Petites lignes d'introduction sur le projet.</p>
+                            <div className="tech-icon">
+                                <FontAwesomeIcon icon={["fab", "vuejs"]} size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "sass"]} size="2x"/>
+                            </div>
                             <button>    
                                 <span>
                                     <Link to="/projets/villes-a-vivre/">
@@ -49,7 +52,9 @@ export default function ProjectsCards() {
                         <div className="projects-text">
                             <h3>Gotripics</h3>
                             <h4>Création d'un blog de voyage</h4>
-                            <p>Petites lignes d'introduction sur le projet.</p>
+                            <div className="tech-icon">
+                                <FontAwesomeIcon icon={["fab", "wordpress-simple"]} size="2x"/>
+                            </div>
                             <button>   
                                 <span>        
                                     <Link to="/projets/gotripics/">
@@ -73,7 +78,10 @@ export default function ProjectsCards() {
                         <div className="projects-text">
                             <h3>Portfolio</h3>
                             <h4>Création de mon portfolio</h4>
-                            <p>Petites lignes d'introduction sur le projet.</p>
+                            <div className="tech-icon">
+                                <FontAwesomeIcon icon={["fab", "react"]} size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "sass"]} size="2x"/>
+                            </div>
                             <button>       
                                 <span>   
                                     <Link to="/projets/portfolio/">
@@ -95,7 +103,12 @@ export default function ProjectsCards() {
                         <div className="projects-text">
                             <h3>Groupomania</h3>
                             <h4>Création d'un réseau social d’entreprise</h4>
-                            <p>Petites lignes d'introduction sur le projet.</p>
+                            <div className="tech-icon">
+                                <FontAwesomeIcon icon={["fab", "react"]} size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "node"]} size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "bootstrap"]} size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "sass"]} size="2x"/>
+                            </div>
                             <button>  
                                 <span>        
                                     <Link to="/projets/groupomania/">
@@ -119,7 +132,9 @@ export default function ProjectsCards() {
                         <div className="projects-text">
                             <h3>Piquante</h3>
                             <h4>Construction d'une API sécurisée</h4>
-                            <p>Petites lignes d'introduction sur le projet.</p>
+                            <div className="tech-icon">
+                                <FontAwesomeIcon icon={["fab", "node"]} size="2x"/>
+                            </div>
                             <button>  
                                 <span>         
                                     <Link to="/projets/piquante/">
@@ -141,7 +156,10 @@ export default function ProjectsCards() {
                         <div className="projects-text">
                             <h3>Orinoco</h3>
                             <h4>Création d'un de site e-commerce</h4>
-                            <p>Petites lignes d'introduction sur le projet.</p>
+                            <div className="tech-icon">
+                                <FontAwesomeIcon icon={["fab", "sass"]} size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "js-square"]} size="2x"/>
+                            </div>
                             <button>     
                                 <span>     
                                     <Link to="/projets/orinoco/">
@@ -165,7 +183,11 @@ export default function ProjectsCards() {
                         <div className="projects-text">
                             <h3>Chouette Agence</h3>
                             <h4>Optimisation SEO</h4>
-                            <p>Petites lignes d'introduction sur le projet.</p>
+                            <div className="tech-icon">
+                                <FontAwesomeIcon icon={["fab", "js-square"]} size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "html5"]} size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "css3-alt"]} size="2x"/>
+                            </div>
                             <button>   
                                 <span>        
                                     <Link to="/projets/chouette-agence/">
@@ -187,7 +209,11 @@ export default function ProjectsCards() {
                         <div className="projects-text">
                             <h3>Ohmyfood</h3>
                             <h4>Dynamisation d'une page web</h4>
-                            <p>Petites lignes d'introduction sur le projet.</p>
+                            <div className="tech-icon">
+                                <FontAwesomeIcon icon={["fab", "sass"]} size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "html5"]} size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "css3-alt"]} size="2x"/>
+                            </div>
                             <button>  
                                 <span>         
                                     <Link to="/projets/ohmyfood/">
@@ -211,7 +237,10 @@ export default function ProjectsCards() {
                         <div className="projects-text">
                             <h3>CV</h3>
                             <h4>Intégration d'une maquette</h4>
-                            <p>Petites lignes d'introduction sur le projet.</p>
+                            <div className="tech-icon">
+                                <FontAwesomeIcon icon={["fab", "html5"]} size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "css3-alt"]} size="2x"/>
+                            </div>
                             <button>   
                                 <span>        
                                     <Link to="/projets/cv-aurelie-mlynarz/">

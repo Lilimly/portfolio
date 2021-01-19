@@ -7,7 +7,7 @@ img: './articles/header-groupomania.png'
 ## Création d'un réseau social d’entreprise
 
 * Technologies utilisées :
-    * Coté front: JavaScript / React
+    * Coté front: JavaScript / React / Bootstrap
     * Coté Back : Node.JS / Express.JS
     * Base de données : mySQL / Sequelize
 

@@ -286,9 +286,11 @@ nav {
                 font-family: 'Comfortaa', cursive;
                 font-size: 0.9em;
               }
-              p {
-                font-size: 0.9em;
-                font-weight: 400;
+              .tech-icon {
+                svg {
+                  color: $primary-color;
+                  margin: 0.5em;
+                }
               }
               button {
                 @include button;
@@ -325,9 +327,11 @@ nav {
                 color: $text-color;
                 font-family: 'Comfortaa', cursive;
               }
-              p {
-                font-size: 0.9em;
-                font-weight: 400;
+              .tech-icon {
+                svg {
+                  color: $primary-color;
+                  margin: 0.5em;
+                }
               }
               button {
                 @include button;
