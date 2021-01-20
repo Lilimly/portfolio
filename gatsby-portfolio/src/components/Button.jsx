@@ -12,9 +12,9 @@ export default function Button () {
   // Show button when page is scrolled upto given distance
   const toggleVisibility = () => {
     if (window.pageYOffset > 900) {
-      setIsVisible(true);
+        setIsVisible(true);
     } else {
-      setIsVisible(false);
+        setIsVisible(false);
     }
   };
 
@@ -23,7 +23,9 @@ export default function Button () {
   };
 
   useEffect(() => {
-    window.addEventListener("scroll", toggleVisibility);
+      window.addEventListener("scroll", toggleVisibility);
+
+    
   }, []);
 
   return (

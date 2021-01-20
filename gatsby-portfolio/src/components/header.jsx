@@ -1,5 +1,6 @@
 import React, { useState} from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
+import { Link as LinkTo } from "gatsby";
 import image from "../images/logo.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -30,14 +31,14 @@ export default function Header () {
             onClick={scrollToTop}
             onKeyDown={scrollToTop}
           /> :
-          <a href="/">
+          <LinkTo to={'/#section'}>
             <img
               src={image}
               className="logo"
               alt="Logo"
               role="presentation"
             />
-          </a>
+          </LinkTo>
         }
         <button
           className="hamburger" 
@@ -63,7 +64,9 @@ export default function Header () {
             >
               Welcome !
             </Link> :
-            <a href="/">Welcome !</a>
+            <LinkTo to={'/#section'}>
+              Welcome !
+            </LinkTo>
           }
           </li>
           <li className="nav-item">
@@ -79,7 +82,9 @@ export default function Header () {
               >
                 Parcours
               </Link> :
-              <a href="/#section1">Parcours</a>
+              <LinkTo to={'/#section1'}>
+                Parcours
+              </LinkTo>
             }
           </li>
           <li className="nav-item">
@@ -95,7 +100,9 @@ export default function Header () {
               >
                 Projets
               </Link> :
-              <a href="/#section2">Projets</a>
+              <LinkTo to={'/#section2'}>
+                Projets
+              </LinkTo>
             }
           </li>
           <li className="nav-item">
@@ -111,7 +118,9 @@ export default function Header () {
               >
                 Contact
               </Link> :
-              <a href="/#section3">Contact</a>
+              <LinkTo to={'/#section3'}>
+                Contact
+              </LinkTo>
             }
           </li>
         </ul>

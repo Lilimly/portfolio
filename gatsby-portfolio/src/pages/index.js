@@ -9,6 +9,7 @@ import image from "../images/aurelie-mlynarz-photo.jpg";
 import Button from "../components/Button.jsx";
 
 const IndexPage = () => {
+
   return (
     <Layout>
       <SEO title="Aurélie Mlynarz - Développeuse Web" />

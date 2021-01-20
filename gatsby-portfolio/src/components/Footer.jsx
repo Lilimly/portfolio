@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
+import { Link as LinkTo } from "gatsby";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
     faGlobeAmericas,
@@ -24,7 +25,9 @@ export default function Footer () {
                         >
                         www.lilicorp.com
                     </Link> :
-                    <a href="/">www.lilicorp.com</a>
+                    <LinkTo to={'/#section'}>
+                        www.lilicorp.com
+                    </LinkTo>
                 }       
             </div>
             <div className="button-div">
@@ -40,7 +43,9 @@ export default function Footer () {
                         >
                             <FontAwesomeIcon icon={faEnvelope} />
                         </Link> :
-                        <a href="/#section3" aria-label="Icone mail"><FontAwesomeIcon icon={faEnvelope} /></a>
+                        <LinkTo to={'/#section3'}>
+                            <FontAwesomeIcon icon={faEnvelope} />
+                        </LinkTo>
                     }
                 </button>
                 <button>

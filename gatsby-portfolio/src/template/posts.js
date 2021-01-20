@@ -12,7 +12,7 @@ const Posts = ({ data }) => {
 
     return (
         <Layout>
-            <SEO title={post.frontmatter.title} />
+            <SEO title={"Projet " + post.frontmatter.title} />
             <section className="project-page">
                 {
                     post.frontmatter.img && (
