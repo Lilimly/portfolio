@@ -247,7 +247,7 @@ nav .header-div .hamburger {
   color: #fcfcfc;
 }
 
-.main-div #section {
+.main-div #welcome {
   padding: 2em;
   height: 34.5em;
   background-image: url("../images/img-header.jpg");
@@ -265,7 +265,7 @@ nav .header-div .hamburger {
           justify-content: center;
 }
 
-.main-div #section .section-content {
+.main-div #welcome .section-content {
   background-color: #fcfcfc;
   width: 60%;
   height: -webkit-max-content;
@@ -276,29 +276,29 @@ nav .header-div .hamburger {
   border-radius: 5px;
 }
 
-.main-div #section .section-content h1 {
+.main-div #welcome .section-content h1 {
   font-family: 'Comfortaa', cursive;
   color: #ee738b;
   font-weight: bold;
 }
 
-.main-div #section .section-content p {
+.main-div #welcome .section-content p {
   text-align: center;
   font-weight: bold;
 }
 
-.main-div #section .section-content a {
+.main-div #welcome .section-content a {
   color: #ee738b;
   font-size: 1em;
   font-weight: bold;
 }
 
-.main-div #section .section-content a:hover {
+.main-div #welcome .section-content a:hover {
   color: #696999;
   cursor: pointer;
 }
 
-.main-div #section .section-content .button-div {
+.main-div #welcome .section-content .button-div {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -308,7 +308,7 @@ nav .header-div .hamburger {
           justify-content: center;
 }
 
-.main-div #section .section-content .button-div button {
+.main-div #welcome .section-content .button-div button {
   margin: 1em auto 1em auto;
   border: none;
   display: block;
@@ -326,17 +326,17 @@ nav .header-div .hamburger {
   padding: 17px 35px;
 }
 
-.main-div #section .section-content .button-div button span {
+.main-div #welcome .section-content .button-div button span {
   position: relative;
   z-index: 1;
   color: #fcfcfc;
 }
 
-.main-div #section .section-content .button-div button span a {
+.main-div #welcome .section-content .button-div button span a {
   color: #fcfcfc;
 }
 
-.main-div #section .section-content .button-div button:after {
+.main-div #welcome .section-content .button-div button:after {
   content: "";
   position: absolute;
   left: 0;
@@ -350,12 +350,12 @@ nav .header-div .hamburger {
   transform: translateX(-98%) translateY(-25%) rotate(45deg);
 }
 
-.main-div #section .section-content .button-div button:hover:after {
+.main-div #welcome .section-content .button-div button:hover:after {
   -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
   transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
 
-.main-div #section1 {
+.main-div #parcours {
   padding: 1.5em 1em 1em 1em;
   background-color: #fcfcfc;
   background-position: center;
@@ -364,12 +364,12 @@ nav .header-div .hamburger {
   width: 100%;
 }
 
-.main-div #section1 h1 {
+.main-div #parcours h1 {
   font-family: 'Comfortaa', cursive;
   color: #ee738b;
 }
 
-.main-div #section1 .presentation {
+.main-div #parcours .presentation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -379,7 +379,7 @@ nav .header-div .hamburger {
           flex-direction: row;
 }
 
-.main-div #section1 .presentation img {
+.main-div #parcours .presentation img {
   width: 17%;
   border-radius: 50%;
   margin: 1em;
@@ -387,47 +387,47 @@ nav .header-div .hamburger {
           box-shadow: 0 0 10px #bababa;
 }
 
-.main-div #section1 .presentation p {
+.main-div #parcours .presentation p {
   margin: auto 1em auto 1em;
 }
 
-.main-div #section1 .vertical-timeline::before {
+.main-div #parcours .vertical-timeline::before {
   background: #fac7d1;
   width: 2px;
 }
 
-.main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content {
+.main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content {
   -webkit-box-shadow: 0 0 10px #bababa;
           box-shadow: 0 0 10px #bababa;
   border: 2px solid #ee738b;
   background-color: #fcfcfc;
 }
 
-.main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content .vertical-timeline-element-content-arrow {
+.main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content .vertical-timeline-element-content-arrow {
   border-right: 7px solid #ee738b;
 }
 
-.main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content .vertical-timeline-element-title {
+.main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content .vertical-timeline-element-title {
   font-family: 'Comfortaa', cursive;
   color: #ee738b;
 }
 
-.main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content .vertical-timeline-element-subtitle {
+.main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content .vertical-timeline-element-subtitle {
   font-family: 'Comfortaa', cursive;
   color: #ee738b;
   margin-top: 0.2em;
 }
 
-.main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content p {
+.main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content p {
   color: #3a3a58;
   font-size: 0.9sem;
 }
 
-.main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content ul {
+.main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content ul {
   margin-top: 0.5em;
 }
 
-.main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline {
+.main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline {
   margin-top: 1em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -437,7 +437,7 @@ nav .header-div .hamburger {
           justify-content: center;
 }
 
-.main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline button {
+.main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline button {
   border: none;
   display: block;
   text-align: center;
@@ -455,28 +455,28 @@ nav .header-div .hamburger {
   padding: 12px 40px;
 }
 
-.main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline button span {
+.main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline button span {
   position: relative;
   z-index: 1;
   color: #ee738b;
 }
 
-.main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline button span a {
+.main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline button span a {
   color: #ee738b;
   text-decoration: none;
   position: relative;
   z-index: 1;
 }
 
-.main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline button:hover span {
+.main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline button:hover span {
   color: #fcfcfc;
 }
 
-.main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline button:hover span a {
+.main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline button:hover span a {
   color: #fcfcfc;
 }
 
-.main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline button:after {
+.main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline button:after {
   content: "";
   position: absolute;
   left: 0;
@@ -490,25 +490,25 @@ nav .header-div .hamburger {
   transform: translateX(-98%) translateY(-25%) rotate(45deg);
 }
 
-.main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline button:hover:after {
+.main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline button:hover:after {
   -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
   transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
 
-.main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-icon {
+.main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-icon {
   -webkit-box-shadow: 0 0 10px #bababa;
           box-shadow: 0 0 10px #bababa;
   border: 3px solid #fcfcfc;
   background-color: #ee738b;
 }
 
-.main-div #section1 .vertical-timeline-element--work .vertical-timeline-element-icon svg {
+.main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-icon svg {
   color: #fcfcfc;
   width: 24px;
   height: 24px;
 }
 
-.main-div #section2 {
+.main-div #projets {
   height: auto;
   background: #fcfcfc;
   padding: 1.5em 2em 3em 2em;
@@ -518,24 +518,24 @@ nav .header-div .hamburger {
   width: 100%;
 }
 
-.main-div #section2 h1 {
+.main-div #projets h1 {
   color: #ee738b;
   font-family: 'Comfortaa', cursive;
 }
 
-.main-div #section2 p {
+.main-div #projets p {
   margin-top: 2em;
   font-size: 1em;
   font-weight: bold;
   text-align: center;
 }
 
-.main-div #section2 .projects {
+.main-div #projets .projects {
   margin: 2em;
   height: auto;
 }
 
-.main-div #section2 .projects .projects-div {
+.main-div #projets .projects .projects-div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -545,47 +545,47 @@ nav .header-div .hamburger {
           flex-direction: row;
 }
 
-.main-div #section2 .projects .projects-div .projects-items {
+.main-div #projets .projects .projects-div .projects-items {
   -webkit-box-shadow: 0 0 10px #bababa;
           box-shadow: 0 0 10px #bababa;
   text-align: center;
   margin: 1em;
 }
 
-.main-div #section2 .projects .projects-div .projects-items .projects-content {
+.main-div #projets .projects .projects-div .projects-items .projects-content {
   background-color: #fcfcfc;
   border: 1px solid #ee738b;
 }
 
-.main-div #section2 .projects .projects-div .projects-items .projects-content img {
+.main-div #projets .projects .projects-div .projects-items .projects-content img {
   width: auto;
   height: auto;
 }
 
-.main-div #section2 .projects .projects-div .projects-items .projects-content .projects-text {
+.main-div #projets .projects .projects-div .projects-items .projects-content .projects-text {
   width: auto;
   margin: auto;
   padding: 0em 0.5em 0.5em 0.5em;
 }
 
-.main-div #section2 .projects .projects-div .projects-items .projects-content .projects-text h3 {
+.main-div #projets .projects .projects-div .projects-items .projects-content .projects-text h3 {
   color: #ee738b;
   font-size: 1.2em;
   font-family: 'Comfortaa', cursive;
 }
 
-.main-div #section2 .projects .projects-div .projects-items .projects-content .projects-text h4 {
+.main-div #projets .projects .projects-div .projects-items .projects-content .projects-text h4 {
   color: #3a3a58;
   font-family: 'Comfortaa', cursive;
   font-size: 0.9em;
 }
 
-.main-div #section2 .projects .projects-div .projects-items .projects-content .projects-text .tech-icon svg {
+.main-div #projets .projects .projects-div .projects-items .projects-content .projects-text .tech-icon svg {
   color: #ee738b;
   margin: 0.5em;
 }
 
-.main-div #section2 .projects .projects-div .projects-items .projects-content .projects-text button {
+.main-div #projets .projects .projects-div .projects-items .projects-content .projects-text button {
   border: none;
   display: block;
   text-align: center;
@@ -603,28 +603,28 @@ nav .header-div .hamburger {
   padding: 12px 40px;
 }
 
-.main-div #section2 .projects .projects-div .projects-items .projects-content .projects-text button span {
+.main-div #projets .projects .projects-div .projects-items .projects-content .projects-text button span {
   position: relative;
   z-index: 1;
   color: #ee738b;
 }
 
-.main-div #section2 .projects .projects-div .projects-items .projects-content .projects-text button span a {
+.main-div #projets .projects .projects-div .projects-items .projects-content .projects-text button span a {
   color: #ee738b;
   text-decoration: none;
   position: relative;
   z-index: 1;
 }
 
-.main-div #section2 .projects .projects-div .projects-items .projects-content .projects-text button:hover span {
+.main-div #projets .projects .projects-div .projects-items .projects-content .projects-text button:hover span {
   color: #fcfcfc;
 }
 
-.main-div #section2 .projects .projects-div .projects-items .projects-content .projects-text button:hover span a {
+.main-div #projets .projects .projects-div .projects-items .projects-content .projects-text button:hover span a {
   color: #fcfcfc;
 }
 
-.main-div #section2 .projects .projects-div .projects-items .projects-content .projects-text button:after {
+.main-div #projets .projects .projects-div .projects-items .projects-content .projects-text button:after {
   content: "";
   position: absolute;
   left: 0;
@@ -638,12 +638,12 @@ nav .header-div .hamburger {
   transform: translateX(-98%) translateY(-25%) rotate(45deg);
 }
 
-.main-div #section2 .projects .projects-div .projects-items .projects-content .projects-text button:hover:after {
+.main-div #projets .projects .projects-div .projects-items .projects-content .projects-text button:hover:after {
   -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
   transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
 
-.main-div #section2 .projects .projects-div-one {
+.main-div #projets .projects .projects-div-one {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -653,46 +653,46 @@ nav .header-div .hamburger {
           flex-direction: row;
 }
 
-.main-div #section2 .projects .projects-div-one .projects-items {
+.main-div #projets .projects .projects-div-one .projects-items {
   width: 46.5%;
   text-align: center;
   margin: 1em;
 }
 
-.main-div #section2 .projects .projects-div-one .projects-items .projects-content {
+.main-div #projets .projects .projects-div-one .projects-items .projects-content {
   background-color: #fcfcfc;
   border: 1px solid #ee738b;
   -webkit-box-shadow: 0 0 10px #bababa;
           box-shadow: 0 0 10px #bababa;
 }
 
-.main-div #section2 .projects .projects-div-one .projects-items .projects-content img {
+.main-div #projets .projects .projects-div-one .projects-items .projects-content img {
   width: auto;
   height: auto;
 }
 
-.main-div #section2 .projects .projects-div-one .projects-items .projects-content .projects-text {
+.main-div #projets .projects .projects-div-one .projects-items .projects-content .projects-text {
   width: auto;
   margin: auto;
   padding: 0.5em;
 }
 
-.main-div #section2 .projects .projects-div-one .projects-items .projects-content .projects-text h3 {
+.main-div #projets .projects .projects-div-one .projects-items .projects-content .projects-text h3 {
   color: #ee738b;
   font-family: 'Comfortaa', cursive;
 }
 
-.main-div #section2 .projects .projects-div-one .projects-items .projects-content .projects-text h4 {
+.main-div #projets .projects .projects-div-one .projects-items .projects-content .projects-text h4 {
   color: #3a3a58;
   font-family: 'Comfortaa', cursive;
 }
 
-.main-div #section2 .projects .projects-div-one .projects-items .projects-content .projects-text .tech-icon svg {
+.main-div #projets .projects .projects-div-one .projects-items .projects-content .projects-text .tech-icon svg {
   color: #ee738b;
   margin: 0.5em;
 }
 
-.main-div #section2 .projects .projects-div-one .projects-items .projects-content .projects-text button {
+.main-div #projets .projects .projects-div-one .projects-items .projects-content .projects-text button {
   border: none;
   display: block;
   text-align: center;
@@ -710,28 +710,28 @@ nav .header-div .hamburger {
   padding: 12px 40px;
 }
 
-.main-div #section2 .projects .projects-div-one .projects-items .projects-content .projects-text button span {
+.main-div #projets .projects .projects-div-one .projects-items .projects-content .projects-text button span {
   position: relative;
   z-index: 1;
   color: #ee738b;
 }
 
-.main-div #section2 .projects .projects-div-one .projects-items .projects-content .projects-text button span a {
+.main-div #projets .projects .projects-div-one .projects-items .projects-content .projects-text button span a {
   color: #ee738b;
   text-decoration: none;
   position: relative;
   z-index: 1;
 }
 
-.main-div #section2 .projects .projects-div-one .projects-items .projects-content .projects-text button:hover span {
+.main-div #projets .projects .projects-div-one .projects-items .projects-content .projects-text button:hover span {
   color: #fcfcfc;
 }
 
-.main-div #section2 .projects .projects-div-one .projects-items .projects-content .projects-text button:hover span a {
+.main-div #projets .projects .projects-div-one .projects-items .projects-content .projects-text button:hover span a {
   color: #fcfcfc;
 }
 
-.main-div #section2 .projects .projects-div-one .projects-items .projects-content .projects-text button:after {
+.main-div #projets .projects .projects-div-one .projects-items .projects-content .projects-text button:after {
   content: "";
   position: absolute;
   left: 0;
@@ -745,12 +745,12 @@ nav .header-div .hamburger {
   transform: translateX(-98%) translateY(-25%) rotate(45deg);
 }
 
-.main-div #section2 .projects .projects-div-one .projects-items .projects-content .projects-text button:hover:after {
+.main-div #projets .projects .projects-div-one .projects-items .projects-content .projects-text button:hover:after {
   -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
   transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
 
-.main-div #section3 {
+.main-div #contact {
   padding: 1.5em 0em 1em 0em;
   background-image: url("../images/laptop-desk.jpg");
   background-color: #fcfcfc;
@@ -761,17 +761,17 @@ nav .header-div .hamburger {
   width: 100%;
 }
 
-.main-div #section3 h1 {
+.main-div #contact h1 {
   color: #ee738b;
   font-family: 'Comfortaa', cursive;
 }
 
-.main-div #section3 p {
+.main-div #contact p {
   text-align: center;
   font-weight: bold;
 }
 
-.main-div #section3 .button-top {
+.main-div #contact .button-top {
   position: fixed;
   bottom: 0.7rem;
   right: 0.7rem;
@@ -779,7 +779,7 @@ nav .header-div .hamburger {
           animation: fadeIn 700ms ease-in-out 1s both;
 }
 
-.main-div #section3 .button-top .btn {
+.main-div #contact .button-top .btn {
   cursor: pointer;
   padding: 10px 10px 5px 10px;
   border-radius: 50%;
@@ -791,13 +791,13 @@ nav .header-div .hamburger {
           transform: scale(1);
 }
 
-.main-div #section3 .button-top .btn svg {
+.main-div #contact .button-top .btn svg {
   color: #ee738b;
   -webkit-transform: scale(1);
           transform: scale(1);
 }
 
-.main-div #section3 .button-top .btn:hover {
+.main-div #contact .button-top .btn:hover {
   -webkit-transition: -webkit-transform 300ms ease-in-out;
   transition: -webkit-transform 300ms ease-in-out;
   transition: transform 300ms ease-in-out;
@@ -807,15 +807,15 @@ nav .header-div .hamburger {
   background-color: #ee738b;
 }
 
-.main-div #section3 .button-top .btn:hover svg {
+.main-div #contact .button-top .btn:hover svg {
   color: #fcfcfc;
 }
 
-.main-div #section3 .the-form {
+.main-div #contact .the-form {
   padding: 0.5em;
 }
 
-.main-div #section3 .the-form .big-form {
+.main-div #contact .the-form .big-form {
   margin: 1em auto auto auto;
   border: 2px solid #ee738b;
   -webkit-box-shadow: 0 0 10px #fac7d1;
@@ -825,7 +825,7 @@ nav .header-div .hamburger {
   width: 50%;
 }
 
-.main-div #section3 .the-form .big-form form {
+.main-div #contact .the-form .big-form form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -838,7 +838,7 @@ nav .header-div .hamburger {
           flex-direction: column;
 }
 
-.main-div #section3 .the-form .big-form form .form-div {
+.main-div #contact .the-form .big-form form .form-div {
   padding: 1em 1em 0.5em 1em;
   width: 100%;
   display: -webkit-box;
@@ -850,7 +850,7 @@ nav .header-div .hamburger {
           flex-direction: column;
 }
 
-.main-div #section3 .the-form .big-form form .form-div label {
+.main-div #contact .the-form .big-form form .form-div label {
   font-size: 0.9em;
   font-weight: bold;
   margin: 0.5em;
@@ -864,7 +864,7 @@ nav .header-div .hamburger {
           flex-direction: column;
 }
 
-.main-div #section3 .the-form .big-form form .form-div label input {
+.main-div #contact .the-form .big-form form .form-div label input {
   margin-top: 0.5em;
   border: 1px solid #ee738b;
   border-radius: 2px;
@@ -872,13 +872,13 @@ nav .header-div .hamburger {
   padding: 0.5em;
 }
 
-.main-div #section3 .the-form .big-form form .form-div label input:hover {
+.main-div #contact .the-form .big-form form .form-div label input:hover {
   border: 1.5px solid #ee738b;
   -webkit-box-shadow: 0 0 10px #fac7d1;
           box-shadow: 0 0 10px #fac7d1;
 }
 
-.main-div #section3 .the-form .big-form form .form-div label textarea {
+.main-div #contact .the-form .big-form form .form-div label textarea {
   margin-top: 0.5em;
   border: 1px solid #ee738b;
   border-radius: 5px;
@@ -886,13 +886,13 @@ nav .header-div .hamburger {
   padding: 0.5em;
 }
 
-.main-div #section3 .the-form .big-form form .form-div label textarea:hover {
+.main-div #contact .the-form .big-form form .form-div label textarea:hover {
   border: 1.5px solid #ee738b;
   -webkit-box-shadow: 0 0 10px #fac7d1;
           box-shadow: 0 0 10px #fac7d1;
 }
 
-.main-div #section3 .the-form .big-form form .button-div {
+.main-div #contact .the-form .big-form form .button-div {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -902,7 +902,7 @@ nav .header-div .hamburger {
           justify-content: center;
 }
 
-.main-div #section3 .the-form .big-form form .button-div button {
+.main-div #contact .the-form .big-form form .button-div button {
   margin: 0em auto 1em auto;
   border: none;
   display: block;
@@ -920,17 +920,17 @@ nav .header-div .hamburger {
   padding: 13px 50px;
 }
 
-.main-div #section3 .the-form .big-form form .button-div button span {
+.main-div #contact .the-form .big-form form .button-div button span {
   position: relative;
   z-index: 1;
   color: #fcfcfc;
 }
 
-.main-div #section3 .the-form .big-form form .button-div button span a {
+.main-div #contact .the-form .big-form form .button-div button span a {
   color: #fcfcfc;
 }
 
-.main-div #section3 .the-form .big-form form .button-div button:after {
+.main-div #contact .the-form .big-form form .button-div button:after {
   content: "";
   position: absolute;
   left: 0;
@@ -944,12 +944,12 @@ nav .header-div .hamburger {
   transform: translateX(-98%) translateY(-25%) rotate(45deg);
 }
 
-.main-div #section3 .the-form .big-form form .button-div button:hover:after {
+.main-div #contact .the-form .big-form form .button-div button:hover:after {
   -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
   transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
 
-.main-div #section3 .the-form .big-form form .modal-div {
+.main-div #contact .the-form .big-form form .modal-div {
   position: fixed;
   top: 0;
   left: 0;
@@ -959,7 +959,7 @@ nav .header-div .hamburger {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-.main-div #section3 .the-form .big-form form .modal-div .modal-wrapper {
+.main-div #contact .the-form .big-form form .modal-div .modal-wrapper {
   position: fixed;
   top: 0;
   left: 0;
@@ -977,7 +977,7 @@ nav .header-div .hamburger {
           align-items: center;
 }
 
-.main-div #section3 .the-form .big-form form .modal-div .modal-wrapper .modal {
+.main-div #contact .the-form .big-form form .modal-div .modal-wrapper .modal {
   z-index: 100;
   background: #fff;
   border: 4px solid #ee738b;
@@ -989,11 +989,11 @@ nav .header-div .hamburger {
   padding: 3em;
 }
 
-.main-div #section3 .the-form .big-form form .modal-div .modal-wrapper .modal p {
+.main-div #contact .the-form .big-form form .modal-div .modal-wrapper .modal p {
   color: #ee738b;
 }
 
-.main-div #section3 .the-form .big-form form .modal-div .modal-wrapper .modal button {
+.main-div #contact .the-form .big-form form .modal-div .modal-wrapper .modal button {
   border: none;
   display: block;
   text-align: center;
@@ -1010,28 +1010,28 @@ nav .header-div .hamburger {
   margin: 2em;
 }
 
-.main-div #section3 .the-form .big-form form .modal-div .modal-wrapper .modal button span {
+.main-div #contact .the-form .big-form form .modal-div .modal-wrapper .modal button span {
   position: relative;
   z-index: 1;
   color: #ee738b;
 }
 
-.main-div #section3 .the-form .big-form form .modal-div .modal-wrapper .modal button span a {
+.main-div #contact .the-form .big-form form .modal-div .modal-wrapper .modal button span a {
   color: #ee738b;
   text-decoration: none;
   position: relative;
   z-index: 1;
 }
 
-.main-div #section3 .the-form .big-form form .modal-div .modal-wrapper .modal button:hover span {
+.main-div #contact .the-form .big-form form .modal-div .modal-wrapper .modal button:hover span {
   color: #fcfcfc;
 }
 
-.main-div #section3 .the-form .big-form form .modal-div .modal-wrapper .modal button:hover span a {
+.main-div #contact .the-form .big-form form .modal-div .modal-wrapper .modal button:hover span a {
   color: #fcfcfc;
 }
 
-.main-div #section3 .the-form .big-form form .modal-div .modal-wrapper .modal button:after {
+.main-div #contact .the-form .big-form form .modal-div .modal-wrapper .modal button:after {
   content: "";
   position: absolute;
   left: 0;
@@ -1045,7 +1045,7 @@ nav .header-div .hamburger {
   transform: translateX(-98%) translateY(-25%) rotate(45deg);
 }
 
-.main-div #section3 .the-form .big-form form .modal-div .modal-wrapper .modal button:hover:after {
+.main-div #contact .the-form .big-form form .modal-div .modal-wrapper .modal button:hover:after {
   -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
   transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
@@ -1202,10 +1202,10 @@ nav .header-div .hamburger {
   nav .header-div .nav-menu.active .nav-item:hover .active {
     color: #fcfcfc;
   }
-  .main-div #section .section-content {
+  .main-div #welcome .section-content {
     width: 90%;
   }
-  .main-div #section .section-content .button-div {
+  .main-div #welcome .section-content .button-div {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1214,7 +1214,7 @@ nav .header-div .hamburger {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .main-div #section .section-content .button-div button {
+  .main-div #welcome .section-content .button-div button {
     margin: 1em auto 1em auto;
     border: none;
     display: block;
@@ -1231,15 +1231,15 @@ nav .header-div .hamburger {
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     padding: 15px 30px;
   }
-  .main-div #section .section-content .button-div button span {
+  .main-div #welcome .section-content .button-div button span {
     position: relative;
     z-index: 1;
     color: #fcfcfc;
   }
-  .main-div #section .section-content .button-div button span a {
+  .main-div #welcome .section-content .button-div button span a {
     color: #fcfcfc;
   }
-  .main-div #section .section-content .button-div button:after {
+  .main-div #welcome .section-content .button-div button:after {
     content: "";
     position: absolute;
     left: 0;
@@ -1252,14 +1252,14 @@ nav .header-div .hamburger {
     -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
     transform: translateX(-98%) translateY(-25%) rotate(45deg);
   }
-  .main-div #section .section-content .button-div button:hover:after {
+  .main-div #welcome .section-content .button-div button:hover:after {
     -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
     transform: translateX(-9%) translateY(-25%) rotate(45deg);
   }
-  .main-div #section1 {
+  .main-div #parcours {
     padding: 1.5em 1em 1em 1em;
   }
-  .main-div #section1 .presentation {
+  .main-div #parcours .presentation {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1268,36 +1268,36 @@ nav .header-div .hamburger {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .main-div #section1 .presentation img {
+  .main-div #parcours .presentation img {
     width: 40%;
     margin: 1em auto 1em auto;
   }
-  .main-div #section1 .presentation p {
+  .main-div #parcours .presentation p {
     font-size: 0.8em;
     margin: 1em auto 1em auto;
   }
-  .main-div #section1 h3 {
+  .main-div #parcours h3 {
     font-size: 1.1em;
   }
-  .main-div #section1 h4 {
+  .main-div #parcours h4 {
     font-size: 0.9em;
   }
-  .main-div #section1 p {
+  .main-div #parcours p {
     font-size: 0.8em;
   }
-  .main-div #section1 ul li {
+  .main-div #parcours ul li {
     font-size: 0.8em;
   }
-  .main-div #section1 .button-timeline button {
+  .main-div #parcours .button-timeline button {
     font-size: 0.8em;
   }
-  .main-div #section2 {
+  .main-div #projets {
     padding: 1.5em 0.5em 1em 0.5em;
   }
-  .main-div #section2 .projects {
+  .main-div #projets .projects {
     margin: 0.2em;
   }
-  .main-div #section2 .projects .projects-div {
+  .main-div #projets .projects .projects-div {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1306,16 +1306,16 @@ nav .header-div .hamburger {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .main-div #section2 .projects .projects-div-one .projects-items {
+  .main-div #projets .projects .projects-div-one .projects-items {
     width: 100%;
   }
-  .main-div #section3 h1 {
+  .main-div #contact h1 {
     padding-top: 1em;
   }
-  .main-div #section3 p {
+  .main-div #contact p {
     padding: 0.2em 1em 0em 1em;
   }
-  .main-div #section3 .the-form .big-form {
+  .main-div #contact .the-form .big-form {
     width: 70%;
   }
 }
@@ -1402,13 +1402,13 @@ nav .header-div .hamburger {
   nav .header-div .nav-menu.active .nav-item:hover .active {
     color: #fcfcfc;
   }
-  .main-div #section .section-content {
+  .main-div #welcome .section-content {
     width: 80%;
   }
-  .main-div #section1 {
+  .main-div #parcours {
     padding: 1.5em 1em 1em 1em;
   }
-  .main-div #section1 .presentation {
+  .main-div #parcours .presentation {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1417,24 +1417,24 @@ nav .header-div .hamburger {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .main-div #section1 .presentation img {
+  .main-div #parcours .presentation img {
     width: 35%;
     margin: 1em auto 1em auto;
   }
-  .main-div #section1 .presentation p {
+  .main-div #parcours .presentation p {
     font-size: 1em;
     margin: 1em auto 1em auto;
   }
-  .main-div #section1 p {
+  .main-div #parcours p {
     font-size: 1em;
   }
-  .main-div #section2 {
+  .main-div #projets {
     padding: 1.5em 0.5em 1em 0.5em;
   }
-  .main-div #section2 .projects {
+  .main-div #projets .projects {
     margin: 0.2em;
   }
-  .main-div #section2 .projects .projects-div {
+  .main-div #projets .projects .projects-div {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1443,25 +1443,25 @@ nav .header-div .hamburger {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .main-div #section2 .projects .projects-div-one .projects-items {
+  .main-div #projets .projects .projects-div-one .projects-items {
     width: 100%;
   }
-  .main-div #section3 h1 {
+  .main-div #contact h1 {
     padding-top: 1em;
   }
-  .main-div #section3 p {
+  .main-div #contact p {
     padding: 0.2em 1em 0em 1em;
   }
-  .main-div #section3 .the-form .big-form {
+  .main-div #contact .the-form .big-form {
     width: 70%;
   }
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 780px) {
-  .main-div #section .section-content {
+  .main-div #welcome .section-content {
     width: 70%;
   }
-  .main-div #section1 .presentation {
+  .main-div #parcours .presentation {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1470,29 +1470,29 @@ nav .header-div .hamburger {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .main-div #section1 .presentation img {
+  .main-div #parcours .presentation img {
     width: 30%;
     margin: 1em auto 1em auto;
   }
-  .main-div #section1 .presentation p {
+  .main-div #parcours .presentation p {
     margin: 1em auto 1em auto;
   }
-  .main-div #section2 {
+  .main-div #projets {
     padding: 1.5em 0.5em 1em 0.5em;
   }
-  .main-div #section2 .projects {
+  .main-div #projets .projects {
     margin: 0em;
   }
-  .main-div #section2 .projects .projects-div-one .projects-items {
+  .main-div #projets .projects .projects-div-one .projects-items {
     width: 45%;
   }
-  .main-div #section3 h1 {
+  .main-div #contact h1 {
     padding-top: 1em;
   }
-  .main-div #section3 p {
+  .main-div #contact p {
     padding: 0.2em 1em 0em 1em;
   }
-  .main-div #section3 .the-form .big-form {
+  .main-div #contact .the-form .big-form {
     width: 70%;
   }
 }

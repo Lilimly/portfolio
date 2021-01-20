@@ -31,7 +31,7 @@ export default function Header () {
             onClick={scrollToTop}
             onKeyDown={scrollToTop}
           /> :
-          <LinkTo to={'/#section'}>
+          <LinkTo to={'/#welcome'}>
             <img
               src={image}
               className="logo"
@@ -56,7 +56,7 @@ export default function Header () {
             <Link
               activeClass="active"
               onClick={closeMobileMenu}
-              to="section"
+              to="welcome"
               spy={true}
               smooth={true}
               offset={-80}
@@ -64,7 +64,7 @@ export default function Header () {
             >
               Welcome !
             </Link> :
-            <LinkTo to={'/#section'}>
+            <LinkTo to={'/#welcome'}>
               Welcome !
             </LinkTo>
           }
@@ -74,7 +74,7 @@ export default function Header () {
               <Link
                 activeClass="active"
                 onClick={closeMobileMenu}
-                to="section1"
+                to="parcours"
                 spy={true}
                 smooth={true}
                 offset={-80}
@@ -82,7 +82,7 @@ export default function Header () {
               >
                 Parcours
               </Link> :
-              <LinkTo to={'/#section1'}>
+              <LinkTo to={'/#parcours'}>
                 Parcours
               </LinkTo>
             }
@@ -92,7 +92,7 @@ export default function Header () {
               <Link
                 activeClass="active"
                 onClick={closeMobileMenu}
-                to="section2"
+                to="projets"
                 spy={true}
                 smooth={true}
                 offset={-80}
@@ -100,7 +100,7 @@ export default function Header () {
               >
                 Projets
               </Link> :
-              <LinkTo to={'/#section2'}>
+              <LinkTo to={'/#projets'}>
                 Projets
               </LinkTo>
             }
@@ -110,7 +110,7 @@ export default function Header () {
               <Link
                 activeClass="active"
                 onClick={closeMobileMenu}
-                to="section3"
+                to="contact"
                 spy={true}
                 smooth={true}
                 offset={-80}
@@ -118,7 +118,7 @@ export default function Header () {
               >
                 Contact
               </Link> :
-              <LinkTo to={'/#section3'}>
+              <LinkTo to={'/#contact'}>
                 Contact
               </LinkTo>
             }

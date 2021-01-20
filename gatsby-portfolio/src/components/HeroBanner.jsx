@@ -8,7 +8,7 @@ const HeroBanner = () => (
       <p>Mon but : vous aider à créer votre site web moderne et responsive.</p>
       <p>Pour en savoir plus, consultez {" "}
         <Link
-          to="section1"
+          to="parcours"
           spy={true}
           smooth={true}
           offset={-80}
@@ -18,7 +18,7 @@ const HeroBanner = () => (
         </Link> 
         {" "} et {" "}
         <Link
-            to="section2"
+            to="projets"
             spy={true}
             smooth={true}
             offset={-80}
@@ -32,7 +32,7 @@ const HeroBanner = () => (
         <button> 
           <span>          
             <Link
-              to="section3"
+              to="contact"
               spy={true}
               smooth={true}
               offset={-80}

@@ -36,7 +36,7 @@ const TimeLine = () => (
               <button>  
                 <span>         
                   <Link
-                    to="section2"
+                    to="projets"
                     spy={true}
                     smooth={true}
                     offset={-80}
@@ -72,7 +72,7 @@ const TimeLine = () => (
               <button>   
                 <span>        
                   <Link
-                    to="section2"
+                    to="projets"
                     spy={true}
                     smooth={true}
                     offset={-80}

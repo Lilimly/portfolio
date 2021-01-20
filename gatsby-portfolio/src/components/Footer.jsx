@@ -17,7 +17,7 @@ export default function Footer () {
                 {`  `}
                 {location === "/" ?
                     <Link
-                        to="section"
+                        to="welcome"
                         spy={true}
                         smooth={true}
                         offset={-80}
@@ -25,7 +25,7 @@ export default function Footer () {
                         >
                         www.lilicorp.com
                     </Link> :
-                    <LinkTo to={'/#section'}>
+                    <LinkTo to={'/#welcome'}>
                         www.lilicorp.com
                     </LinkTo>
                 }       
@@ -35,7 +35,7 @@ export default function Footer () {
                 <button>
                     {location === "/" ?    
                         <Link
-                            to="section3"
+                            to="contact"
                             spy={true}
                             smooth={true}
                             offset={-80}
@@ -43,7 +43,7 @@ export default function Footer () {
                         >
                             <FontAwesomeIcon icon={faEnvelope} />
                         </Link> :
-                        <LinkTo to={'/#section3'}>
+                        <LinkTo to={'/#contact'}>
                             <FontAwesomeIcon icon={faEnvelope} />
                         </LinkTo>
                     }

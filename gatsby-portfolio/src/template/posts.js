@@ -27,8 +27,8 @@ const Posts = ({ data }) => {
                     <MDXRenderer>{post.body}</MDXRenderer>
                     <button>
                         <span>
-                            <Link to={'/#section2'}>
-                                Retour à l'accueil
+                            <Link to={'/#projets'}>
+                                Retour aux projets
                             </Link>
                         </span>
                     </button>
