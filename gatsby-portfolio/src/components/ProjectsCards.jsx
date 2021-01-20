@@ -6,8 +6,6 @@ import gatsbyIcon from '@iconify/icons-cib/gatsby';
 import mysqlIcon from '@iconify/icons-cib/mysql';
 import mongodbIcon from '@iconify/icons-cib/mongodb';
 import expressIcon from '@iconify/icons-logos/express';
-
-
 import cvImg from "../images/header-cv.png";
 import ohmyfoodImg from "../images/header-ohmyfood.png";
 import chouetteImg from "../images/header-chouette-agence.png";
@@ -18,10 +16,11 @@ import groupomaniaImg from "../images/header-groupomania.png";
 import gotripicsImg from "../images/header-gotripics.png";
 import vavImg from "../images/hearder-vav.png";
 
-export default function ProjectsCards() {
+export default function ProjectsCards() {  
 
     return (
         <>
+        
             <div className="projects-div">
                 <div className="projects-items">
                     <div className="projects-content">

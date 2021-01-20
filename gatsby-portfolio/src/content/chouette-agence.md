@@ -26,5 +26,5 @@ Pour l'ensemble de ce projet j'ai utilisé le **logiciel de versionning Git**. L
 Vous pouvez le comparer le [site avant optimisation](https://lilimly.github.io/la_chouette_agence_start/) et [site après optimisation](https://lilimly.github.io/la_chouette_agence/)
 
 * Retrouvez le **code source** des deux étapes de ce projet sur mon espace GitHub :  
- * [Code existant avant optimisation](https://github.com/Lilimly/la_chouette_agence_start)
- * [Code aprés optimisation](https://github.com/Lilimly/la_chouette_agence)
+    * [Code existant avant optimisation](https://github.com/Lilimly/la_chouette_agence_start)
+    * [Code aprés optimisation](https://github.com/Lilimly/la_chouette_agence)

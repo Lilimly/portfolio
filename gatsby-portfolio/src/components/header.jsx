@@ -75,7 +75,7 @@ export default function Navbar () {
               offset={-80}
               duration={500}
             >
-              Projets <i className='fas fa-caret-down' />
+              Projets
             </Link>
           </li>
           <li className="nav-item">
