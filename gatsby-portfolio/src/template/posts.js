@@ -1,5 +1,6 @@
 import React from "react";
-import { graphql, Link } from "gatsby";
+import { graphql } from "gatsby";
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 import Img from "gatsby-image";
 import Button from "../components/Button.jsx";
 import { MDXRenderer } from "gatsby-plugin-mdx";
@@ -27,9 +28,9 @@ const Posts = ({ data }) => {
                     <MDXRenderer>{post.body}</MDXRenderer>
                     <button>
                         <span>
-                            <Link to={'/#projets'}>
+                            <AnchorLink to="/#projets" title="Retour aux projets">
                                 Retour aux projets
-                            </Link>
+                            </AnchorLink>
                         </span>
                     </button>
                 </div>

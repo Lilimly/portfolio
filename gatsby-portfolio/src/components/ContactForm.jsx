@@ -99,6 +99,7 @@ class ContactForm extends React.PureComponent {
                         <label>
                             Nom
                             <input 
+                                title="Votre nom"
                                 type="text" 
                                 name="name"
                                 placeholder="Votre nom" 
@@ -110,6 +111,7 @@ class ContactForm extends React.PureComponent {
                         <label>
                             Email
                             <input 
+                                title="Votre adresse mail" 
                                 type="email" 
                                 name="email" 
                                 placeholder="Votre adresse mail" 
@@ -121,6 +123,7 @@ class ContactForm extends React.PureComponent {
                         <label>
                             Sujet
                             <input 
+                                title="Sujet de votre mail" 
                                 type="text" 
                                 name="subject" 
                                 placeholder="Sujet du message" 
@@ -131,7 +134,8 @@ class ContactForm extends React.PureComponent {
                         </label>
                         <label>
                             Votre message
-                            <textarea         
+                            <textarea 
+                                title="Votre message"        
                                 name="message" 
                                 placeholder="Votre message" 
                                 id="message" 
@@ -144,7 +148,7 @@ class ContactForm extends React.PureComponent {
                         
                     </div>
                     <div className="button-div">
-                        <button type="submit">
+                        <button type="submit" title="Envoyer le mail !">
                             <span>
                                 Envoyer !
                             </span>
@@ -156,7 +160,7 @@ class ContactForm extends React.PureComponent {
                                 <div className="modal">
                                         <p>{this.state.feedbackMsg}</p>
                                         <div className="button-div">
-                                            <button onClick={this.handleClick}>
+                                            <button onClick={this.handleClick} title="Retour au site">
                                                 Retour au site
                                             </button>
                                         </div>

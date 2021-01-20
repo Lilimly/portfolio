@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
-import { Link as LinkTo } from "gatsby";
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
     faGlobeAmericas,
@@ -17,6 +17,7 @@ export default function Footer () {
                 {`  `}
                 {location === "/" ?
                     <Link
+                        title="Page d'accueil"
                         to="welcome"
                         spy={true}
                         smooth={true}
@@ -25,9 +26,9 @@ export default function Footer () {
                         >
                         www.lilicorp.com
                     </Link> :
-                    <LinkTo to={'/#welcome'}>
+                    <AnchorLink to="/#welcome" title="Page d'accueil">
                         www.lilicorp.com
-                    </LinkTo>
+                    </AnchorLink>
                 }       
             </div>
             <div className="button-div">
@@ -35,6 +36,7 @@ export default function Footer () {
                 <button>
                     {location === "/" ?    
                         <Link
+                            title="Me contacter"
                             to="contact"
                             spy={true}
                             smooth={true}
@@ -43,39 +45,42 @@ export default function Footer () {
                         >
                             <FontAwesomeIcon icon={faEnvelope} />
                         </Link> :
-                        <LinkTo to={'/#contact'}>
+                        <AnchorLink to="/#contact" title="Me contacter">
                             <FontAwesomeIcon icon={faEnvelope} />
-                        </LinkTo>
+                        </AnchorLink>
                     }
                 </button>
                 <button>
                     <a 
-                    href={"https://www.linkedin.com/in/aurelie-mlynarz-1899421a1/"}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    alt="LinkedIn"
+                        href={"https://www.linkedin.com/in/aurelie-mlynarz-1899421a1/"}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        alt="LinkedIn"
+                        title="LinkedIn"
                     >
-                    <FontAwesomeIcon icon={["fab", "linkedin"]} />
+                        <FontAwesomeIcon icon={["fab", "linkedin"]} />
                     </a>
                 </button>
                 <button>
                     <a 
-                    href={"https://github.com/Lilimly"}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    alt="GitHub"
+                        href={"https://github.com/Lilimly"}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        alt="GitHub"
+                        title="GitHub"
                     >
-                    <FontAwesomeIcon icon={["fab", "github"]} />
+                        <FontAwesomeIcon icon={["fab", "github"]} />
                     </a>
                 </button>
                 <button>
                     <a 
-                    href={"https://www.gotripics.com/"}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    alt="Gotripics"
+                        href={"https://www.gotripics.com/"}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        alt="Gotripics"
+                        title="Gotripics"
                     >
-                    <FontAwesomeIcon icon={faGlobeAmericas} />
+                        <FontAwesomeIcon icon={faGlobeAmericas} />
                     </a>
                 </button>
             </div>

@@ -33,6 +33,7 @@ export default function Button () {
       {
         isVisible && 
         <button
+          title="Go to top !"
           className="btn"
           alt="button"
           onClick={scrollToTop}

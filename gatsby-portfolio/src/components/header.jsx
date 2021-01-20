@@ -1,6 +1,6 @@
 import React, { useState} from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
-import { Link as LinkTo } from "gatsby";
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 import image from "../images/logo.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -24,6 +24,7 @@ export default function Header () {
       <div className="header-div">
         {location === "/" ?
           <img
+            title="Logo Aurélie Mlynarz"
             src={image}
             className="logo"
             alt="Logo"
@@ -31,14 +32,14 @@ export default function Header () {
             onClick={scrollToTop}
             onKeyDown={scrollToTop}
           /> :
-          <LinkTo to={'/#welcome'}>
+          <AnchorLink to="/#welcome" title="Logo Aurélie Mlynarz">
             <img
               src={image}
               className="logo"
               alt="Logo"
               role="presentation"
             />
-          </LinkTo>
+          </AnchorLink>
         }
         <button
           className="hamburger" 
@@ -54,6 +55,7 @@ export default function Header () {
         <li className="nav-item">
           {location === "/" ?
             <Link
+              title="Welcome"
               activeClass="active"
               onClick={closeMobileMenu}
               to="welcome"
@@ -64,14 +66,15 @@ export default function Header () {
             >
               Welcome !
             </Link> :
-            <LinkTo to={'/#welcome'}>
+            <AnchorLink to="/#welcome" title="Welcome">
               Welcome !
-            </LinkTo>
+            </AnchorLink>
           }
           </li>
           <li className="nav-item">
             {location === "/" ?
               <Link
+                title="Parcours"
                 activeClass="active"
                 onClick={closeMobileMenu}
                 to="parcours"
@@ -82,14 +85,15 @@ export default function Header () {
               >
                 Parcours
               </Link> :
-              <LinkTo to={'/#parcours'}>
+              <AnchorLink to="/#parcours" title="Parcours">
                 Parcours
-              </LinkTo>
+              </AnchorLink>
             }
           </li>
           <li className="nav-item">
             {location === "/" ?
               <Link
+              title="Projets"
                 activeClass="active"
                 onClick={closeMobileMenu}
                 to="projets"
@@ -100,14 +104,15 @@ export default function Header () {
               >
                 Projets
               </Link> :
-              <LinkTo to={'/#projets'}>
+              <AnchorLink to="/#projets" title="Projets">
                 Projets
-              </LinkTo>
+              </AnchorLink>
             }
           </li>
           <li className="nav-item">
             {location === "/" ?
               <Link
+                title="contact"
                 activeClass="active"
                 onClick={closeMobileMenu}
                 to="contact"
@@ -118,9 +123,9 @@ export default function Header () {
               >
                 Contact
               </Link> :
-              <LinkTo to={'/#contact'}>
+              <AnchorLink to="/#contact" title="Contact">
                 Contact
-              </LinkTo>
+              </AnchorLink>
             }
           </li>
         </ul>

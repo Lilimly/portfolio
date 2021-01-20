@@ -15,7 +15,7 @@ const TimeLine = () => (
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2020 - present"
-          icon={<FontAwesomeIcon icon={["fab", "react"]} />}
+          icon={<FontAwesomeIcon icon={["fab", "react"]} title="React Icon" />}
         >
           <h3 className="vertical-timeline-element-title">Développeuse Web Freelance</h3>
           <h4 className="vertical-timeline-element-subtitle">Paris</h4>
@@ -36,6 +36,7 @@ const TimeLine = () => (
               <button>  
                 <span>         
                   <Link
+                    title="Voir les projets"
                     to="projets"
                     spy={true}
                     smooth={true}
@@ -52,7 +53,7 @@ const TimeLine = () => (
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2020"
-          icon={<FontAwesomeIcon icon={faCode} />}
+          icon={<FontAwesomeIcon icon={faCode} title="Code Icon" />}
         >
           <h3 className="vertical-timeline-element-title">Formation Développeuse Web</h3>
           <h4 className="vertical-timeline-element-subtitle">Paris</h4>
@@ -73,6 +74,7 @@ const TimeLine = () => (
                 <span>        
                   <Link
                     to="projets"
+                    title="Voir les projets"
                     spy={true}
                     smooth={true}
                     offset={-80}
@@ -88,7 +90,7 @@ const TimeLine = () => (
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2018 - 2019"
-          icon={<FontAwesomeIcon icon={faGlobeAmericas} />}
+          icon={<FontAwesomeIcon icon={faGlobeAmericas} title="World icon" />}
         >
           <h3 className="vertical-timeline-element-title">Tour du monde !</h3>
           <div>
@@ -112,6 +114,7 @@ const TimeLine = () => (
                     href={"https://www.gotripics.com/"}
                     target="_blank"
                     rel="noopener noreferrer"
+                    title="Voir mon blog"
                   >
                     Voir mon blog
                   </a>
@@ -123,7 +126,7 @@ const TimeLine = () => (
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2010 - 2018"
-          icon={<FontAwesomeIcon icon={faGraduationCap} />}
+          icon={<FontAwesomeIcon icon={faGraduationCap} title="Graduation icon" />}
         >
           <h3 className="vertical-timeline-element-title">Obtention du CAFERUIS</h3>
           <h4 className="vertical-timeline-element-subtitle">Paris</h4>
@@ -134,7 +137,7 @@ const TimeLine = () => (
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2010 - 2018"
-          icon={<FontAwesomeIcon icon={faBaby} />}
+          icon={<FontAwesomeIcon icon={faBaby} title="Baby icon" />}
         >
           <h3 className="vertical-timeline-element-title">Directrice de crèche</h3>
           <h4 className="vertical-timeline-element-subtitle">Paris</h4>
@@ -153,7 +156,7 @@ const TimeLine = () => (
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2005 - 2010"
-          icon={<FontAwesomeIcon icon={faBaby} />}
+          icon={<FontAwesomeIcon icon={faBaby} title="Baby icon" />}
         >
           <h3 className="vertical-timeline-element-title">Educatrice de Jeunes Enfants</h3>
           <h4 className="vertical-timeline-element-subtitle">Paris</h4>
@@ -167,7 +170,7 @@ const TimeLine = () => (
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2004"
-          icon={<FontAwesomeIcon icon={faGraduationCap} />}
+          icon={<FontAwesomeIcon icon={faGraduationCap} title="Graduation icon" />}
         >
           <h3 className="vertical-timeline-element-title">Obtention du Diplôme d'Etat d'EJE</h3>
           <h4 className="vertical-timeline-element-subtitle">Bordeaux</h4>

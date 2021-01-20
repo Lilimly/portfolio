@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Icon, InlineIcon } from '@iconify/react';
+import { Icon } from '@iconify/react';
 import gatsbyIcon from '@iconify/icons-cib/gatsby';
 import mysqlIcon from '@iconify/icons-cib/mysql';
 import mongodbIcon from '@iconify/icons-cib/mongodb';
@@ -24,23 +24,24 @@ export default function ProjectsCards() {
                 <div className="projects-items">
                     <div className="projects-content">
                         <img
-                        src={vavImg}
-                        className="my-photo"
-                        alt="Villes à vivre"
-                        role="presentation"
+                            src={vavImg}
+                            title="Projet Villes à vivre"
+                            className="my-photo"
+                            alt="Villes à vivre"
+                            role="presentation"
                         />
                         <div className="projects-text">
                             <h3>Villes à Vivre</h3>
                             <h4>Projet en cours !</h4>
                             <div className="tech-icon">
-                                <FontAwesomeIcon icon={["fab", "vuejs"]} size="2x"/>
-                                <FontAwesomeIcon icon={["fab", "sass"]} size="2x"/>
-                                <FontAwesomeIcon icon={["fab", "git-square"]} size="2x"/>
-                                <FontAwesomeIcon icon={["fab", "github"]} size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "vuejs"]} title="Vue JS" size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "sass"]} title="SASS" size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "git-square"]} title="Git" size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "github"]} title="GitHub" size="2x"/>
                             </div>
                             <button>    
                                 <span>
-                                    <Link to="/projets/villes-a-vivre/">
+                                    <Link to="/projets/villes-a-vivre/" title="Plus de détails">
                                         Plus de détails
                                     </Link>
                                 </span>        
@@ -51,20 +52,21 @@ export default function ProjectsCards() {
                 <div  className="projects-items">
                     <div className="projects-content">
                         <img
-                        src={gotripicsImg}
-                        className="my-photo"
-                        alt="gotripics"
-                        role="presentation"
-                    />
+                            src={gotripicsImg}
+                            title="Projet Gotipics"
+                            className="my-photo"
+                            alt="gotripics"
+                            role="presentation"
+                        />
                         <div className="projects-text">
                             <h3>Gotripics</h3>
                             <h4>Création d'un blog de voyage</h4>
                             <div className="tech-icon">
-                                <FontAwesomeIcon icon={["fab", "wordpress-simple"]} size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "wordpress-simple"]} title="Wordpress" size="2x"/>
                             </div>
                             <button>   
                                 <span>        
-                                    <Link to="/projets/gotripics/">
+                                    <Link to="/projets/gotripics/" title="Plus de détails">
                                         Plus de détails
                                     </Link>
                                 </span> 
@@ -77,23 +79,24 @@ export default function ProjectsCards() {
                 <div className="projects-items">
                     <div className="projects-content">
                         <img
-                        src={portfolioImg}
-                        className="my-photo"
-                        alt="portfolio"
-                        role="presentation"
-                    />
+                            src={portfolioImg}
+                            title="Projet Portfolio"
+                            className="my-photo"
+                            alt="portfolio"
+                            role="presentation"
+                        />
                         <div className="projects-text">
                             <h3>Portfolio</h3>
                             <h4>Création de mon portfolio</h4>
                             <div className="tech-icon">
-                                <InlineIcon icon={gatsbyIcon} width={42} color="#ee738b" />
-                                <FontAwesomeIcon icon={["fab", "react"]} size="2x"/>
-                                <FontAwesomeIcon icon={["fab", "sass"]} size="2x"/>
-                                <FontAwesomeIcon icon={["fab", "git-square"]} size="2x"/>
+                                <Icon icon={gatsbyIcon} title="Gatsby" width={42} color="#ee738b" />
+                                <FontAwesomeIcon icon={["fab", "react"]} title="React" size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "sass"]} title="SASS" size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "git-square"]} title="Git" size="2x"/>
                             </div>
                             <button>       
                                 <span>   
-                                    <Link to="/projets/portfolio/">
+                                    <Link to="/projets/portfolio/" title="Plus de détails">
                                         Plus de détails
                                     </Link>
                                 </span>  
@@ -104,23 +107,24 @@ export default function ProjectsCards() {
                 <div className="projects-items">
                     <div className="projects-content">
                         <img
-                        src={groupomaniaImg}
-                        className="my-photo"
-                        alt="groupomania"
-                        role="presentation"
-                    />
+                            src={groupomaniaImg}
+                            title="Projet Groupomania"
+                            className="my-photo"
+                            alt="groupomania"
+                            role="presentation"
+                        />
                         <div className="projects-text">
                             <h3>Groupomania</h3>
                             <h4>Création d'un réseau social d’entreprise</h4>
                             <div className="tech-icon">
-                                <FontAwesomeIcon icon={["fab", "react"]} size="2x"/>
-                                <Icon icon={mysqlIcon} color="#ee738b" width="42" height="42"  />
-                                <FontAwesomeIcon icon={["fab", "node"]} size="2x"/>
-                                <Icon icon={expressIcon} width="42" height="42" />
+                                <FontAwesomeIcon icon={["fab", "react"]} title="React" size="2x"/>
+                                <Icon icon={mysqlIcon} title="mySQL" color="#ee738b" width="42" height="42"  />
+                                <FontAwesomeIcon icon={["fab", "node"]} title="Node JS" size="2x"/>
+                                <Icon icon={expressIcon} title="Express JS" width="42" height="42" />
                             </div>
                             <button>  
                                 <span>        
-                                    <Link to="/projets/groupomania/">
+                                    <Link to="/projets/groupomania/" title="Plus de détails">
                                         Plus de détails
                                     </Link>
                                 </span>  
@@ -133,23 +137,24 @@ export default function ProjectsCards() {
                 <div className="projects-items">
                     <div className="projects-content">
                         <img
-                        src={piquanteImg}
-                        className="my-photo"
-                        alt="Aurélie Mlynarz"
-                        role="presentation"
-                    />
+                            src={piquanteImg}
+                            title="Projet Piquante"
+                            className="my-photo"
+                            alt="Aurélie Mlynarz"
+                            role="presentation"
+                        />
                         <div className="projects-text">
                             <h3>Piquante</h3>
                             <h4>Construction d'une API sécurisée</h4>
                             <div className="tech-icon">
-                                <FontAwesomeIcon icon={["fab", "node"]} size="2x"/>
-                                <Icon icon={expressIcon} width="42" height="42"/>
-                                <Icon icon={mongodbIcon} color="#ee738b" width="36" />
-                                <FontAwesomeIcon icon={["fab", "git-square"]} size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "node"]} title="Node JS" size="2x"/>
+                                <Icon icon={expressIcon} title="Express JS" width="42" height="42"/>
+                                <Icon icon={mongodbIcon} title="Mongo DB" color="#ee738b" width="36" />
+                                <FontAwesomeIcon icon={["fab", "git-square"]} title="Git" size="2x"/>
                             </div>
                             <button>  
                                 <span>         
-                                    <Link to="/projets/piquante/">
+                                    <Link to="/projets/piquante/" title="Plus de détails">
                                         Plus de détails
                                     </Link>
                                 </span> 
@@ -160,23 +165,24 @@ export default function ProjectsCards() {
                 <div className="projects-items">
                     <div className="projects-content">
                         <img
-                        src={orinocoImg}
-                        className="my-photo"
-                        alt="orinoco"
-                        role="presentation"
-                    />
+                            src={orinocoImg}
+                            title="Projet Orinoco"
+                            className="my-photo"
+                            alt="orinoco"
+                            role="presentation"
+                        />
                         <div className="projects-text">
                             <h3>Orinoco</h3>
                             <h4>Création d'un de site e-commerce</h4>
                             <div className="tech-icon">
-                                <FontAwesomeIcon icon={["fab", "sass"]} size="2x"/>
-                                <FontAwesomeIcon icon={["fab", "js-square"]} size="2x"/>
-                                <FontAwesomeIcon icon={["fab", "git-square"]} size="2x"/>
-                                <FontAwesomeIcon icon={["fab", "github"]} size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "sass"]} title="SASS" size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "js-square"]} title="JavaScript" size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "git-square"]} title="Git" size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "github"]} title="GitHub" size="2x"/>
                             </div>
                             <button>     
                                 <span>     
-                                    <Link to="/projets/orinoco/">
+                                    <Link to="/projets/orinoco/" title="Plus de détails">
                                         Plus de détails
                                     </Link>
                                 </span>  
@@ -189,23 +195,24 @@ export default function ProjectsCards() {
                 <div className="projects-items">
                     <div className="projects-content">
                         <img
-                        src={chouetteImg}
-                        className="my-photo"
-                        alt="Chouette Agence"
-                        role="presentation"
-                    />
+                            src={chouetteImg}
+                            title="Projet Chouette Agence"
+                            className="my-photo"
+                            alt="Chouette Agence"
+                            role="presentation"
+                        />
                         <div className="projects-text">
                             <h3>Chouette Agence</h3>
                             <h4>Optimisation SEO</h4>
                             <div className="tech-icon">
-                                <FontAwesomeIcon icon={["fab", "js-square"]} size="2x"/>
-                                <FontAwesomeIcon icon={["fab", "html5"]} size="2x"/>
-                                <FontAwesomeIcon icon={["fab", "css3-alt"]} size="2x"/>
-                                <FontAwesomeIcon icon={["fab", "git-square"]} size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "js-square"]} title="JavaScript" size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "html5"]} title="HTML 5" size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "css3-alt"]} title="CSS 3" size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "git-square"]} title="Git" size="2x"/>
                             </div>
                             <button>   
                                 <span>        
-                                    <Link to="/projets/chouette-agence/">
+                                    <Link to="/projets/chouette-agence/" title="Plus de détails">
                                         Plus de détails
                                     </Link>
                                 </span> 
@@ -216,23 +223,24 @@ export default function ProjectsCards() {
                 <div className="projects-items">
                     <div className="projects-content">
                         <img
-                        src={ohmyfoodImg}
-                        className="my-photo"
-                        alt="ohmyfood"
-                        role="presentation"
-                    />
+                            src={ohmyfoodImg}
+                            title="Projet Ohmyfood"
+                            className="my-photo"
+                            alt="ohmyfood"
+                            role="presentation"
+                        />
                         <div className="projects-text">
                             <h3>Ohmyfood</h3>
                             <h4>Dynamisation d'une page web</h4>
                             <div className="tech-icon">
-                                <FontAwesomeIcon icon={["fab", "sass"]} size="2x"/>
-                                <FontAwesomeIcon icon={["fab", "html5"]} size="2x"/>
-                                <FontAwesomeIcon icon={["fab", "css3-alt"]} size="2x"/>
-                                <FontAwesomeIcon icon={["fab", "git-square"]} size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "sass"]} title="SASS" size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "html5"]} title="HTML 5" size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "css3-alt"]} title="CSS 3" size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "git-square"]} title="Git" size="2x"/>
                             </div>
                             <button>  
                                 <span>         
-                                    <Link to="/projets/ohmyfood/">
+                                    <Link to="/projets/ohmyfood/" title="Plus de détails">
                                         Plus de détails
                                     </Link>
                                 </span> 
@@ -245,23 +253,24 @@ export default function ProjectsCards() {
                 <div  className="projects-items">
                     <div className="projects-content">
                         <img
-                        src={cvImg}
-                        className="my-photo"
-                        alt="cv Aurélie Mlynarz"
-                        role="presentation"
+                            src={cvImg}
+                            title="Projet CV"
+                            className="my-photo"
+                            alt="cv Aurélie Mlynarz"
+                            role="presentation"
                         />
                         <div className="projects-text">
                             <h3>CV</h3>
                             <h4>Intégration d'une maquette</h4>
                             <div className="tech-icon">
-                                <FontAwesomeIcon icon={["fab", "html5"]} size="2x"/>
-                                <FontAwesomeIcon icon={["fab", "css3-alt"]} size="2x"/>
-                                <FontAwesomeIcon icon={["fab", "git-square"]} size="2x"/>
-                                <FontAwesomeIcon icon={["fab", "github"]} size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "html5"]} title="HTML 5" size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "css3-alt"]} title="CSS 3" size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "git-square"]} title="Git" size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "github"]} title="GitHub" size="2x"/>
                             </div>
                             <button>   
                                 <span>        
-                                    <Link to="/projets/cv-aurelie-mlynarz/">
+                                    <Link to="/projets/cv-aurelie-mlynarz/" title="Plus de détails">
                                         Plus de détails
                                     </Link>
                                 </span> 
