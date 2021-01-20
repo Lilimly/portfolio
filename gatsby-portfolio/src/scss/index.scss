@@ -289,6 +289,14 @@ nav {
                 font-size: 0.9em;
               }
               .tech-icon {
+                span {
+                  svg {
+                    margin: 0.5em;
+                  }
+                  .gatsby {
+                    margin: 0.7em;
+                  }
+                }
                 svg {
                   color: $primary-color;
                   margin: 0.5em;

@@ -580,6 +580,14 @@ nav .header-div .hamburger {
   font-size: 0.9em;
 }
 
+.main-div #projets .projects .projects-div .projects-items .projects-content .projects-text .tech-icon span svg {
+  margin: 0.5em;
+}
+
+.main-div #projets .projects .projects-div .projects-items .projects-content .projects-text .tech-icon span .gatsby {
+  margin: 0.7em;
+}
+
 .main-div #projets .projects .projects-div .projects-items .projects-content .projects-text .tech-icon svg {
   color: #ee738b;
   margin: 0.5em;

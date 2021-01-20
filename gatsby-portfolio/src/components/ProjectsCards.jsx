@@ -89,7 +89,7 @@ export default function ProjectsCards() {
                             <h3>Portfolio</h3>
                             <h4>Création de mon portfolio</h4>
                             <div className="tech-icon">
-                                <Icon icon={gatsbyIcon} title="Gatsby" width={42} color="#ee738b" />
+                                <span title="Gatsby"><Icon icon={gatsbyIcon} className="gatsby" title="Gatsby" width={36} height={36} color="#ee738b" /></span>
                                 <FontAwesomeIcon icon={["fab", "react"]} title="React" size="2x"/>
                                 <FontAwesomeIcon icon={["fab", "sass"]} title="SASS" size="2x"/>
                                 <FontAwesomeIcon icon={["fab", "git-square"]} title="Git" size="2x"/>
@@ -118,9 +118,9 @@ export default function ProjectsCards() {
                             <h4>Création d'un réseau social d’entreprise</h4>
                             <div className="tech-icon">
                                 <FontAwesomeIcon icon={["fab", "react"]} title="React" size="2x"/>
-                                <Icon icon={mysqlIcon} title="mySQL" color="#ee738b" width="42" height="42"  />
+                                <span title="mySQL"><Icon icon={mysqlIcon} title="mySQL" color="#ee738b" width="42" height="42"  /></span>
                                 <FontAwesomeIcon icon={["fab", "node"]} title="Node JS" size="2x"/>
-                                <Icon icon={expressIcon} title="Express JS" width="42" height="42" />
+                                <span title="Express JS"><Icon icon={expressIcon} title="Express JS" width="42" height="42" /></span>
                             </div>
                             <button>  
                                 <span>        
@@ -148,8 +148,8 @@ export default function ProjectsCards() {
                             <h4>Construction d'une API sécurisée</h4>
                             <div className="tech-icon">
                                 <FontAwesomeIcon icon={["fab", "node"]} title="Node JS" size="2x"/>
-                                <Icon icon={expressIcon} title="Express JS" width="42" height="42"/>
-                                <Icon icon={mongodbIcon} title="Mongo DB" color="#ee738b" width="36" />
+                                <span title="Express JS"><Icon icon={expressIcon} title="Express JS" width="42" height="42"/></span>
+                                <span title="Mongo DB"><Icon icon={mongodbIcon} title="Mongo DB" color="#ee738b" width="36" /></span>
                                 <FontAwesomeIcon icon={["fab", "git-square"]} title="Git" size="2x"/>
                             </div>
                             <button>  
