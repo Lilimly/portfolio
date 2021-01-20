@@ -124,6 +124,9 @@ nav {
             padding: 12px 30px;
       }
     }
+    .button-top {
+      @include button_top;
+    }
   }
   #section {
     padding: 2em;
@@ -358,31 +361,7 @@ nav {
       font-weight: bold;
     }
     .button-top {
-      position: fixed;
-      bottom: 0.7rem;
-      right: 0.7rem;
-      animation: fadeIn 700ms ease-in-out 1s both;
-      .btn {
-        cursor: pointer;
-        padding: 10px 10px 5px 10px;
-        border-radius: 50%;
-        border: 1px solid $primary-color;
-        background-color: $body-color;
-        box-shadow: $button-box-shadow;
-        transform: scale(1);
-        svg {
-          color: $primary-color;
-          transform: scale(1)
-        }
-        &:hover {
-          transition: transform 300ms ease-in-out;
-          transform: scale(1.1);
-          background-color: $primary-color;
-          svg {
-            color: $body-color;
-          }
-        }
-      }
+      @include button_top;
     }
     .the-form {
       padding: 0.5em;
@@ -498,6 +477,9 @@ nav {
     .info-site {
       width: 50%;
       margin: auto;
+      a {
+        cursor: pointer;
+      }
     }
     .button-div {
       width: 50%;
@@ -506,6 +488,9 @@ nav {
         margin-bottom: 0.5em;
         color: $primary-color;
         font-weight: bold;
+      }
+      a {
+        cursor: pointer;
       }
       button {
         margin: auto 0.5em auto 0.5em;

@@ -1,6 +1,7 @@
 import React from "react";
 import { graphql, Link } from "gatsby";
 import Img from "gatsby-image";
+import Button from "../components/Button.jsx";
 import { MDXRenderer } from "gatsby-plugin-mdx";
 
 import Layout from "../components/layout";
@@ -8,6 +9,7 @@ import SEO from "../components/seo";
 
 const Posts = ({ data }) => {
     const post = data.mdx;
+
     return (
         <Layout>
             <SEO title={post.frontmatter.title} />
@@ -31,6 +33,7 @@ const Posts = ({ data }) => {
                         </span>
                     </button>
                 </div>
+                <Button />
             </section>
         </Layout>
     );

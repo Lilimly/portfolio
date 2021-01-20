@@ -20,7 +20,6 @@ export default function ProjectsCards() {
 
     return (
         <>
-        
             <div className="projects-div">
                 <div className="projects-items">
                     <div className="projects-content">

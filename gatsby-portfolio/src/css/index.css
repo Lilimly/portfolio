@@ -207,6 +207,46 @@ nav .header-div .hamburger {
   transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
 
+.main-div .project-page .button-top {
+  position: fixed;
+  bottom: 0.7rem;
+  right: 0.7rem;
+  -webkit-animation: fadeIn 700ms ease-in-out 1s both;
+          animation: fadeIn 700ms ease-in-out 1s both;
+}
+
+.main-div .project-page .button-top .btn {
+  cursor: pointer;
+  padding: 10px 10px 5px 10px;
+  border-radius: 50%;
+  border: 1px solid #ee738b;
+  background-color: #fcfcfc;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.main-div .project-page .button-top .btn svg {
+  color: #ee738b;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.main-div .project-page .button-top .btn:hover {
+  -webkit-transition: -webkit-transform 300ms ease-in-out;
+  transition: -webkit-transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background-color: #ee738b;
+}
+
+.main-div .project-page .button-top .btn:hover svg {
+  color: #fcfcfc;
+}
+
 .main-div #section {
   padding: 2em;
   height: 34.5em;
@@ -1036,6 +1076,10 @@ nav .header-div .hamburger {
   margin: auto;
 }
 
+.main-div footer .info-site a {
+  cursor: pointer;
+}
+
 .main-div footer .button-div {
   width: 50%;
   margin: auto;
@@ -1045,6 +1089,10 @@ nav .header-div .hamburger {
   margin-bottom: 0.5em;
   color: #ee738b;
   font-weight: bold;
+}
+
+.main-div footer .button-div a {
+  cursor: pointer;
 }
 
 .main-div footer .button-div button {

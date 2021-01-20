@@ -4,9 +4,9 @@ import { useStaticQuery, graphql } from "gatsby";
 import { Link } from "react-scroll";
 import { MDXProvider } from "@mdx-js/react";
 import Header from "./header.jsx";
+import Footer from "./Footer.jsx";
 import "./layout.css";
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
     faGlobeAmericas,
     faEnvelope
@@ -36,65 +36,7 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div className="main-div">
         <main>{children}</main>
-        <footer>
-          <div className="info-site">
-            © {new Date().getFullYear()},
-            {`  `}
-            <Link
-                to="section"
-                spy={true}
-                smooth={true}
-                offset={-80}
-                duration={500}
-              >
-                www.lilicorp.com
-              </Link>
-          </div>
-          <div className="button-div">
-            <p>Mes contacts :</p>
-            <button>        
-              <Link
-                to="section3"
-                spy={true}
-                smooth={true}
-                offset={-80}
-                duration={500}
-              >
-                <FontAwesomeIcon icon={faEnvelope} />
-              </Link>
-            </button>
-            <button>
-              <a 
-                href={"https://www.linkedin.com/in/aurelie-mlynarz-1899421a1/"}
-                target="_blank"
-                rel="noopener noreferrer"
-                alt="LinkedIn"
-              >
-                <FontAwesomeIcon icon={["fab", "linkedin"]} />
-              </a>
-            </button>
-            <button>
-              <a 
-                href={"https://github.com/Lilimly"}
-                target="_blank"
-                rel="noopener noreferrer"
-                alt="GitHub"
-              >
-                <FontAwesomeIcon icon={["fab", "github"]} />
-              </a>
-            </button>
-            <button>
-              <a 
-                href={"https://www.gotripics.com/"}
-                target="_blank"
-                rel="noopener noreferrer"
-                alt="Gotripics"
-              >
-                <FontAwesomeIcon icon={faGlobeAmericas} />
-              </a>
-            </button>
-          </div>
-        </footer>
+        <Footer />
       </div>
     </MDXProvider>
   )
