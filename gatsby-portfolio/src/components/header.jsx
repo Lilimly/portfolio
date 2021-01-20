@@ -43,6 +43,7 @@ export default function Header () {
         }
         <button
           className="hamburger" 
+          title="Menu"
           onClick={handleClick}
           onKeyDown={handleClick}
           >

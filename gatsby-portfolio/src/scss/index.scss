@@ -180,6 +180,13 @@ nav {
       font-family: 'Comfortaa', cursive;
       color: $primary_color;
     }
+    h2 {
+      text-align: left;
+      margin-left: 0em;
+    }
+    h3 {
+      font-size: 1.1em;
+    }
     .presentation {
       @include row;
       img {
@@ -215,10 +222,13 @@ nav {
         }
         p {
           color: $text-color;
-          font-size:0.9sem;
+          font-size:0.8sem;
         }
         ul {
           margin-top: 0.5em;
+          li {
+            font-size:0.8sem;
+          }
         }
         .button-timeline {
           margin-top: 1em;
@@ -278,12 +288,12 @@ nav {
               width: auto;
               margin: auto;
               padding: 0em 0.5em 0.5em 0.5em;
-              h3 {
+              h2 {
                 color: $primary-color;
                 font-size: 1.2em;
                 font-family: 'Comfortaa', cursive;
               }
-              h4 {
+              h3 {
                 color: $text-color;
                 font-family: 'Comfortaa', cursive;
                 font-size: 0.9em;
@@ -329,13 +339,15 @@ nav {
               width: auto;
               margin: auto;
               padding: 0.5em;
-              h3 {
+              h2 {
                 color: $primary-color;
                 font-family: 'Comfortaa', cursive;
+                font-size: 1.2em;
               }
-              h4 {
+              h3 {
                 color: $text-color;
                 font-family: 'Comfortaa', cursive;
+                font-size: 0.9em;
               }
               .tech-icon {
                 svg {
@@ -621,10 +633,10 @@ nav {
           margin: 1em auto 1em auto;
         }
       }
-      h3 {
+      h2 {
         font-size: 1.1em;
       }
-      h4 {
+      h3 {
         font-size: 0.9em;
       }
       p {
