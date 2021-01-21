@@ -28,6 +28,7 @@ nav .header-div {
 
 nav .header-div img {
   width: 11em;
+  height: 3.6em;
   margin: 0.4em 0em 0.4em 1.5em;
   -webkit-transform: scale(1);
           transform: scale(1);
@@ -390,6 +391,7 @@ nav .header-div .hamburger {
 
 .main-div #parcours .presentation img {
   width: 17%;
+  height: 17%;
   border-radius: 50%;
   margin: 1em;
   -webkit-box-shadow: 0 0 10px #bababa;
@@ -1140,7 +1142,7 @@ nav .header-div .hamburger {
           transform: scale(1.8);
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 318px) {
   nav .header-div {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
@@ -1148,6 +1150,180 @@ nav .header-div .hamburger {
   }
   nav .header-div img {
     width: 9em;
+    height: 3em;
+    margin: 0.4em auto 0.4em 1em;
+  }
+  nav .header-div .hamburger {
+    display: initial;
+    margin: auto 1.5em auto auto;
+    background-color: #fcfcfc;
+    border-radius: 25%;
+    border: none;
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+    -webkit-transition: -webkit-transform 300ms ease-in-out;
+    transition: -webkit-transform 300ms ease-in-out;
+    transition: transform 300ms ease-in-out;
+    transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+  }
+  nav .header-div .hamburger:hover {
+    -webkit-transform: scale(1.6);
+            transform: scale(1.6);
+    cursor: pointer;
+  }
+  nav .header-div .hamburger:hover svg {
+    color: #3a3a58;
+  }
+  nav .header-div .hamburger svg {
+    color: #ee738b;
+  }
+  nav .header-div .nav-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: top;
+        -ms-flex-pack: top;
+            justify-content: top;
+    width: 100%;
+    height: 60vh;
+    position: absolute;
+    top: 60px;
+    left: -100%;
+    opacity: 1;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  nav .header-div .nav-menu.active {
+    background: #ee738b;
+    left: 0;
+    opacity: 1;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+  nav .header-div .nav-menu.active .nav-item {
+    text-align: center;
+    margin: 0em;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
+  nav .header-div .nav-menu.active .nav-item a {
+    color: #3a3a58;
+  }
+  nav .header-div .nav-menu.active .nav-item .active {
+    color: #fcfcfc;
+  }
+  nav .header-div .nav-menu.active .nav-item:hover {
+    background-color: #3a3a58;
+    border-radius: 0;
+  }
+  nav .header-div .nav-menu.active .nav-item:hover a {
+    color: #ee738b;
+  }
+  nav .header-div .nav-menu.active .nav-item:hover .active {
+    color: #fcfcfc;
+  }
+  .main-div h1 {
+    font-size: 1.5em;
+  }
+  .main-div p {
+    font-size: 0.8em;
+  }
+  .main-div #welcome .section-content {
+    width: 90%;
+  }
+  .main-div #welcome .section-content .button-div button {
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 10px 20px;
+  }
+  .main-div #parcours {
+    padding: 1.5em 0.5em 1em 0.5em;
+  }
+  .main-div #parcours .presentation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main-div #parcours .presentation img {
+    width: 40%;
+    margin: 1em auto 1em auto;
+  }
+  .main-div #parcours .presentation p {
+    font-size: 0.8em;
+    margin: 1em auto 1em auto;
+  }
+  .main-div #parcours .vertical-timeline-element--work h2 {
+    font-size: 1.1em;
+  }
+  .main-div #parcours .vertical-timeline-element--work h3 {
+    font-size: 0.9em;
+  }
+  .main-div #parcours .vertical-timeline-element--work p {
+    font-size: 0.8em;
+  }
+  .main-div #parcours .vertical-timeline-element--work ul li {
+    font-size: 0.8em;
+  }
+  .main-div #parcours .vertical-timeline-element--work .button-timeline button {
+    padding: 8px 20px !important;
+    font-weight: bold;
+  }
+  .main-div #projets {
+    padding: 1.5em 0.5em 1em 0.5em;
+  }
+  .main-div #projets p {
+    font-weight: 400;
+  }
+  .main-div #projets .projects {
+    margin: 0.2em;
+  }
+  .main-div #projets .projects .projects-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main-div #projets .projects .projects-div-one .projects-items {
+    width: 100%;
+  }
+  .main-div #contact h1 {
+    padding-top: 1em;
+  }
+  .main-div #contact p {
+    padding: 0.2em 1em 0em 1em;
+  }
+  .main-div #contact .the-form .big-form {
+    width: 80%;
+  }
+  .main-div #contact .the-form .big-form form .button-div button {
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 8px 35px;
+  }
+}
+
+@media only screen and (max-width: 360px) and (min-width: 318px) {
+  nav .header-div {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  nav .header-div img {
+    width: 9em;
+    height: 3em;
     margin: 0.4em auto 0.4em 1em;
   }
   nav .header-div .hamburger {

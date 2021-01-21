@@ -32,7 +32,7 @@ export default function Footer () {
                 }       
             </div>
             <div className="button-div">
-                <p>Mes contacts :</p>
+                <p>Pour me contacter :</p>
                 <button>
                     {location === "/" ?    
                         <Link

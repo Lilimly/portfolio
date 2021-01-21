@@ -27,7 +27,7 @@ const IndexPage = () => {
           />
           <p>
           Après une expérience de 13 ans dans le secteur de la petite enfance, j'ai décidé d'entamer une <strong>reconversion professionnelle</strong> pour me diriger vers ma passion : l'univers du web.<br />
-          J'ai ainsi développé mon blog au cours d'un voyage d'<strong>un an autour du monde</strong>.<br />
+          C'est au cours d'un voyage d'<strong>un an autour du monde</strong> que j'ai développé mon blog.<br />
           Suite à cela, j'ai suivi une <strong>formation de Développeuse Web</strong>, durant laquelle j’ai acquis la maîtrise de différentes technologies et réalisé mes
           premiers projets.<br />
           Forte des compétences que j'ai acquises, je souhaite aujourd'hui <strong>vous aider à développer vos propres projets</strong>.
@@ -38,7 +38,7 @@ const IndexPage = () => {
       <section className="section" id="projets">
         <h1>Projets réalisés</h1>
         <p>
-          Petit topo sur les différents projets, adaptabilité à la demande, responsive, moderne ...
+          Topo sur les projets, adaptabilité à la demande, responsive, moderne.
         </p>
         <div className="projects">
           <ProjectsCards />

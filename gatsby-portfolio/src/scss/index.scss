@@ -30,6 +30,7 @@ nav {
     display: flex;
     img {
       width: 11em;
+      height: 3.6em;
       margin: 0.4em 0em 0.4em 1.5em;
       transform: scale(1);
       transition: transform 300ms ease-in-out;
@@ -191,6 +192,7 @@ nav {
       @include row;
       img {
         width: 17%;
+        height: 17%;
         border-radius: 50%;
         margin: 1em;
         box-shadow: $box-shadow;
@@ -531,7 +533,178 @@ nav {
 }
 
 // responsive
-// écrans moins de 360px
+// écrans de moins de 318px
+@media #{$xx_small_screen}
+{
+  nav {
+    .header-div {
+      justify-content: space-between;
+      img {
+        width: 9em;
+        height: 3em;
+        margin: 0.4em auto 0.4em 1em;
+      }
+      .hamburger {
+        display: initial;
+        margin: auto 1.5em auto auto;
+        background-color: $body-color;
+        border-radius: 25%;
+        border: none;
+        transform: scale(1.3);
+        transition: transform 300ms ease-in-out;
+        &:hover {
+          transform: scale(1.6);
+          cursor: pointer;
+          svg {
+            color: $text_color;
+         }
+        }
+        svg {
+           color: $primary_color;
+        }
+      }
+      .nav-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: top;
+        width: 100%;
+        height: 60vh;
+        position: absolute;
+        top: 60px;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+      }
+      .nav-menu.active {
+        background: $primary_color;
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+        .nav-item {
+          text-align: center;
+          margin: 0em;
+          padding: 2rem;
+          width: 100%;
+          display: table;
+          a {
+            color: $text_color;
+          }
+          .active {
+            color: $body_color;
+          }
+        }
+        .nav-item:hover {
+          background-color: $text_color;
+          border-radius: 0;
+          a {
+            color: $primary_color;
+          }
+          .active {
+            color: $body_color;
+          }
+        }
+      }
+    }
+  }
+  .main-div {
+    h1 {
+      font-size: 1.5em;
+    }
+    p{
+      font-size: 0.8em;
+    }
+    #welcome {
+      .section-content {
+        width: 90%;
+        .button-div {
+          button {
+            font-size: 0.9em;
+            font-weight: bold;
+            padding: 10px 20px;
+          }
+        }
+      }
+    }
+    #parcours {
+      padding: 1.5em 0.5em 1em 0.5em;
+      .presentation {
+        display: flex;
+        flex-direction: column;
+        img {
+          width: 40%;
+          margin: 1em auto 1em auto;
+        }
+        p {
+          font-size: 0.8em;
+          margin: 1em auto 1em auto;
+        }
+      }
+      .vertical-timeline-element--work {
+        h2 {
+          font-size: 1.1em;
+        }
+        h3 {
+          font-size: 0.9em;
+        }
+        p {
+          font-size: 0.8em;
+        }
+        ul {
+          li {
+            font-size: 0.8em;
+          }
+        }
+        .button-timeline {
+          button {
+            padding: 8px 20px !important;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+    #projets {
+      padding: 1.5em 0.5em 1em 0.5em;
+      p {
+        font-weight: 400;
+      }
+      .projects {
+        margin: 0.2em;
+        .projects-div {
+          @include column;
+        }
+        .projects-div-one {
+          .projects-items {
+            width: 100%;
+          }
+        }
+      }
+    }
+    #contact {
+      h1 {
+        padding-top: 1em;
+      }
+      p {
+        padding: 0.2em 1em 0em 1em;
+      }
+      .the-form {
+        .big-form {
+          width: 80%;
+          form {
+            .button-div {
+              button {
+                font-size: 0.9em;
+                font-weight: bold;
+                padding: 8px 35px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// écrans plus de 318px et moins de 360px
 @media #{$x_small_screen}
 {
   nav {
@@ -539,6 +712,7 @@ nav {
       justify-content: space-between;
       img {
         width: 9em;
+        height: 3em;
         margin: 0.4em auto 0.4em 1em;
       }
       .hamburger {
