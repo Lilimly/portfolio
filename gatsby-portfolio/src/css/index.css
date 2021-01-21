@@ -210,8 +210,8 @@ nav .header-div .hamburger {
 
 .main-div .project-page .button-top {
   position: fixed;
-  bottom: 0.7rem;
-  right: 0.7rem;
+  bottom: 0.5rem;
+  right: 0.5rem;
   -webkit-animation: fadeIn 700ms ease-in-out 1s both;
           animation: fadeIn 700ms ease-in-out 1s both;
 }
@@ -803,8 +803,8 @@ nav .header-div .hamburger {
 
 .main-div #contact .button-top {
   position: fixed;
-  bottom: 0.7rem;
-  right: 0.7rem;
+  bottom: 0.5rem;
+  right: 0.5rem;
   -webkit-animation: fadeIn 700ms ease-in-out 1s both;
           animation: fadeIn 700ms ease-in-out 1s both;
 }
