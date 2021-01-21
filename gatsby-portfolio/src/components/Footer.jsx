@@ -12,27 +12,7 @@ export default function Footer () {
 
     return (
         <footer>
-            <div className="info-site">
-                © {new Date().getFullYear()},
-                {`  `}
-                {location === "/" ?
-                    <Link
-                        title="Page d'accueil"
-                        to="welcome"
-                        spy={true}
-                        smooth={true}
-                        offset={-80}
-                        duration={500}
-                        >
-                        www.lilicorp.com
-                    </Link> :
-                    <AnchorLink to="/#welcome" title="Page d'accueil">
-                        www.lilicorp.com
-                    </AnchorLink>
-                }       
-            </div>
-            <div className="button-div">
-                <p>Pour me contacter :</p>
+                        <div className="button-div">
                 <button>
                     {location === "/" ?    
                         <Link
@@ -83,6 +63,27 @@ export default function Footer () {
                         <FontAwesomeIcon icon={faGlobeAmericas} />
                     </a>
                 </button>
+            </div>
+            <div className="info-site">
+                {location === "/" ?
+                    <Link
+                        title="Aurélie Mlynarz - Développeuse web"
+                        to="welcome"
+                        spy={true}
+                        smooth={true}
+                        offset={-80}
+                        duration={500}
+                        >
+                        www.lilicorp.com
+                    </Link> :
+                    <AnchorLink to="/#welcome" title="Aurélie Mlynarz - Développeuse web">
+                        www.lilicorp.com
+                    </AnchorLink>
+                } <br />
+                {`  `}
+                © {new Date().getFullYear()}
+                {`  `}
+                Aurélie Mlynarz, tous droits réservés.
             </div>
         </footer>
     )

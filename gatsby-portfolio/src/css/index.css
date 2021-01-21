@@ -292,6 +292,7 @@ nav .header-div .hamburger {
   color: #ee738b;
   font-size: 1em;
   font-weight: bold;
+  text-decoration: underline;
 }
 
 .main-div #welcome .section-content a:hover {
@@ -354,6 +355,10 @@ nav .header-div .hamburger {
 .main-div #welcome .section-content .button-div button:hover:after {
   -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
   transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+
+.main-div #welcome .section-content .button-div button a {
+  text-decoration: none;
 }
 
 .main-div #parcours {
@@ -776,7 +781,7 @@ nav .header-div .hamburger {
 }
 
 .main-div #contact {
-  padding: 1.5em 0em 1em 0em;
+  padding: 1.5em 0em 4em 0em;
   background-image: url("../images/laptop-desk.jpg");
   background-color: #fcfcfc;
   background-attachment: fixed;
@@ -1033,6 +1038,7 @@ nav .header-div .hamburger {
   -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   margin: 2em;
+  padding: 15px 40px;
 }
 
 .main-div #contact .the-form .big-form form .modal-div .modal-wrapper .modal button span {
@@ -1080,56 +1086,27 @@ nav .header-div .hamburger {
 }
 
 .main-div footer {
-  padding: 1.5em;
+  padding: 1.3em;
   color: #ee738b;
   background-color: #fcfcfc;
   text-align: center;
   border-top: 1px solid #3a3a58;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.main-div footer .info-site {
-  width: 50%;
-  margin: auto;
-}
-
-.main-div footer .info-site a {
-  cursor: pointer;
 }
 
 .main-div footer .button-div {
-  width: 50%;
   margin: auto;
 }
 
-.main-div footer .button-div p {
-  margin-bottom: 0.5em;
-  color: #ee738b;
-  font-weight: bold;
-}
-
-.main-div footer .button-div a {
-  cursor: pointer;
-}
-
 .main-div footer .button-div button {
-  margin: auto 0.5em auto 0.5em;
+  margin: 0.5em;
   border: none;
   background-color: #fcfcfc;
 }
 
 .main-div footer .button-div button svg {
   color: #ee738b;
-  -webkit-transform: scale(1.4);
-          transform: scale(1.4);
+  -webkit-transform: scale(1.6);
+          transform: scale(1.6);
   -webkit-transition: -webkit-transform 300ms ease-in-out;
   transition: -webkit-transform 300ms ease-in-out;
   transition: transform 300ms ease-in-out;
@@ -1137,9 +1114,26 @@ nav .header-div .hamburger {
 }
 
 .main-div footer .button-div button svg:hover {
-  color: #3a3a58;
-  -webkit-transform: scale(1.8);
-          transform: scale(1.8);
+  color: #696999;
+  -webkit-transform: scale(2);
+          transform: scale(2);
+}
+
+.main-div footer .info-site {
+  margin: auto;
+  font-size: 0.8em;
+}
+
+.main-div footer .info-site a {
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 400;
+  color: #ee738b;
+  text-decoration: underline;
+}
+
+.main-div footer .info-site a:hover {
+  color: #696999;
 }
 
 @media only screen and (max-width: 318px) {
@@ -1312,6 +1306,14 @@ nav .header-div .hamburger {
     font-size: 0.9em;
     font-weight: bold;
     padding: 8px 35px;
+  }
+  .main-div #contact .the-form .big-form form .modal-div .modal-wrapper .modal {
+    width: 90%;
+    padding: 1em;
+  }
+  .main-div #contact .the-form .big-form form .modal-div .modal-wrapper .modal button {
+    margin: 1em;
+    padding: 10px 30px;
   }
 }
 
@@ -1515,7 +1517,15 @@ nav .header-div .hamburger {
     padding: 0.2em 1em 0em 1em;
   }
   .main-div #contact .the-form .big-form {
-    width: 70%;
+    width: 80%;
+  }
+  .main-div #contact .the-form .big-form form .modal-div .modal-wrapper .modal {
+    width: 90%;
+    padding: 1em;
+  }
+  .main-div #contact .the-form .big-form form .modal-div .modal-wrapper .modal button {
+    margin: 1em;
+    padding: 12px 30px;
   }
 }
 
@@ -1653,6 +1663,14 @@ nav .header-div .hamburger {
   }
   .main-div #contact .the-form .big-form {
     width: 70%;
+  }
+  .main-div #contact .the-form .big-form form .modal-div .modal-wrapper .modal {
+    width: 90%;
+    padding: 1em;
+  }
+  .main-div #contact .the-form .big-form form .modal-div .modal-wrapper .modal button {
+    margin: 1em;
+    padding: 13px 30px;
   }
 }
 

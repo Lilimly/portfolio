@@ -161,7 +161,9 @@ class ContactForm extends React.PureComponent {
                                         <p>{this.state.feedbackMsg}</p>
                                         <div className="button-div">
                                             <button onClick={this.handleClick} title="Retour au site">
-                                                Retour au site
+                                                <span>
+                                                    Retour au site
+                                                </span>
                                             </button>
                                         </div>
                                     </div>

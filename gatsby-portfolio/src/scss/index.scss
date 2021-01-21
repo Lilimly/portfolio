@@ -157,6 +157,7 @@ nav {
         color: $primary-color;
         font-size: 1em;
         font-weight: bold;
+        text-decoration: underline;
         &:hover {
           color: $text_link_color;
           cursor: pointer;
@@ -169,6 +170,9 @@ nav {
           margin: 1em auto 1em auto;
           @include submit;
           padding: 17px 35px;
+          a {
+            text-decoration: none;
+          }
         }
       }
     }
@@ -369,7 +373,7 @@ nav {
     }
   }
   #contact {
-    padding: 1.5em 0em 1em 0em;
+    padding: 1.5em 0em 4em 0em;
     background-image: url("../images/laptop-desk.jpg");
     background-color: $body_color;
     background-attachment: fixed;
@@ -476,6 +480,7 @@ nav {
                 button {
                   @include button;
                   margin: 2em;
+                  padding: 15px 40px;
                 }
               }
             }
@@ -490,42 +495,39 @@ nav {
     }
   }
   footer {
-    padding: 1.5em;
+    padding: 1.3em;
     color: $primary-color;
     background-color: $body-color;
     text-align: center;
     border-top: 1px solid $text-color;
-    @include flex-space;
-    .info-site {
-      width: 50%;
-      margin: auto;
-      a {
-        cursor: pointer;
-      }
-    }
     .button-div {
-      width: 50%;
       margin: auto;
-      p {
-        margin-bottom: 0.5em;
-        color: $primary-color;
-        font-weight: bold;
-      }
-      a {
-        cursor: pointer;
-      }
       button {
-        margin: auto 0.5em auto 0.5em;
+        margin: 0.5em;
         border: none;
         background-color: $body-color;
         svg {
           color: $primary-color;
-          transform: scale(1.4);
+          transform: scale(1.6);
           transition: transform 300ms ease-in-out;
           &:hover {
-            color: $text-color;
-            transform: scale(1.8);
+            color: $text_link_color;
+            transform: scale(2);
           }
+        }
+      }
+    }
+    .info-site {
+      margin: auto;
+      font-size: 0.8em;
+      a {
+        cursor: pointer;
+        font-size: 1em;
+        font-weight: 400;
+        color: $primary-color;
+        text-decoration: underline;
+        &:hover {
+          color: $text_link_color;
         }
       }
     }
@@ -698,6 +700,18 @@ nav {
                 padding: 8px 35px;
               }
             }
+            .modal-div {
+              .modal-wrapper {   
+                .modal {
+                  width: 90%;
+                  padding: 1em;
+                  button {
+                    margin: 1em;
+                    padding: 10px 30px;
+                  }
+                }
+              }
+            }
           }
         }
       }
@@ -850,7 +864,21 @@ nav {
       }
       .the-form {
         .big-form {
-          width: 70%;
+          width: 80%;
+          form {
+            .modal-div {
+              .modal-wrapper {   
+                .modal {
+                  width: 90%;
+                  padding: 1em;
+                  button {
+                    margin: 1em;
+                    padding: 12px 30px;
+                  }
+                }
+              }
+            }
+          }
         }
       }
     }
@@ -975,6 +1003,20 @@ nav {
       .the-form {
         .big-form {
           width: 70%;
+          form {
+            .modal-div {
+              .modal-wrapper {   
+                .modal {
+                  width: 90%;
+                  padding: 1em;
+                  button {
+                    margin: 1em;
+                    padding: 13px 30px;
+                  }
+                }
+              }
+            }
+          }
         }
       }
     }
