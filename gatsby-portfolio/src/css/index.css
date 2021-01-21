@@ -1307,6 +1307,9 @@ nav .header-div .hamburger {
     margin: 1em;
     padding: 10px 30px;
   }
+  .main-div footer .button-div button {
+    margin: 0em 0.6em 1em 0.6em;
+  }
 }
 
 @media only screen and (max-width: 360px) and (min-width: 318px) {
