@@ -495,7 +495,7 @@ nav {
     }
   }
   footer {
-    padding: 1.3em;
+    padding: 2em;
     color: $primary-color;
     background-color: $body-color;
     text-align: center;
@@ -503,16 +503,19 @@ nav {
     .button-div {
       margin: auto;
       button {
-        margin: 0.5em;
+        margin: 0em 1em 1em 1em;
         border: none;
         background-color: $body-color;
+        a {
+          cursor: pointer;
+        }
         svg {
           color: $primary-color;
-          transform: scale(1.6);
+          transform: scale(1.7);
           transition: transform 300ms ease-in-out;
           &:hover {
             color: $text_link_color;
-            transform: scale(2);
+            transform: scale(2.2);
           }
         }
       }
@@ -520,16 +523,6 @@ nav {
     .info-site {
       margin: auto;
       font-size: 0.8em;
-      a {
-        cursor: pointer;
-        font-size: 1em;
-        font-weight: 400;
-        color: $primary-color;
-        text-decoration: underline;
-        &:hover {
-          color: $text_link_color;
-        }
-      }
     }
   }
 }

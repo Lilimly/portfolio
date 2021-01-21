@@ -1086,7 +1086,7 @@ nav .header-div .hamburger {
 }
 
 .main-div footer {
-  padding: 1.3em;
+  padding: 2em;
   color: #ee738b;
   background-color: #fcfcfc;
   text-align: center;
@@ -1098,15 +1098,19 @@ nav .header-div .hamburger {
 }
 
 .main-div footer .button-div button {
-  margin: 0.5em;
+  margin: 0em 1em 1em 1em;
   border: none;
   background-color: #fcfcfc;
 }
 
+.main-div footer .button-div button a {
+  cursor: pointer;
+}
+
 .main-div footer .button-div button svg {
   color: #ee738b;
-  -webkit-transform: scale(1.6);
-          transform: scale(1.6);
+  -webkit-transform: scale(1.7);
+          transform: scale(1.7);
   -webkit-transition: -webkit-transform 300ms ease-in-out;
   transition: -webkit-transform 300ms ease-in-out;
   transition: transform 300ms ease-in-out;
@@ -1115,25 +1119,13 @@ nav .header-div .hamburger {
 
 .main-div footer .button-div button svg:hover {
   color: #696999;
-  -webkit-transform: scale(2);
-          transform: scale(2);
+  -webkit-transform: scale(2.2);
+          transform: scale(2.2);
 }
 
 .main-div footer .info-site {
   margin: auto;
   font-size: 0.8em;
-}
-
-.main-div footer .info-site a {
-  cursor: pointer;
-  font-size: 1em;
-  font-weight: 400;
-  color: #ee738b;
-  text-decoration: underline;
-}
-
-.main-div footer .info-site a:hover {
-  color: #696999;
 }
 
 @media only screen and (max-width: 318px) {

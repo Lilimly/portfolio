@@ -65,25 +65,9 @@ export default function Footer () {
                 </button>
             </div>
             <div className="info-site">
-                {location === "/" ?
-                    <Link
-                        title="Aurélie Mlynarz - Développeuse web"
-                        to="welcome"
-                        spy={true}
-                        smooth={true}
-                        offset={-80}
-                        duration={500}
-                        >
-                        www.lilicorp.com
-                    </Link> :
-                    <AnchorLink to="/#welcome" title="Aurélie Mlynarz - Développeuse web">
-                        www.lilicorp.com
-                    </AnchorLink>
-                } <br />
-                {`  `}
                 © {new Date().getFullYear()}
                 {`  `}
-                Aurélie Mlynarz, tous droits réservés.
+                Aurélie Mlynarz, Développeuse web freelance.
             </div>
         </footer>
     )
