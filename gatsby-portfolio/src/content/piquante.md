@@ -1,6 +1,6 @@
 ---
 title: 'Piquante'
-date: '2020-05-17'
+date: '2020-08-10'
 img: './articles/header-piquante.png'
 ---
 

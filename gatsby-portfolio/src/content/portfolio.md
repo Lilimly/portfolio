@@ -1,6 +1,6 @@
 ---
 title: 'Portfolio - Aurélie Mlynarz'
-date: '2020-06-01'
+date: '2021-01-10'
 img: './articles/header-portfolio.png'
 ---
 ## Création de ce portfolio

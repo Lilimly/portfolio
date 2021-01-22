@@ -1,6 +1,6 @@
 ---
 title: 'Gotripics - Blog de Voyage'
-date: '2018-07-01'
+date: '2018-10-01'
 img: './articles/header-gotripics.png'
 ---
 

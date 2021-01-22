@@ -1,6 +1,6 @@
 ---
 title: 'CV de Aurélie Mlynarz'
-date: '2020-05-01'
+date: '2020-05-12'
 img: './articles/header-cv.jpg'
 ---
 

@@ -538,7 +538,6 @@ nav .header-div .hamburger {
 .main-div #projets h1 {
   color: #eb5a77;
   font-family: 'Comfortaa', cursive;
-  margin-bottom: 1em;
 }
 
 .main-div #projets .projects {
@@ -1279,9 +1278,6 @@ nav .header-div .hamburger {
   }
   .main-div #contact h1 {
     padding-top: 1em;
-  }
-  .main-div #contact p {
-    padding: 0.2em 1em 0em 1em;
   }
   .main-div #contact .the-form .big-form {
     width: 80%;
