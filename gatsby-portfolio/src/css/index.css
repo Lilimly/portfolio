@@ -147,6 +147,12 @@ nav .header-div .hamburger {
   color: #696999;
 }
 
+.main-div .project-page .project-content .center-p {
+  margin-top: 3em;
+  font-weight: bold;
+  text-align: center;
+}
+
 .main-div .project-page .project-content ul {
   font-size: 1em;
 }
@@ -165,7 +171,7 @@ nav .header-div .hamburger {
 }
 
 .main-div .project-page .project-content button {
-  margin: 2em auto 2em auto;
+  margin: 3em auto 3em auto;
   border: none;
   display: block;
   text-align: center;
@@ -179,7 +185,7 @@ nav .header-div .hamburger {
   border: 1px solid #eb5a77;
   -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  padding: 12px 30px;
+  padding: 13px 25px;
 }
 
 .main-div .project-page .project-content button span {

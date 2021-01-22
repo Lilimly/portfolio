@@ -115,6 +115,11 @@ nav {
           }
         }
       }
+      .center-p {
+        margin-top: 3em;
+        font-weight: bold;
+        text-align: center;
+      }
       ul {
         font-size: 1em;
         a {
@@ -129,9 +134,9 @@ nav {
         text-align: right;
       }
       button {
-        margin: 2em auto 2em auto;
+        margin: 3em auto 3em auto;
         @include button;
-            padding: 12px 30px;
+            padding: 13px 25px;
       }
     }
     .button-top {

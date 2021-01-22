@@ -33,6 +33,13 @@ const Posts = ({ data }) => {
                             </AnchorLink>
                         </span>
                     </button>
+                    <p className="center-p">
+                        Besoin d'aide pour réaliser votre projet ? N'hésitez pas à {' '}
+                            <AnchorLink to="/#contact" title="me contacter">
+                                me contacter
+                            </AnchorLink>
+                        {' '} !
+                    </p>
                 </div>
                 <Button />
             </section>
