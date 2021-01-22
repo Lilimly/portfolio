@@ -140,7 +140,7 @@ nav {
   }
   #welcome {
     padding: 2em;
-    height: 34.5em;
+    height: 92vh;
     background-image: url("../images/img-header.jpg");
     background-color: $body_color;
     background-attachment: fixed;
@@ -794,14 +794,18 @@ nav {
     }
   }
   .main-div {
+    h1 {
+      font-size: 1.5em;
+    }
     #welcome {
       .section-content {
+        padding: 0.5em;
         width: 90%;
         .button-div {
           width: 100%;
           @include flex_center;
           button {
-            margin: 1em auto 1em auto;
+            margin: 0.5em auto 0.5em auto;
             @include submit;
             padding: 15px 30px;
           }

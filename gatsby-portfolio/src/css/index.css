@@ -264,7 +264,7 @@ nav .header-div .hamburger {
 
 .main-div #welcome {
   padding: 2em;
-  height: 34.5em;
+  height: 92vh;
   background-image: url("../images/img-header.jpg");
   background-color: #fcfcfc;
   background-attachment: fixed;
@@ -1403,7 +1403,11 @@ nav .header-div .hamburger {
   nav .header-div .nav-menu.active .nav-item:hover .active {
     color: #fcfcfc;
   }
+  .main-div h1 {
+    font-size: 1.5em;
+  }
   .main-div #welcome .section-content {
+    padding: 0.5em;
     width: 90%;
   }
   .main-div #welcome .section-content .button-div {
@@ -1416,7 +1420,7 @@ nav .header-div .hamburger {
             justify-content: center;
   }
   .main-div #welcome .section-content .button-div button {
-    margin: 1em auto 1em auto;
+    margin: 0.5em auto 0.5em auto;
     border: none;
     display: block;
     text-align: center;
