@@ -6,8 +6,10 @@ img: './articles/header-gotripics.png'
 
 ## Création d'un blog de voyage
 
-* Technologies utilisées : 
-    * Wordpress
+**Ma mission** : Créer mon blog de voyage avec le CMS Wordpress
+
+**Les technologies utilisées** : 
+    - Wordpress
 
 Au cours d'un voyage autour du monde j'ai créé mon blog voyage.
 

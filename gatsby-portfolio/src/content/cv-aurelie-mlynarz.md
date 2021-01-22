@@ -4,12 +4,14 @@ date: '2020-05-12'
 img: './articles/header-cv.jpg'
 ---
 
-## Intégration d'un maquette à un site web
+## Intégration d'un maquette
 
-* **Techniques utilisées** : 
-    * HTML5 
-    * CSS3 
-    * Git
+**Ma mission** : Transformer une maquette en site web.
+
+**Les technologies utilisées** : 
+    - HTML5 
+    - CSS3 
+    - Git / GitHub
 
 Pour que votre site soit votre reflet et réponde à vos besoins et ceux de vos clients, je peux vous aider en le créant à partir d'une maquette de votre choix.
 
@@ -36,8 +38,8 @@ Voici un exemple du rendu sur un écrande de 375 pixels de large :
 
 ![cv responsive](./img-cv/cv-responsive.png)
 
-Pour l'ensemble de ce projet j'ai utilisé le **logiciel de versionning Git** et il est hébergé gratuitement avec GitHub Pages. Vous pouvez le consulter : [mon cv](https://lilimly.github.io/cv_aurelie_mlynarz/).
+Pour l'ensemble de ce projet j'ai utilisé le **logiciel de versionning Git** et il est hébergé gratuitement avec GitHub Pages. 
 
-N'hésitez pas à tester le responsive sur différentes tailles d'écran !
+Vous pouvez le consulter : [mon cv](https://lilimly.github.io/cv_aurelie_mlynarz/). N'hésitez pas à tester le responsive sur différentes tailles d'écran !
 
 Retrouvez le **code source** de ce projet sur [mon espace GitHub](https://github.com/Lilimly/cv_aurelie_mlynarz)

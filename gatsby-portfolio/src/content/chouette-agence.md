@@ -5,26 +5,36 @@ img: './articles/header-chouette-agence.png'
 ---
 ## Optimisation du référencement SEO
 
-Pour ce projet j'ai eu à optimiser le code d'un site existant afin d'améliorer son référencement SEO.
+**Ma mission** : Optimiser le référencement SEO du site web : La chouette agence.
 
-* Les améliorations portaient sur :
-    * vitesse
-    * taille
-    * accessibilité
-    * respect des normes W3C
+**Les technologies utilisées** : 
+    - HTML5 
+    - CSS3 
+    - JavaScript
+    - Google Lighthouse
+    - GTmetrix
+    - Git / GitHub
 
-Exemple du site avant amélioration : 
+Après une démarche d'audit du site, mes **recommandations d'optimisation** portaient sur principalement sur la **vitesse**, la **taille et poid du site**, l'**accessibilité** et le respect des **normes W3C**.
 
-![site avant optimisation](./img-chouette-agence/first-chouette-agence.png)
+* **Les 10 actions d'optimisation effectuées** :
+    * Optimiser l’utilisation des mots clés
+    * Optimiser l’URL
+    * Définir des balises canoniques
+    * Optimiser les balises meta
+    * Structurer et hiérarchiser le code HTML
+    * Définir des balises Open Graph
+    * Optimiser la vitesse : alléger les pages
+    * Accessibilité : améliorer le visuel
+    * Accessibilité : optimiser les descriptions
+    * Améliorer le responsive du site
 
-Après les optimisation, voici à quoi ressmble la page d'accueil :
-
-![site après optimisation](./img-chouette-agence/second-chouette-agence.png)
+Après la mise en place de ces actions, le **poid du site** est passé de **3.79 à 1.11 MB** et sa **vitesse de chargement** de **1.6 à 0.6 secondes**.
 
 Pour l'ensemble de ce projet j'ai utilisé le **logiciel de versionning Git**. Les deux versions du projet sont hébergés gratuitement avec GitHub Pages. 
 
-Vous pouvez le comparer le [site avant optimisation](https://lilimly.github.io/la_chouette_agence_start/) et [site après optimisation](https://lilimly.github.io/la_chouette_agence/)
+Vous pouvez ainsi comparer le [site avant optimisation](https://lilimly.github.io/la_chouette_agence_start/) et le [site après optimisation](https://lilimly.github.io/la_chouette_agence/)
 
 * Retrouvez le **code source** des deux étapes de ce projet sur mon espace GitHub :  
-    * [Code existant avant optimisation](https://github.com/Lilimly/la_chouette_agence_start)
-    * [Code aprés optimisation](https://github.com/Lilimly/la_chouette_agence)
+    * [Code existant, avant les optimisations](https://github.com/Lilimly/la_chouette_agence_start)
+    * [Code aprés les optimisations apportées](https://github.com/Lilimly/la_chouette_agence)

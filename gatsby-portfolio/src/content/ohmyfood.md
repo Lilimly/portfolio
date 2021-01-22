@@ -5,13 +5,15 @@ img: './articles/header-ohmyfood.png'
 ---
 ## Dynamisation d'une page web
 
-* **Techniques utilisées** : 
-    * HTML5
-    * CSS3 
-    * SASS
-    * Git
+**Ma mission** : Dynamisez une page web avec des animations CSS
 
-Sur ce projet, j'ai intégré la maquette Ohmyfood en y insérant différentes animations et des dégradés de couleurs CSS pour rendre le site plus interactif.
+**Les technologies utilisées** : 
+    - HTML5
+    - CSS3 
+    - SASS
+    - Git
+
+Sur ce projet, j'ai intégré une maquette pour développer le site Ohmyfood en y insérant différentes animations et des dégradés de couleurs CSS pour le rendre plus interactif.
 
 * Le projet est composé de 6 pages :
     * une page d'accueil

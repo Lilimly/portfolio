@@ -5,12 +5,14 @@ img: './articles/header-portfolio.png'
 ---
 ## Création de ce portfolio
 
-* Technologies utilisées : 
-    * Gatsby
-    * React.JS 
-    * GraphQL.
+**Ma mission** : Créer mon portfolio avec un générateur de site statique (SSG) : Gatsby
 
-Topo sur le site ...
+**Les technologies utilisées** : 
+    - Gatsby
+    - React.JS 
+    - GraphQL.
+
+Topo sur le site : pourquoi un SSR, SEO référencement, rapidité.
 
 ![Portfolio](./img-portfolio/accueil-portfolio.png)
 

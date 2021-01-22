@@ -134,12 +134,29 @@ nav .header-div .hamburger {
   font-size: 1.5em;
 }
 
+.main-div .project-page .project-content p {
+  font-size: 1em;
+}
+
 .main-div .project-page .project-content p a {
   font-size: 1em;
   color: #eb5a77;
 }
 
 .main-div .project-page .project-content p a:hover {
+  color: #696999;
+}
+
+.main-div .project-page .project-content ul {
+  font-size: 1em;
+}
+
+.main-div .project-page .project-content ul a {
+  font-size: 1em;
+  color: #eb5a77;
+}
+
+.main-div .project-page .project-content ul a:hover {
   color: #696999;
 }
 

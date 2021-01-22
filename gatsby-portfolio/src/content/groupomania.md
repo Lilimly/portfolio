@@ -6,10 +6,12 @@ img: './articles/header-groupomania.png'
 
 ## Création d'un réseau social d’entreprise
 
-* Technologies utilisées :
-    * Coté front: JavaScript / React / Bootstrap
-    * Coté Back : Node.JS / Express.JS
-    * Base de données : mySQL / Sequelize
+**Ma mission** : Développement fullstack le réseau social d'une entreprise.
+
+**Les technologies utilisées** : 
+    - Coté front: JavaScript / React / Bootstrap
+    - Coté Back : Node.JS / Express.JS
+    - Base de données : mySQL / Sequelize
 
 Réseau social d'entreprise sécurisé : 
 
