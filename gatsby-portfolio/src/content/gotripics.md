@@ -24,4 +24,4 @@ Dans ce cadre j'ai développé les compétences suivantes :
 
 ![carnets de voyage](./img-gotripics/carnet-voyage-gotripics.png)
 
-Vous pouvez retrouver mon blog à l'adresse [gotripics.com](https://www.gotripics.com/).
+Vous pouvez retrouver mon blog à l'adresse [gotripics.com](https://www.gotripics.com/ "Consulter mon blog").

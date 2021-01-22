@@ -29,8 +29,8 @@ Et un exemple d'une page menu :
 
 ![menu ohmyfood](./img-ohmyfood/menu-ohmyfood.png)
 
-Pour l'ensemble de ce projet j'ai utilisé le **logiciel de versionning Git** et il est hébergé gratuitement avec GitHub Pages. Vous pouvez le consulter : [Ohmyfood](https://lilimly.github.io/ohmyfood/).
+Pour l'ensemble de ce projet j'ai utilisé le **logiciel de versionning Git** et il est hébergé gratuitement avec GitHub Pages. Vous pouvez le consulter : [Ohmyfood](https://lilimly.github.io/ohmyfood/ "Lien vers le site Ohmyfood").
 
 Pour organiser mon code CSS j'ai utilisé le pré-processeur SASS.
 
-Retrouvez le **code source** de ce projet sur [mon espace GitHub](https://github.com/Lilimly/ohmyfood)
+Retrouvez le **code source** de ce projet sur [mon espace GitHub](https://github.com/Lilimly/ohmyfood "Code source du site Ohmyfood")

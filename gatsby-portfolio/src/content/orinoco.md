@@ -35,4 +35,4 @@ Pour vérifier le bon fonctionnement des différentes étapes de l'application, 
 - les différents points à tester : les actions demandées
 - la façon dont doit se comporter l'application : les résultats attendus
 
-Retrouvez le **code source** de ce projet sur [mon espace GitHub](https://github.com/Lilimly/orinoco)
+Retrouvez le **code source** de ce projet sur [mon espace GitHub](https://github.com/Lilimly/orinoco "Code source du site Orinoco")

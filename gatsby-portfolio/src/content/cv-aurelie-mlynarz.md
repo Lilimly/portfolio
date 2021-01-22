@@ -40,6 +40,6 @@ Voici un exemple du rendu sur un écrande de 375 pixels de large :
 
 Pour l'ensemble de ce projet j'ai utilisé le **logiciel de versionning Git** et il est hébergé gratuitement avec GitHub Pages. 
 
-Vous pouvez le consulter : [mon cv](https://lilimly.github.io/cv_aurelie_mlynarz/). N'hésitez pas à tester le responsive sur différentes tailles d'écran !
+Vous pouvez le consulter : [mon cv](https://lilimly.github.io/cv_aurelie_mlynarz/ "Lien vers mon CV"). N'hésitez pas à tester le responsive sur différentes tailles d'écran !
 
-Retrouvez le **code source** de ce projet sur [mon espace GitHub](https://github.com/Lilimly/cv_aurelie_mlynarz)
+Retrouvez le **code source** de ce projet sur [mon espace GitHub](https://github.com/Lilimly/cv_aurelie_mlynarz "Code source de mon CV")

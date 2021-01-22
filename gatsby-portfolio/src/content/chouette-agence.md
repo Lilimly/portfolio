@@ -33,8 +33,8 @@ Après la mise en place de ces actions, le **poid du site** est passé de **3.79
 
 Pour l'ensemble de ce projet j'ai utilisé le **logiciel de versionning Git**. Les deux versions du projet sont hébergés gratuitement avec GitHub Pages. 
 
-Vous pouvez ainsi comparer le [site avant optimisation](https://lilimly.github.io/la_chouette_agence_start/) et le [site après optimisation](https://lilimly.github.io/la_chouette_agence/)
+Vous pouvez ainsi comparer le [site avant optimisation](https://lilimly.github.io/la_chouette_agence_start/ "Lien vers le site avant optimisation") et le [site après optimisation](https://lilimly.github.io/la_chouette_agence/ "Lien vers le site après optimisation")
 
 * Retrouvez le **code source** des deux étapes de ce projet sur mon espace GitHub :  
-    * [Code existant, avant les optimisations](https://github.com/Lilimly/la_chouette_agence_start)
-    * [Code aprés les optimisations apportées](https://github.com/Lilimly/la_chouette_agence)
+    * [Code existant, avant les optimisations](https://github.com/Lilimly/la_chouette_agence_start "Code source du site avant optimisation")
+    * [Code aprés les optimisations apportées](https://github.com/Lilimly/la_chouette_agence "Code source du site après optimisation")

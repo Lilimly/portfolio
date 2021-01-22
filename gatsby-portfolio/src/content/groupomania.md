@@ -33,4 +33,4 @@ Page compte utilisateur, avec les différents articles qu'il a créé, sa photo 
 
 Compte administrateur qui peut modifier ou supprimer article, commentaires et utilisateur.
 
-Retrouvez le **code source** de ce projet sur [mon espace GitHub](https://github.com/Lilimly/groupomania)
+Retrouvez le **code source** de ce projet sur [mon espace GitHub](https://github.com/Lilimly/groupomania "Code source du site Groupomania")

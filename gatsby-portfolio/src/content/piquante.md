@@ -35,4 +35,4 @@ Ajout d'une sauce:
 
 ![Page création d'une sauce](./img-piquante/post-piquante.png)
 
-Retrouvez le **code source** de ce projet sur [mon espace GitHub](https://github.com/Lilimly/piquante)
+Retrouvez le **code source** de ce projet sur [mon espace GitHub](https://github.com/Lilimly/piquante "Code source du site Piquante")

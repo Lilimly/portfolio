@@ -16,4 +16,4 @@ Topo sur le site : pourquoi un SSR, SEO référencement, rapidité.
 
 ![Portfolio](./img-portfolio/accueil-portfolio.png)
 
-Retrouvez le **code source** de ce projet sur [mon espace GitHub](https://github.com/Lilimly/portfolio)
+Retrouvez le **code source** de ce projet sur [mon espace GitHub](https://github.com/Lilimly/portfolio "Code source de mon portfolio")
