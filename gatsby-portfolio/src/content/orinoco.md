@@ -6,34 +6,43 @@ img: './articles/header-orinoco.png'
 ## Création d'un de site e-commerce
 
 ### Ma mission
-Développer le front-end d'une application de vente en ligne.
+Développer le frontend d'une application de vente en ligne.
 
 ### Les technologies utilisées
     - JavaScript
     - HTML5
     - CSS3
     - SASS
+    - Git / GitHub
 
 ### Les étapes du projet
-Pour ce site de e-commerce, récupération des data sur data Base MongoDB avec commande Fetch.
+Le site se compose de :
+* une page d'accueil
+* Des pages produits
+* 1 page panier
+* 1 page de confirmation de commande
 
-Page d'accueil qui affiche les différents produits disponibles :
+Pour réaliser ce site de **e-commerce**, j'ai dans un premier temps récupéré les données des oursons à mettre en vente depuis une **API**.
+
+A la connexion sur le site, la page d'accueil nous affiche les différents oursons disponibles, sous forme de cartes.
 
 ![Page d'accueil](./img-orinoco/accueil-orinoco.png)
 
-Une page plus précise su produit avec ses informations, la possibilité de choisir la couleur et de l'ajouter au panier :
+Au clic sur l'une des cartes, une page produit apporte des informations plus détaillées. Elle offre également la possibilité de choisir la couleur de l'ourson et de l'ajouter au panier :
 
-![Image](./img-orinoco/page-produit-orinoco.png)
+![Page produit](./img-orinoco/page-produit-orinoco.png)
 
-Ensuite nous arivons sur la page panier, récapitulatif des articles commandés, le prix total et le formulaire de commande de produit :
+Dans la barre de navigation du site, un lien permet de consulter son panier à tout moment.
 
-![Image](./img-orinoco/panier-orinoco.png)
+Cette page panier offre récapitulatif des articles commandés, le prix total et le formulaire de commande.
 
-Nous terminons sur la page de confimation et récapitulatif de commande :
+![Page panier](./img-orinoco/panier-orinoco.png)
 
-![Image](./img-orinoco/confirmation-orinoco.png)
+Une fois la commande passée, une page de confirmation récapitule la commande faite et offre la possibilité de retourner à l'accueil du site.
 
-Pour vérifier le bon fonctionnement des différentes étapes de l'application, j'ai rédigé un plan de tests unitaires dans sont détaillés :
+![Page de confirmation](./img-orinoco/confirmation-orinoco.png)
+
+Pour vérifier le bon fonctionnement des différentes étapes de l'application, j'ai rédigé un **plan de tests unitaires** où sont détaillés :
 - les différents points à tester : les actions demandées
 - la façon dont doit se comporter l'application : les résultats attendus
 

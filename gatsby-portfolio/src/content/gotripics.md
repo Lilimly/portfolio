@@ -13,7 +13,7 @@ Créer mon blog de voyage avec le CMS Wordpress.
     - Wordpress
 
 ### Les étapes du projet
-Au cours d'un voyage autour du monde j'ai créé mon blog voyage.
+Au cours d'un voyage d'un an autour du monde j'ai décidé de créer mon blog de voyages.
 
 Dans ce cadre j'ai développé les compétences suivantes :
 

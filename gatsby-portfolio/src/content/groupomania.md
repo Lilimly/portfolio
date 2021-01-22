@@ -15,25 +15,34 @@ Développement fullstack du réseau social d'une entreprise.
     - Base de données : mySQL / Sequelize
 
 ### Les étapes du projet
-Réseau social d'entreprise sécurisé : 
+Le site se compose de :
+* une page de connexion ou d'inscription
+* une page d'accueil
+* Des pages articles
+* Des pages utilisateurs
+* un compte administrateur
 
-Page d'inscription ou connexion sécurisée : 
+Pour accéder au réseau social, l'utilisateur devra créer un compte, ce qui l'enregistrera de manière sécurisé dans notre base de données mySQL (email et mot de passe cryptés).
 
-![login page](./img-groupomania/login-groupomania.png)
+Une fois authentifié, l'utilisateur accéde à la page d'accueil qui affiche l'ensemble des articles postés par, dans l'ordre du plus récent au plus ancien.
 
-Page accueil avec l'ensemble des post de la communauté, dans l'ordre du plus récent au plus ancien :
+Chaque utilisateur a la possibilité de publier un nouvel article.
 
 ![Page d'accueil](./img-groupomania/accueil-groupomania.png)
 
-page post, possibilité de créer un post et de le modifier ou supprimer pour la personne qui l'a créé. Un utilisateur peut également laisser un commentaire :
+En cliquant sur un article, l'utilisateur peut consulter son intégralité. Un utilisateur de pourra uniquement modifier ou supprimer un article qu'il aura créé.
+
+Il pourra également y laisser un commentaire.
 
 ![Page article](./img-groupomania/article-groupomania.png)
 
-Page compte utilisateur, avec les différents articles qu'il a créé, sa photo et sa biographie (possibilité de modifier ou supprimer le compte si l'on est le proproétaire) :
+L'application offre également la possibilité de consulter les comptes des utilisateurs affichant sa biographie, sa photo ainsi que les différents articles qu'il a créés.
+
+Un utilisateur ne pourra uniquement modifier ou supprimer son propre compte. 
 
 ![Page utilisateur](./img-groupomania/user-groupomania.png)
 
-Compte administrateur qui peut modifier ou supprimer article, commentaires et utilisateur.
+Afin de modérer ce réseau social, un compte administrateur est défini. Il peut modifier ou supprimer des articles, commentaires et également des utilisateurs.
 
 ### Pour consulter le projet
 Retrouvez le **code source** de ce projet sur [mon espace GitHub](https://github.com/Lilimly/groupomania "Code source du site Groupomania")
