@@ -37,9 +37,6 @@ const IndexPage = () => {
       </section>
       <section className="section" id="projets">
         <h1>Projets réalisés</h1>
-        <p>
-          Topo sur les projets, adaptabilité à la demande, responsive, moderne.
-        </p>
         <div className="projects">
           <ProjectsCards />
         </div>

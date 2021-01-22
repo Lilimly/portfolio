@@ -100,14 +100,12 @@ nav {
   }
   .project-page {
     .project-content {
-      padding: 1em;
+      padding: 2em;
       h2 {
-        margin: 1em;
+        margin-bottom: 1em;
+        font-size: 1.5em;
       }
       p {
-        img {
-          width: 10px;
-        }
         a {
           font-size: 1em;
           color: $primary-color;
@@ -267,12 +265,7 @@ nav {
     h1 {
       color: $primary_color;
       font-family: 'Comfortaa', cursive;
-    }
-    p {
-      margin-top: 2em;
-      font-size: 1em;
-      font-weight: bold;
-      text-align: center;
+      margin-bottom: 1em;
     }
     .projects {
       margin: 2em;
@@ -523,6 +516,7 @@ nav {
     .info-site {
       margin: auto;
       font-size: 0.8em;
+      font-weight: bold;
     }
   }
 }
