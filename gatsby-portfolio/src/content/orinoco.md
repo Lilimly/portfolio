@@ -5,14 +5,16 @@ img: './articles/header-orinoco.png'
 ---
 ## Création d'un de site e-commerce
 
-**Ma mission** : Développer le front-end d'une application de vente en ligne
+### Ma mission
+Développer le front-end d'une application de vente en ligne.
 
-**Les technologies utilisées** : 
+### Les technologies utilisées
     - JavaScript
     - HTML5
     - CSS3
     - SASS
 
+### Les étapes du projet
 Pour ce site de e-commerce, récupération des data sur data Base MongoDB avec commande Fetch.
 
 Page d'accueil qui affiche les différents produits disponibles :
@@ -35,4 +37,5 @@ Pour vérifier le bon fonctionnement des différentes étapes de l'application, 
 - les différents points à tester : les actions demandées
 - la façon dont doit se comporter l'application : les résultats attendus
 
+### Pour consulter le projet
 Retrouvez le **code source** de ce projet sur [mon espace GitHub](https://github.com/Lilimly/orinoco "Code source du site Orinoco")

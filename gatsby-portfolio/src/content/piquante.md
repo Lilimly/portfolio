@@ -6,14 +6,14 @@ img: './articles/header-piquante.png'
 
 ## Construction d'une API sécurisée
 
-**Ma mission** : Développer le backend d'une application d'avis gastronomique.
+### Ma mission
+Développer le backend d'une application d'avis gastronomique.
 
-**Les technologies utilisées** : 
+### Les technologies utilisées
     - Serveur : Node.JS / Express.JS
     - Base de données : MongoDB
 
-Développement du Backend de cette application d'avis gastronomiques.
-
+### Les étapes du projet
 Pour ce projet, j'ai créé routes et API user et sauces à noter.
 
 Création d'une API REST (Representational State Transfer) =
@@ -35,4 +35,5 @@ Ajout d'une sauce:
 
 ![Page création d'une sauce](./img-piquante/post-piquante.png)
 
+### Pour consulter le projets
 Retrouvez le **code source** de ce projet sur [mon espace GitHub](https://github.com/Lilimly/piquante "Code source du site Piquante")

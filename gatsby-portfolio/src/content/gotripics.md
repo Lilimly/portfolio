@@ -6,11 +6,13 @@ img: './articles/header-gotripics.png'
 
 ## Création d'un blog de voyage
 
-**Ma mission** : Créer mon blog de voyage avec le CMS Wordpress
+### Ma mission
+Créer mon blog de voyage avec le CMS Wordpress.
 
-**Les technologies utilisées** : 
+### Les technologies utilisées
     - Wordpress
 
+### Les étapes du projet
 Au cours d'un voyage autour du monde j'ai créé mon blog voyage.
 
 Dans ce cadre j'ai développé les compétences suivantes :
@@ -24,4 +26,5 @@ Dans ce cadre j'ai développé les compétences suivantes :
 
 ![carnets de voyage](./img-gotripics/carnet-voyage-gotripics.png)
 
+### Pour consulter le projet
 Vous pouvez retrouver mon blog à l'adresse [gotripics.com](https://www.gotripics.com/ "Consulter mon blog").

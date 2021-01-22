@@ -126,12 +126,18 @@ nav .header-div .hamburger {
 }
 
 .main-div .project-page .project-content {
-  padding: 2em;
+  padding: 2em 3em 2em 3em;
 }
 
 .main-div .project-page .project-content h2 {
   margin-bottom: 1em;
   font-size: 1.5em;
+}
+
+.main-div .project-page .project-content h3 {
+  color: #eb5a77;
+  font-family: 'Comfortaa', cursive;
+  margin-top: 2em;
 }
 
 .main-div .project-page .project-content p {
@@ -149,7 +155,6 @@ nav .header-div .hamburger {
 
 .main-div .project-page .project-content .center-p {
   margin-top: 3em;
-  font-weight: bold;
   text-align: center;
 }
 
@@ -1234,6 +1239,9 @@ nav .header-div .hamburger {
   .main-div p {
     font-size: 0.8em;
   }
+  .main-div .project-page .project-content {
+    padding: 1em;
+  }
   .main-div #welcome .section-content {
     width: 90%;
   }
@@ -1411,6 +1419,9 @@ nav .header-div .hamburger {
   }
   .main-div h1 {
     font-size: 1.5em;
+  }
+  .main-div .project-page .project-content {
+    padding: 1em;
   }
   .main-div #welcome .section-content {
     padding: 0.5em;
@@ -1620,6 +1631,9 @@ nav .header-div .hamburger {
   }
   nav .header-div .nav-menu.active .nav-item:hover .active {
     color: #fcfcfc;
+  }
+  .main-div .project-page .project-content {
+    padding: 2em;
   }
   .main-div #welcome .section-content {
     width: 80%;

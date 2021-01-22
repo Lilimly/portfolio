@@ -34,7 +34,8 @@ const Posts = ({ data }) => {
                         </span>
                     </button>
                     <p className="center-p">
-                        Besoin d'aide pour réaliser votre projet ? N'hésitez pas à {' '}
+                        Besoin d'aide pour réaliser votre projet ?<br />
+                        N'hésitez pas à {' '}
                             <AnchorLink to="/#contact" title="me contacter">
                                 me contacter
                             </AnchorLink>

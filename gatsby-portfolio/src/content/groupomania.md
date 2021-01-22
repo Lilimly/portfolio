@@ -6,13 +6,15 @@ img: './articles/header-groupomania.png'
 
 ## Création d'un réseau social d’entreprise
 
-**Ma mission** : Développement fullstack le réseau social d'une entreprise.
+### Ma mission
+Développement fullstack du réseau social d'une entreprise.
 
-**Les technologies utilisées** : 
+### Les technologies utilisées
     - Coté front: JavaScript / React / Bootstrap
     - Coté Back : Node.JS / Express.JS
     - Base de données : mySQL / Sequelize
 
+### Les étapes du projet
 Réseau social d'entreprise sécurisé : 
 
 Page d'inscription ou connexion sécurisée : 
@@ -33,4 +35,5 @@ Page compte utilisateur, avec les différents articles qu'il a créé, sa photo 
 
 Compte administrateur qui peut modifier ou supprimer article, commentaires et utilisateur.
 
+### Pour consulter le projet
 Retrouvez le **code source** de ce projet sur [mon espace GitHub](https://github.com/Lilimly/groupomania "Code source du site Groupomania")

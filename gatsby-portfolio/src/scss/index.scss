@@ -100,10 +100,15 @@ nav {
   }
   .project-page {
     .project-content {
-      padding: 2em;
+      padding: 2em 3em 2em 3em;
       h2 {
         margin-bottom: 1em;
         font-size: 1.5em;
+      }
+      h3 {
+        color: $primary-color;
+        font-family: 'Comfortaa', cursive;
+        margin-top: 2em;
       }
       p {
         font-size: 1em;
@@ -117,7 +122,6 @@ nav {
       }
       .center-p {
         margin-top: 3em;
-        font-weight: bold;
         text-align: center;
       }
       ul {
@@ -618,6 +622,11 @@ nav {
     p{
       font-size: 0.8em;
     }
+    .project-page {
+      .project-content {
+        padding: 1em;
+      }
+    }
     #welcome {
       .section-content {
         width: 90%;
@@ -802,6 +811,11 @@ nav {
     h1 {
       font-size: 1.5em;
     }
+    .project-page {
+      .project-content {
+        padding: 1em;
+      }
+    }
     #welcome {
       .section-content {
         padding: 0.5em;
@@ -966,6 +980,11 @@ nav {
     }
   }
   .main-div {
+    .project-page {
+      .project-content {
+        padding: 2em;
+      }
+    }
     #welcome {
       .section-content {
         width: 80%;

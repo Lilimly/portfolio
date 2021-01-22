@@ -6,40 +6,28 @@ img: './articles/header-cv.jpg'
 
 ## Intégration d'un maquette
 
-**Ma mission** : Transformer une maquette en site web.
+### Ma mission 
+Transformer une maquette en site web.
 
-**Les technologies utilisées** : 
+### Les technologies utilisées
     - HTML5 
     - CSS3 
     - Git / GitHub
 
-Pour que votre site soit votre reflet et réponde à vos besoins et ceux de vos clients, je peux vous aider en le créant à partir d'une maquette de votre choix.
+### Les étapes du projet
+Pour que votre site soit votre reflet et réponde à vos besoins et à ceux de vos clients, je peux vous aider en le créant à partir d'une maquette de votre choix.
 
-Prenons ici l'exemple de mon CV. Pour le réaliser je suis partie d'une **maquette**.
-
-Maquette d'origine :
+Prenons ici l'exemple de mon CV. Pour le réaliser je suis partie de la **maquette** suivante :
 
 ![Maquette d'origine](./img-cv/maquette-cv.png) 
 
-J'ai commencé par découper les différents éléments.
-Je les ai ensuite intégrés à la page web pour la reproduire à l'identique en les traduisants en **HTML5 et le CSS3**.
-
-Résultat :
+J'ai commencé par découper les différents éléments, puis les ai traduits en **HTML5 et CSS3** pour les intégrer à la page web :
 
 ![cv Aurélie Mlynarz](./img-cv/cv-aurelie-mlynarz.png)
 
-Aujourd'hui, la majorité des sites sont consultés sur téléphone.
+Afin que cette page s'adapte à toutes tailles d'écran, j'ai défini un format **responsive** qui transforme ce cv en une colonne sur les écrans de moins de 1000 pixels.
 
-Il est donc essentiel d'avoir un site qui s'adapte à toutes tailles d'écrans pour améliorer l'expérience utilisateur de vos clients actuels et élargir votre public !
-
-Afin que cette page s'adapte à toute taille d'écran, j'ai créé un **responsive** qui transforme ce cv en une colonne sur les écrans de moins de 1000 pixels.
-
-Voici un exemple du rendu sur un écrande de 375 pixels de large :
-
-![cv responsive](./img-cv/cv-responsive.png)
-
-Pour l'ensemble de ce projet j'ai utilisé le **logiciel de versionning Git** et il est hébergé gratuitement avec GitHub Pages. 
-
-Vous pouvez le consulter : [mon cv](https://lilimly.github.io/cv_aurelie_mlynarz/ "Lien vers mon CV"). N'hésitez pas à tester le responsive sur différentes tailles d'écran !
+### Pour consulter le projet
+Pour ce projet, j'ai utilisé le **logiciel de versionning Git**. Il est hébergé gratuitement avec GitHub Pages. Vous pouvez donc le consulter ici : [mon cv](https://lilimly.github.io/cv_aurelie_mlynarz/ "Lien vers mon CV"). 
 
 Retrouvez le **code source** de ce projet sur [mon espace GitHub](https://github.com/Lilimly/cv_aurelie_mlynarz "Code source de mon CV")
