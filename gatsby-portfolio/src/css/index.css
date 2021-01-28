@@ -464,6 +464,10 @@ nav .header-div .hamburger {
   font-size: 0.8sem;
 }
 
+.main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content .strong-p {
+  font-weight: bold;
+}
+
 .main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content ul {
   margin-top: 0.5em;
 }

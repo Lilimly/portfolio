@@ -23,7 +23,7 @@ const TimeLine = () => (
             <p>
               Développeuse web Fullstack, spécialisée frontend.
             </p>
-            <p>
+            <p className="strong-p">
               Compétences développées :
             </p>
             <ul>
@@ -64,7 +64,7 @@ const TimeLine = () => (
             <p>
               6 projets réalisés au cours de la formation.
             </p>
-            <p>
+            <p className="strong-p">
               Compétences développées :
             </p>
             <ul>
@@ -103,7 +103,7 @@ const TimeLine = () => (
             <p>
               Un an de voyage autour du monde durant lequel j'ai développé mon blog : <strong>gotripics.com</strong>
             </p>
-            <p>
+            <p className="strong-p">
               Compétences développées :
             </p>
             <ul>
@@ -153,7 +153,7 @@ const TimeLine = () => (
           <p>
             Encadrement et évaluation d’une équipe pluridisciplinaire.
           </p>
-          <p>
+          <p className="strong-p">
               Compétences développées :
           </p>
           <ul>
@@ -172,7 +172,7 @@ const TimeLine = () => (
         >
           <h2 className="vertical-timeline-element-title">Educatrice de Jeunes Enfants</h2>
           <h3 className="vertical-timeline-element-subtitle">Paris</h3>
-            <p>
+            <p className="strong-p">
               Compétences développées :
             </p>
             <ul>

@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 const HeroBanner = () => (
     <div className="section-content">
       <h1>Welcome !</h1>
-      <p>Je suis Aurélie, Développeuse Web Fullstack.</p>
+      <p>Je suis Aurélie, <strong>développeuse web fullstack</strong>.</p>
       <p>Mon but : vous aider à créer votre site web moderne et responsive.</p>
       <p>Pour en savoir plus, consultez {" "}
         <Link
