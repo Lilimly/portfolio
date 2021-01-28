@@ -88,8 +88,8 @@ export default function ProjectsCards() {
                             role="presentation"
                         />
                         <div className="projects-text">
-                            <h2>Portfolio</h2>
-                            <h3>Création de mon portfolio</h3>
+                            <h2>Site vitrine</h2>
+                            <h3>Création de mon site vitrine</h3>
                             <div className="tech-icon">
                                 <span title="Gatsby"><Icon icon={gatsbyIcon} className="icon-special" width={36} height={36} color="#ee738b" /></span>
                                 <FontAwesomeIcon icon={["fab", "react"]} title="React JS" size="2x"/>
@@ -98,7 +98,7 @@ export default function ProjectsCards() {
                             </div>
                             <button>       
                                 <span>   
-                                    <Link to="/projets/portfolio/" title="Plus de détails">
+                                    <Link to="/projets/site-vitrine/" title="Plus de détails">
                                         Plus de détails
                                     </Link>
                                 </span>  

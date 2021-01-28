@@ -47,4 +47,6 @@ Pour vérifier le bon fonctionnement des différentes étapes de l'application, 
 - la façon dont doit se comporter l'application : les résultats attendus
 
 ### Pour consulter le projet
-Retrouvez le **code source** de ce projet sur [mon espace GitHub](https://github.com/Lilimly/orinoco "Code source du site Orinoco")
+Pour ce projet, j'ai utilisé le **logiciel de versionning Git**.
+
+Retrouvez le **code source** sur [mon espace GitHub](https://github.com/Lilimly/orinoco "Code source du site Orinoco")

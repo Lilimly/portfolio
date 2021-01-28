@@ -39,4 +39,6 @@ L'utilisateur peut également créer une nouvelle sauce. Pour plus de sécurité
 ![Page création d'une sauce](./img-piquante/post-piquante.png)
 
 ### Pour consulter le projets
-Retrouvez le **code source** de ce projet sur [mon espace GitHub](https://github.com/Lilimly/piquante "Code source du site Piquante")
+Pour ce projet, j'ai utilisé le **logiciel de versionning Git**.
+
+Retrouvez le **code source** sur [mon espace GitHub](https://github.com/Lilimly/piquante "Code source du site Piquante")

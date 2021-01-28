@@ -45,4 +45,6 @@ Un utilisateur pourra uniquement modifier ou supprimer son propre compte.
 Afin de modérer ce réseau social, un compte administrateur est défini. Ce dernier pourra modifier ou supprimer des articles, des commentaires mais également des comptes utilisateurs.
 
 ### Pour consulter le projet
-Retrouvez le **code source** de ce projet sur [mon espace GitHub](https://github.com/Lilimly/groupomania "Code source du site Groupomania")
+Pour ce projet, j'ai utilisé le **logiciel de versionning Git**.
+
+Retrouvez le **code source** sur [mon espace GitHub](https://github.com/Lilimly/groupomania "Code source du site Groupomania")
