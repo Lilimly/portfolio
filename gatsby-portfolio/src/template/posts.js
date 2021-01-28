@@ -14,7 +14,7 @@ const Posts = ({ data }) => {
     return (
         <Layout>
             <SEO title={"Projet " + post.frontmatter.title} />
-            <section className="project-page">
+            <article className="project-page">
                 {
                     post.frontmatter.img && (
                         <Img 
@@ -36,14 +36,14 @@ const Posts = ({ data }) => {
                     <p className="center-p">
                         Besoin d'aide pour réaliser votre projet ?<br />
                         N'hésitez pas à {' '}
-                            <AnchorLink to="/#contact" title="me contacter">
+                            <AnchorLink to="/#contact" title="contact">
                                 me contacter
                             </AnchorLink>
                         {' '} !
                     </p>
                 </div>
                 <Button />
-            </section>
+            </article>
         </Layout>
     );
 }

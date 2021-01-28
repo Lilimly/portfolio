@@ -165,7 +165,7 @@ nav {
       h1 {
         font-family: 'Comfortaa', cursive;
         color: $primary_color;
-        font-weight: bold;
+        text-align: center;
       }
       p {
         text-align: center;
@@ -199,6 +199,7 @@ nav {
     padding: 1.5em 1em 1em 1em;
     background-color: $body_color;
     @include section-style;
+    
     h1 {
       font-family: 'Comfortaa', cursive;
       color: $primary_color;
