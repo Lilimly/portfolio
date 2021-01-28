@@ -21,7 +21,10 @@ const TimeLine = () => (
           <h3 className="vertical-timeline-element-subtitle">Paris</h3>
           <div>
             <p>
-              Développeuse web Fullstack, appétence pour le front.
+              Développeuse web Fullstack, spécialisée frontend.
+            </p>
+            <p>
+              Compétences développées :
             </p>
             <ul>
               <li><strong>Technologies maitrisées coté front</strong> : JavaScript, HTML5, CSS3, SASS.</li>
@@ -59,13 +62,16 @@ const TimeLine = () => (
           <h3 className="vertical-timeline-element-subtitle">Paris</h3>
           <div>
             <p>
-              6 projets réalisés au cours de la formation : 
+              6 projets réalisés au cours de la formation.
+            </p>
+            <p>
+              Compétences développées :
             </p>
             <ul>
               <li><strong>Intégration d'une maquette</strong> en site web ( HTML / CSS )</li>
               <li><strong>Dynamisation d'une page web</strong> - animations CSS ( HTML / SASS )</li>
               <li><strong>Optimisation du référencement SEO</strong> d'un site web existant</li>
-              <li><strong>Création d'un de site e-commerce</strong> ( JavaScript )</li>
+              <li><strong>Création d'un site de e-commerce</strong> ( JavaScript )</li>
               <li><strong>Construction d'une API sécurisée</strong> pour une application d'avis gastronomiques ( Node, Express, MongoDB )</li>
               <li><strong>Création d'un réseau social</strong> d’entreprise ( ReactJS, Node / Express, mySQL )</li>
             </ul>
@@ -96,6 +102,9 @@ const TimeLine = () => (
           <div>
             <p>
               Un an de voyage autour du monde durant lequel j'ai développé mon blog : <strong>gotripics.com</strong>
+            </p>
+            <p>
+              Compétences développées :
             </p>
             <ul>
               <li>Développement du site avec le CMS Wordpress</li>
@@ -128,7 +137,7 @@ const TimeLine = () => (
           date="2010 - 2018"
           icon={<FontAwesomeIcon icon={faGraduationCap} title="Graduation icon" />}
         >
-          <h2 className="vertical-timeline-element-title">Obtention du CAFERUIS</h2>
+          <h2 className="vertical-timeline-element-title">CAFERUIS</h2>
           <h3 className="vertical-timeline-element-subtitle">Paris</h3>
           <p>
             Obtention du Certificat d'Aptitude aux Fonctions d'Encadrement et de Responsable d'Unité d'Intervention Sociale.
@@ -142,7 +151,10 @@ const TimeLine = () => (
           <h2 className="vertical-timeline-element-title">Directrice de crèche</h2>
           <h3 className="vertical-timeline-element-subtitle">Paris</h3>
           <p>
-            Encadrement et évaluation d’une équipe pluridisciplinaire :
+            Encadrement et évaluation d’une équipe pluridisciplinaire.
+          </p>
+          <p>
+              Compétences développées :
           </p>
           <ul>
             <li>Elaboration et mise en place du projet pédagogique en collaboration avec l’équipe éducative</li>
@@ -160,6 +172,9 @@ const TimeLine = () => (
         >
           <h2 className="vertical-timeline-element-title">Educatrice de Jeunes Enfants</h2>
           <h3 className="vertical-timeline-element-subtitle">Paris</h3>
+            <p>
+              Compétences développées :
+            </p>
             <ul>
               <li>Accompagnement et éveil d’un groupe d’enfants de 6 mois à 3 ans</li>
               <li>Elaboration et mise en place du projet pédagogique en collaboration avec l’équipe éducative</li>
@@ -172,7 +187,7 @@ const TimeLine = () => (
           date="2004"
           icon={<FontAwesomeIcon icon={faGraduationCap} title="Graduation icon" />}
         >
-          <h2 className="vertical-timeline-element-title">Obtention du Diplôme d'Etat d'EJE</h2>
+          <h2 className="vertical-timeline-element-title">Diplôme d'Etat d'EJE</h2>
           <h3 className="vertical-timeline-element-subtitle">Bordeaux</h3>
           <p>
           Obtention du Diplôme d'Etat d'Educatrice de Jeunes Enfants.

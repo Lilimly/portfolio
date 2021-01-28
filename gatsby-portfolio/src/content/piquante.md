@@ -17,18 +17,16 @@ Développer le backend d'une application d'avis gastronomique.
 Le site se compose de :
 * une page de connexion ou d'inscription
 * une page d'accueil
-* Des pages sauce
+* une page descriptive pour chaque sauce à noter
 * 1 page création de sauce
 
 Pour ce projet, j'ai créé le backend d'un site de notation de sauces. 
 
 Pour celà j'ai créé une API REST (Representational State Transfer).
 
-Page d'inscription ou de connexion sécurisée (emaill et mot de passe cryptés)
+Dans un premier temps, l'utilisateur arrive sur une page d'inscription ou de connexion sécurisée : son email et son mot de passe sont enregistrés de façon cryptés dans la base de données Mongo DB).
 
-![Page de connexion](./img-piquante/login-piquante.png)
-
-Pour afficher la page d'accueil, je récupére les différentes sauces présentes sur notre base de données Mongo DB.
+Une fois authentiflié, l'utilisateur est dirigé sur la page d'accueil qui présente les différentes sauces créées.
 
 ![Page d'accueil](./img-piquante/accueil-piquante.png)
 
