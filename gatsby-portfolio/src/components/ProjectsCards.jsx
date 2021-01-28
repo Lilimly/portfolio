@@ -6,6 +6,8 @@ import gatsbyIcon from '@iconify/icons-cib/gatsby';
 import mysqlIcon from '@iconify/icons-cib/mysql';
 import mongodbIcon from '@iconify/icons-cib/mongodb';
 import expressIcon from '@iconify/icons-logos/express';
+import graphqlIcon from '@iconify-icons/cib/graphql';
+
 import cvImg from "../images/header-cv.png";
 import ohmyfoodImg from "../images/header-ohmyfood.png";
 import chouetteImg from "../images/header-chouette-agence.png";
@@ -89,10 +91,10 @@ export default function ProjectsCards() {
                             <h2>Portfolio</h2>
                             <h3>Création de mon portfolio</h3>
                             <div className="tech-icon">
-                                <span title="Gatsby"><Icon icon={gatsbyIcon} className="gatsby" title="Gatsby" width={36} height={36} color="#ee738b" /></span>
-                                <FontAwesomeIcon icon={["fab", "react"]} title="React" size="2x"/>
+                                <span title="Gatsby"><Icon icon={gatsbyIcon} className="icon-special" width={36} height={36} color="#ee738b" /></span>
+                                <FontAwesomeIcon icon={["fab", "react"]} title="React JS" size="2x"/>
+                                <span title="GraphQL"><Icon icon={graphqlIcon} className="icon-special" color="#ee738b" width="36" height="36" /></span>
                                 <FontAwesomeIcon icon={["fab", "sass"]} title="SASS" size="2x"/>
-                                <FontAwesomeIcon icon={["fab", "git-square"]} title="Git" size="2x"/>
                             </div>
                             <button>       
                                 <span>   
@@ -117,7 +119,7 @@ export default function ProjectsCards() {
                             <h2>Groupomania</h2>
                             <h3>Création d'un réseau social d’entreprise</h3>
                             <div className="tech-icon">
-                                <FontAwesomeIcon icon={["fab", "react"]} title="React" size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "react"]} title="React JS" size="2x"/>
                                 <span title="mySQL"><Icon icon={mysqlIcon} title="mySQL" color="#ee738b" width="42" height="42"  /></span>
                                 <FontAwesomeIcon icon={["fab", "node"]} title="Node JS" size="2x"/>
                                 <span title="Express JS"><Icon icon={expressIcon} title="Express JS" width="42" height="42" /></span>

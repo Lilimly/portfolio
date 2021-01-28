@@ -10,8 +10,10 @@ Créer mon portfolio avec un générateur de site statique (SSG) : Gatsby.
 
 ### Les technologies utilisées
     - Gatsby
-    - React.JS 
-    - GraphQL.
+    - React JS 
+    - GraphQL
+    - SASS
+    - Git / GitHub
 
 ### Les étapes du projet
 Topo sur le site : pourquoi un SSR, SEO référencement, rapidité.
