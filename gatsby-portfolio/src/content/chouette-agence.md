@@ -17,9 +17,9 @@ Optimiser le référencement SEO d'un site web existant.
     - Git / GitHub
 
 ### Les étapes du projet
-Après une démarche d'audit du site, j'ai établit des **recommandations d'optimisation** portant principalement sur la **vitesse**, la **taille et poid du site**, l'**accessibilité** et le respect des **normes W3C**.
+Après une démarche d'audit du site, j'ai établit des **recommandations d'optimisation** portant principalement sur la **vitesse**, le **poids des pages du site**, l'**accessibilité** et le respect des **normes W3C**.
 
-**Les 10 actions d'optimisation effectuées** ont étés les suivantes :
+**Mes 10 actions d'optimisation ont étés les suivantes** :
 * Optimiser l’utilisation des mots clés
 * Optimiser l’URL
 * Définir des balises canoniques
@@ -31,7 +31,9 @@ Après une démarche d'audit du site, j'ai établit des **recommandations d'opti
 * Accessibilité : optimiser les descriptions
 * Améliorer le responsive du site
 
-Après la mise en place de ces actions, le **poid du site** est passé de **3.79 à 1.11 MB** et sa **vitesse de chargement** de **1.6 à 0.6 secondes**.
+**Après la mise en place de ces actions** : 
+* le **poids des pages du site** est passé de **3.79 à 1.11 MB** 
+* la **vitesse de chargement** est passé de **1.6 à 0.6 secondes**.
 
 ### Pour consulter le projet
 Pour l'ensemble de ce projet j'ai utilisé le **logiciel de versionning Git**. Les deux versions du projet sont hébergés gratuitement avec **GitHub Pages**. 

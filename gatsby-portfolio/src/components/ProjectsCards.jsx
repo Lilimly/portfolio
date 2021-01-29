@@ -34,7 +34,7 @@ export default function ProjectsCards() {
                         />
                         <div className="projects-text">
                             <h2>Villes à Vivre</h2>
-                            <h3>Projet en cours !</h3>
+                            <h3>Développement du frontend du site</h3>
                             <div className="tech-icon">
                                 <FontAwesomeIcon icon={["fab", "vuejs"]} title="Vue JS" size="2x"/>
                                 <FontAwesomeIcon icon={["fab", "sass"]} title="SASS" size="2x"/>
@@ -44,7 +44,7 @@ export default function ProjectsCards() {
                             <Link to="/projets/villes-a-vivre/" title="Plus de détails">
                                 <button>    
                                     <span>
-                                        Plus de détails
+                                        Voir le projet
                                     </span>        
                                 </button>
                             </Link>
@@ -69,7 +69,7 @@ export default function ProjectsCards() {
                             <Link to="/projets/gotripics/" title="Plus de détails">
                                 <button>   
                                     <span>        
-                                        Plus de détails
+                                        Voir le projet
                                     </span> 
                                 </button>
                             </Link>
@@ -88,18 +88,18 @@ export default function ProjectsCards() {
                             role="presentation"
                         />
                         <div className="projects-text">
-                            <h2>Site vitrine</h2>
-                            <h3>Création de mon site vitrine</h3>
+                            <h2>Portfolio</h2>
+                            <h3>Création de mon portfolio</h3>
                             <div className="tech-icon">
                                 <span title="Gatsby"><Icon icon={gatsbyIcon} className="icon-special" width={36} height={36} color="#ee738b" /></span>
                                 <FontAwesomeIcon icon={["fab", "react"]} title="React JS" size="2x"/>
                                 <span title="GraphQL"><Icon icon={graphqlIcon} className="icon-special" color="#ee738b" width="36" height="36" /></span>
                                 <FontAwesomeIcon icon={["fab", "sass"]} title="SASS" size="2x"/>
                             </div>
-                            <Link to="/projets/site-vitrine/" title="Plus de détails">
+                            <Link to="/projets/portfolio/" title="Plus de détails">
                                 <button>       
                                     <span>   
-                                        Plus de détails
+                                        Voir le projet
                                     </span>  
                                 </button>
                             </Link>
@@ -127,7 +127,7 @@ export default function ProjectsCards() {
                             <Link to="/projets/groupomania/" title="Plus de détails">
                                 <button>  
                                     <span>        
-                                        Plus de détails
+                                        Voir le projet
                                     </span>  
                                 </button>
                             </Link>
@@ -157,7 +157,7 @@ export default function ProjectsCards() {
                             <Link to="/projets/piquante/" title="Plus de détails">
                                 <button>  
                                     <span>         
-                                        Plus de détails
+                                        Voir le projet
                                     </span> 
                                 </button>
                             </Link>
@@ -185,7 +185,7 @@ export default function ProjectsCards() {
                             <Link to="/projets/orinoco/" title="Plus de détails">
                                 <button>     
                                     <span>     
-                                        Plus de détails
+                                        Voir le projet
                                     </span>  
                                 </button>
                             </Link>
@@ -215,7 +215,7 @@ export default function ProjectsCards() {
                             <Link to="/projets/chouette-agence/" title="Plus de détails">
                                 <button>   
                                     <span>        
-                                        Plus de détails
+                                        Voir le projet
                                     </span> 
                                 </button>
                             </Link>
@@ -243,7 +243,7 @@ export default function ProjectsCards() {
                             <Link to="/projets/ohmyfood/" title="Plus de détails">
                                 <button>  
                                     <span>         
-                                        Plus de détails
+                                        Voir le projet
                                     </span> 
                                 </button>
                             </Link>
@@ -273,7 +273,7 @@ export default function ProjectsCards() {
                             <Link to="/projets/cv-aurelie-mlynarz/" title="Plus de détails">
                                 <button>   
                                     <span>        
-                                        Plus de détails
+                                        Voir le projet
                                     </span> 
                                 </button>
                             </Link>

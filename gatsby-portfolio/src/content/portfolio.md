@@ -1,12 +1,12 @@
 ---
-title: 'Site vitrine - Aurélie Mlynarz'
+title: 'Portfolio'
 date: '2021-01-10'
-img: './articles/header-site-vitrine.png'
+img: './articles/header-portfolio.png'
 ---
-## Création de mon site vitrine
+## Création de mon portfolio
 
 ### Ma mission
-Créer le site vitrine de mon entreprise.
+Créer le portfolio de mon entreprise.
 
 ### Les technologies utilisées
     - Gatsby
@@ -34,7 +34,7 @@ Ils **réduisent la complexité** du site ce qui améliore la **vitesse**, la **
 
 * parce que notre site est statique, nous pouvons même **renoncer complètement aux serveurs web et aux équilibreurs de charge**. Au lieu de cela, le site est hébergé avec un réseau de diffusion de contenu qui évolue en fonction du trafic.
 
-![Site vitrine](./img-site-vitrine/accueil-site-vitrine.png)
+![Site vitrine](./img-portfolio/accueil-portfolio.png)
 
 ### Pour consulter le projet
 Pour ce projet, j'ai utilisé le **logiciel de versionning Git**.

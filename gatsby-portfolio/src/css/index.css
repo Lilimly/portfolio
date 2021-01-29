@@ -146,6 +146,18 @@ nav .header-div .hamburger {
   font-size: 1em;
 }
 
+.main-div .project-page .project-content p a {
+  color: #eb5a77;
+  font-weight: bold;
+  font-size: 1em;
+  text-decoration: underline;
+}
+
+.main-div .project-page .project-content p a:hover {
+  color: #696999;
+  cursor: pointer;
+}
+
 .main-div .project-page .project-content .center-p {
   margin-top: 3em;
   text-align: center;
@@ -156,12 +168,15 @@ nav .header-div .hamburger {
 }
 
 .main-div .project-page .project-content ul a {
-  font-size: 1em;
   color: #eb5a77;
+  font-weight: bold;
+  font-size: 1em;
+  text-decoration: underline;
 }
 
 .main-div .project-page .project-content ul a:hover {
   color: #696999;
+  cursor: pointer;
 }
 
 .main-div .project-page .project-content .date {

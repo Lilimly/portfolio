@@ -112,6 +112,9 @@ nav {
       }
       p {
         font-size: 1em;
+        a {
+          @include text_link;
+        }
       }
       .center-p {
         margin-top: 3em;
@@ -120,11 +123,7 @@ nav {
       ul {
         font-size: 1em;
         a {
-          font-size: 1em;
-          color: $primary-color;
-          &:hover {
-            color: $text_link_color;
-          }
+          @include text_link;
         }
       }
       .date {
