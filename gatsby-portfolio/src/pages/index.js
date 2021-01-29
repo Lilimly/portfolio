@@ -27,7 +27,7 @@ const IndexPage = () => {
             role="presentation"
           />
           <p>
-          Après une expérience de 13 ans dans le secteur de la petite enfance, j'ai décidé d'entamer une <strong>reconversion professionnelle</strong> pour me plonger dans l'<strong>univers du web</strong>.<br />
+          Après une expérience de 13 ans dans le secteur de la petite enfance, j'ai décidé d'entamer une <strong>reconversion professionnelle</strong>.<br />
           C'est au cours d'un voyage d'<strong>un an autour du monde</strong> que j'ai développé mon premier blog.<br />
           Suite à cela, j'ai suivi une <strong>formation de développeuse web</strong> durant laquelle j’ai acquis la maîtrise de différentes technologies et réalisé mes
           premiers projets.<br />

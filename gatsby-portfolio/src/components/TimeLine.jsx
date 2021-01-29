@@ -59,7 +59,7 @@ const TimeLine = () => (
           icon={<FontAwesomeIcon icon={faCode} title="Code Icon" />}
         >
           <h2 className="vertical-timeline-element-title">Formation Développeuse Web</h2>
-          <h3 className="vertical-timeline-element-subtitle">Paris</h3>
+          <h3 className="vertical-timeline-element-subtitle">OpenClassrooms | Paris</h3>
           <div>
             <p>
               6 projets réalisés au cours de la formation.
@@ -68,12 +68,12 @@ const TimeLine = () => (
               Compétences développées :
             </p>
             <ul>
-              <li><strong>Intégration d'une maquette</strong> en site web ( HTML / CSS )</li>
-              <li><strong>Dynamisation d'une page web</strong> - animations CSS ( HTML / SASS )</li>
-              <li><strong>Optimisation du référencement SEO</strong> d'un site web existant</li>
-              <li><strong>Création d'un site de e-commerce</strong> ( JavaScript )</li>
-              <li><strong>Construction d'une API sécurisée</strong> pour une application d'avis gastronomiques ( Node, Express, MongoDB )</li>
-              <li><strong>Création d'un réseau social</strong> d’entreprise ( ReactJS, Node / Express, mySQL )</li>
+              <li><strong>Intégration d'une maquette</strong> en site web <br />( HTML5 / CSS3 )</li>
+              <li><strong>Dynamisation d'une page web</strong> - animations CSS <br />( HTML5 / SASS )</li>
+              <li><strong>Optimisation du référencement SEO</strong> d'un site web existant <br />( HTML5 / CSS3 / JavaScript )</li>
+              <li><strong>Création d'un site de e-commerce</strong> <br />( JavaScript )</li>
+              <li><strong>Construction d'une API sécurisée</strong> pour une application d'avis gastronomiques <br />( Node JS, Express JS, Mongo DB )</li>
+              <li><strong>Création d'un réseau social</strong> d’entreprise <br />( React JS, Node JS / Express JS, mySQL )</li>
             </ul>
             <div className="button-timeline">
               <Link
@@ -138,7 +138,7 @@ const TimeLine = () => (
           icon={<FontAwesomeIcon icon={faGraduationCap} title="Graduation icon" />}
         >
           <h2 className="vertical-timeline-element-title">CAFERUIS</h2>
-          <h3 className="vertical-timeline-element-subtitle">Paris</h3>
+          <h3 className="vertical-timeline-element-subtitle">ETSUP | Paris</h3>
           <p>
             Obtention du Certificat d'Aptitude aux Fonctions d'Encadrement et de Responsable d'Unité d'Intervention Sociale.
           </p>
@@ -188,7 +188,7 @@ const TimeLine = () => (
           icon={<FontAwesomeIcon icon={faGraduationCap} title="Graduation icon" />}
         >
           <h2 className="vertical-timeline-element-title">Diplôme d'Etat d'EJE</h2>
-          <h3 className="vertical-timeline-element-subtitle">Bordeaux</h3>
+          <h3 className="vertical-timeline-element-subtitle">IRTS | Talence</h3>
           <p>
           Obtention du Diplôme d'Etat d'Educatrice de Jeunes Enfants.
           </p>
