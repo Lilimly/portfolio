@@ -56,7 +56,7 @@ export default function Header () {
         <li className="nav-item">
           {location === "/" ?
             <Link
-              title="Welcome"
+              title="Bienvenue"
               activeClass="active"
               onClick={closeMobileMenu}
               to="welcome"
@@ -65,10 +65,10 @@ export default function Header () {
               offset={-80}
               duration={500}
             >
-              Welcome !
+              Bienvenue !
             </Link> :
-            <AnchorLink to="/#welcome" title="Welcome">
-              Welcome !
+            <AnchorLink to="/#welcome" title="Bienvenue">
+              Bienvenue !
             </AnchorLink>
           }
           </li>

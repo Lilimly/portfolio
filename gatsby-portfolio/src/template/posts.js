@@ -13,7 +13,7 @@ const Posts = ({ data }) => {
 
     return (
         <Layout>
-            <SEO title={"Projet " + post.frontmatter.title} />
+            <SEO title={ post.frontmatter.title} />
             <article className="project-page">
                 {
                     post.frontmatter.img && (

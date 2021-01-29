@@ -32,6 +32,8 @@ Au clic sur chacune des cartes, le menu détaillé est dévoilé.
 L'ensemble du site est responsive afin de s'adapter à toutes tailles d'écran et de garantir une bonne expérience utilisateur.
 
 ### Pour consulter le projet
-Pour ce projet, j'ai utilisé le **logiciel de versionning Git**. Il est hébergé gratuitement avec GitHub Pages. Vous pouvez donc le consulter ici : [Ohmyfood](https://lilimly.github.io/ohmyfood/ "Lien vers le site Ohmyfood").
+Pour ce projet, j'ai utilisé le **logiciel de versionning Git**. Il est hébergé gratuitement avec **GitHub Pages**. 
+
+Vous pouvez le consulter ici : [Ohmyfood](https://lilimly.github.io/ohmyfood/ "Lien vers le site Ohmyfood").
 
 Retrouvez le **code source** de ce projet sur [mon espace GitHub](https://github.com/Lilimly/ohmyfood "Code source du site Ohmyfood")

@@ -13,7 +13,7 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <SEO title="Aurélie Mlynarz - Développeuse Web" />
+      <SEO title="Présentation" />
       <section className="section" id="welcome">
         <HeroBanner />
       </section>
@@ -27,11 +27,11 @@ const IndexPage = () => {
             role="presentation"
           />
           <p>
-          Après une expérience de 13 ans dans le secteur de la petite enfance, j'ai décidé d'entamer une <strong>reconversion professionnelle</strong> pour me diriger vers ma passion : l'univers du web.<br />
-          C'est au cours d'un voyage d'<strong>un an autour du monde</strong> que j'ai développé mon blog.<br />
-          Suite à cela, j'ai suivi une <strong>formation de Développeuse Web</strong>, durant laquelle j’ai acquis la maîtrise de différentes technologies et réalisé mes
+          Après une expérience de 13 ans dans le secteur de la petite enfance, j'ai décidé d'entamer une <strong>reconversion professionnelle</strong> pour me plonger dans l'<strong>univers du web</strong>.<br />
+          C'est au cours d'un voyage d'<strong>un an autour du monde</strong> que j'ai développé mon premier blog.<br />
+          Suite à cela, j'ai suivi une <strong>formation de développeuse web</strong> durant laquelle j’ai acquis la maîtrise de différentes technologies et réalisé mes
           premiers projets.<br />
-          Forte des compétences que j'ai acquises, je souhaite aujourd'hui {' '}
+          Forte des compétences acquises, je souhaite aujourd'hui {' '}
           <Link
             title="contact"
             to="contact"

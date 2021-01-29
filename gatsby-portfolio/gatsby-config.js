@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Aurélie Mlynarz`,
-    description: `Développeuse web freelance, je souhaite vous aider à développer vos propres projets..`,
+    title: `Aurélie Mlynarz - Développement Web Freelance`,
+    description: `Développeuse web freelance, je souhaite vous aider à créer un site web qui vous corresponde et améliore la visibilité de votre entreprise.`,
     author: `Aurélie Mlynarz`,
   },
   plugins: [

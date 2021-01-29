@@ -1,5 +1,5 @@
 ---
-title: 'CV de Aurélie Mlynarz'
+title: 'Mon CV'
 date: '2020-05-12'
 img: './articles/header-cv.jpg'
 ---
@@ -28,6 +28,8 @@ J'ai commencé par découper les différents éléments, puis les ai traduits en
 Afin que cette page s'adapte à toutes tailles d'écran, j'ai défini un format **responsive** qui transforme ce cv en une colonne sur les écrans de moins de 1000 pixels.
 
 ### Pour consulter le projet
-Pour ce projet, j'ai utilisé le **logiciel de versionning Git**. Il est hébergé gratuitement avec GitHub Pages. Vous pouvez donc le consulter ici : [mon cv](https://lilimly.github.io/cv_aurelie_mlynarz/ "Lien vers mon CV"). 
+Pour ce projet, j'ai utilisé le **logiciel de versionning Git**. Il est hébergé gratuitement avec **GitHub Pages**. 
+
+Vous pouvez le consulter ici : [mon cv](https://lilimly.github.io/cv_aurelie_mlynarz/ "Lien vers mon CV"). 
 
 Retrouvez le **code source** de ce projet sur [mon espace GitHub](https://github.com/Lilimly/cv_aurelie_mlynarz "Code source de mon CV")
