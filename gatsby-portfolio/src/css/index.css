@@ -168,7 +168,11 @@ nav .header-div .hamburger {
   text-align: right;
 }
 
-.main-div .project-page .project-content button {
+.main-div .project-page .project-content a {
+  text-decoration: none;
+}
+
+.main-div .project-page .project-content a button {
   margin: 3em auto 3em auto;
   border: none;
   display: block;
@@ -186,28 +190,28 @@ nav .header-div .hamburger {
   padding: 13px 25px;
 }
 
-.main-div .project-page .project-content button span {
+.main-div .project-page .project-content a button span {
   position: relative;
   z-index: 1;
-  color: #eb5a77;
-}
-
-.main-div .project-page .project-content button span a {
   color: #eb5a77;
   text-decoration: none;
+}
+
+.main-div .project-page .project-content a button span a {
+  color: #eb5a77;
   position: relative;
   z-index: 1;
 }
 
-.main-div .project-page .project-content button:hover span {
+.main-div .project-page .project-content a button:hover span {
   color: #fcfcfc;
 }
 
-.main-div .project-page .project-content button:hover span a {
+.main-div .project-page .project-content a button:hover span a {
   color: #fcfcfc;
 }
 
-.main-div .project-page .project-content button:after {
+.main-div .project-page .project-content a button:after {
   content: "";
   position: absolute;
   left: 0;
@@ -221,7 +225,7 @@ nav .header-div .hamburger {
   transform: translateX(-98%) translateY(-25%) rotate(45deg);
 }
 
-.main-div .project-page .project-content button:hover:after {
+.main-div .project-page .project-content a button:hover:after {
   -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
   transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
@@ -315,7 +319,11 @@ nav .header-div .hamburger {
           justify-content: center;
 }
 
-.main-div #welcome .section-content .button-div button {
+.main-div #welcome .section-content .button-div a {
+  text-decoration: none;
+}
+
+.main-div #welcome .section-content .button-div a button {
   margin: 1em auto 1em auto;
   border: none;
   display: block;
@@ -333,17 +341,13 @@ nav .header-div .hamburger {
   padding: 17px 35px;
 }
 
-.main-div #welcome .section-content .button-div button span {
+.main-div #welcome .section-content .button-div a button span {
   position: relative;
   z-index: 1;
   color: #fcfcfc;
 }
 
-.main-div #welcome .section-content .button-div button span a {
-  color: #fcfcfc;
-}
-
-.main-div #welcome .section-content .button-div button:after {
+.main-div #welcome .section-content .button-div a button:after {
   content: "";
   position: absolute;
   left: 0;
@@ -357,13 +361,9 @@ nav .header-div .hamburger {
   transform: translateX(-98%) translateY(-25%) rotate(45deg);
 }
 
-.main-div #welcome .section-content .button-div button:hover:after {
+.main-div #welcome .section-content .button-div a button:hover:after {
   -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
   transform: translateX(-9%) translateY(-25%) rotate(45deg);
-}
-
-.main-div #welcome .section-content .button-div button a {
-  text-decoration: none;
 }
 
 .main-div #parcours {
@@ -466,7 +466,11 @@ nav .header-div .hamburger {
           justify-content: center;
 }
 
-.main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline button {
+.main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline a {
+  text-decoration: none;
+}
+
+.main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline a button {
   border: none;
   display: block;
   text-align: center;
@@ -484,28 +488,28 @@ nav .header-div .hamburger {
   padding: 12px 40px;
 }
 
-.main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline button span {
+.main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline a button span {
   position: relative;
   z-index: 1;
-  color: #eb5a77;
-}
-
-.main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline button span a {
   color: #eb5a77;
   text-decoration: none;
+}
+
+.main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline a button span a {
+  color: #eb5a77;
   position: relative;
   z-index: 1;
 }
 
-.main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline button:hover span {
+.main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline a button:hover span {
   color: #fcfcfc;
 }
 
-.main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline button:hover span a {
+.main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline a button:hover span a {
   color: #fcfcfc;
 }
 
-.main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline button:after {
+.main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline a button:after {
   content: "";
   position: absolute;
   left: 0;
@@ -519,7 +523,7 @@ nav .header-div .hamburger {
   transform: translateX(-98%) translateY(-25%) rotate(45deg);
 }
 
-.main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline button:hover:after {
+.main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline a button:hover:after {
   -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
   transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
@@ -619,7 +623,11 @@ nav .header-div .hamburger {
   margin: 0.5em;
 }
 
-.main-div #projets .projects .projects-div .projects-items .projects-content .projects-text button {
+.main-div #projets .projects .projects-div .projects-items .projects-content .projects-text a {
+  text-decoration: none;
+}
+
+.main-div #projets .projects .projects-div .projects-items .projects-content .projects-text a button {
   border: none;
   display: block;
   text-align: center;
@@ -637,28 +645,28 @@ nav .header-div .hamburger {
   padding: 12px 40px;
 }
 
-.main-div #projets .projects .projects-div .projects-items .projects-content .projects-text button span {
+.main-div #projets .projects .projects-div .projects-items .projects-content .projects-text a button span {
   position: relative;
   z-index: 1;
-  color: #eb5a77;
-}
-
-.main-div #projets .projects .projects-div .projects-items .projects-content .projects-text button span a {
   color: #eb5a77;
   text-decoration: none;
+}
+
+.main-div #projets .projects .projects-div .projects-items .projects-content .projects-text a button span a {
+  color: #eb5a77;
   position: relative;
   z-index: 1;
 }
 
-.main-div #projets .projects .projects-div .projects-items .projects-content .projects-text button:hover span {
+.main-div #projets .projects .projects-div .projects-items .projects-content .projects-text a button:hover span {
   color: #fcfcfc;
 }
 
-.main-div #projets .projects .projects-div .projects-items .projects-content .projects-text button:hover span a {
+.main-div #projets .projects .projects-div .projects-items .projects-content .projects-text a button:hover span a {
   color: #fcfcfc;
 }
 
-.main-div #projets .projects .projects-div .projects-items .projects-content .projects-text button:after {
+.main-div #projets .projects .projects-div .projects-items .projects-content .projects-text a button:after {
   content: "";
   position: absolute;
   left: 0;
@@ -672,7 +680,7 @@ nav .header-div .hamburger {
   transform: translateX(-98%) translateY(-25%) rotate(45deg);
 }
 
-.main-div #projets .projects .projects-div .projects-items .projects-content .projects-text button:hover:after {
+.main-div #projets .projects .projects-div .projects-items .projects-content .projects-text a button:hover:after {
   -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
   transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
@@ -728,7 +736,11 @@ nav .header-div .hamburger {
   margin: 0.5em;
 }
 
-.main-div #projets .projects .projects-div-one .projects-items .projects-content .projects-text button {
+.main-div #projets .projects .projects-div-one .projects-items .projects-content .projects-text a {
+  text-decoration: none;
+}
+
+.main-div #projets .projects .projects-div-one .projects-items .projects-content .projects-text a button {
   border: none;
   display: block;
   text-align: center;
@@ -746,28 +758,28 @@ nav .header-div .hamburger {
   padding: 12px 40px;
 }
 
-.main-div #projets .projects .projects-div-one .projects-items .projects-content .projects-text button span {
+.main-div #projets .projects .projects-div-one .projects-items .projects-content .projects-text a button span {
   position: relative;
   z-index: 1;
-  color: #eb5a77;
-}
-
-.main-div #projets .projects .projects-div-one .projects-items .projects-content .projects-text button span a {
   color: #eb5a77;
   text-decoration: none;
+}
+
+.main-div #projets .projects .projects-div-one .projects-items .projects-content .projects-text a button span a {
+  color: #eb5a77;
   position: relative;
   z-index: 1;
 }
 
-.main-div #projets .projects .projects-div-one .projects-items .projects-content .projects-text button:hover span {
+.main-div #projets .projects .projects-div-one .projects-items .projects-content .projects-text a button:hover span {
   color: #fcfcfc;
 }
 
-.main-div #projets .projects .projects-div-one .projects-items .projects-content .projects-text button:hover span a {
+.main-div #projets .projects .projects-div-one .projects-items .projects-content .projects-text a button:hover span a {
   color: #fcfcfc;
 }
 
-.main-div #projets .projects .projects-div-one .projects-items .projects-content .projects-text button:after {
+.main-div #projets .projects .projects-div-one .projects-items .projects-content .projects-text a button:after {
   content: "";
   position: absolute;
   left: 0;
@@ -781,7 +793,7 @@ nav .header-div .hamburger {
   transform: translateX(-98%) translateY(-25%) rotate(45deg);
 }
 
-.main-div #projets .projects .projects-div-one .projects-items .projects-content .projects-text button:hover:after {
+.main-div #projets .projects .projects-div-one .projects-items .projects-content .projects-text a button:hover:after {
   -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
   transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
@@ -962,10 +974,6 @@ nav .header-div .hamburger {
   color: #fcfcfc;
 }
 
-.main-div #contact .the-form .big-form form .button-div button span a {
-  color: #fcfcfc;
-}
-
 .main-div #contact .the-form .big-form form .button-div button:after {
   content: "";
   position: absolute;
@@ -1051,11 +1059,11 @@ nav .header-div .hamburger {
   position: relative;
   z-index: 1;
   color: #eb5a77;
+  text-decoration: none;
 }
 
 .main-div #contact .the-form .big-form form .modal-div .modal-wrapper .modal button span a {
   color: #eb5a77;
-  text-decoration: none;
   position: relative;
   z-index: 1;
 }
@@ -1444,9 +1452,6 @@ nav .header-div .hamburger {
   .main-div #welcome .section-content .button-div button span {
     position: relative;
     z-index: 1;
-    color: #fcfcfc;
-  }
-  .main-div #welcome .section-content .button-div button span a {
     color: #fcfcfc;
   }
   .main-div #welcome .section-content .button-div button:after {

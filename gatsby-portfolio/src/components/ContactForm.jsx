@@ -68,7 +68,7 @@ class ContactForm extends React.PureComponent {
             .then(response => {
                 this.setState({
                     isShowing: true,
-                    feedbackMsg: "Votre message m'a bien été envoyé ! Je vous en remercie et vous répond au plus vite. ",
+                    feedbackMsg: "Votre message m'a bien été envoyé ! Je vous remercie et vous réponds au plus vite. ",
                 })
                 this.domRef.current.reset()
             })

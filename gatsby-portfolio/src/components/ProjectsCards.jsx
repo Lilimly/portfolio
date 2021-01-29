@@ -41,13 +41,13 @@ export default function ProjectsCards() {
                                 <FontAwesomeIcon icon={["fab", "git-square"]} title="Git" size="2x"/>
                                 <FontAwesomeIcon icon={["fab", "github"]} title="GitHub" size="2x"/>
                             </div>
-                            <button>    
-                                <span>
-                                    <Link to="/projets/villes-a-vivre/" title="Plus de détails">
+                            <Link to="/projets/villes-a-vivre/" title="Plus de détails">
+                                <button>    
+                                    <span>
                                         Plus de détails
-                                    </Link>
-                                </span>        
-                            </button>
+                                    </span>        
+                                </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -66,13 +66,13 @@ export default function ProjectsCards() {
                             <div className="tech-icon">
                                 <FontAwesomeIcon icon={["fab", "wordpress-simple"]} title="Wordpress" size="2x"/>
                             </div>
-                            <button>   
-                                <span>        
-                                    <Link to="/projets/gotripics/" title="Plus de détails">
+                            <Link to="/projets/gotripics/" title="Plus de détails">
+                                <button>   
+                                    <span>        
                                         Plus de détails
-                                    </Link>
-                                </span> 
-                            </button>
+                                    </span> 
+                                </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -96,13 +96,13 @@ export default function ProjectsCards() {
                                 <span title="GraphQL"><Icon icon={graphqlIcon} className="icon-special" color="#ee738b" width="36" height="36" /></span>
                                 <FontAwesomeIcon icon={["fab", "sass"]} title="SASS" size="2x"/>
                             </div>
-                            <button>       
-                                <span>   
-                                    <Link to="/projets/site-vitrine/" title="Plus de détails">
+                            <Link to="/projets/site-vitrine/" title="Plus de détails">
+                                <button>       
+                                    <span>   
                                         Plus de détails
-                                    </Link>
-                                </span>  
-                            </button>
+                                    </span>  
+                                </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -124,13 +124,13 @@ export default function ProjectsCards() {
                                 <FontAwesomeIcon icon={["fab", "node"]} title="Node JS" size="2x"/>
                                 <span title="Express JS"><Icon icon={expressIcon} title="Express JS" width="42" height="42" /></span>
                             </div>
-                            <button>  
-                                <span>        
-                                    <Link to="/projets/groupomania/" title="Plus de détails">
+                            <Link to="/projets/groupomania/" title="Plus de détails">
+                                <button>  
+                                    <span>        
                                         Plus de détails
-                                    </Link>
-                                </span>  
-                            </button>
+                                    </span>  
+                                </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -154,13 +154,13 @@ export default function ProjectsCards() {
                                 <span title="Mongo DB"><Icon icon={mongodbIcon} title="Mongo DB" color="#ee738b" width="36" /></span>
                                 <FontAwesomeIcon icon={["fab", "git-square"]} title="Git" size="2x"/>
                             </div>
-                            <button>  
-                                <span>         
-                                    <Link to="/projets/piquante/" title="Plus de détails">
+                            <Link to="/projets/piquante/" title="Plus de détails">
+                                <button>  
+                                    <span>         
                                         Plus de détails
-                                    </Link>
-                                </span> 
-                            </button>
+                                    </span> 
+                                </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -182,13 +182,13 @@ export default function ProjectsCards() {
                                 <FontAwesomeIcon icon={["fab", "git-square"]} title="Git" size="2x"/>
                                 <FontAwesomeIcon icon={["fab", "github"]} title="GitHub" size="2x"/>
                             </div>
-                            <button>     
-                                <span>     
-                                    <Link to="/projets/orinoco/" title="Plus de détails">
+                            <Link to="/projets/orinoco/" title="Plus de détails">
+                                <button>     
+                                    <span>     
                                         Plus de détails
-                                    </Link>
-                                </span>  
-                            </button>
+                                    </span>  
+                                </button>
+                            </Link>
                         </div>   
                     </div>        
                 </div>
@@ -212,13 +212,13 @@ export default function ProjectsCards() {
                                 <FontAwesomeIcon icon={["fab", "css3-alt"]} title="CSS 3" size="2x"/>
                                 <FontAwesomeIcon icon={["fab", "git-square"]} title="Git" size="2x"/>
                             </div>
-                            <button>   
-                                <span>        
-                                    <Link to="/projets/chouette-agence/" title="Plus de détails">
+                            <Link to="/projets/chouette-agence/" title="Plus de détails">
+                                <button>   
+                                    <span>        
                                         Plus de détails
-                                    </Link>
-                                </span> 
-                            </button>
+                                    </span> 
+                                </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -240,13 +240,13 @@ export default function ProjectsCards() {
                                 <FontAwesomeIcon icon={["fab", "css3-alt"]} title="CSS 3" size="2x"/>
                                 <FontAwesomeIcon icon={["fab", "git-square"]} title="Git" size="2x"/>
                             </div>
-                            <button>  
-                                <span>         
-                                    <Link to="/projets/ohmyfood/" title="Plus de détails">
+                            <Link to="/projets/ohmyfood/" title="Plus de détails">
+                                <button>  
+                                    <span>         
                                         Plus de détails
-                                    </Link>
-                                </span> 
-                            </button>
+                                    </span> 
+                                </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -270,13 +270,13 @@ export default function ProjectsCards() {
                                 <FontAwesomeIcon icon={["fab", "git-square"]} title="Git" size="2x"/>
                                 <FontAwesomeIcon icon={["fab", "github"]} title="GitHub" size="2x"/>
                             </div>
-                            <button>   
-                                <span>        
-                                    <Link to="/projets/cv-aurelie-mlynarz/" title="Plus de détails">
+                            <Link to="/projets/cv-aurelie-mlynarz/" title="Plus de détails">
+                                <button>   
+                                    <span>        
                                         Plus de détails
-                                    </Link>
-                                </span> 
-                            </button>
+                                    </span> 
+                                </button>
+                            </Link>
                         </div>
                     </div>
                 </div>

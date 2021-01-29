@@ -130,10 +130,13 @@ nav {
       .date {
         text-align: right;
       }
-      button {
-        margin: 3em auto 3em auto;
-        @include button;
-            padding: 13px 25px;
+      a {
+        text-decoration: none;
+        button {
+          margin: 3em auto 3em auto;
+          @include button;
+              padding: 13px 25px;
+        }
       }
     }
     .button-top {
@@ -166,12 +169,12 @@ nav {
       .button-div {
         width: 100%;
         @include flex_center;
-        button {
-          margin: 1em auto 1em auto;
-          @include submit;
-          padding: 17px 35px;
-          a {
-            text-decoration: none;
+        a {
+          text-decoration: none;
+          button {
+            margin: 1em auto 1em auto;
+            @include submit;
+            padding: 17px 35px;
           }
         }
       }
@@ -243,10 +246,13 @@ nav {
         .button-timeline {
           margin-top: 1em;
           @include flex_center;
-          button {
-            @include button;
-            margin: 1em auto 1em auto;
-            padding: 12px 40px;
+          a {
+            text-decoration: none;
+            button {
+              @include button;
+              margin: 1em auto 1em auto;
+              padding: 12px 40px;
+            }
           }
         }
       }
@@ -319,10 +325,13 @@ nav {
                   margin: 0.5em;
                 }
               }
-              button {
-                @include button;
-                margin: 1em auto 1em auto;
-                padding: 12px 40px;
+              a {
+                text-decoration: none;
+                button {
+                  @include button;
+                  margin: 1em auto 1em auto;
+                  padding: 12px 40px;
+                }
               }
             }
           }
@@ -362,10 +371,13 @@ nav {
                   margin: 0.5em;
                 }
               }
-              button {
-                @include button;
-                margin: 1em auto 1em auto;
-                padding: 12px 40px;
+              a {
+                text-decoration: none;
+                button {
+                  @include button;
+                  margin: 1em auto 1em auto;
+                  padding: 12px 40px;
+                }
               }
             }
           }

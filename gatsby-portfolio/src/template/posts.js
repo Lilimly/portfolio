@@ -26,13 +26,13 @@ const Posts = ({ data }) => {
                     <p className="date">Projet réalisé le {post.frontmatter.date}</p>
                     <h1>{post.frontmatter.title}</h1>
                     <MDXRenderer>{post.body}</MDXRenderer>
-                    <button>
-                        <span>
-                            <AnchorLink to="/#projets" title="Retour aux projets">
+                    <AnchorLink to="/#projets" title="Retour aux projets">
+                        <button>
+                            <span>
                                 Retour aux projets
-                            </AnchorLink>
-                        </span>
-                    </button>
+                            </span>
+                        </button>
+                    </AnchorLink>
                     <p className="center-p">
                         Besoin d'aide pour réaliser votre projet ?<br />
                         N'hésitez pas à {' '}

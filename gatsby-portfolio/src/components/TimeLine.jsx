@@ -36,20 +36,20 @@ const TimeLine = () => (
               <li><strong>Logiciel de versioning utilisé</strong> : Git et GitHub.</li>
             </ul>
             <div className="button-timeline">
-              <button>  
-                <span>         
-                  <Link
-                    title="Voir les projets"
-                    to="projets"
-                    spy={true}
-                    smooth={true}
-                    offset={-80}
-                    duration={500}
-                  >
-                    Voir les projets
-                  </Link>
-                </span> 
-              </button>
+              <Link
+                title="Voir les projets"
+                to="projets"
+                spy={true}
+                smooth={true}
+                offset={-80}
+                duration={500}
+              >
+                <button>  
+                  <span>         
+                      Voir les projets
+                  </span> 
+                </button>
+              </Link>
             </div>
           </div>
         </VerticalTimelineElement>
@@ -76,20 +76,20 @@ const TimeLine = () => (
               <li><strong>Création d'un réseau social</strong> d’entreprise ( ReactJS, Node / Express, mySQL )</li>
             </ul>
             <div className="button-timeline">
-              <button>   
-                <span>        
-                  <Link
-                    to="projets"
-                    title="Voir les projets"
-                    spy={true}
-                    smooth={true}
-                    offset={-80}
-                    duration={500}
-                  >
+              <Link
+                to="projets"
+                title="Voir les projets"
+                spy={true}
+                smooth={true}
+                offset={-80}
+                duration={500}
+              >
+                <button>   
+                  <span>        
                     Voir les projets
-                  </Link>
-                </span> 
-              </button>
+                  </span> 
+                </button>
+              </Link>
             </div>
           </div>
         </VerticalTimelineElement>
@@ -117,18 +117,18 @@ const TimeLine = () => (
               <li>Élaboration et suivi des newsletters</li>
             </ul>
             <div className="button-timeline">
-              <button>
-                <span>
-                  <a 
-                    href={"https://www.gotripics.com/"}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    title="Voir mon blog"
-                  >
+              <a 
+                href={"https://www.gotripics.com/"}
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Voir mon blog"
+              >
+                <button>
+                  <span>
                     Voir mon blog
-                  </a>
                   </span>
-              </button>
+                </button>
+              </a>
             </div>
           </div>
         </VerticalTimelineElement>

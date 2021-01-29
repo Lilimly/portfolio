@@ -31,8 +31,7 @@ const HeroBanner = () => (
         {" "} que j'ai réalisés.
       </p>
       <div className="button-div">
-        <button> 
-          <span>          
+                 
             <Link
               title="Contactez-moi !"
               to="contact"
@@ -41,10 +40,12 @@ const HeroBanner = () => (
               offset={-80}
               duration={500}
             >
-              Contactez-moi !
+              <button> 
+                <span> 
+                  Contactez-moi !
+                </span> 
+              </button>
             </Link>
-          </span> 
-        </button>
       </div>
     </div>
 )
