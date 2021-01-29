@@ -21,7 +21,7 @@ const TimeLine = () => (
           <h3 className="vertical-timeline-element-subtitle">Paris</h3>
           <div>
             <p>
-              Développeuse web Fullstack, spécialisée frontend.
+              Développeuse web fullstack, spécialisée frontend.
             </p>
             <p className="strong-p">
               Compétences développées :

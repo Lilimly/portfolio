@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import Layout from "../components/layout";
 import TimeLine from "../components/TimeLine";
 import SEO from "../components/seo";
@@ -30,13 +31,39 @@ const IndexPage = () => {
           C'est au cours d'un voyage d'<strong>un an autour du monde</strong> que j'ai développé mon blog.<br />
           Suite à cela, j'ai suivi une <strong>formation de Développeuse Web</strong>, durant laquelle j’ai acquis la maîtrise de différentes technologies et réalisé mes
           premiers projets.<br />
-          Forte des compétences que j'ai acquises, je souhaite aujourd'hui <strong>vous aider à développer vos propres projets</strong>.
+          Forte des compétences que j'ai acquises, je souhaite aujourd'hui {' '}
+          <Link
+            title="contact"
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-80}
+            duration={500}
+          >
+            vous aider à développer vos propres projets
+          </Link>
+          .
           </p>
         </div>
         <TimeLine />
       </section>
       <section className="section" id="projets">
         <h1>Projets réalisés</h1>
+        <p>
+          Pour mieux comprendre <strong>ce que je peux vous apporter</strong>, voici les différents <strong>projets</strong> que j'ai réalisés.<br />
+          Vous avez une question ? <br /> 
+          <Link
+            title="contact"
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-80}
+            duration={500}
+          >
+            Écrivez-moi
+          </Link>
+          {' '} et nous pourrons en discuter !
+        </p>
         <div className="projects">
           <ProjectsCards />
         </div>

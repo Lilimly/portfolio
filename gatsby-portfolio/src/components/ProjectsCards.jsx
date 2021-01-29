@@ -177,8 +177,8 @@ export default function ProjectsCards() {
                             <h2>Orinoco</h2>
                             <h3>Création d'un de site e-commerce</h3>
                             <div className="tech-icon">
-                                <FontAwesomeIcon icon={["fab", "sass"]} title="SASS" size="2x"/>
                                 <FontAwesomeIcon icon={["fab", "js-square"]} title="JavaScript" size="2x"/>
+                                <FontAwesomeIcon icon={["fab", "sass"]} title="SASS" size="2x"/>
                                 <FontAwesomeIcon icon={["fab", "git-square"]} title="Git" size="2x"/>
                                 <FontAwesomeIcon icon={["fab", "github"]} title="GitHub" size="2x"/>
                             </div>

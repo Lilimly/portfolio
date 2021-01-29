@@ -112,13 +112,6 @@ nav {
       }
       p {
         font-size: 1em;
-        a {
-          font-size: 1em;
-          color: $primary-color;
-          &:hover {
-            color: $text_link_color;
-          }
-        }
       }
       .center-p {
         margin-top: 3em;
@@ -169,16 +162,6 @@ nav {
       }
       p {
         text-align: center;
-      }
-      a {
-        color: $primary-color;
-        font-size: 1em;
-        font-weight: bold;
-        text-decoration: underline;
-        &:hover {
-          color: $text_link_color;
-          cursor: pointer;
-        }
       }
       .button-div {
         width: 100%;
@@ -288,6 +271,9 @@ nav {
     h1 {
       color: $primary_color;
       font-family: 'Comfortaa', cursive;
+    }
+    p {
+      text-align: center;
     }
     .projects {
       margin: 2em;
@@ -526,11 +512,11 @@ nav {
         }
         svg {
           color: $primary-color;
-          transform: scale(1.7);
+          transform: scale(1.6);
           transition: transform 300ms ease-in-out;
           &:hover {
             color: $text_link_color;
-            transform: scale(2.2);
+            transform: scale(2);
           }
         }
       }

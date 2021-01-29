@@ -15,9 +15,9 @@ Transformer une maquette en site web.
     - Git / GitHub
 
 ### Les étapes du projet
-Pour que votre site soit votre reflet et réponde à vos besoins et à ceux de vos clients, je peux vous aider en le créant à partir d'une maquette de votre choix.
+Pour que votre site soit **votre reflet** et **réponde à vos besoins** et ainsi qu'à **ceux de vos clients**, je peux vous aider en le créant à partir d'une **maquette de votre choix**.
 
-Prenons ici l'exemple de mon CV. Pour le réaliser je suis partie de la **maquette** suivante :
+Prenons ici l'exemple de mon CV. Pour le réaliser je suis partie de la maquette suivante :
 
 ![Maquette d'origine](./img-cv/maquette-cv.png) 
 

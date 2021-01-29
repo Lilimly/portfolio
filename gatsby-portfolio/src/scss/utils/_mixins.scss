@@ -51,11 +51,13 @@
 }
 
 @mixin text_link {
+    color: $primary_color;
     font-weight: bold;
-    color: $text_link_color;
-    font-size: 0.9em;
+    font-size: 1em;
+    text-decoration: underline;
     &:hover {
-      color: $text-color;
+      color: $text_link_color;
+      cursor: pointer;
     }
 }
 
@@ -110,7 +112,7 @@
     overflow: hidden;
     position: relative;
     font-weight: 700;
-    font-size: 1.2;
+    font-size: 0.9em;
     background-color: $body-color;
     border: 1px solid $primary-color;
     box-shadow: $button-box-shadow;
