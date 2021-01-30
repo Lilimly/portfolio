@@ -8,7 +8,7 @@ import mongodbIcon from '@iconify/icons-cib/mongodb';
 import expressIcon from '@iconify/icons-logos/express';
 import graphqlIcon from '@iconify-icons/cib/graphql';
 
-import cvImg from "../images/header-cv.png";
+import cvImg from "../images/header-cv.jpg";
 import ohmyfoodImg from "../images/header-ohmyfood.png";
 import chouetteImg from "../images/header-chouette-agence.png";
 import orinocoImg from "../images/header-orinoco.png";
