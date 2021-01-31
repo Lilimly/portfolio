@@ -8,15 +8,16 @@ import mongodbIcon from '@iconify/icons-cib/mongodb';
 import expressIcon from '@iconify/icons-logos/express';
 import graphqlIcon from '@iconify-icons/cib/graphql';
 
+//headers img
 import cvImg from "../images/header-cv.jpg";
-import ohmyfoodImg from "../images/header-ohmyfood.png";
-import chouetteImg from "../images/header-chouette-agence.png";
-import orinocoImg from "../images/header-orinoco.png";
-import piquanteImg from "../images/header-piquante.png";
-import portfolioImg from "../images/header-portfolio.png";
-import groupomaniaImg from "../images/header-groupomania.png";
-import gotripicsImg from "../images/header-gotripics.png";
-import vavImg from "../images/hearder-vav.png";
+import ohmyfoodImg from "../images/header-ohmyfood.jpg";
+import chouetteImg from "../images/header-chouette-agence.jpg";
+import orinocoImg from "../images/header-orinoco.jpg";
+import piquanteImg from "../images/header-piquante.jpg";
+import portfolioImg from "../images/header-portfolio.jpg";
+import groupomaniaImg from "../images/header-groupomania.jpg";
+import gotripicsImg from "../images/header-gotripics.jpg";
+import vavImg from "../images/hearder-vav.jpg";
 
 export default function ProjectsCards() {  
 

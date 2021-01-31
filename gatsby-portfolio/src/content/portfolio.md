@@ -1,7 +1,7 @@
 ---
 title: 'Portfolio'
 date: '2021-01-10'
-img: './articles/header-portfolio.png'
+img: './articles/header-portfolio.jpg'
 ---
 ## Création de mon portfolio
 
