@@ -178,7 +178,3 @@ class ContactForm extends React.PureComponent {
 }
 
 export default ContactForm;
-
-// trouver méthode pour retrouver l'url de la page
-// exemple : url: this.props.location.pathname
-// essayer : const url = this.props.match.params.id;

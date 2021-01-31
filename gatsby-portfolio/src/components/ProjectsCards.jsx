@@ -34,8 +34,8 @@ export default function ProjectsCards() {
                             role="presentation"
                         />
                         <div className="projects-text">
-                            <h2>Villes à Vivre</h2>
-                            <h3>Développement du frontend du site</h3>
+                            <h3>Villes à Vivre</h3>
+                            <h4>Développement du frontend du site</h4>
                             <div className="tech-icon">
                                 <FontAwesomeIcon icon={["fab", "vuejs"]} title="Vue JS" size="2x"/>
                                 <FontAwesomeIcon icon={["fab", "sass"]} title="SASS" size="2x"/>
@@ -62,8 +62,8 @@ export default function ProjectsCards() {
                             role="presentation"
                         />
                         <div className="projects-text">
-                            <h2>Gotripics</h2>
-                            <h3>Création d'un blog de voyage</h3>
+                            <h3>Gotripics</h3>
+                            <h4>Création d'un blog de voyage</h4>
                             <div className="tech-icon">
                                 <FontAwesomeIcon icon={["fab", "wordpress-simple"]} title="Wordpress" size="2x"/>
                             </div>
@@ -89,8 +89,8 @@ export default function ProjectsCards() {
                             role="presentation"
                         />
                         <div className="projects-text">
-                            <h2>Portfolio</h2>
-                            <h3>Création de mon portfolio</h3>
+                            <h3>Portfolio</h3>
+                            <h4>Création de mon portfolio</h4>
                             <div className="tech-icon">
                                 <span title="Gatsby"><Icon icon={gatsbyIcon} className="icon-special" width={36} height={36} color="#ee738b" /></span>
                                 <FontAwesomeIcon icon={["fab", "react"]} title="React JS" size="2x"/>
@@ -117,8 +117,8 @@ export default function ProjectsCards() {
                             role="presentation"
                         />
                         <div className="projects-text">
-                            <h2>Groupomania</h2>
-                            <h3>Création d'un réseau social d’entreprise</h3>
+                            <h3>Groupomania</h3>
+                            <h4>Création d'un réseau social d’entreprise</h4>
                             <div className="tech-icon">
                                 <FontAwesomeIcon icon={["fab", "react"]} title="React JS" size="2x"/>
                                 <span title="mySQL"><Icon icon={mysqlIcon} title="mySQL" color="#ee738b" width="42" height="42"  /></span>
@@ -147,8 +147,8 @@ export default function ProjectsCards() {
                             role="presentation"
                         />
                         <div className="projects-text">
-                            <h2>Piquante</h2>
-                            <h3>Construction d'une API sécurisée</h3>
+                            <h3>Piquante</h3>
+                            <h4>Construction d'une API sécurisée</h4>
                             <div className="tech-icon">
                                 <FontAwesomeIcon icon={["fab", "node"]} title="Node JS" size="2x"/>
                                 <span title="Express JS"><Icon icon={expressIcon} title="Express JS" width="42" height="42"/></span>
@@ -175,8 +175,8 @@ export default function ProjectsCards() {
                             role="presentation"
                         />
                         <div className="projects-text">
-                            <h2>Orinoco</h2>
-                            <h3>Création d'un de site e-commerce</h3>
+                            <h3>Orinoco</h3>
+                            <h4>Création d'un de site e-commerce</h4>
                             <div className="tech-icon">
                                 <FontAwesomeIcon icon={["fab", "js-square"]} title="JavaScript" size="2x"/>
                                 <FontAwesomeIcon icon={["fab", "sass"]} title="SASS" size="2x"/>
@@ -205,8 +205,8 @@ export default function ProjectsCards() {
                             role="presentation"
                         />
                         <div className="projects-text">
-                            <h2>Chouette Agence</h2>
-                            <h3>Optimisation SEO</h3>
+                            <h3>Chouette Agence</h3>
+                            <h4>Optimisation SEO</h4>
                             <div className="tech-icon">
                                 <FontAwesomeIcon icon={["fab", "js-square"]} title="JavaScript" size="2x"/>
                                 <FontAwesomeIcon icon={["fab", "html5"]} title="HTML 5" size="2x"/>
@@ -233,8 +233,8 @@ export default function ProjectsCards() {
                             role="presentation"
                         />
                         <div className="projects-text">
-                            <h2>Ohmyfood</h2>
-                            <h3>Dynamisation d'une page web</h3>
+                            <h3>Ohmyfood</h3>
+                            <h4>Dynamisation d'une page web</h4>
                             <div className="tech-icon">
                                 <FontAwesomeIcon icon={["fab", "sass"]} title="SASS" size="2x"/>
                                 <FontAwesomeIcon icon={["fab", "html5"]} title="HTML 5" size="2x"/>
@@ -263,8 +263,8 @@ export default function ProjectsCards() {
                             role="presentation"
                         />
                         <div className="projects-text">
-                            <h2>CV</h2>
-                            <h3>Intégration d'une maquette</h3>
+                            <h3>CV</h3>
+                            <h4>Intégration d'une maquette</h4>
                             <div className="tech-icon">
                                 <FontAwesomeIcon icon={["fab", "html5"]} title="HTML 5" size="2x"/>
                                 <FontAwesomeIcon icon={["fab", "css3-alt"]} title="CSS 3" size="2x"/>

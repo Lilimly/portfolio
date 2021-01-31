@@ -18,7 +18,7 @@ const IndexPage = () => {
         <HeroBanner />
       </section>
       <section className="section" id="parcours">
-        <h1>Mon parcours</h1>
+        <h2>Mon parcours</h2>
         <div className="presentation">
           <img
             src={image}
@@ -48,7 +48,7 @@ const IndexPage = () => {
         <TimeLine />
       </section>
       <section className="section" id="projets">
-        <h1>Projets réalisés</h1>
+        <h2>Projets réalisés</h2>
         <p>
           Pour mieux comprendre <strong>ce que je peux vous apporter</strong>, voici les différents <strong>projets</strong> que j'ai réalisés.<br />
           Vous avez une question ? <br /> 
@@ -69,7 +69,7 @@ const IndexPage = () => {
         </div>
       </section>
       <section className="section" id="contact">
-        <h1>Me contacter</h1>
+        <h2>Me contacter</h2>
         <p>
           Une question, un devis ?<br /> 
           N'hésitez pas à m'écrire et je vous répondrai aussi rapidement que possible !

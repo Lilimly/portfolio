@@ -27,8 +27,6 @@ nav .header-div {
 }
 
 nav .header-div img {
-  width: 11em;
-  height: 3.6em;
   margin: 0.4em 0em 0.4em 1.5em;
   -webkit-transform: scale(1);
           transform: scale(1);
@@ -105,6 +103,14 @@ nav .header-div .hamburger {
 
 .main-div h2 {
   text-align: center;
+  font-family: 'Comfortaa', cursive;
+  margin: 0.5em;
+  color: #eb5a77;
+  font-size: 2em;
+}
+
+.main-div h3 {
+  text-align: center;
   margin: 0.5em;
   color: #3a3a58;
   font-family: 'Comfortaa', cursive;
@@ -131,15 +137,25 @@ nav .header-div .hamburger {
   padding: 2em 3em 2em 3em;
 }
 
+.main-div .project-page .project-content h1 {
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  margin: 0.5em;
+  color: #eb5a77;
+  font-size: 2em;
+}
+
 .main-div .project-page .project-content h2 {
   margin-bottom: 1em;
+  color: #3a3a58;
   font-size: 1.5em;
 }
 
 .main-div .project-page .project-content h3 {
   color: #eb5a77;
   font-family: 'Comfortaa', cursive;
-  margin-top: 2em;
+  margin: 2em auto 1em 0em;
+  text-align: left;
 }
 
 .main-div .project-page .project-content p {
@@ -390,17 +406,17 @@ nav .header-div .hamburger {
   width: 100%;
 }
 
-.main-div #parcours h1 {
+.main-div #parcours h2 {
   font-family: 'Comfortaa', cursive;
   color: #eb5a77;
 }
 
-.main-div #parcours h2 {
+.main-div #parcours h3 {
   text-align: left;
   margin-left: 0em;
 }
 
-.main-div #parcours h3 {
+.main-div #parcours h4 {
   font-size: 1.1em;
 }
 
@@ -566,7 +582,7 @@ nav .header-div .hamburger {
   width: 100%;
 }
 
-.main-div #projets h1 {
+.main-div #projets h2 {
   color: #eb5a77;
   font-family: 'Comfortaa', cursive;
 }
@@ -613,13 +629,13 @@ nav .header-div .hamburger {
   padding: 0em 0.5em 0.5em 0.5em;
 }
 
-.main-div #projets .projects .projects-div .projects-items .projects-content .projects-text h2 {
+.main-div #projets .projects .projects-div .projects-items .projects-content .projects-text h3 {
   color: #eb5a77;
   font-size: 1.2em;
   font-family: 'Comfortaa', cursive;
 }
 
-.main-div #projets .projects .projects-div .projects-items .projects-content .projects-text h3 {
+.main-div #projets .projects .projects-div .projects-items .projects-content .projects-text h4 {
   color: #3a3a58;
   font-family: 'Comfortaa', cursive;
   font-size: 0.9em;
@@ -734,13 +750,13 @@ nav .header-div .hamburger {
   padding: 0.5em;
 }
 
-.main-div #projets .projects .projects-div-one .projects-items .projects-content .projects-text h2 {
+.main-div #projets .projects .projects-div-one .projects-items .projects-content .projects-text h3 {
   color: #eb5a77;
   font-family: 'Comfortaa', cursive;
   font-size: 1.2em;
 }
 
-.main-div #projets .projects .projects-div-one .projects-items .projects-content .projects-text h3 {
+.main-div #projets .projects .projects-div-one .projects-items .projects-content .projects-text h4 {
   color: #3a3a58;
   font-family: 'Comfortaa', cursive;
   font-size: 0.9em;
@@ -824,7 +840,7 @@ nav .header-div .hamburger {
   width: 100%;
 }
 
-.main-div #contact h1 {
+.main-div #contact h2 {
   color: #eb5a77;
   font-family: 'Comfortaa', cursive;
 }
@@ -1245,7 +1261,10 @@ nav .header-div .hamburger {
     color: #fcfcfc;
   }
   .main-div h1 {
-    font-size: 1.5em;
+    font-size: 1.4em;
+  }
+  .main-div h2 {
+    font-size: 1.4em;
   }
   .main-div p {
     font-size: 0.8em;
@@ -1254,12 +1273,14 @@ nav .header-div .hamburger {
     padding: 1em;
   }
   .main-div #welcome .section-content {
-    width: 90%;
+    width: 100%;
   }
-  .main-div #welcome .section-content .button-div button {
+  .main-div #welcome .section-content .button-div a button {
+    padding: 14px 30px;
+  }
+  .main-div #welcome .section-content .button-div a button span {
     font-size: 0.9em;
     font-weight: bold;
-    padding: 10px 20px;
   }
   .main-div #parcours {
     padding: 1.5em 0.5em 1em 0.5em;
@@ -1281,10 +1302,10 @@ nav .header-div .hamburger {
     font-size: 0.8em;
     margin: 1em auto 1em auto;
   }
-  .main-div #parcours .vertical-timeline-element--work h2 {
+  .main-div #parcours .vertical-timeline-element--work h3 {
     font-size: 1.1em;
   }
-  .main-div #parcours .vertical-timeline-element--work h3 {
+  .main-div #parcours .vertical-timeline-element--work h4 {
     font-size: 0.9em;
   }
   .main-div #parcours .vertical-timeline-element--work p {
@@ -1318,7 +1339,7 @@ nav .header-div .hamburger {
   .main-div #projets .projects .projects-div-one .projects-items {
     width: 100%;
   }
-  .main-div #contact h1 {
+  .main-div #contact h2 {
     padding-top: 1em;
   }
   .main-div #contact .the-form .big-form {
@@ -1506,10 +1527,10 @@ nav .header-div .hamburger {
     font-size: 0.8em;
     margin: 1em auto 1em auto;
   }
-  .main-div #parcours h2 {
+  .main-div #parcours h3 {
     font-size: 1.1em;
   }
-  .main-div #parcours h3 {
+  .main-div #parcours h4 {
     font-size: 0.9em;
   }
   .main-div #parcours p {
@@ -1518,8 +1539,9 @@ nav .header-div .hamburger {
   .main-div #parcours ul li {
     font-size: 0.8em;
   }
-  .main-div #parcours .button-timeline button {
+  .main-div #parcours .button-timeline a button span {
     font-size: 0.8em;
+    font-weight: bold;
   }
   .main-div #projets {
     padding: 1.5em 0.5em 1em 0.5em;
@@ -1539,7 +1561,7 @@ nav .header-div .hamburger {
   .main-div #projets .projects .projects-div-one .projects-items {
     width: 100%;
   }
-  .main-div #contact h1 {
+  .main-div #contact h2 {
     padding-top: 1em;
   }
   .main-div #contact p {
@@ -1687,7 +1709,7 @@ nav .header-div .hamburger {
   .main-div #projets .projects .projects-div-one .projects-items {
     width: 100%;
   }
-  .main-div #contact h1 {
+  .main-div #contact h2 {
     padding-top: 1em;
   }
   .main-div #contact p {
@@ -1735,7 +1757,7 @@ nav .header-div .hamburger {
   .main-div #projets .projects .projects-div-one .projects-items {
     width: 45%;
   }
-  .main-div #contact h1 {
+  .main-div #contact h2 {
     padding-top: 1em;
   }
   .main-div #contact p {

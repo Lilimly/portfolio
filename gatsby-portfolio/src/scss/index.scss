@@ -29,8 +29,6 @@ nav {
     padding: 0em;
     display: flex;
     img {
-      width: 11em;
-      height: 3.6em;
       margin: 0.4em 0em 0.4em 1.5em;
       transform: scale(1);
       transition: transform 300ms ease-in-out;
@@ -87,6 +85,13 @@ nav {
   }
   h2 {
     text-align: center;
+    font-family: 'Comfortaa', cursive;
+    margin: 0.5em;
+    color: $primary_color;
+    font-size: 2em;
+  }
+  h3 {
+    text-align: center;
     margin: 0.5em;
     color: $text_color;
     font-family: 'Comfortaa', cursive;
@@ -101,14 +106,23 @@ nav {
   .project-page {
     .project-content {
       padding: 2em 3em 2em 3em;
+      h1 {
+        text-align: center;
+        font-family: 'Comfortaa', cursive;
+        margin: 0.5em;
+        color: $primary_color;
+        font-size: 2em;
+      }
       h2 {
         margin-bottom: 1em;
+        color: $text_color;
         font-size: 1.5em;
       }
       h3 {
         color: $primary-color;
         font-family: 'Comfortaa', cursive;
-        margin-top: 2em;
+        margin: 2em auto 1em 0em;
+        text-align: left;
       }
       p {
         font-size: 1em;
@@ -183,16 +197,15 @@ nav {
     padding: 1.5em 1em 1em 1em;
     background-color: $body_color;
     @include section-style;
-    
-    h1 {
+    h2 {
       font-family: 'Comfortaa', cursive;
       color: $primary_color;
     }
-    h2 {
+    h3 {
       text-align: left;
       margin-left: 0em;
     }
-    h3 {
+    h4 {
       font-size: 1.1em;
     }
     .presentation {
@@ -273,7 +286,7 @@ nav {
     background: $body-color;
     padding: 1.5em 2em 3em 2em;
     @include section-style;
-    h1 {
+    h2 {
       color: $primary_color;
       font-family: 'Comfortaa', cursive;
     }
@@ -300,12 +313,12 @@ nav {
               width: auto;
               margin: auto;
               padding: 0em 0.5em 0.5em 0.5em;
-              h2 {
+              h3 {
                 color: $primary-color;
                 font-size: 1.2em;
                 font-family: 'Comfortaa', cursive;
               }
-              h3 {
+              h4 {
                 color: $text-color;
                 font-family: 'Comfortaa', cursive;
                 font-size: 0.9em;
@@ -354,12 +367,12 @@ nav {
               width: auto;
               margin: auto;
               padding: 0.5em;
-              h2 {
+              h3 {
                 color: $primary-color;
                 font-family: 'Comfortaa', cursive;
                 font-size: 1.2em;
               }
-              h3 {
+              h4 {
                 color: $text-color;
                 font-family: 'Comfortaa', cursive;
                 font-size: 0.9em;
@@ -390,7 +403,7 @@ nav {
     background-color: $body_color;
     background-attachment: fixed;
     @include section-style;
-    h1 {
+    h2 {
       color: $primary_color;
       font-family: 'Comfortaa', cursive;
     }
@@ -617,7 +630,10 @@ nav {
   }
   .main-div {
     h1 {
-      font-size: 1.5em;
+      font-size: 1.4em;
+    }
+    h2 {
+      font-size: 1.4em;
     }
     p{
       font-size: 0.8em;
@@ -629,12 +645,16 @@ nav {
     }
     #welcome {
       .section-content {
-        width: 90%;
+        width: 100%;
         .button-div {
-          button {
-            font-size: 0.9em;
-            font-weight: bold;
-            padding: 10px 20px;
+          a {
+            button {
+              padding: 14px 30px;
+              span {
+                font-size: 0.9em;
+                font-weight: bold;
+              }
+            }
           }
         }
       }
@@ -654,10 +674,10 @@ nav {
         }
       }
       .vertical-timeline-element--work {
-        h2 {
+        h3 {
           font-size: 1.1em;
         }
-        h3 {
+        h4 {
           font-size: 0.9em;
         }
         p {
@@ -694,7 +714,7 @@ nav {
       }
     }
     #contact {
-      h1 {
+      h2 {
         padding-top: 1em;
       }
       .the-form {
@@ -845,10 +865,10 @@ nav {
           margin: 1em auto 1em auto;
         }
       }
-      h2 {
+      h3 {
         font-size: 1.1em;
       }
-      h3 {
+      h4 {
         font-size: 0.9em;
       }
       p {
@@ -860,8 +880,13 @@ nav {
         }
       }
       .button-timeline {
-        button {
-          font-size: 0.8em;
+        a {
+          button {
+            span {
+              font-size: 0.8em;
+              font-weight: bold;
+            }
+          }
         }
       }
     }
@@ -880,7 +905,7 @@ nav {
       }
     }
     #contact {
-      h1 {
+      h2 {
         padding-top: 1em;
       }
       p {
@@ -1023,7 +1048,7 @@ nav {
       }
     }
     #contact {
-      h1 {
+      h2 {
         padding-top: 1em;
       }
       p {
@@ -1086,7 +1111,7 @@ nav {
       }
     }
     #contact {
-      h1 {
+      h2 {
         padding-top: 1em;
       }
       p {
