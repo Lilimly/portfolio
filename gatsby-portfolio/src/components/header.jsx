@@ -9,11 +9,10 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 
 export default function Header () {
+  let pathname = typeof window !== "undefined" ? window.location.pathname : "";
   const [click, setClick] = useState(false);
-
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
-  const location = window.location.pathname;
 
   function scrollToTop () {
     scroll.scrollToTop();
@@ -22,7 +21,7 @@ export default function Header () {
   return (
     <nav>
       <div className="header-div">
-        {location === "/" ?
+        {pathname === "/" ?
           <img
             title="Logo Aurélie Mlynarz"
             src={image}
@@ -54,7 +53,7 @@ export default function Header () {
         </button>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
         <li className="nav-item">
-          {location === "/" ?
+          {pathname === "/" ?
             <Link
               title="Bienvenue"
               activeClass="active"
@@ -73,7 +72,7 @@ export default function Header () {
           }
           </li>
           <li className="nav-item">
-            {location === "/" ?
+            {pathname === "/" ?
               <Link
                 title="Parcours"
                 activeClass="active"
@@ -92,7 +91,7 @@ export default function Header () {
             }
           </li>
           <li className="nav-item">
-            {location === "/" ?
+            {pathname === "/" ?
               <Link
               title="Projets"
                 activeClass="active"
@@ -111,7 +110,7 @@ export default function Header () {
             }
           </li>
           <li className="nav-item">
-            {location === "/" ?
+            {pathname === "/" ?
               <Link
                 title="contact"
                 activeClass="active"

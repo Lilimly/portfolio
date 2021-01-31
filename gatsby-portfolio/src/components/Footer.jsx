@@ -8,13 +8,13 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 
 export default function Footer () {
-    const location = window.location.pathname;
+    let pathname = typeof window !== "undefined" ? window.location.pathname : "";
 
     return (
         <footer>
                         <div className="button-div">
                 <button>
-                    {location === "/" ?    
+                    {pathname === "/" ?    
                         <Link
                             title="Me contacter"
                             to="contact"
