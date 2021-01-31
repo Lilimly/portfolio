@@ -25,9 +25,11 @@ Pour développer le site Ohmyfood, j'ai **intégré une maquette** en respectant
 
 La page d'accueil présente les cartes des menus disponibles. Lorsqu'on les survole avec la souris, les cartes ont un effet de zoom pour montrer à l'utilisateur que l'on peut cliquer dessus.
 
-![Page d'accueil Ohmyfood](./img-ohmyfood/accueil-ohmyfood.png)
+![Page d'accueil Ohmyfood](./img-ohmyfood/accueil-ohmyfood.jpg)
 
 Au clic sur chacune des cartes, le menu détaillé est dévoilé. 
+
+![Page menu Ohmyfood](./img-ohmyfood/menu-ohmyfood.jpg)
 
 L'ensemble du site est responsive afin de s'adapter à toutes tailles d'écran et de garantir une bonne expérience utilisateur.
 

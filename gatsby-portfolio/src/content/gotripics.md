@@ -25,7 +25,7 @@ Dans ce cadre j'ai développé les **compétences** suivantes :
 - Suivi et analyse de l'évolution des **chiffres d'audience**
 - Élaboration et suivi des **newsletters**
 
-![carnets de voyage](./img-gotripics/carnet-voyage-gotripics.png)
+![carnets de voyage](./img-gotripics/carnet-voyage-gotripics.jpg)
 
 ### Pour consulter le projet
 Vous pouvez retrouver mon blog à l'adresse [gotripics.com](https://www.gotripics.com/ "Consulter mon blog").

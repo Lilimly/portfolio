@@ -26,21 +26,21 @@ Pour réaliser ce site de **e-commerce**, j'ai dans un premier temps récupéré
 
 A la connexion sur le site, la page d'accueil nous affiche les différents oursons disponibles, sous forme de cartes.
 
-![Page d'accueil](./img-orinoco/accueil-orinoco.png)
+![Page d'accueil](./img-orinoco/accueil-orinoco.jpg)
 
 Au clic sur l'une des cartes, une page produit apporte des informations plus détaillées. Elle offre également la possibilité de choisir la couleur de l'ourson et de l'ajouter au panier :
 
-![Page produit](./img-orinoco/page-produit-orinoco.png)
+![Page produit](./img-orinoco/page-produit-orinoco.jpg)
 
 Dans la barre de navigation du site, un lien permet de consulter son panier à tout moment.
 
 Cette page panier offre un récapitulatif des articles commandés, le prix total et le formulaire de commande.
 
-![Page panier](./img-orinoco/panier-orinoco.png)
+![Page panier](./img-orinoco/panier-orinoco.jpg)
 
 Une fois la commande passée, une page de confirmation récapitule la commande faite et offre la possibilité de retourner à la page d'accueil du site.
 
-![Page de confirmation](./img-orinoco/confirmation-orinoco.png)
+![Page de confirmation](./img-orinoco/confirmation-orinoco.jpg)
 
 Pour vérifier le bon fonctionnement des différentes étapes de l'application, j'ai rédigé un **plan de tests unitaires** où sont détaillés :
 - les différents points à tester : les actions demandées

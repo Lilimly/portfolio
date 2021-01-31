@@ -34,7 +34,7 @@ Ils **réduisent la complexité** du site ce qui améliore la **vitesse**, la **
 
 * parce que notre site est statique, nous pouvons même **renoncer complètement aux serveurs web et aux équilibreurs de charge**. Au lieu de cela, le site est hébergé avec un réseau de diffusion de contenu qui évolue en fonction du trafic.
 
-![Site vitrine](./img-portfolio/accueil-portfolio.png)
+![Site vitrine](./img-portfolio/accueil-portfolio.jpg)
 
 ### Pour consulter le projet
 Pour ce projet, j'ai utilisé le **logiciel de versionning Git**.

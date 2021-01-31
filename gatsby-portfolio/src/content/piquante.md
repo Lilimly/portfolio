@@ -28,15 +28,15 @@ Dans un premier temps, l'utilisateur arrive sur une page d'inscription ou de con
 
 Une fois authentiflié, l'utilisateur est dirigé sur la page d'accueil qui présente les différentes sauces créées.
 
-![Page d'accueil](./img-piquante/accueil-piquante.png)
+![Page d'accueil](./img-piquante/accueil-piquante.jpg)
 
 Une page produit affiche les informations précises de la sauce. L'application offre la possibilité de liker ou disliker les sauces.
 
-![Page produit](./img-piquante/produit-piquante.png)
+![Page produit](./img-piquante/produit-piquante.jpg)
 
 L'utilisateur peut également créer une nouvelle sauce. Pour plus de sécurité, il ne pourra supprimer ou modifier que les sauces qu'il a créé.
 
-![Page création d'une sauce](./img-piquante/post-piquante.png)
+![Page création d'une sauce](./img-piquante/post-piquante.jpg)
 
 ### Pour consulter le projets
 Pour ce projet, j'ai utilisé le **logiciel de versionning Git**.

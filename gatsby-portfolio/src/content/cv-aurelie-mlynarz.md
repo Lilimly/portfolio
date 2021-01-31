@@ -19,11 +19,11 @@ Pour que votre site soit **votre reflet** et **réponde à vos besoins** et ains
 
 Prenons ici l'exemple de mon CV. Pour le réaliser je suis partie de la maquette suivante :
 
-![Maquette d'origine](./img-cv/maquette-cv.png) 
+![Maquette d'origine](./img-cv/maquette-cv.jpg) 
 
 J'ai commencé par découper les différents éléments, puis les ai traduits en **HTML5 et CSS3** pour les intégrer à la page web :
 
-![cv Aurélie Mlynarz](./img-cv/cv-aurelie-mlynarz.png)
+![cv Aurélie Mlynarz](./img-cv/cv-aurelie-mlynarz.jpg)
 
 Afin que cette page s'adapte à toutes tailles d'écran, j'ai défini un format **responsive** qui transforme ce cv en une colonne sur les écrans de moins de 1000 pixels.
 
