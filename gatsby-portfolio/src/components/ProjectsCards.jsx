@@ -9,15 +9,15 @@ import expressIcon from "@iconify/icons-logos/express"
 import graphqlIcon from "@iconify-icons/cib/graphql"
 
 //headers img
-import cvImg from "../images/header-cv.jpg"
-import ohmyfoodImg from "../images/header-ohmyfood.jpg"
-import chouetteImg from "../images/header-chouette-agence.jpg"
-import orinocoImg from "../images/header-orinoco.jpg"
+import cvImg from "../images/header-cv.jpeg"
+import ohmyfoodImg from "../images/header-ohmyfood.jpeg"
+import chouetteImg from "../images/header-chouette-agence.jpeg"
+import orinocoImg from "../images/header-orinoco.jpeg"
 import piquanteImg from "../images/header-piquante.jpg"
 import portfolioImg from "../images/header-portfolio.jpg"
-import groupomaniaImg from "../images/header-groupomania.jpg"
-import gotripicsImg from "../images/header-gotripics.jpg"
-import vavImg from "../images/hearder-vav.jpg"
+import groupomaniaImg from "../images/header-groupomania.jpeg"
+import gotripicsImg from "../images/header-gotripics.jpeg"
+import vavImg from "../images/hearder-vav.jpeg"
 
 export default function ProjectsCards() {
   return (

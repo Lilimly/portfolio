@@ -1,7 +1,7 @@
 ---
 title: "Ohmyfood"
 date: "2020-06-01"
-img: "./articles/header-ohmyfood.jpg"
+img: "./articles/header-ohmyfood.jpeg"
 ---
 
 ## Dynamisation d'une page web

@@ -1,7 +1,7 @@
 ---
 title: "Villes à vivre"
 date: "2020-11-10"
-img: "./articles/hearder-vav.jpg"
+img: "./articles/hearder-vav.jpeg"
 ---
 
 ## Projet en cours !

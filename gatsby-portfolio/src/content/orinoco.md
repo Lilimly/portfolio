@@ -1,7 +1,7 @@
 ---
 title: "Orinoco"
 date: "2020-07-15"
-img: "./articles/header-orinoco.jpg"
+img: "./articles/header-orinoco.jpeg"
 ---
 
 ## Création d'un de site e-commerce

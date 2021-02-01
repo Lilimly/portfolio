@@ -1,7 +1,7 @@
 ---
 title: "Groupomania"
 date: "2020-10-01"
-img: "./articles/header-groupomania.jpg"
+img: "./articles/header-groupomania.jpeg"
 ---
 
 ## Création d'un réseau social d’entreprise

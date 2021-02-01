@@ -1,7 +1,7 @@
 ---
 title: "Mon CV"
 date: "2020-05-12"
-img: "./articles/header-cv.jpg"
+img: "./articles/header-cv.jpeg"
 ---
 
 ## Intégration d'un maquette

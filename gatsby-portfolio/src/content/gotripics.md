@@ -1,7 +1,7 @@
 ---
 title: "Gotripics - Blog de Voyage"
 date: "2018-10-01"
-img: "./articles/header-gotripics.jpg"
+img: "./articles/header-gotripics.jpeg"
 ---
 
 ## Création d'un blog de voyage

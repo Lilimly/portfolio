@@ -1,7 +1,7 @@
 ---
 title: "La Chouette Agence"
 date: "2020-06-15"
-img: "./articles/header-chouette-agence.jpg"
+img: "./articles/header-chouette-agence.jpeg"
 ---
 
 ## Optimisation du référencement SEO
