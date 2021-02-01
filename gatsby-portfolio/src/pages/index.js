@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 import HeroBanner from "../components/HeroBanner.jsx"
 import ProjectsCards from "../components/Projectscards.jsx"
 import ContactForm from "../components/ContactForm.jsx"
-import image from "../images/aurelie-mlynarz-photo.jpg"
+import image from "../images/aurelie-mlynarz-photo.jpeg"
 import Button from "../components/Button.jsx"
 
 const IndexPage = () => {

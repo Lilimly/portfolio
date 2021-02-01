@@ -1,7 +1,7 @@
 ---
 title: "Piquante"
 date: "2020-08-10"
-img: "./articles/header-piquante.jpg"
+img: "./articles/header-piquante.jpeg"
 ---
 
 ## Construction d'une API sécurisée
