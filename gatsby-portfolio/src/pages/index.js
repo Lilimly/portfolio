@@ -7,7 +7,7 @@ import HeroBanner from "../components/HeroBanner.jsx"
 import ProjectsCards from "../components/Projectscards.jsx"
 import ContactForm from "../components/ContactForm.jsx"
 import Button from "../components/Button.jsx"
-import Image from "../components/image.js"
+import PhotoAurelie from "../components/GatsbyImages/PhotoAurelie.js"
 
 const IndexPage = () => {
   return (
@@ -20,8 +20,7 @@ const IndexPage = () => {
         <h2>Mon parcours</h2>
         
         <div className="presentation">
-          <Image />
-         
+          <PhotoAurelie />
           <p>
             Après une expérience de 13 ans dans le secteur de la petite enfance,
             j'ai décidé d'entamer une{" "}

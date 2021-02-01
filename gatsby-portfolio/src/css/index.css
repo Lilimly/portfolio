@@ -614,22 +614,26 @@ nav .header-div .hamburger {
           box-shadow: 0 0 10px #bababa;
   text-align: center;
   margin: 1em;
+  width: 50%;
 }
 
 .main-div #projets .projects .projects-div .projects-items .projects-content {
   background-color: #fcfcfc;
   border: 1px solid #eb5a77;
+  width: auto;
+  height: auto;
 }
 
 .main-div #projets .projects .projects-div .projects-items .projects-content img {
-  width: auto;
   height: auto;
+  width: auto;
+  margin-bottom: 0em;
 }
 
 .main-div #projets .projects .projects-div .projects-items .projects-content .projects-text {
   width: auto;
   margin: auto;
-  padding: 0em 0.5em 0.5em 0.5em;
+  padding: 1em 0.5em 0.5em 0.5em;
 }
 
 .main-div #projets .projects .projects-div .projects-items .projects-content .projects-text h3 {
@@ -1339,6 +1343,9 @@ nav .header-div .hamburger {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .main-div #projets .projects .projects-div .projects-items {
+    width: auto;
+  }
   .main-div #projets .projects .projects-div-one .projects-items {
     width: 100%;
   }
@@ -1561,6 +1568,9 @@ nav .header-div .hamburger {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .main-div #projets .projects .projects-div .projects-items {
+    width: auto;
+  }
   .main-div #projets .projects .projects-div-one .projects-items {
     width: 100%;
   }
@@ -1709,6 +1719,9 @@ nav .header-div .hamburger {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .main-div #projets .projects .projects-div .projects-items {
+    width: auto;
   }
   .main-div #projets .projects .projects-div-one .projects-items {
     width: 100%;
