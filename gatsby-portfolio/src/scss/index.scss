@@ -210,12 +210,14 @@ nav {
     }
     .presentation {
       @include row;
-      img {
-        width: 17%;
-        height: 17%;
-        border-radius: 50%;
+      .gatsby-image-wrapper {
+        width: 25%;
+        height: 25%;
         margin: 1em;
-        box-shadow: $box-shadow;
+          img {
+            border-radius: 50%;
+            border: 1px solid $primary-color;
+          }
       }
       p {
         margin: auto 1em auto 1em;
@@ -664,7 +666,7 @@ nav {
       .presentation {
         display: flex;
         flex-direction: column;
-        img {
+        .gatsby-image-wrapper {
           width: 40%;
           margin: 1em auto 1em auto;
         }
@@ -856,7 +858,7 @@ nav {
       .presentation {
         display: flex;
         flex-direction: column;
-        img {
+        .gatsby-image-wrapper {
           width: 40%;
           margin: 1em auto 1em auto;
         }
@@ -1021,7 +1023,7 @@ nav {
       .presentation {
         display: flex;
         flex-direction: column;
-        img {
+        .gatsby-image-wrapper {
           width: 35%;
           margin: 1em auto 1em auto;
         }
@@ -1099,8 +1101,7 @@ nav {
       .presentation {
         display: flex;
         flex-direction: column;
-        img {
-          width: 30%;
+        .gatsby-image-wrapper {
           margin: 1em auto 1em auto;
         }
         p {

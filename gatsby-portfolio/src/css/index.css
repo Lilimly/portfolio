@@ -431,13 +431,15 @@ nav .header-div .hamburger {
           flex-direction: row;
 }
 
-.main-div #parcours .presentation img {
-  width: 17%;
-  height: 17%;
-  border-radius: 50%;
+.main-div #parcours .presentation .gatsby-image-wrapper {
+  width: 25%;
+  height: 25%;
   margin: 1em;
-  -webkit-box-shadow: 0 0 10px #bababa;
-          box-shadow: 0 0 10px #bababa;
+}
+
+.main-div #parcours .presentation .gatsby-image-wrapper img {
+  border-radius: 50%;
+  border: 1px solid #eb5a77;
 }
 
 .main-div #parcours .presentation p {
@@ -1295,7 +1297,7 @@ nav .header-div .hamburger {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .main-div #parcours .presentation img {
+  .main-div #parcours .presentation .gatsby-image-wrapper {
     width: 40%;
     margin: 1em auto 1em auto;
   }
@@ -1520,7 +1522,7 @@ nav .header-div .hamburger {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .main-div #parcours .presentation img {
+  .main-div #parcours .presentation .gatsby-image-wrapper {
     width: 40%;
     margin: 1em auto 1em auto;
   }
@@ -1682,7 +1684,7 @@ nav .header-div .hamburger {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .main-div #parcours .presentation img {
+  .main-div #parcours .presentation .gatsby-image-wrapper {
     width: 35%;
     margin: 1em auto 1em auto;
   }
@@ -1747,8 +1749,7 @@ nav .header-div .hamburger {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .main-div #parcours .presentation img {
-    width: 30%;
+  .main-div #parcours .presentation .gatsby-image-wrapper {
     margin: 1em auto 1em auto;
   }
   .main-div #parcours .presentation p {

@@ -6,8 +6,8 @@ import SEO from "../components/seo"
 import HeroBanner from "../components/HeroBanner.jsx"
 import ProjectsCards from "../components/Projectscards.jsx"
 import ContactForm from "../components/ContactForm.jsx"
-import image from "../images/aurelie-mlynarz-photo.jpeg"
 import Button from "../components/Button.jsx"
+import Image from "../components/image.js"
 
 const IndexPage = () => {
   return (
@@ -18,13 +18,10 @@ const IndexPage = () => {
       </section>
       <section className="section" id="parcours">
         <h2>Mon parcours</h2>
+        
         <div className="presentation">
-          <img
-            src={image}
-            className="my-photo"
-            alt="Aurélie Mlynarz"
-            role="presentation"
-          />
+          <Image />
+         
           <p>
             Après une expérience de 13 ans dans le secteur de la petite enfance,
             j'ai décidé d'entamer une{" "}
