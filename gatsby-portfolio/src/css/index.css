@@ -25,7 +25,7 @@ nav .header-div {
   display: flex;
 }
 
-nav .header-div img {
+nav .header-div .gatsby-image-wrapper {
   margin: 0.4em 0em 0.4em 1.5em;
   height: 65px;
   width: 200px;
@@ -37,7 +37,7 @@ nav .header-div img {
   transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
 }
 
-nav .header-div img:hover {
+nav .header-div .gatsby-image-wrapper:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   cursor: pointer;
@@ -1187,7 +1187,7 @@ nav .header-div .hamburger {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  nav .header-div img {
+  nav .header-div .gatsby-image-wrapper {
     width: 9em;
     height: 3em;
     margin: 0.4em auto 0.4em 1em;
@@ -1379,7 +1379,7 @@ nav .header-div .hamburger {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  nav .header-div img {
+  nav .header-div .gatsby-image-wrapper {
     width: 9em;
     height: 3em;
     margin: 0.4em auto 0.4em 1em;
@@ -1599,7 +1599,7 @@ nav .header-div .hamburger {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  nav .header-div img {
+  nav .header-div .gatsby-image-wrapper {
     width: 11em;
     height: 3.8em;
     margin: 0.4em auto 0.4em 1em;
@@ -1746,10 +1746,6 @@ nav .header-div .hamburger {
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 780px) {
-  nav .header-div img {
-    width: 11em;
-    height: 3.8em;
-  }
   .main-div #welcome .section-content {
     width: 70%;
   }

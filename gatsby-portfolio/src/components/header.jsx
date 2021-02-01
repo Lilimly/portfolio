@@ -1,7 +1,8 @@
 import React, { useState } from "react"
 import { Link, animateScroll as scroll } from "react-scroll"
 import { AnchorLink } from "gatsby-plugin-anchor-links"
-import logo from "../images/logo.png"
+import Logo from "./GatsbyImages/Logo.js"
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faTimes, faBars } from "@fortawesome/free-solid-svg-icons"
 
@@ -19,18 +20,16 @@ export default function Header() {
     <nav>
       <div className="header-div">
         {pathname === "/" ? (
-          <img
-            title="Logo Aurélie Mlynarz"
-            src={logo}
-            className="logo"
-            alt="Logo"
-            role="presentation"
+          <div
             onClick={scrollToTop}
             onKeyDown={scrollToTop}
-          />
+            role="presentation"
+          >
+            <Logo />
+          </div>
         ) : (
-          <AnchorLink to="/#welcome" title="Logo Aurélie Mlynarz">
-            <img src={logo} className="logo" alt="Logo" role="presentation" />
+          <AnchorLink to="/#welcome" title="Logo Aurélie Mlynarz" role="presentation">
+            <Logo />
           </AnchorLink>
         )}
         <button
