@@ -14,10 +14,10 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 900,
-            }
-          }
-        ]
-      }
+            },
+          },
+        ],
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
@@ -58,16 +58,16 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 400,
-            }
-          }
-        ]
-      }
+            },
+          },
+        ],
+      },
     },
     {
       resolve: "gatsby-plugin-anchor-links",
       options: {
-        offset: -80
-      }
-    }
+        offset: -80,
+      },
+    },
   ],
 }

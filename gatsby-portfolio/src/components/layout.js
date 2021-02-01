@@ -1,22 +1,16 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { useStaticQuery, graphql } from "gatsby";
-import { Link } from "react-scroll";
-import { MDXProvider } from "@mdx-js/react";
-import Header from "./header.jsx";
-import Footer from "./Footer.jsx";
-import "./layout.css";
-import { library } from '@fortawesome/fontawesome-svg-core';
-import {
-    faGlobeAmericas,
-    faEnvelope
-} from '@fortawesome/free-solid-svg-icons';
-import { fab } from '@fortawesome/free-brands-svg-icons';
+import React from "react"
+import PropTypes from "prop-types"
+import { useStaticQuery, graphql } from "gatsby"
+import { Link } from "react-scroll"
+import { MDXProvider } from "@mdx-js/react"
+import Header from "./header.jsx"
+import Footer from "./Footer.jsx"
+import "./layout.css"
+import { library } from "@fortawesome/fontawesome-svg-core"
+import { faGlobeAmericas, faEnvelope } from "@fortawesome/free-solid-svg-icons"
+import { fab } from "@fortawesome/free-brands-svg-icons"
 
-library.add(
-  fab, 
-  faGlobeAmericas,
-  faEnvelope)
+library.add(fab, faGlobeAmericas, faEnvelope)
 
 const shortcodes = { Link }
 

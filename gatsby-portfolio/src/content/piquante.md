@@ -1,26 +1,30 @@
 ---
-title: 'Piquante'
-date: '2020-08-10'
-img: './articles/header-piquante.jpg'
+title: "Piquante"
+date: "2020-08-10"
+img: "./articles/header-piquante.jpg"
 ---
 
 ## Construction d'une API sécurisée
 
 ### Ma mission
+
 Développer le backend d'une application d'avis gastronomique.
 
 ### Les technologies utilisées
+
     - Serveur : Node.JS / Express.JS
     - Base de données : MongoDB
 
 ### Les étapes du projet
-Le site se compose de :
-* une page de connexion ou d'inscription
-* une page d'accueil
-* une page descriptive pour chaque sauce à noter
-* 1 page création de sauce
 
-Pour ce projet, j'ai créé le backend d'un site de notation de sauces. 
+Le site se compose de :
+
+- une page de connexion ou d'inscription
+- une page d'accueil
+- une page descriptive pour chaque sauce à noter
+- 1 page création de sauce
+
+Pour ce projet, j'ai créé le backend d'un site de notation de sauces.
 
 Pour celà j'ai créé une API REST (Representational State Transfer).
 
@@ -39,6 +43,7 @@ L'utilisateur peut également créer une nouvelle sauce. Pour plus de sécurité
 ![Page création d'une sauce](./img-piquante/post-piquante.jpg)
 
 ### Pour consulter le projets
+
 Pour ce projet, j'ai utilisé le **logiciel de versionning Git**.
 
 Retrouvez le **code source** sur [mon espace GitHub](https://github.com/Lilimly/piquante "Code source du site Piquante")

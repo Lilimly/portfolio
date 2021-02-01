@@ -1,26 +1,30 @@
 ---
-title: 'Groupomania'
-date: '2020-10-01'
-img: './articles/header-groupomania.jpg'
+title: "Groupomania"
+date: "2020-10-01"
+img: "./articles/header-groupomania.jpg"
 ---
 
 ## Création d'un réseau social d’entreprise
 
 ### Ma mission
+
 Développement fullstack du réseau social d'une entreprise.
 
 ### Les technologies utilisées
+
     - Coté front: JavaScript / React / Bootstrap
     - Coté Back : Node.JS / Express.JS
     - Base de données : mySQL / Sequelize
 
 ### Les étapes du projet
+
 Le site se compose de :
-* une page de connexion ou d'inscription
-* une page d'accueil
-* une page descriptive pour chaque article
-* une page descriptive du compte de chaque utilisateur
-* un compte administrateur
+
+- une page de connexion ou d'inscription
+- une page d'accueil
+- une page descriptive pour chaque article
+- une page descriptive du compte de chaque utilisateur
+- un compte administrateur
 
 Pour accéder au réseau social, l'utilisateur devra créer un compte, ce qui l'enregistrera de manière sécurisé dans notre base de données mySQL (email et mot de passe cryptés).
 
@@ -38,13 +42,14 @@ Il pourra également y laisser un commentaire.
 
 L'application offre également la possibilité de consulter les comptes des utilisateurs affichant leur biographie, leur photo ainsi que les différents articles qu'ils ont postés.
 
-Un utilisateur pourra uniquement modifier ou supprimer son propre compte. 
+Un utilisateur pourra uniquement modifier ou supprimer son propre compte.
 
 ![Page utilisateur](./img-groupomania/user-groupomania.jpg)
 
 Afin de modérer ce réseau social, un compte administrateur est défini. Ce dernier pourra modifier ou supprimer des articles, des commentaires mais également des comptes utilisateurs.
 
 ### Pour consulter le projet
+
 Pour ce projet, j'ai utilisé le **logiciel de versionning Git**.
 
 Retrouvez le **code source** sur [mon espace GitHub](https://github.com/Lilimly/groupomania "Code source du site Groupomania")

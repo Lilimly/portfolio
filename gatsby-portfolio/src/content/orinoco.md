@@ -1,14 +1,17 @@
 ---
-title: 'Orinoco'
-date: '2020-07-15'
-img: './articles/header-orinoco.jpg'
+title: "Orinoco"
+date: "2020-07-15"
+img: "./articles/header-orinoco.jpg"
 ---
+
 ## Création d'un de site e-commerce
 
 ### Ma mission
+
 Développer le frontend d'une application de vente en ligne.
 
 ### Les technologies utilisées
+
     - JavaScript
     - HTML5
     - CSS3
@@ -16,11 +19,13 @@ Développer le frontend d'une application de vente en ligne.
     - Git / GitHub
 
 ### Les étapes du projet
+
 Le site se compose de :
-* une page d'accueil
-* une page descriptive pour chaque produit
-* 1 page panier
-* 1 page de confirmation de commande
+
+- une page d'accueil
+- une page descriptive pour chaque produit
+- 1 page panier
+- 1 page de confirmation de commande
 
 Pour réaliser ce site de **e-commerce**, j'ai dans un premier temps récupéré les données des produits à mettre en vente depuis une **API**.
 
@@ -43,10 +48,12 @@ Une fois la commande passée, une page de confirmation récapitule la commande f
 ![Page de confirmation](./img-orinoco/confirmation-orinoco.jpg)
 
 Pour vérifier le bon fonctionnement des différentes étapes de l'application, j'ai rédigé un **plan de tests unitaires** où sont détaillés :
+
 - les différents points à tester : les actions demandées
 - la façon dont doit se comporter l'application : les résultats attendus
 
 ### Pour consulter le projet
+
 Pour ce projet, j'ai utilisé le **logiciel de versionning Git**.
 
 Retrouvez le **code source** sur [mon espace GitHub](https://github.com/Lilimly/orinoco "Code source du site Orinoco")
