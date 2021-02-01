@@ -1,7 +1,6 @@
-/**
- * Implement Gatsby's SSR (Server Side Rendering) APIs in this file.
- *
- * See: https://www.gatsbyjs.com/docs/ssr-apis/
- */
+import "./src/css/index.css";
+import RootLayout from "./src/components/RootLayout.jsx";
+import React from "react";
 
-// You can delete this file if you're not using it
+export const wrapRootElement = ({ element }) => 
+<RootLayout>{element}</RootLayout>;
