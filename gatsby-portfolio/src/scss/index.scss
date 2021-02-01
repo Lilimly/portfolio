@@ -30,6 +30,8 @@ nav {
     display: flex;
     img {
       margin: 0.4em 0em 0.4em 1.5em;
+      height: 65px;
+      width: 200px;
       transform: scale(1);
       transition: transform 300ms ease-in-out;
       &:hover {
@@ -941,19 +943,20 @@ nav {
     .header-div {
       justify-content: space-between;
       img {
-        width: 10em;
+        width: 11em;
+        height: 3.8em;
         margin: 0.4em auto 0.4em 1em;
       }
       .hamburger {
         display: initial;
         margin: auto 1.5em auto auto;
         background-color: $body-color;
-        transform: scale(1.3);
+        transform: scale(1.4);
         transition: transform 300ms ease-in-out;
         border: none;
         border-radius: 25%;
         &:hover {
-          transform: scale(1.5);
+          transform: scale(1.6);
           cursor: pointer;
         }
         svg {
@@ -1080,6 +1083,14 @@ nav {
 // écrans de plus de 780 px et moins de 1024px 
 @media #{$medium_screen}
 {
+  nav {
+    .header-div {
+      img {
+        width: 11em;
+        height: 3.8em;
+      }
+    }
+  }
   .main-div {
     #welcome {
       .section-content {

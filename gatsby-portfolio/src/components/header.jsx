@@ -1,7 +1,7 @@
 import React, { useState} from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
-import image from "../images/logo.jpg";
+import image from "../images/logo.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faTimes,
