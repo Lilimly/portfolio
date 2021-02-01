@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { Link, animateScroll as scroll } from "react-scroll"
 import { AnchorLink } from "gatsby-plugin-anchor-links"
-import image from "../images/logo.png"
+import logo from "../images/logo.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faTimes, faBars } from "@fortawesome/free-solid-svg-icons"
 
@@ -21,7 +21,7 @@ export default function Header() {
         {pathname === "/" ? (
           <img
             title="Logo Aurélie Mlynarz"
-            src={image}
+            src={logo}
             className="logo"
             alt="Logo"
             role="presentation"
@@ -30,7 +30,7 @@ export default function Header() {
           />
         ) : (
           <AnchorLink to="/#welcome" title="Logo Aurélie Mlynarz">
-            <img src={image} className="logo" alt="Logo" role="presentation" />
+            <img src={logo} className="logo" alt="Logo" role="presentation" />
           </AnchorLink>
         )}
         <button
