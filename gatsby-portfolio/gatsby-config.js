@@ -39,8 +39,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Aurélie Mlynarz - développeuse web`,
+        short_name: `Développement web`,
+        description: `Développeuse web freelance, je souhaite vous aider à créer un site web qui vous corresponde et améliore la visibilité de votre entreprise.`,
+        lang: `fr`,
+        icon: `src/images/icon.png`,
+        legacy: false,
         start_url: `/`,
         display: `minimal-ui`,
       },
