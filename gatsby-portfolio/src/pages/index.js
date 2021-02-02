@@ -13,7 +13,7 @@ const PhotoAurelie = loadable(() =>
   import("../components/GatsbyImages/PhotoAurelie.js")
 )
 
-const IndexPage = () => {  
+const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Présentation" />

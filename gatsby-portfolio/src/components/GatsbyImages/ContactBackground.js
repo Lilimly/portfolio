@@ -5,9 +5,7 @@ import Img from "gatsby-image"
 const ContactBackground = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(
-        relativePath: { eq: "laptop-desk.jpeg" }
-      ) {
+      placeholderImage: file(relativePath: { eq: "laptop-desk.jpeg" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid
