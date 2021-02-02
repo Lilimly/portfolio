@@ -1,19 +1,19 @@
 import React from "react"
 import { Link } from "react-scroll"
 import loadable from "@loadable/component"
+import ContactForm from "../components/ContactForm.jsx"
 
 const Layout = loadable(() => import("../components/layout"))
 const TimeLine = loadable(() => import("../components/TimeLine"))
 const SEO = loadable(() => import("../components/seo"))
 const HeroBanner = loadable(() => import("../components/HeroBanner.jsx"))
 const ProjectsCards = loadable(() => import("../components/Projectscards.jsx"))
-const ContactForm = loadable(() => import("../components/ContactForm.jsx"))
 const Button = loadable(() => import("../components/Button.jsx"))
 const PhotoAurelie = loadable(() =>
   import("../components/GatsbyImages/PhotoAurelie.js")
 )
 
-const IndexPage = () => {
+const IndexPage = () => {  
   return (
     <Layout>
       <SEO title="Présentation" />
