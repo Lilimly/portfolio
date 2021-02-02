@@ -28,7 +28,11 @@ export default function Header() {
             <Logo />
           </div>
         ) : (
-          <AnchorLink to="/#welcome" title="Logo Aurélie Mlynarz" role="presentation">
+          <AnchorLink
+            to="/#welcome"
+            title="Logo Aurélie Mlynarz"
+            role="presentation"
+          >
             <Logo />
           </AnchorLink>
         )}

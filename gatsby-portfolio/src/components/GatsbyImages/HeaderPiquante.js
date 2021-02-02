@@ -19,12 +19,14 @@ const HeaderPiquante = () => {
     return <div>Picture not found</div>
   }
 
-  return <Img 
-    fluid={data.placeholderImage.childImageSharp.fluid} 
-    title="Projet Piquante"
-    alt="Projet Piquante"
-    role="presentation"
+  return (
+    <Img
+      fluid={data.placeholderImage.childImageSharp.fluid}
+      title="Projet Piquante"
+      alt="Projet Piquante"
+      role="presentation"
     />
+  )
 }
 
 export default HeaderPiquante

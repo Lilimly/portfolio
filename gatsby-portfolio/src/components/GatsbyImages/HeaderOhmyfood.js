@@ -19,12 +19,14 @@ const HeaderOhmyfood = () => {
     return <div>Picture not found</div>
   }
 
-  return <Img 
-    fluid={data.placeholderImage.childImageSharp.fluid} 
-    title="Projet Ohmyfood"
-    alt="Projet Ohmyfood"
-    role="presentation"
+  return (
+    <Img
+      fluid={data.placeholderImage.childImageSharp.fluid}
+      title="Projet Ohmyfood"
+      alt="Projet Ohmyfood"
+      role="presentation"
     />
+  )
 }
 
 export default HeaderOhmyfood

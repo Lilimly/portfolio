@@ -19,12 +19,14 @@ const HeaderGroupomania = () => {
     return <div>Picture not found</div>
   }
 
-  return <Img 
-    fluid={data.placeholderImage.childImageSharp.fluid} 
-    title="Projet Groupomania"
-    alt="Projet Groupomania"
-    role="presentation"
+  return (
+    <Img
+      fluid={data.placeholderImage.childImageSharp.fluid}
+      title="Projet Groupomania"
+      alt="Projet Groupomania"
+      role="presentation"
     />
+  )
 }
 
 export default HeaderGroupomania

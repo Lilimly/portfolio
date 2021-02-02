@@ -19,12 +19,14 @@ const HeaderOrinoco = () => {
     return <div>Picture not found</div>
   }
 
-  return <Img 
-    fluid={data.placeholderImage.childImageSharp.fluid} 
-    title="Projet Orinoco"
-    alt="Projet Orinoco"
-    role="presentation"
+  return (
+    <Img
+      fluid={data.placeholderImage.childImageSharp.fluid}
+      title="Projet Orinoco"
+      alt="Projet Orinoco"
+      role="presentation"
     />
+  )
 }
 
 export default HeaderOrinoco

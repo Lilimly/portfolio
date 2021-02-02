@@ -19,12 +19,14 @@ const HeaderPortfolio = () => {
     return <div>Picture not found</div>
   }
 
-  return <Img 
-    fluid={data.placeholderImage.childImageSharp.fluid} 
-    title="Projet Portfolio"
-    alt="Projet Portfolio"
-    role="presentation"
+  return (
+    <Img
+      fluid={data.placeholderImage.childImageSharp.fluid}
+      title="Projet Portfolio"
+      alt="Projet Portfolio"
+      role="presentation"
     />
+  )
 }
 
 export default HeaderPortfolio

@@ -18,7 +18,7 @@ const IndexPage = () => {
       </section>
       <section className="section" id="parcours">
         <h2>Mon parcours</h2>
-        
+
         <div className="presentation">
           <PhotoAurelie />
           <p>

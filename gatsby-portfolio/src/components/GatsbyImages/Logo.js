@@ -19,11 +19,13 @@ const Logo = () => {
     return <div>Picture not found</div>
   }
 
-  return <Img 
-    fluid={data.placeholderImage.childImageSharp.fluid} 
-    title="Logo portfolio"
-    alt="Logo portfolio"
+  return (
+    <Img
+      fluid={data.placeholderImage.childImageSharp.fluid}
+      title="Logo portfolio"
+      alt="Logo portfolio"
     />
+  )
 }
 
 export default Logo

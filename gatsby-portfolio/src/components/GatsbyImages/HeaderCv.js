@@ -19,12 +19,14 @@ const HeaderCv = () => {
     return <div>Picture not found</div>
   }
 
-  return <Img 
-    fluid={data.placeholderImage.childImageSharp.fluid} 
-    title="Projet Mon CV"
-    alt="Projet Mon CV"
-    role="presentation"
+  return (
+    <Img
+      fluid={data.placeholderImage.childImageSharp.fluid}
+      title="Projet Mon CV"
+      alt="Projet Mon CV"
+      role="presentation"
     />
+  )
 }
 
 export default HeaderCv

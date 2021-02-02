@@ -19,12 +19,14 @@ const HeaderGotripics = () => {
     return <div>Picture not found</div>
   }
 
-  return <Img 
-    fluid={data.placeholderImage.childImageSharp.fluid} 
-    title="Projet Gotripics"
-    alt="Projet Gotripics"
-    role="presentation"
+  return (
+    <Img
+      fluid={data.placeholderImage.childImageSharp.fluid}
+      title="Projet Gotripics"
+      alt="Projet Gotripics"
+      role="presentation"
     />
+  )
 }
 
 export default HeaderGotripics

@@ -19,12 +19,14 @@ const HeaderVav = () => {
     return <div>Picture not found</div>
   }
 
-  return <Img 
-    fluid={data.placeholderImage.childImageSharp.fluid} 
-    title="Projet Villes à vivre"
-    alt="Villes à vivre"
-    role="presentation"
+  return (
+    <Img
+      fluid={data.placeholderImage.childImageSharp.fluid}
+      title="Projet Villes à vivre"
+      alt="Villes à vivre"
+      role="presentation"
     />
+  )
 }
 
 export default HeaderVav
