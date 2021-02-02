@@ -3,9 +3,11 @@ import { graphql } from "gatsby"
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import Img from "gatsby-image"
 import { MDXRenderer } from "gatsby-plugin-mdx"
-import Button from "../components/Button.jsx"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import loadable from "@loadable/component"
+
+const Layout = loadable(() => import("../components/layout"))
+const SEO = loadable(() => import("../components/seo"))
+const Button = loadable(() => import("../components/Button.jsx"))
 
 const Posts = ({ data }) => {
   const post = data.mdx

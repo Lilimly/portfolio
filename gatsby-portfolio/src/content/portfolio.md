@@ -38,7 +38,7 @@ Ils **réduisent la complexité** du site ce qui améliore la **vitesse**, la **
 
 - parce que notre site est statique, nous pouvons même **renoncer complètement aux serveurs web et aux équilibreurs de charge**. Au lieu de cela, le site est hébergé avec un réseau de diffusion de contenu qui évolue en fonction du trafic.
 
-![Site vitrine](./img-portfolio/accueil-portfolio.jpg)
+![Site vitrine](./img-portfolio/accueil-portfolio.jpeg)
 
 ### Pour consulter le projet
 

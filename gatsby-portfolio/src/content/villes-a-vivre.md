@@ -20,7 +20,7 @@ Développer une partie du frontend d'un site d'avis et de comparaison de villes.
 
 Développement d'une partie du Frontend de ce site de comparaisons de villes développé en Vue.JS.
 
-![villes à vivre](./img-vav/accueil-vav.jpg)
+![villes à vivre](./img-vav/accueil-vav.jpeg)
 
 ### Pour consulter le projet
 

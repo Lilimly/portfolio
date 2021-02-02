@@ -32,15 +32,15 @@ Dans un premier temps, l'utilisateur arrive sur une page d'inscription ou de con
 
 Une fois authentiflié, l'utilisateur est dirigé sur la page d'accueil qui présente les différentes sauces créées.
 
-![Page d'accueil](./img-piquante/accueil-piquante.jpg)
+![Page d'accueil](./img-piquante/accueil-piquante.jpeg)
 
 Une page produit affiche les informations précises de la sauce. L'application offre la possibilité de liker ou disliker les sauces.
 
-![Page produit](./img-piquante/produit-piquante.jpg)
+![Page produit](./img-piquante/produit-piquante.jpeg)
 
 L'utilisateur peut également créer une nouvelle sauce. Pour plus de sécurité, il ne pourra supprimer ou modifier que les sauces qu'il a créé.
 
-![Page création d'une sauce](./img-piquante/post-piquante.jpg)
+![Page création d'une sauce](./img-piquante/post-piquante.jpeg)
 
 ### Pour consulter le projets
 

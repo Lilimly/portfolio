@@ -32,19 +32,19 @@ Une fois authentifié, l'utilisateur accéde à la page d'accueil qui affiche l'
 
 Chaque utilisateur a la possibilité de publier un nouvel article.
 
-![Page d'accueil](./img-groupomania/accueil-groupomania.jpg)
+![Page d'accueil](./img-groupomania/accueil-groupomania.jpeg)
 
 En cliquant sur un article, l'utilisateur peut consulter son intégralité. Un utilisateur pourra uniquement modifier ou supprimer un article qu'il aura créé.
 
 Il pourra également y laisser un commentaire.
 
-![Page article](./img-groupomania/article-groupomania.jpg)
+![Page article](./img-groupomania/article-groupomania.jpeg)
 
 L'application offre également la possibilité de consulter les comptes des utilisateurs affichant leur biographie, leur photo ainsi que les différents articles qu'ils ont postés.
 
 Un utilisateur pourra uniquement modifier ou supprimer son propre compte.
 
-![Page utilisateur](./img-groupomania/user-groupomania.jpg)
+![Page utilisateur](./img-groupomania/user-groupomania.jpeg)
 
 Afin de modérer ce réseau social, un compte administrateur est défini. Ce dernier pourra modifier ou supprimer des articles, des commentaires mais également des comptes utilisateurs.
 
