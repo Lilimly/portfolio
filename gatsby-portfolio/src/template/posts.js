@@ -2,9 +2,8 @@ import React from "react"
 import { graphql } from "gatsby"
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import Img from "gatsby-image"
-import Button from "../components/Button.jsx"
 import { MDXRenderer } from "gatsby-plugin-mdx"
-
+import Button from "../components/Button.jsx"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 

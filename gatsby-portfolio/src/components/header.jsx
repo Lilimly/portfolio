@@ -1,10 +1,11 @@
 import React, { useState } from "react"
 import { Link, animateScroll as scroll } from "react-scroll"
 import { AnchorLink } from "gatsby-plugin-anchor-links"
-import Logo from "./GatsbyImages/Logo.js"
-
+import loadable from "@loadable/component"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faTimes, faBars } from "@fortawesome/free-solid-svg-icons"
+
+const Logo = loadable(() => import("./GatsbyImages/Logo.js"))
 
 export default function Header() {
   let pathname = typeof window !== "undefined" ? window.location.pathname : ""

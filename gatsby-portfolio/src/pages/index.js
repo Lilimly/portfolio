@@ -1,13 +1,17 @@
 import React from "react"
 import { Link } from "react-scroll"
-import Layout from "../components/layout"
-import TimeLine from "../components/TimeLine"
-import SEO from "../components/seo"
-import HeroBanner from "../components/HeroBanner.jsx"
-import ProjectsCards from "../components/Projectscards.jsx"
-import ContactForm from "../components/ContactForm.jsx"
-import Button from "../components/Button.jsx"
-import PhotoAurelie from "../components/GatsbyImages/PhotoAurelie.js"
+import loadable from "@loadable/component"
+
+const Layout = loadable(() => import("../components/layout"))
+const TimeLine = loadable(() => import("../components/TimeLine"))
+const SEO = loadable(() => import("../components/seo"))
+const HeroBanner = loadable(() => import("../components/HeroBanner.jsx"))
+const ProjectsCards = loadable(() => import("../components/Projectscards.jsx"))
+const ContactForm = loadable(() => import("../components/ContactForm.jsx"))
+const Button = loadable(() => import("../components/Button.jsx"))
+const PhotoAurelie = loadable(() =>
+  import("../components/GatsbyImages/PhotoAurelie.js")
+)
 
 const IndexPage = () => {
   return (
@@ -18,7 +22,6 @@ const IndexPage = () => {
       </section>
       <section className="section" id="parcours">
         <h2>Mon parcours</h2>
-
         <div className="presentation">
           <PhotoAurelie />
           <p>
