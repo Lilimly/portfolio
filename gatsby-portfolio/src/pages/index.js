@@ -2,10 +2,10 @@ import React from "react"
 import { Link } from "react-scroll"
 import loadable from "@loadable/component"
 import ContactForm from "../components/ContactForm.jsx"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
 
-const Layout = loadable(() => import("../components/layout"))
 const TimeLine = loadable(() => import("../components/TimeLine"))
-const SEO = loadable(() => import("../components/seo"))
 const HeroBanner = loadable(() => import("../components/HeroBanner.jsx"))
 const ProjectsCards = loadable(() => import("../components/Projectscards.jsx"))
 const Button = loadable(() => import("../components/Button.jsx"))

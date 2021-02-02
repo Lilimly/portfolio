@@ -4,9 +4,9 @@ import { AnchorLink } from "gatsby-plugin-anchor-links"
 import Img from "gatsby-image"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import loadable from "@loadable/component"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
 
-const Layout = loadable(() => import("../components/layout"))
-const SEO = loadable(() => import("../components/seo"))
 const Button = loadable(() => import("../components/Button.jsx"))
 
 const Posts = ({ data }) => {

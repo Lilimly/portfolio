@@ -7,13 +7,12 @@ import "./layout.css"
 import { library } from "@fortawesome/fontawesome-svg-core"
 import { faGlobeAmericas, faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import { fab } from "@fortawesome/free-brands-svg-icons"
-import loadable from "@loadable/component"
+import Header from "./header.jsx"
+import Footer from "./Footer.jsx"
 
 library.add(fab, faGlobeAmericas, faEnvelope)
 
 const shortcodes = { Link }
-const Header = loadable(() => import("./header.jsx"))
-const Footer = loadable(() => import("./Footer.jsx"))
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
