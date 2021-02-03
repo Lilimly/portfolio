@@ -10,7 +10,7 @@ const PhotoAurelie = () => {
       ) {
         childImageSharp {
           fluid(maxWidth: 277) {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_tracedSVG
           }
         }
       }

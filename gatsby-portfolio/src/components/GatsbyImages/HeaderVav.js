@@ -8,7 +8,7 @@ const HeaderVav = () => {
       placeholderImage: file(relativePath: { eq: "hearder-vav.jpeg" }) {
         childImageSharp {
           fluid {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_tracedSVG
           }
         }
       }

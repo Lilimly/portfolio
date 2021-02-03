@@ -8,7 +8,7 @@ const ContactBackground = () => {
       placeholderImage: file(relativePath: { eq: "laptop-desk.jpeg" }) {
         childImageSharp {
           fluid {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_tracedSVG
           }
         }
       }

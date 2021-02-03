@@ -8,7 +8,7 @@ const Logo = () => {
       placeholderImage: file(relativePath: { eq: "logo.png" }) {
         childImageSharp {
           fluid {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_tracedSVG
           }
         }
       }

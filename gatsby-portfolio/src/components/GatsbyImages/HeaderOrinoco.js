@@ -8,7 +8,7 @@ const HeaderOrinoco = () => {
       placeholderImage: file(relativePath: { eq: "header-orinoco.jpeg" }) {
         childImageSharp {
           fluid {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_tracedSVG
           }
         }
       }

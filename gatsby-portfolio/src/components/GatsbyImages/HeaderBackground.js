@@ -2,10 +2,10 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
-const HeaderGroupomania = () => {
+const ContactBackground = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "header-groupomania.jpeg" }) {
+      placeholderImage: file(relativePath: { eq: "img-header.jpeg" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid_tracedSVG
@@ -22,11 +22,11 @@ const HeaderGroupomania = () => {
   return (
     <Img
       fluid={data.placeholderImage.childImageSharp.fluid}
-      title="Projet Groupomania"
-      alt="Projet Groupomania"
+      title="Bienvenue !"
+      alt="Bienvenue !"
       role="presentation"
     />
   )
 }
 
-export default HeaderGroupomania
+export default ContactBackground
