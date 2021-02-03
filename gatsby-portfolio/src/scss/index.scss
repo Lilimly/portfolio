@@ -3,14 +3,27 @@
 @import "./utils/_mixins.scss";
 @import "./utils/_responsive.scss";
 
+@include font('Comfortaa', '../fonts/Comfortaa_Regular/Comfortaa');
+@include font('Comfortaa-Bold', '../fonts/Comfortaa_Bold/Comfortaa_Bold');
 
 // éléments body
 body {
   background-color: $body_color;
+  font-family: 'Comfortaa';
+  letter-spacing: 0.5px;
+  line-height: 1.5em;
+}
+
+html {
+  font-family: 'Comfortaa';
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
 }
 
 * {
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Comfortaa';
+  letter-spacing: 0.5px;
+  line-height: 1.5em;
 }
 
 // éléments du header
@@ -40,7 +53,7 @@ nav {
     h2 {
       margin: auto 0.5em auto 0.5em;
       width: 40%;
-      font-size: 1em;
+      
       color: $body_color;
     }
     .nav-menu {
@@ -55,7 +68,7 @@ nav {
         a {
           color: $primary_color;
           text-decoration: none;
-          font-weight: bold;
+          font-size: 1.2em;
           &:hover {
             transition: all 0.2s ease-out;
             color: $text_color;
@@ -64,6 +77,7 @@ nav {
         }
         > .active {
           color: $text_color;
+          font-weight: bold;
         }
       }
     }
@@ -78,54 +92,56 @@ nav {
   margin: 0em;
   h1 {
     text-align: center;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Comfortaa';
     margin: 0.5em;
     color: $primary_color;
-    font-size: 2em;
+    font-size: 2.2em;
   }
   h2 {
     text-align: center;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Comfortaa';
     margin: 0.5em;
     color: $primary_color;
-    font-size: 2em;
+    font-size: 2.2em;
   }
   h3 {
     text-align: center;
     margin: 0.5em;
     color: $text_color;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Comfortaa';
   }
   p {
     color: $text_color;
-    font-size: 0.9em;
+    font-size: 1.1em;
   }
   a {
     @include text_link;
+    font-size: 1.1em;
   }
   .project-page {
     .project-content {
       padding: 2em 3em 2em 3em;
       h1 {
         text-align: center;
-        font-family: 'Comfortaa', cursive;
+        font-family: 'Comfortaa';
         margin: 0.5em;
         color: $primary_color;
-        font-size: 2em;
+        font-size: 2.2em;
       }
       h2 {
         margin-bottom: 1em;
         color: $text_color;
-        font-size: 1.5em;
+        font-size: 1.8em;
+        font-weight: lighter;
       }
       h3 {
         color: $primary-color;
-        font-family: 'Comfortaa', cursive;
+        font-family: 'Comfortaa';
         margin: 2em auto 1em 0em;
         text-align: left;
       }
       p {
-        font-size: 1em;
+        font-size: 1.2em;
         a {
           @include text_link;
         }
@@ -135,7 +151,8 @@ nav {
         text-align: center;
       }
       ul {
-        font-size: 1em;
+        font-size: 1.2em;
+        color: $text_color;
         a {
           @include text_link;
         }
@@ -148,7 +165,10 @@ nav {
         button {
           margin: 3em auto 3em auto;
           @include button;
-              padding: 13px 25px;
+          padding: 13px 25px;
+          span {
+            font-size: 1.1em;
+          }
         }
       }
     }
@@ -172,7 +192,7 @@ nav {
       padding: 1em;
       border-radius: 5px;
       h1 {
-        font-family: 'Comfortaa', cursive;
+        font-family: 'Comfortaa';
         color: $primary_color;
         text-align: center;
       }
@@ -198,15 +218,16 @@ nav {
     background-color: $body_color;
     @include section-style;
     h2 {
-      font-family: 'Comfortaa', cursive;
+      font-family: 'Comfortaa';
       color: $primary_color;
     }
     h3 {
       text-align: left;
       margin-left: 0em;
+      font-size: 1.5em;
     }
     h4 {
-      font-size: 1.1em;
+      font-size: 1.2em;
     }
     .presentation {
       @include row;
@@ -236,17 +257,17 @@ nav {
           border-right: 7px solid  $primary-color;
         }
         .vertical-timeline-element-title {
-          font-family: 'Comfortaa', cursive;
+          font-family: 'Comfortaa';
           color: $primary_color;
         }
         .vertical-timeline-element-subtitle {
-          font-family: 'Comfortaa', cursive;
+          font-family: 'Comfortaa';
           color: $primary-color;
           margin-top: 0.2em;
         }
         p {
           color: $text-color;
-          font-size:0.8sem;
+          font-size: 1.1em;
         }
         .strong-p {
           font-weight: bold;
@@ -255,6 +276,8 @@ nav {
           margin-top: 0.5em;
           li {
             font-size:0.8sem;
+            color: $text_color;
+            font-size: 1.1em;
           }
         }
         .button-timeline {
@@ -265,7 +288,8 @@ nav {
             button {
               @include button;
               margin: 1em auto 1em auto;
-              padding: 12px 40px;
+              padding: 12px 30px;
+              font-size: 1.05em;
             }
           }
         }
@@ -290,10 +314,11 @@ nav {
     @include section-style;
     h2 {
       color: $primary_color;
-      font-family: 'Comfortaa', cursive;
+      font-family: 'Comfortaa';
     }
     p {
       text-align: center;
+      font-size: 1.2em;
     }
     .projects {
       margin: 2em;
@@ -321,13 +346,14 @@ nav {
               padding: 1em 0.5em 0.5em 0.5em;
               h3 {
                 color: $primary-color;
-                font-size: 1.2em;
-                font-family: 'Comfortaa', cursive;
+                font-size: 1.8em;
+                font-family: 'Comfortaa';
               }
               h4 {
                 color: $text-color;
-                font-family: 'Comfortaa', cursive;
-                font-size: 0.9em;
+                font-family: 'Comfortaa';
+                font-weight: lighter;
+                font-size: 1.2em;
               }
               .tech-icon {
                 span {
@@ -349,6 +375,7 @@ nav {
                   @include button;
                   margin: 1em auto 1em auto;
                   padding: 12px 40px;
+                  font-size: 1.1em;
                 }
               }
             }
@@ -376,12 +403,12 @@ nav {
               h3 {
                 color: $primary-color;
                 font-family: 'Comfortaa', cursive;
-                font-size: 1.2em;
+                font-size: 1.8em;
               }
               h4 {
                 color: $text-color;
-                font-family: 'Comfortaa', cursive;
-                font-size: 0.9em;
+                font-family: 'Comfortaa';
+                font-size: 1.2em;
               }
               .tech-icon {
                 svg {
@@ -395,6 +422,7 @@ nav {
                   @include button;
                   margin: 1em auto 1em auto;
                   padding: 12px 40px;
+                  font-size: 1.1em;
                 }
               }
             }
@@ -411,11 +439,12 @@ nav {
     @include section-style;
     h2 {
       color: $primary_color;
-      font-family: 'Comfortaa', cursive;
+      font-family: 'Comfortaa';
     }
     p {
       text-align: center;
       font-weight: bold;
+      font-size: 1.2em;
     }
     .button-top {
       @include button_top;
@@ -436,7 +465,7 @@ nav {
             width: 100%;
             @include column;
             label {
-              font-size: 0.9em;
+              font-size: 1.1em;
               font-weight: bold;
               margin: 0.5em;
               color: $primary-color;
@@ -473,6 +502,7 @@ nav {
               margin: 0em auto 1em auto;
               @include submit;
               padding: 13px 50px;
+              font-size: 1.1em;
             }
           }
           .modal-div {
@@ -507,11 +537,13 @@ nav {
                 padding: 3em;
                 p {
                   color: $primary-color;
+                  font-size: 1.1em;
                 }
                 button {
                   @include button;
                   margin: 2em;
                   padding: 15px 40px;
+                  font-size: 1.1em;
                 }
               }
             }
@@ -553,8 +585,7 @@ nav {
     }
     .info-site {
       margin: auto;
-      font-size: 0.8em;
-      font-weight: bold;
+      font-size: 1.1em;
     }
   }
 }

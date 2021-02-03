@@ -1,14 +1,41 @@
+@font-face {
+  font-family: "Comfortaa";
+  src: url("../fonts/Comfortaa_Regular/Comfortaa.eot");
+  src: url("../fonts/Comfortaa_Regular/Comfortaa.eot?#iefix") format("embedded-opentype"), url("../fonts/Comfortaa_Regular/Comfortaa.woff") format("woff"), url("../fonts/Comfortaa_Regular/Comfortaa.ttf") format("truetype"), url("../fonts/Comfortaa_Regular/Comfortaa.svg#Comfortaa") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Comfortaa-Bold";
+  src: url("../fonts/Comfortaa_Bold/Comfortaa_Bold.eot");
+  src: url("../fonts/Comfortaa_Bold/Comfortaa_Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Comfortaa_Bold/Comfortaa_Bold.woff") format("woff"), url("../fonts/Comfortaa_Bold/Comfortaa_Bold.ttf") format("truetype"), url("../fonts/Comfortaa_Bold/Comfortaa_Bold.svg#Comfortaa-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   background-color: #fcfcfc;
+  font-family: 'Comfortaa';
+  letter-spacing: 0.5px;
+  line-height: 1.5em;
+}
+
+html {
+  font-family: 'Comfortaa';
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
 }
 
 * {
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Comfortaa';
+  letter-spacing: 0.5px;
+  line-height: 1.5em;
 }
 
 nav {
   background-color: #fcfcfc;
-  border-bottom: 1px solid #3a3a58;
+  border-bottom: 1px solid #3a3a66;
   height: auto;
   position: -webkit-sticky;
   position: sticky;
@@ -46,7 +73,6 @@ nav .header-div .gatsby-image-wrapper:hover {
 nav .header-div h2 {
   margin: auto 0.5em auto 0.5em;
   width: 40%;
-  font-size: 1em;
   color: #fcfcfc;
 }
 
@@ -72,18 +98,19 @@ nav .header-div .nav-menu .nav-item {
 nav .header-div .nav-menu .nav-item a {
   color: #eb5a77;
   text-decoration: none;
-  font-weight: bold;
+  font-size: 1.2em;
 }
 
 nav .header-div .nav-menu .nav-item a:hover {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-  color: #3a3a58;
+  color: #3a3a66;
   cursor: pointer;
 }
 
 nav .header-div .nav-menu .nav-item > .active {
-  color: #3a3a58;
+  color: #3a3a66;
+  font-weight: bold;
 }
 
 nav .header-div .hamburger {
@@ -96,30 +123,30 @@ nav .header-div .hamburger {
 
 .main-div h1 {
   text-align: center;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Comfortaa';
   margin: 0.5em;
   color: #eb5a77;
-  font-size: 2em;
+  font-size: 2.2em;
 }
 
 .main-div h2 {
   text-align: center;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Comfortaa';
   margin: 0.5em;
   color: #eb5a77;
-  font-size: 2em;
+  font-size: 2.2em;
 }
 
 .main-div h3 {
   text-align: center;
   margin: 0.5em;
-  color: #3a3a58;
-  font-family: 'Comfortaa', cursive;
+  color: #3a3a66;
+  font-family: 'Comfortaa';
 }
 
 .main-div p {
-  color: #3a3a58;
-  font-size: 0.9em;
+  color: #3a3a66;
+  font-size: 1.1em;
 }
 
 .main-div a {
@@ -127,6 +154,7 @@ nav .header-div .hamburger {
   font-weight: bold;
   font-size: 1em;
   text-decoration: underline;
+  font-size: 1.1em;
 }
 
 .main-div a:hover {
@@ -140,27 +168,28 @@ nav .header-div .hamburger {
 
 .main-div .project-page .project-content h1 {
   text-align: center;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Comfortaa';
   margin: 0.5em;
   color: #eb5a77;
-  font-size: 2em;
+  font-size: 2.2em;
 }
 
 .main-div .project-page .project-content h2 {
   margin-bottom: 1em;
-  color: #3a3a58;
-  font-size: 1.5em;
+  color: #3a3a66;
+  font-size: 1.8em;
+  font-weight: lighter;
 }
 
 .main-div .project-page .project-content h3 {
   color: #eb5a77;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Comfortaa';
   margin: 2em auto 1em 0em;
   text-align: left;
 }
 
 .main-div .project-page .project-content p {
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 .main-div .project-page .project-content p a {
@@ -181,7 +210,8 @@ nav .header-div .hamburger {
 }
 
 .main-div .project-page .project-content ul {
-  font-size: 1em;
+  font-size: 1.2em;
+  color: #3a3a66;
 }
 
 .main-div .project-page .project-content ul a {
@@ -262,6 +292,10 @@ nav .header-div .hamburger {
   transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
 
+.main-div .project-page .project-content a button span {
+  font-size: 1.1em;
+}
+
 .main-div .project-page .button-top {
   position: fixed;
   bottom: 0.5rem;
@@ -332,7 +366,7 @@ nav .header-div .hamburger {
 }
 
 .main-div #welcome .section-content h1 {
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Comfortaa';
   color: #eb5a77;
   text-align: center;
 }
@@ -408,17 +442,18 @@ nav .header-div .hamburger {
 }
 
 .main-div #parcours h2 {
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Comfortaa';
   color: #eb5a77;
 }
 
 .main-div #parcours h3 {
   text-align: left;
   margin-left: 0em;
+  font-size: 1.5em;
 }
 
 .main-div #parcours h4 {
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 
 .main-div #parcours .presentation {
@@ -463,19 +498,19 @@ nav .header-div .hamburger {
 }
 
 .main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content .vertical-timeline-element-title {
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Comfortaa';
   color: #eb5a77;
 }
 
 .main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content .vertical-timeline-element-subtitle {
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Comfortaa';
   color: #eb5a77;
   margin-top: 0.2em;
 }
 
 .main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content p {
-  color: #3a3a58;
-  font-size: 0.8sem;
+  color: #3a3a66;
+  font-size: 1.1em;
 }
 
 .main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content .strong-p {
@@ -488,6 +523,8 @@ nav .header-div .hamburger {
 
 .main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content ul li {
   font-size: 0.8sem;
+  color: #3a3a66;
+  font-size: 1.1em;
 }
 
 .main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline {
@@ -519,7 +556,8 @@ nav .header-div .hamburger {
   -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   margin: 1em auto 1em auto;
-  padding: 12px 40px;
+  padding: 12px 30px;
+  font-size: 1.05em;
 }
 
 .main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content .button-timeline a button span {
@@ -587,11 +625,12 @@ nav .header-div .hamburger {
 
 .main-div #projets h2 {
   color: #eb5a77;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Comfortaa';
 }
 
 .main-div #projets p {
   text-align: center;
+  font-size: 1.2em;
 }
 
 .main-div #projets .projects {
@@ -638,14 +677,15 @@ nav .header-div .hamburger {
 
 .main-div #projets .projects .projects-div .projects-items .projects-content .projects-text h3 {
   color: #eb5a77;
-  font-size: 1.2em;
-  font-family: 'Comfortaa', cursive;
+  font-size: 1.8em;
+  font-family: 'Comfortaa';
 }
 
 .main-div #projets .projects .projects-div .projects-items .projects-content .projects-text h4 {
-  color: #3a3a58;
-  font-family: 'Comfortaa', cursive;
-  font-size: 0.9em;
+  color: #3a3a66;
+  font-family: 'Comfortaa';
+  font-weight: lighter;
+  font-size: 1.2em;
 }
 
 .main-div #projets .projects .projects-div .projects-items .projects-content .projects-text .tech-icon span svg {
@@ -681,6 +721,7 @@ nav .header-div .hamburger {
           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   margin: 1em auto 1em auto;
   padding: 12px 40px;
+  font-size: 1.1em;
 }
 
 .main-div #projets .projects .projects-div .projects-items .projects-content .projects-text a button span {
@@ -760,13 +801,13 @@ nav .header-div .hamburger {
 .main-div #projets .projects .projects-div-one .projects-items .projects-content .projects-text h3 {
   color: #eb5a77;
   font-family: 'Comfortaa', cursive;
-  font-size: 1.2em;
+  font-size: 1.8em;
 }
 
 .main-div #projets .projects .projects-div-one .projects-items .projects-content .projects-text h4 {
-  color: #3a3a58;
-  font-family: 'Comfortaa', cursive;
-  font-size: 0.9em;
+  color: #3a3a66;
+  font-family: 'Comfortaa';
+  font-size: 1.2em;
 }
 
 .main-div #projets .projects .projects-div-one .projects-items .projects-content .projects-text .tech-icon svg {
@@ -794,6 +835,7 @@ nav .header-div .hamburger {
           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   margin: 1em auto 1em auto;
   padding: 12px 40px;
+  font-size: 1.1em;
 }
 
 .main-div #projets .projects .projects-div-one .projects-items .projects-content .projects-text a button span {
@@ -849,12 +891,13 @@ nav .header-div .hamburger {
 
 .main-div #contact h2 {
   color: #eb5a77;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Comfortaa';
 }
 
 .main-div #contact p {
   text-align: center;
   font-weight: bold;
+  font-size: 1.2em;
 }
 
 .main-div #contact .button-top {
@@ -937,7 +980,7 @@ nav .header-div .hamburger {
 }
 
 .main-div #contact .the-form .big-form form .form-div label {
-  font-size: 0.9em;
+  font-size: 1.1em;
   font-weight: bold;
   margin: 0.5em;
   color: #eb5a77;
@@ -1004,6 +1047,7 @@ nav .header-div .hamburger {
   -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   padding: 13px 50px;
+  font-size: 1.1em;
 }
 
 .main-div #contact .the-form .big-form form .button-div button span {
@@ -1073,6 +1117,7 @@ nav .header-div .hamburger {
 
 .main-div #contact .the-form .big-form form .modal-div .modal-wrapper .modal p {
   color: #eb5a77;
+  font-size: 1.1em;
 }
 
 .main-div #contact .the-form .big-form form .modal-div .modal-wrapper .modal button {
@@ -1091,6 +1136,7 @@ nav .header-div .hamburger {
           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   margin: 2em;
   padding: 15px 40px;
+  font-size: 1.1em;
 }
 
 .main-div #contact .the-form .big-form form .modal-div .modal-wrapper .modal button span {
@@ -1142,7 +1188,7 @@ nav .header-div .hamburger {
   color: #eb5a77;
   background-color: #fcfcfc;
   text-align: center;
-  border-top: 1px solid #3a3a58;
+  border-top: 1px solid #3a3a66;
 }
 
 .main-div footer .button-div {
@@ -1177,8 +1223,7 @@ nav .header-div .hamburger {
 
 .main-div footer .info-site {
   margin: auto;
-  font-size: 0.8em;
-  font-weight: bold;
+  font-size: 1.1em;
 }
 
 @media only screen and (max-width: 318px) {
@@ -1211,7 +1256,7 @@ nav .header-div .hamburger {
     cursor: pointer;
   }
   nav .header-div .hamburger:hover svg {
-    color: #3a3a58;
+    color: #3a3a66;
   }
   nav .header-div .hamburger svg {
     color: #eb5a77;
@@ -1252,13 +1297,13 @@ nav .header-div .hamburger {
     display: table;
   }
   nav .header-div .nav-menu.active .nav-item a {
-    color: #3a3a58;
+    color: #3a3a66;
   }
   nav .header-div .nav-menu.active .nav-item .active {
     color: #fcfcfc;
   }
   nav .header-div .nav-menu.active .nav-item:hover {
-    background-color: #3a3a58;
+    background-color: #3a3a66;
     border-radius: 0;
   }
   nav .header-div .nav-menu.active .nav-item:hover a {
@@ -1403,7 +1448,7 @@ nav .header-div .hamburger {
     cursor: pointer;
   }
   nav .header-div .hamburger:hover svg {
-    color: #3a3a58;
+    color: #3a3a66;
   }
   nav .header-div .hamburger svg {
     color: #eb5a77;
@@ -1444,13 +1489,13 @@ nav .header-div .hamburger {
     display: table;
   }
   nav .header-div .nav-menu.active .nav-item a {
-    color: #3a3a58;
+    color: #3a3a66;
   }
   nav .header-div .nav-menu.active .nav-item .active {
     color: #fcfcfc;
   }
   nav .header-div .nav-menu.active .nav-item:hover {
-    background-color: #3a3a58;
+    background-color: #3a3a66;
     border-radius: 0;
   }
   nav .header-div .nav-menu.active .nav-item:hover a {
@@ -1661,13 +1706,13 @@ nav .header-div .hamburger {
     display: table;
   }
   nav .header-div .nav-menu.active .nav-item a {
-    color: #3a3a58;
+    color: #3a3a66;
   }
   nav .header-div .nav-menu.active .nav-item .active {
     color: #fcfcfc;
   }
   nav .header-div .nav-menu.active .nav-item:hover {
-    background-color: #3a3a58;
+    background-color: #3a3a66;
     border-radius: 0;
   }
   nav .header-div .nav-menu.active .nav-item:hover a {
