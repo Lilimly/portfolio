@@ -65,13 +65,13 @@ nav {
           font-size: 1.1em;
           &:hover {
             transition: all 0.2s ease-out;
-            color: $text_color;
+            color: $text_link_color;
             cursor: pointer;
           }
         }
         > .active {
-          color: $text_color;
-          font-weight: 600;
+          color: $text_link_color;
+          font-weight: bold;
         }
       }
     }
@@ -159,9 +159,9 @@ nav {
         button {
           margin: 3em auto 3em auto;
           @include button;
-          padding: 13px 25px;
+          padding: 17px 25px;
           span {
-            font-size: 1.1em;
+            font-size: 1.2em;
           }
         }
       }
@@ -438,7 +438,6 @@ nav {
     }
     p {
       text-align: center;
-      font-weight: bold;
       font-size: 1.2em;
     }
     .button-top {

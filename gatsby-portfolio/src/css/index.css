@@ -4,6 +4,7 @@
   src: url("../fonts/Comfortaa-Medium/Comfortaa-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Comfortaa-Medium/Comfortaa-Medium.woff") format("woff"), url("../fonts/Comfortaa-Medium/Comfortaa-Medium.ttf") format("truetype"), url("../fonts/Comfortaa-Medium/Comfortaa-Medium.svg#Comfortaa") format("svg");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 body {
@@ -21,7 +22,7 @@ body {
 
 nav {
   background-color: #fcfcfc;
-  border-bottom: 1px solid #121257;
+  border-bottom: 1px solid #1d1d53;
   height: auto;
   position: -webkit-sticky;
   position: sticky;
@@ -90,13 +91,13 @@ nav .header-div .nav-menu .nav-item a {
 nav .header-div .nav-menu .nav-item a:hover {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-  color: #121257;
+  color: #636388;
   cursor: pointer;
 }
 
 nav .header-div .nav-menu .nav-item > .active {
-  color: #121257;
-  font-weight: 600;
+  color: #636388;
+  font-weight: bold;
 }
 
 nav .header-div .hamburger {
@@ -126,12 +127,12 @@ nav .header-div .hamburger {
 .main-div h3 {
   text-align: center;
   margin: 0.5em;
-  color: #121257;
+  color: #1d1d53;
   font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
 }
 
 .main-div p {
-  color: #121257;
+  color: #1d1d53;
   font-size: 1em;
 }
 
@@ -144,7 +145,7 @@ nav .header-div .hamburger {
 }
 
 .main-div a:hover {
-  color: #696999;
+  color: #636388;
   cursor: pointer;
 }
 
@@ -162,7 +163,7 @@ nav .header-div .hamburger {
 
 .main-div .project-page .project-content h2 {
   margin-bottom: 1em;
-  color: #121257;
+  color: #1d1d53;
   font-size: 1.8em;
   font-weight: lighter;
 }
@@ -186,7 +187,7 @@ nav .header-div .hamburger {
 }
 
 .main-div .project-page .project-content p a:hover {
-  color: #696999;
+  color: #636388;
   cursor: pointer;
 }
 
@@ -197,7 +198,7 @@ nav .header-div .hamburger {
 
 .main-div .project-page .project-content ul {
   font-size: 1.2em;
-  color: #121257;
+  color: #1d1d53;
 }
 
 .main-div .project-page .project-content ul a {
@@ -208,7 +209,7 @@ nav .header-div .hamburger {
 }
 
 .main-div .project-page .project-content ul a:hover {
-  color: #696999;
+  color: #636388;
   cursor: pointer;
 }
 
@@ -235,7 +236,7 @@ nav .header-div .hamburger {
   border: 1px solid #eb5a77;
   -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  padding: 13px 25px;
+  padding: 17px 25px;
 }
 
 .main-div .project-page .project-content a button span {
@@ -279,7 +280,7 @@ nav .header-div .hamburger {
 }
 
 .main-div .project-page .project-content a button span {
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 
 .main-div .project-page .button-top {
@@ -496,7 +497,7 @@ nav .header-div .hamburger {
 }
 
 .main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content p {
-  color: #121257;
+  color: #1d1d53;
   font-size: 1.1em;
 }
 
@@ -510,7 +511,7 @@ nav .header-div .hamburger {
 
 .main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content ul li {
   font-size: 0.8sem;
-  color: #121257;
+  color: #1d1d53;
   font-size: 1.1em;
 }
 
@@ -668,7 +669,7 @@ nav .header-div .hamburger {
 }
 
 .main-div #projets .projects .projects-div .projects-items .projects-content .projects-text h4 {
-  color: #121257;
+  color: #1d1d53;
   font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
   font-weight: lighter;
   font-size: 1.2em;
@@ -791,7 +792,7 @@ nav .header-div .hamburger {
 }
 
 .main-div #projets .projects .projects-div-one .projects-items .projects-content .projects-text h4 {
-  color: #121257;
+  color: #1d1d53;
   font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
   font-size: 1.2em;
   font-weight: lighter;
@@ -883,7 +884,6 @@ nav .header-div .hamburger {
 
 .main-div #contact p {
   text-align: center;
-  font-weight: bold;
   font-size: 1.2em;
 }
 
@@ -1173,7 +1173,7 @@ nav .header-div .hamburger {
   color: #eb5a77;
   background-color: #fcfcfc;
   text-align: center;
-  border-top: 1px solid #121257;
+  border-top: 1px solid #1d1d53;
 }
 
 .main-div footer .button-div {
@@ -1201,7 +1201,7 @@ nav .header-div .hamburger {
 }
 
 .main-div footer .button-div button svg:hover {
-  color: #696999;
+  color: #636388;
   -webkit-transform: scale(2);
           transform: scale(2);
 }
@@ -1240,7 +1240,7 @@ nav .header-div .hamburger {
     cursor: pointer;
   }
   nav .header-div .hamburger:hover svg {
-    color: #121257;
+    color: #1d1d53;
   }
   nav .header-div .hamburger svg {
     color: #eb5a77;
@@ -1281,13 +1281,13 @@ nav .header-div .hamburger {
     display: table;
   }
   nav .header-div .nav-menu.active .nav-item a {
-    color: #121257;
+    color: #1d1d53;
   }
   nav .header-div .nav-menu.active .nav-item .active {
     color: #fcfcfc;
   }
   nav .header-div .nav-menu.active .nav-item:hover {
-    background-color: #121257;
+    background-color: #1d1d53;
     border-radius: 0;
   }
   nav .header-div .nav-menu.active .nav-item:hover a {
@@ -1445,7 +1445,7 @@ nav .header-div .hamburger {
     cursor: pointer;
   }
   nav .header-div .hamburger:hover svg {
-    color: #121257;
+    color: #1d1d53;
   }
   nav .header-div .hamburger svg {
     color: #eb5a77;
@@ -1486,13 +1486,13 @@ nav .header-div .hamburger {
     display: table;
   }
   nav .header-div .nav-menu.active .nav-item a {
-    color: #121257;
+    color: #1d1d53;
   }
   nav .header-div .nav-menu.active .nav-item .active {
     color: #fcfcfc;
   }
   nav .header-div .nav-menu.active .nav-item:hover {
-    background-color: #121257;
+    background-color: #1d1d53;
     border-radius: 0;
   }
   nav .header-div .nav-menu.active .nav-item:hover a {
@@ -1712,13 +1712,13 @@ nav .header-div .hamburger {
     display: table;
   }
   nav .header-div .nav-menu.active .nav-item a {
-    color: #121257;
+    color: #1d1d53;
   }
   nav .header-div .nav-menu.active .nav-item .active {
     color: #fcfcfc;
   }
   nav .header-div .nav-menu.active .nav-item:hover {
-    background-color: #121257;
+    background-color: #1d1d53;
     border-radius: 0;
   }
   nav .header-div .nav-menu.active .nav-item:hover a {
