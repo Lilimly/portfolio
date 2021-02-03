@@ -11,16 +11,13 @@ body {
   background-color: $body_color;
   font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
   line-height: 1.5em;
-}
-
-html {
-  font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
-  line-height: 1.5em;
+  letter-spacing: 0.5px;
 }
 
 * {
   font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
   line-height: 1.5em;
+  letter-spacing: 0.5px;
 }
 
 // éléments du header
@@ -74,7 +71,7 @@ nav {
         }
         > .active {
           color: $text_color;
-          font-weight: bold;
+          font-weight: 600;
         }
       }
     }
@@ -89,14 +86,14 @@ nav {
   margin: 0em;
   h1 {
     text-align: center;
-    font-family: 'Comfortaa-Bold', Arial, Helvetica, sans-serif;
-    margin: 0.5em;
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+    margin: 1em;
     color: $primary_color;
     font-size: 2.2em;
   }
   h2 {
     text-align: center;
-    font-family: 'Comfortaa-Bold', Arial, Helvetica, sans-serif;
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
     margin: 0.5em;
     color: $primary_color;
     font-size: 2.2em;
@@ -109,7 +106,7 @@ nav {
   }
   p {
     color: $text_color;
-    font-size: 1.1em;
+    font-size: 1em;
   }
   a {
     @include text_link;
@@ -201,6 +198,7 @@ nav {
         @include flex_center;
         a {
           text-decoration: none;
+          font-size: 1em;
           button {
             margin: 1em auto 1em auto;
             @include submit;
@@ -315,7 +313,6 @@ nav {
     }
     p {
       text-align: center;
-      font-size: 1.2em;
     }
     .projects {
       margin: 2em;
@@ -406,6 +403,7 @@ nav {
                 color: $text-color;
                 font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
                 font-size: 1.2em;
+                font-weight: lighter;
               }
               .tech-icon {
                 svg {
@@ -534,13 +532,11 @@ nav {
                 padding: 3em;
                 p {
                   color: $primary-color;
-                  font-size: 1.1em;
                 }
                 button {
                   @include button;
                   margin: 2em;
                   padding: 15px 40px;
-                  font-size: 1.1em;
                 }
               }
             }
@@ -582,7 +578,6 @@ nav {
     }
     .info-site {
       margin: auto;
-      font-size: 1.1em;
     }
   }
 }
@@ -680,10 +675,11 @@ nav {
     #welcome {
       .section-content {
         width: 100%;
+        font-size: 1em;
         .button-div {
           a {
             button {
-              padding: 14px 30px;
+              padding: 12px 23px;
               span {
                 font-size: 0.9em;
                 font-weight: bold;
@@ -694,17 +690,16 @@ nav {
       }
     }
     #parcours {
-      padding: 1.5em 0.5em 1em 0.5em;
+      padding: 1.5em 0.2em 1em 0.2em;
       .presentation {
-        display: flex;
-        flex-direction: column;
+        @include column;
         .gatsby-image-wrapper {
           width: 40%;
           margin: 1em auto 1em auto;
         }
         p {
-          font-size: 0.8em;
-          margin: 1em auto 1em auto;
+          font-size: 0.9em;
+          margin: 1em 0.5em 1em 0.5em;
         }
       }
       .vertical-timeline-element--work {
@@ -712,7 +707,7 @@ nav {
           font-size: 1.1em;
         }
         h4 {
-          font-size: 0.9em;
+          font-size: 1em;
         }
         p {
           font-size: 0.8em;
@@ -723,9 +718,13 @@ nav {
           }
         }
         .button-timeline {
-          button {
-            padding: 8px 20px !important;
-            font-weight: bold;
+          a {
+            button {
+              padding: 8px 20px !important;
+              span {
+                font-size: 0.8em;
+              }
+            }
           }
         }
       }
@@ -734,6 +733,7 @@ nav {
       padding: 1.5em 0.5em 1em 0.5em;
       p {
         font-weight: 400;
+        font-size: 1em;
       }
       .projects {
         margin: 0.2em;
@@ -741,11 +741,25 @@ nav {
           @include column;
           .projects-items {
             width: auto;
+            a {
+              button {
+                span {
+                  font-size: 0.8em;
+                }
+              }
+            }
           }
         }
         .projects-div-one {
           .projects-items {
             width: 100%;
+            a {
+              button {
+                span {
+                  font-size: 0.8em;
+                }
+              }
+            }
           }
         }
       }
@@ -753,6 +767,9 @@ nav {
     #contact {
       h2 {
         padding-top: 1em;
+      }
+      p {
+        font-size: 0.9em;
       }
       .the-form {
         .big-form {
@@ -868,6 +885,9 @@ nav {
     h1 {
       font-size: 1.5em;
     }
+    h2 {
+      font-size: 1.5em;
+    }
     .project-page {
       .project-content {
         padding: 1em;
@@ -877,19 +897,22 @@ nav {
       .section-content {
         padding: 0.5em;
         width: 90%;
+        p {
+          font-size: 0.9em;
+        }
         .button-div {
           width: 100%;
           @include flex_center;
           button {
             margin: 0.5em auto 0.5em auto;
             @include submit;
-            padding: 15px 30px;
+            padding: 13px 25px;
           }
         }
       }
     }
     #parcours {
-      padding: 1.5em 1em 1em 1em;
+      padding: 1.5em 0.5em 1em 0.5em;
       .presentation {
         display: flex;
         flex-direction: column;
@@ -920,8 +943,8 @@ nav {
         a {
           button {
             span {
+              
               font-size: 0.8em;
-              font-weight: bold;
             }
           }
         }
@@ -929,6 +952,9 @@ nav {
     }
     #projets {
       padding: 1.5em 0.5em 1em 0.5em;
+      p {
+        font-size: 0.9em;
+      }
       .projects {
         margin: 0.2em;
         .projects-div {
@@ -950,6 +976,7 @@ nav {
       }
       p {
         padding: 0.2em 1em 0em 1em;
+        font-size: 0.9em;
       }
       .the-form {
         .big-form {
@@ -1046,6 +1073,12 @@ nav {
     }
   }
   .main-div {
+    h1 {
+      font-size: 1.9em;
+    }
+    h2 {
+      font-size: 1.9em;
+    }
     .project-page {
       .project-content {
         padding: 2em;
@@ -1053,7 +1086,7 @@ nav {
     }
     #welcome {
       .section-content {
-        width: 80%;
+        width: 90%;
       }
     }
     #parcours {
@@ -1097,6 +1130,7 @@ nav {
       }
       p {
         padding: 0.2em 1em 0em 1em;
+        font-size: 1em;
       }
       .the-form {
         .big-form {

@@ -5,11 +5,10 @@ const HeroBanner = () => (
   <div className="section-content">
     <h1>Bienvenue !</h1>
     <p>
-      Je suis Aurélie, <strong>développeuse web fullstack</strong>.
+      Je suis Aurélie, développeuse web fullstack.
     </p>
     <p>
-      <strong>Ma mission</strong> : vous aider à créer un site web qui{" "}
-      <strong>vous corresponde</strong>.
+      Ma mission : vous aider à créer un site web qui vous corresponde.
     </p>
     <p>
       Pour savoir comment, consultez{" "}
