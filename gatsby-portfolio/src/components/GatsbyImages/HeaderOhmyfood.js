@@ -8,7 +8,7 @@ const HeaderOhmyfood = () => {
       placeholderImage: file(relativePath: { eq: "header-ohmyfood.jpeg" }) {
         childImageSharp {
           fluid {
-            ...GatsbyImageSharpFluid_tracedSVG
+            ...GatsbyImageSharpFluid
           }
         }
       }

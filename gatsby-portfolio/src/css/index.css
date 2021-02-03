@@ -91,12 +91,12 @@ nav .header-div .nav-menu .nav-item a {
 nav .header-div .nav-menu .nav-item a:hover {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-  color: #6464c7;
+  color: #5c5cb6;
   cursor: pointer;
 }
 
 nav .header-div .nav-menu .nav-item > .active {
-  color: #6464c7;
+  color: #5c5cb6;
   font-weight: bold;
 }
 
@@ -145,7 +145,7 @@ nav .header-div .hamburger {
 }
 
 .main-div a:hover {
-  color: #6464c7;
+  color: #5c5cb6;
   cursor: pointer;
 }
 
@@ -187,7 +187,7 @@ nav .header-div .hamburger {
 }
 
 .main-div .project-page .project-content p a:hover {
-  color: #6464c7;
+  color: #5c5cb6;
   cursor: pointer;
 }
 
@@ -209,7 +209,7 @@ nav .header-div .hamburger {
 }
 
 .main-div .project-page .project-content ul a:hover {
-  color: #6464c7;
+  color: #5c5cb6;
   cursor: pointer;
 }
 
@@ -1218,7 +1218,7 @@ nav .header-div .hamburger {
 }
 
 .main-div footer .button-div button svg:hover {
-  color: #6464c7;
+  color: #5c5cb6;
   -webkit-transform: scale(2);
           transform: scale(2);
 }

@@ -8,7 +8,7 @@ const HeaderPortfolio = () => {
       placeholderImage: file(relativePath: { eq: "header-portfolio.jpeg" }) {
         childImageSharp {
           fluid {
-            ...GatsbyImageSharpFluid_tracedSVG
+            ...GatsbyImageSharpFluid
           }
         }
       }
