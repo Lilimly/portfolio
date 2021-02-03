@@ -1,5 +1,7 @@
 import React from "react"
 import { Link } from "react-scroll"
+import { useStaticQuery, graphql } from "gatsby"
+import BackgroundImage from 'gatsby-background-image'
 import loadable from "@loadable/component"
 import ContactForm from "../components/ContactForm.jsx"
 import Layout from "../components/layout"
@@ -14,12 +16,51 @@ const PhotoAurelie = loadable(() =>
 )
 
 const IndexPage = () => {
+
+  const {heroBanner, contact} = useStaticQuery(
+    graphql`
+    query {
+      heroBanner: file(relativePath: { eq: "img-header.jpeg" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_tracedSVG
+          }
+        }
+      }
+      contact: file(relativePath: { eq: "laptop-desk.jpeg" }) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid_tracedSVG
+          }
+        }
+      }
+    }
+  `)
+
+  if (!heroBanner?.childImageSharp?.fluid) {
+    return <div>Picture not found</div>
+  }
+
+  if (!contact?.childImageSharp?.fluid) {
+    return <div>Picture not found</div>
+  }
+
+  const imageHeader = heroBanner.childImageSharp.fluid
+
+  const imageContact = contact.childImageSharp.fluid
+
   return (
     <Layout>
       <SEO title="Présentation" />
-      <section className="section" id="welcome">
-        <HeroBanner />
-      </section>
+      <BackgroundImage
+        Tag="section"
+        id="welcome"
+        className="section"
+        fluid={imageHeader}
+        backgroundAttachment="fixed"
+      >
+          <HeroBanner />
+      </BackgroundImage>
       <section className="section" id="parcours">
         <h2>Mon parcours</h2>
         <div className="presentation">
@@ -77,7 +118,13 @@ const IndexPage = () => {
           <ProjectsCards />
         </div>
       </section>
-      <section className="section" id="contact">
+      <BackgroundImage
+        Tag="section"
+        id="contact"
+        className="section"
+        fluid={imageContact}
+        backgroundAttachment="fixed"
+      >
         <h2>Me contacter</h2>
         <p>
           Une question, un devis ?<br />
@@ -88,7 +135,7 @@ const IndexPage = () => {
           <ContactForm />
         </div>
         <Button />
-      </section>
+      </BackgroundImage>
     </Layout>
   )
 }

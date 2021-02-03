@@ -173,11 +173,18 @@ nav {
   #welcome {
     padding: 2em;
     height: 92vh;
-    background-image: url("../images/img-header.jpeg");
     background-color: $body_color;
     background-attachment: fixed;
     @include section-style;
     @include flex_center;
+    &:before {
+      background-attachment: fixed;
+      background-color: $body_color;
+    }
+    &:after {
+      background-attachment: fixed;
+      background-color: $body_color;
+    }
     .section-content {
       background-color: $body_color;
       width: 60%;
@@ -428,17 +435,23 @@ nav {
   }
   #contact {
     padding: 1.5em 0em 4em 0em;
-    background-image: url("../images/laptop-desk.jpeg");
     background-color: $body_color;
     background-attachment: fixed;
     @include section-style;
+    &:before {
+      background-attachment: fixed;
+      background-color: $body_color;
+    }
+    &:after {
+      background-attachment: fixed;
+      background-color: $body_color;
+    }
     h2 {
       color: $primary_color;
       font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
     }
     p {
       text-align: center;
-      font-size: 1.2em;
     }
     .button-top {
       @include button_top;

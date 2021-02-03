@@ -326,7 +326,6 @@ nav .header-div .hamburger {
 .main-div #welcome {
   padding: 2em;
   height: 92vh;
-  background-image: url("../images/img-header.jpeg");
   background-color: #fcfcfc;
   background-attachment: fixed;
   background-position: center;
@@ -339,6 +338,16 @@ nav .header-div .hamburger {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.main-div #welcome:before {
+  background-attachment: fixed;
+  background-color: #fcfcfc;
+}
+
+.main-div #welcome:after {
+  background-attachment: fixed;
+  background-color: #fcfcfc;
 }
 
 .main-div #welcome .section-content {
@@ -868,13 +877,22 @@ nav .header-div .hamburger {
 
 .main-div #contact {
   padding: 1.5em 0em 4em 0em;
-  background-image: url("../images/laptop-desk.jpeg");
   background-color: #fcfcfc;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
+}
+
+.main-div #contact:before {
+  background-attachment: fixed;
+  background-color: #fcfcfc;
+}
+
+.main-div #contact:after {
+  background-attachment: fixed;
+  background-color: #fcfcfc;
 }
 
 .main-div #contact h2 {
@@ -884,7 +902,6 @@ nav .header-div .hamburger {
 
 .main-div #contact p {
   text-align: center;
-  font-size: 1.2em;
 }
 
 .main-div #contact .button-top {
