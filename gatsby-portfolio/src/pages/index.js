@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "react-scroll"
 import { useStaticQuery, graphql } from "gatsby"
-import BackgroundImage from 'gatsby-background-image'
+import BackgroundImage from "gatsby-background-image"
 import loadable from "@loadable/component"
 import ContactForm from "../components/ContactForm.jsx"
 import Layout from "../components/layout"
@@ -16,26 +16,26 @@ const PhotoAurelie = loadable(() =>
 )
 
 const IndexPage = () => {
-
-  const {heroBanner, contact} = useStaticQuery(
+  const { heroBanner, contact } = useStaticQuery(
     graphql`
-    query {
-      heroBanner: file(relativePath: { eq: "img-header.jpeg" }) {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid_tracedSVG
+      query {
+        heroBanner: file(relativePath: { eq: "img-header.jpeg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid_tracedSVG
+            }
+          }
+        }
+        contact: file(relativePath: { eq: "laptop-desk.jpeg" }) {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid_tracedSVG
+            }
           }
         }
       }
-      contact: file(relativePath: { eq: "laptop-desk.jpeg" }) {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid_tracedSVG
-          }
-        }
-      }
-    }
-  `)
+    `
+  )
 
   if (!heroBanner?.childImageSharp?.fluid) {
     return <div>Picture not found</div>
@@ -59,7 +59,7 @@ const IndexPage = () => {
         fluid={imageHeader}
         backgroundAttachment="fixed"
       >
-          <HeroBanner />
+        <HeroBanner />
       </BackgroundImage>
       <section className="section" id="parcours">
         <h2>Mon parcours</h2>
