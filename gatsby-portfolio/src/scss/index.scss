@@ -2,27 +2,24 @@
 @import "./utils/_variable.scss";
 @import "./utils/_mixins.scss";
 @import "./utils/_responsive.scss";
+@import "./utils/_fonts.scss";
 
-@include font('Comfortaa', '../fonts/Comfortaa_Regular/Comfortaa');
-@include font('Comfortaa-Bold', '../fonts/Comfortaa_Bold/Comfortaa_Bold');
+@include font('Comfortaa', '../fonts/Comfortaa-Medium/Comfortaa-Medium');
 
 // éléments body
 body {
   background-color: $body_color;
-  font-family: 'Comfortaa';
-  letter-spacing: 0.5px;
+  font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
   line-height: 1.5em;
 }
 
 html {
-  font-family: 'Comfortaa';
-  letter-spacing: 0.8px;
+  font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
   line-height: 1.5em;
 }
 
 * {
-  font-family: 'Comfortaa';
-  letter-spacing: 0.5px;
+  font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
   line-height: 1.5em;
 }
 
@@ -68,7 +65,7 @@ nav {
         a {
           color: $primary_color;
           text-decoration: none;
-          font-size: 1.2em;
+          font-size: 1.1em;
           &:hover {
             transition: all 0.2s ease-out;
             color: $text_color;
@@ -92,14 +89,14 @@ nav {
   margin: 0em;
   h1 {
     text-align: center;
-    font-family: 'Comfortaa';
+    font-family: 'Comfortaa-Bold', Arial, Helvetica, sans-serif;
     margin: 0.5em;
     color: $primary_color;
     font-size: 2.2em;
   }
   h2 {
     text-align: center;
-    font-family: 'Comfortaa';
+    font-family: 'Comfortaa-Bold', Arial, Helvetica, sans-serif;
     margin: 0.5em;
     color: $primary_color;
     font-size: 2.2em;
@@ -108,7 +105,7 @@ nav {
     text-align: center;
     margin: 0.5em;
     color: $text_color;
-    font-family: 'Comfortaa';
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
   }
   p {
     color: $text_color;
@@ -123,7 +120,7 @@ nav {
       padding: 2em 3em 2em 3em;
       h1 {
         text-align: center;
-        font-family: 'Comfortaa';
+        font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
         margin: 0.5em;
         color: $primary_color;
         font-size: 2.2em;
@@ -136,7 +133,7 @@ nav {
       }
       h3 {
         color: $primary-color;
-        font-family: 'Comfortaa';
+        font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
         margin: 2em auto 1em 0em;
         text-align: left;
       }
@@ -192,7 +189,7 @@ nav {
       padding: 1em;
       border-radius: 5px;
       h1 {
-        font-family: 'Comfortaa';
+        font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
         color: $primary_color;
         text-align: center;
       }
@@ -218,7 +215,7 @@ nav {
     background-color: $body_color;
     @include section-style;
     h2 {
-      font-family: 'Comfortaa';
+      font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
       color: $primary_color;
     }
     h3 {
@@ -257,11 +254,11 @@ nav {
           border-right: 7px solid  $primary-color;
         }
         .vertical-timeline-element-title {
-          font-family: 'Comfortaa';
+          font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
           color: $primary_color;
         }
         .vertical-timeline-element-subtitle {
-          font-family: 'Comfortaa';
+          font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
           color: $primary-color;
           margin-top: 0.2em;
         }
@@ -314,7 +311,7 @@ nav {
     @include section-style;
     h2 {
       color: $primary_color;
-      font-family: 'Comfortaa';
+      font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
     }
     p {
       text-align: center;
@@ -347,11 +344,11 @@ nav {
               h3 {
                 color: $primary-color;
                 font-size: 1.8em;
-                font-family: 'Comfortaa';
+                font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
               }
               h4 {
                 color: $text-color;
-                font-family: 'Comfortaa';
+                font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
                 font-weight: lighter;
                 font-size: 1.2em;
               }
@@ -402,12 +399,12 @@ nav {
               padding: 0.5em;
               h3 {
                 color: $primary-color;
-                font-family: 'Comfortaa', cursive;
+                font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
                 font-size: 1.8em;
               }
               h4 {
                 color: $text-color;
-                font-family: 'Comfortaa';
+                font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
                 font-size: 1.2em;
               }
               .tech-icon {
@@ -439,7 +436,7 @@ nav {
     @include section-style;
     h2 {
       color: $primary_color;
-      font-family: 'Comfortaa';
+      font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
     }
     p {
       text-align: center;

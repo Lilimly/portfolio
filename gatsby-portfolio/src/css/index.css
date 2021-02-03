@@ -1,35 +1,24 @@
 @font-face {
   font-family: "Comfortaa";
-  src: url("../fonts/Comfortaa_Regular/Comfortaa.eot");
-  src: url("../fonts/Comfortaa_Regular/Comfortaa.eot?#iefix") format("embedded-opentype"), url("../fonts/Comfortaa_Regular/Comfortaa.woff") format("woff"), url("../fonts/Comfortaa_Regular/Comfortaa.ttf") format("truetype"), url("../fonts/Comfortaa_Regular/Comfortaa.svg#Comfortaa") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Comfortaa-Bold";
-  src: url("../fonts/Comfortaa_Bold/Comfortaa_Bold.eot");
-  src: url("../fonts/Comfortaa_Bold/Comfortaa_Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Comfortaa_Bold/Comfortaa_Bold.woff") format("woff"), url("../fonts/Comfortaa_Bold/Comfortaa_Bold.ttf") format("truetype"), url("../fonts/Comfortaa_Bold/Comfortaa_Bold.svg#Comfortaa-Bold") format("svg");
+  src: url("../fonts/Comfortaa-Medium/Comfortaa-Medium.eot");
+  src: url("../fonts/Comfortaa-Medium/Comfortaa-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Comfortaa-Medium/Comfortaa-Medium.woff") format("woff"), url("../fonts/Comfortaa-Medium/Comfortaa-Medium.ttf") format("truetype"), url("../fonts/Comfortaa-Medium/Comfortaa-Medium.svg#Comfortaa") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 body {
   background-color: #fcfcfc;
-  font-family: 'Comfortaa';
-  letter-spacing: 0.5px;
+  font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
   line-height: 1.5em;
 }
 
 html {
-  font-family: 'Comfortaa';
-  letter-spacing: 0.8px;
+  font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
   line-height: 1.5em;
 }
 
 * {
-  font-family: 'Comfortaa';
-  letter-spacing: 0.5px;
+  font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
   line-height: 1.5em;
 }
 
@@ -98,7 +87,7 @@ nav .header-div .nav-menu .nav-item {
 nav .header-div .nav-menu .nav-item a {
   color: #eb5a77;
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 nav .header-div .nav-menu .nav-item a:hover {
@@ -123,7 +112,7 @@ nav .header-div .hamburger {
 
 .main-div h1 {
   text-align: center;
-  font-family: 'Comfortaa';
+  font-family: 'Comfortaa-Bold', Arial, Helvetica, sans-serif;
   margin: 0.5em;
   color: #eb5a77;
   font-size: 2.2em;
@@ -131,7 +120,7 @@ nav .header-div .hamburger {
 
 .main-div h2 {
   text-align: center;
-  font-family: 'Comfortaa';
+  font-family: 'Comfortaa-Bold', Arial, Helvetica, sans-serif;
   margin: 0.5em;
   color: #eb5a77;
   font-size: 2.2em;
@@ -141,7 +130,7 @@ nav .header-div .hamburger {
   text-align: center;
   margin: 0.5em;
   color: #3a3a66;
-  font-family: 'Comfortaa';
+  font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
 }
 
 .main-div p {
@@ -168,7 +157,7 @@ nav .header-div .hamburger {
 
 .main-div .project-page .project-content h1 {
   text-align: center;
-  font-family: 'Comfortaa';
+  font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
   margin: 0.5em;
   color: #eb5a77;
   font-size: 2.2em;
@@ -183,7 +172,7 @@ nav .header-div .hamburger {
 
 .main-div .project-page .project-content h3 {
   color: #eb5a77;
-  font-family: 'Comfortaa';
+  font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
   margin: 2em auto 1em 0em;
   text-align: left;
 }
@@ -366,7 +355,7 @@ nav .header-div .hamburger {
 }
 
 .main-div #welcome .section-content h1 {
-  font-family: 'Comfortaa';
+  font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
   color: #eb5a77;
   text-align: center;
 }
@@ -442,7 +431,7 @@ nav .header-div .hamburger {
 }
 
 .main-div #parcours h2 {
-  font-family: 'Comfortaa';
+  font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
   color: #eb5a77;
 }
 
@@ -498,12 +487,12 @@ nav .header-div .hamburger {
 }
 
 .main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content .vertical-timeline-element-title {
-  font-family: 'Comfortaa';
+  font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
   color: #eb5a77;
 }
 
 .main-div #parcours .vertical-timeline-element--work .vertical-timeline-element-content .vertical-timeline-element-subtitle {
-  font-family: 'Comfortaa';
+  font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
   color: #eb5a77;
   margin-top: 0.2em;
 }
@@ -625,7 +614,7 @@ nav .header-div .hamburger {
 
 .main-div #projets h2 {
   color: #eb5a77;
-  font-family: 'Comfortaa';
+  font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
 }
 
 .main-div #projets p {
@@ -678,12 +667,12 @@ nav .header-div .hamburger {
 .main-div #projets .projects .projects-div .projects-items .projects-content .projects-text h3 {
   color: #eb5a77;
   font-size: 1.8em;
-  font-family: 'Comfortaa';
+  font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
 }
 
 .main-div #projets .projects .projects-div .projects-items .projects-content .projects-text h4 {
   color: #3a3a66;
-  font-family: 'Comfortaa';
+  font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
   font-weight: lighter;
   font-size: 1.2em;
 }
@@ -800,13 +789,13 @@ nav .header-div .hamburger {
 
 .main-div #projets .projects .projects-div-one .projects-items .projects-content .projects-text h3 {
   color: #eb5a77;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
   font-size: 1.8em;
 }
 
 .main-div #projets .projects .projects-div-one .projects-items .projects-content .projects-text h4 {
   color: #3a3a66;
-  font-family: 'Comfortaa';
+  font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
   font-size: 1.2em;
 }
 
@@ -891,7 +880,7 @@ nav .header-div .hamburger {
 
 .main-div #contact h2 {
   color: #eb5a77;
-  font-family: 'Comfortaa';
+  font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
 }
 
 .main-div #contact p {
