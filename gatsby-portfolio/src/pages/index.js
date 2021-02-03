@@ -22,14 +22,14 @@ const IndexPage = () => {
         heroBanner: file(relativePath: { eq: "img-header.jpeg" }) {
           childImageSharp {
             fluid {
-              ...GatsbyImageSharpFluid_tracedSVG
+              ...GatsbyImageSharpFluid
             }
           }
         }
         contact: file(relativePath: { eq: "laptop-desk.jpeg" }) {
           childImageSharp {
             fluid {
-              ...GatsbyImageSharpFluid_tracedSVG
+              ...GatsbyImageSharpFluid
             }
           }
         }
