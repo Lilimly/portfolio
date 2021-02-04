@@ -234,8 +234,7 @@ nav {
     .presentation {
       @include row;
       .gatsby-image-wrapper {
-        width: 25%;
-        height: 25%;
+        width: 280px;
         margin: 1em;
           img {
             border-radius: 50%;
@@ -706,7 +705,7 @@ nav {
       .presentation {
         @include column;
         .gatsby-image-wrapper {
-          width: 40%;
+          width: 140px;
           margin: 1em auto 1em auto;
         }
         p {
@@ -929,7 +928,7 @@ nav {
         display: flex;
         flex-direction: column;
         .gatsby-image-wrapper {
-          width: 40%;
+          width: 150px;
           margin: 1em auto 1em auto;
         }
         p {
@@ -1107,7 +1106,7 @@ nav {
         display: flex;
         flex-direction: column;
         .gatsby-image-wrapper {
-          width: 35%;
+          width: 190px;
           margin: 1em auto 1em auto;
         }
         p {
@@ -1183,6 +1182,7 @@ nav {
         flex-direction: column;
         .gatsby-image-wrapper {
           margin: 1em auto 1em auto;
+          width: 230px;
         }
         p {
           margin: 1em auto 1em auto;
