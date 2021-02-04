@@ -33,16 +33,11 @@ const IndexPage = () => {
     `
   )
 
-  if (!heroBanner?.childImageSharp?.fluid) {
-    return <div>Picture not found</div>
-  }
-
-  if (!contact?.childImageSharp?.fluid) {
+  if (!heroBanner?.childImageSharp?.fluid || !contact?.childImageSharp?.fluid) {
     return <div>Picture not found</div>
   }
 
   const imageHeader = heroBanner.childImageSharp.fluid
-
   const imageContact = contact.childImageSharp.fluid
 
   return (
