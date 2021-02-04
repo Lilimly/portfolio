@@ -9,7 +9,7 @@ const PhotoAurelie = () => {
         relativePath: { eq: "aurelie-mlynarz-photo.jpeg" }
       ) {
         childImageSharp {
-          fluid {
+          fluid(maxWidth: 277) {
             ...GatsbyImageSharpFluid
           }
         }
