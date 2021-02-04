@@ -96,7 +96,7 @@ nav .header-div .nav-menu .nav-item a:hover {
 }
 
 nav .header-div .nav-menu .nav-item > .active {
-  color: #5c5cb6;
+  color: #3e3e80;
   font-weight: bold;
 }
 
@@ -197,7 +197,6 @@ nav .header-div .hamburger {
 }
 
 .main-div .project-page .project-content ul {
-  font-size: 1.2em;
   color: #3e3e80;
 }
 

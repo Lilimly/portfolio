@@ -70,7 +70,7 @@ nav {
           }
         }
         > .active {
-          color: $text_link_color;
+          color: $text_color;
           font-weight: bold;
         }
       }
@@ -145,7 +145,7 @@ nav {
         text-align: center;
       }
       ul {
-        font-size: 1.2em;
+        
         color: $text_color;
         a {
           @include text_link;

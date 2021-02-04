@@ -1,11 +1,9 @@
 import React, { useState } from "react"
 import { Link, animateScroll as scroll } from "react-scroll"
 import { AnchorLink } from "gatsby-plugin-anchor-links"
-import loadable from "@loadable/component"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faTimes, faBars } from "@fortawesome/free-solid-svg-icons"
-
-const Logo = loadable(() => import("./GatsbyImages/Logo.js"))
+import Logo from "./GatsbyImages/Logo.js"
 
 export default function Header() {
   let pathname = typeof window !== "undefined" ? window.location.pathname : ""
@@ -59,7 +57,7 @@ export default function Header() {
                 to="welcome"
                 spy={true}
                 smooth={true}
-                offset={-80}
+                offset={-70}
                 duration={500}
               >
                 Bienvenue !
@@ -79,7 +77,7 @@ export default function Header() {
                 to="parcours"
                 spy={true}
                 smooth={true}
-                offset={-80}
+                offset={-70}
                 duration={500}
               >
                 Parcours
@@ -99,7 +97,7 @@ export default function Header() {
                 to="projets"
                 spy={true}
                 smooth={true}
-                offset={-80}
+                offset={-70}
                 duration={500}
               >
                 Projets
@@ -119,7 +117,7 @@ export default function Header() {
                 to="contact"
                 spy={true}
                 smooth={true}
-                offset={-80}
+                offset={-70}
                 duration={500}
               >
                 Contact

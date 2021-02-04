@@ -7,30 +7,17 @@ import mysqlIcon from "@iconify/icons-cib/mysql"
 import mongodbIcon from "@iconify/icons-cib/mongodb"
 import expressIcon from "@iconify/icons-logos/express"
 import graphqlIcon from "@iconify-icons/cib/graphql"
-import loadable from "@loadable/component"
 
 //headers img
-const HeaderVav = loadable(() => import("./GatsbyImages/HeaderVav.js"))
-const HeaderGotripics = loadable(() =>
-  import("./GatsbyImages/HeaderGotripics.js")
-)
-const HeaderPortfolio = loadable(() =>
-  import("./GatsbyImages/HeaderPortfolio.js")
-)
-const HeaderGroupomania = loadable(() =>
-  import("./GatsbyImages/HeaderGroupomania.js")
-)
-const HeaderPiquante = loadable(() =>
-  import("./GatsbyImages/HeaderPiquante.js")
-)
-const HeaderOrinoco = loadable(() => import("./GatsbyImages/HeaderOrinoco.js"))
-const HeaderChouette = loadable(() =>
-  import("./GatsbyImages/HeaderChouette.js")
-)
-const HeaderOhmyfood = loadable(() =>
-  import("./GatsbyImages/HeaderOhmyfood.js")
-)
-const HeaderCv = loadable(() => import("./GatsbyImages/HeaderCv.js"))
+import HeaderGotripics from "./GatsbyImages/HeaderGotripics.js"
+import HeaderVav from "./GatsbyImages/HeaderVav.js"
+import HeaderPortfolio from "./GatsbyImages/HeaderPortfolio.js"
+import HeaderGroupomania from "./GatsbyImages/HeaderGroupomania.js"
+import HeaderPiquante from "./GatsbyImages/HeaderPiquante.js"
+import HeaderOrinoco from "./GatsbyImages/HeaderOrinoco.js"
+import HeaderChouette from "./GatsbyImages/HeaderChouette.js"
+import HeaderOhmyfood from"./GatsbyImages/HeaderOhmyfood.js"
+import HeaderCv from "./GatsbyImages/HeaderCv.js"
 
 export default function ProjectsCards() {
   return (

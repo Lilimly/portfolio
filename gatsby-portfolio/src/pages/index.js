@@ -2,18 +2,14 @@ import React from "react"
 import { Link } from "react-scroll"
 import { useStaticQuery, graphql } from "gatsby"
 import BackgroundImage from "gatsby-background-image"
-import loadable from "@loadable/component"
-import ContactForm from "../components/ContactForm.jsx"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-
-const TimeLine = loadable(() => import("../components/TimeLine"))
-const HeroBanner = loadable(() => import("../components/HeroBanner.jsx"))
-const ProjectsCards = loadable(() => import("../components/Projectscards.jsx"))
-const Button = loadable(() => import("../components/Button.jsx"))
-const PhotoAurelie = loadable(() =>
-  import("../components/GatsbyImages/PhotoAurelie.js")
-)
+import HeroBanner from "../components/HeroBanner.jsx"
+import TimeLine from "../components/TimeLine"
+import ProjectsCards from "../components/Projectscards.jsx"
+import ContactForm from "../components/ContactForm.jsx"
+import PhotoAurelie from "../components/GatsbyImages/PhotoAurelie.js"
+import Button from "../components/Button.jsx"
 
 const IndexPage = () => {
   const { heroBanner, contact } = useStaticQuery(
