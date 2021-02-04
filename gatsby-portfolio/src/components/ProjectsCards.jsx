@@ -16,7 +16,7 @@ import HeaderGroupomania from "./GatsbyImages/HeaderGroupomania.js"
 import HeaderPiquante from "./GatsbyImages/HeaderPiquante.js"
 import HeaderOrinoco from "./GatsbyImages/HeaderOrinoco.js"
 import HeaderChouette from "./GatsbyImages/HeaderChouette.js"
-import HeaderOhmyfood from"./GatsbyImages/HeaderOhmyfood.js"
+import HeaderOhmyfood from "./GatsbyImages/HeaderOhmyfood.js"
 import HeaderCv from "./GatsbyImages/HeaderCv.js"
 
 export default function ProjectsCards() {

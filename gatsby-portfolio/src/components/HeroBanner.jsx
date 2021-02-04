@@ -5,7 +5,9 @@ const HeroBanner = () => {
   return (
     <div className="section-content">
       <h1>Bienvenue !</h1>
-      <p>Je suis Aurélie, <strong>développeuse web fullstack</strong>.</p>
+      <p>
+        Je suis Aurélie, <strong>développeuse web fullstack</strong>.
+      </p>
       <p>Ma mission : vous aider à créer un site web qui vous corresponde.</p>
       <p>
         Pour savoir comment, consultez{" "}
