@@ -79,8 +79,6 @@ export default function ProjectsCards() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="projects-div">
         <div className="projects-items">
           <div className="projects-content">
             <HeaderPortfolio />
@@ -168,8 +166,6 @@ export default function ProjectsCards() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="projects-div">
         <div className="projects-items">
           <div className="projects-content">
             <HeaderPiquante />
@@ -248,8 +244,6 @@ export default function ProjectsCards() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="projects-div">
         <div className="projects-items">
           <div className="projects-content">
             <HeaderChouette />
@@ -287,7 +281,7 @@ export default function ProjectsCards() {
           </div>
         </div>
         <div className="projects-items">
-        <div className="projects-content">
+          <div className="projects-content">
             <HeaderCv />
             <div className="projects-text">
               <h3>CV</h3>
