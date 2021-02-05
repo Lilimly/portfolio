@@ -38,8 +38,8 @@ Vous pouvez le consulter ici : [mon cv](https://lilimly.github.io/cv_aurelie_mly
 
 Retrouvez le **code source** de ce projet sur [mon espace GitHub](https://github.com/Lilimly/cv_aurelie_mlynarz "Code source de mon CV").
 
-Vous pouvez également consulter un autre projet pour lequel j'ai intégré la maquette suivante :
+<!-- Vous pouvez également consulter un autre projet pour lequel j'ai intégré la maquette suivante :
 
 ![Page d'accueil Ohmyfood](./img-cv/accueil-ohmyfood.jpeg)
 
-ici: [Ohmyfood](https://lilimly.github.io/ohmyfood/ "Lien vers le site Ohmyfood") ainsi que le [code source](https://github.com/Lilimly/ohmyfood "Code source du site Ohmyfood")
+ici: [Ohmyfood](https://lilimly.github.io/ohmyfood/ "Lien vers le site Ohmyfood") ainsi que le [code source](https://github.com/Lilimly/ohmyfood "Code source du site Ohmyfood") -->
