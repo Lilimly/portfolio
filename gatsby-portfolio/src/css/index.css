@@ -149,14 +149,21 @@ nav .header-div .hamburger {
   cursor: pointer;
 }
 
+.main-div .project-page .gatsby-image-wrapper {
+  height: auto;
+}
+
+.main-div .project-page .gatsby-image-wrapper img {
+  margin-bottom: 0em;
+}
+
 .main-div .project-page .project-content {
-  padding: 2em 3em 2em 3em;
+  padding: 0.5em 3em 2em 3em;
 }
 
 .main-div .project-page .project-content h1 {
   text-align: center;
   font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
-  margin: 0.5em;
   color: #eb5a77;
   font-size: 2.2em;
 }
@@ -197,6 +204,7 @@ nav .header-div .hamburger {
 }
 
 .main-div .project-page .project-content ul {
+  font-size: 1.2em;
   color: #3e3e80;
 }
 
@@ -213,7 +221,9 @@ nav .header-div .hamburger {
 }
 
 .main-div .project-page .project-content .date {
-  text-align: right;
+  text-align: left;
+  font-style: italic;
+  margin-top: 3em;
 }
 
 .main-div .project-page .project-content a {

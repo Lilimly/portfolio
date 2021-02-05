@@ -18,9 +18,9 @@ const Posts = ({ data }) => {
           <Img fluid={post.frontmatter.img.childImageSharp.fluid} />
         )}
         <div className="project-content">
-          <p className="date">Projet réalisé le {post.frontmatter.date}</p>
           <h1>{post.frontmatter.title}</h1>
           <MDXRenderer>{post.body}</MDXRenderer>
+          <p className="date">Projet réalisé le {post.frontmatter.date}</p>
           <AnchorLink to="/#projets" title="Retour aux projets">
             <button>
               <span>Retour aux projets</span>

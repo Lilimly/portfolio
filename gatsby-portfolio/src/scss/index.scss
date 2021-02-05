@@ -113,12 +113,17 @@ nav {
     font-size: 1.1em;
   }
   .project-page {
+    .gatsby-image-wrapper {
+      height: auto;
+      img {
+        margin-bottom: 0em;
+      }
+    }
     .project-content {
-      padding: 2em 3em 2em 3em;
+      padding: 0.5em 3em 2em 3em;
       h1 {
         text-align: center;
         font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
-        margin: 0.5em;
         color: $primary_color;
         font-size: 2.2em;
       }
@@ -145,14 +150,16 @@ nav {
         text-align: center;
       }
       ul {
-        
+        font-size: 1.2em;
         color: $text_color;
         a {
           @include text_link;
         }
       }
       .date {
-        text-align: right;
+        text-align: left;
+        font-style: italic;
+        margin-top: 3em;
       }
       a {
         text-decoration: none;
