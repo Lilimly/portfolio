@@ -16,7 +16,6 @@ import HeaderGroupomania from "./GatsbyImages/HeaderGroupomania.js"
 import HeaderPiquante from "./GatsbyImages/HeaderPiquante.js"
 import HeaderOrinoco from "./GatsbyImages/HeaderOrinoco.js"
 import HeaderChouette from "./GatsbyImages/HeaderChouette.js"
-import HeaderOhmyfood from "./GatsbyImages/HeaderOhmyfood.js"
 import HeaderCv from "./GatsbyImages/HeaderCv.js"
 
 export default function ProjectsCards() {
@@ -288,45 +287,7 @@ export default function ProjectsCards() {
           </div>
         </div>
         <div className="projects-items">
-          <div className="projects-content">
-            <HeaderOhmyfood />
-            <div className="projects-text">
-              <h3>Ohmyfood</h3>
-              <h4>Dynamisation d'une page web</h4>
-              <div className="tech-icon">
-                <FontAwesomeIcon
-                  icon={["fab", "sass"]}
-                  title="SASS"
-                  size="2x"
-                />
-                <FontAwesomeIcon
-                  icon={["fab", "html5"]}
-                  title="HTML 5"
-                  size="2x"
-                />
-                <FontAwesomeIcon
-                  icon={["fab", "css3-alt"]}
-                  title="CSS 3"
-                  size="2x"
-                />
-                <FontAwesomeIcon
-                  icon={["fab", "git-square"]}
-                  title="Git"
-                  size="2x"
-                />
-              </div>
-              <Link to="/projets/ohmyfood/" title="Plus de détails">
-                <button>
-                  <span>Voir le projet</span>
-                </button>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="projects-div-one">
-        <div className="projects-items">
-          <div className="projects-content">
+        <div className="projects-content">
             <HeaderCv />
             <div className="projects-text">
               <h3>CV</h3>
