@@ -18,6 +18,8 @@ Créer mon blog de voyage avec le CMS Wordpress.
 
 Au cours d'un voyage d'**un an autour du monde** j'ai décidé de créer mon **blog de voyages**.
 
+![carnets de voyage](./img-gotripics/carnet-voyage-gotripics.jpeg)
+
 Dans ce cadre j'ai développé les **compétences** suivantes :
 
 - Développement du site avec le **CMS Wordpress**
@@ -29,7 +31,7 @@ Dans ce cadre j'ai développé les **compétences** suivantes :
 - Suivi et analyse de l'évolution des **chiffres d'audience**
 - Élaboration et suivi des **newsletters**
 
-![carnets de voyage](./img-gotripics/carnet-voyage-gotripics.jpeg)
+![article Gotripics](./img-gotripics/article-gotripics.jpeg)
 
 ### Pour consulter le projet
 
