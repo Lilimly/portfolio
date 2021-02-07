@@ -4,15 +4,18 @@ date: "2020-11-10"
 img: "./articles/hearder-vav.jpeg"
 ---
 
-## Projet en cours !
+## Développement du frontend du site
 
 ### Ma mission
 
-Développer une partie du frontend d'un site d'avis et de comparaison de villes.
+Développer le frontend d'un site d'avis et de comparaison de villes.
+
+( Projet en cours de développement !)
 
 ### Les technologies utilisées
 
     - Vue JS
+    - Nuxt JS
     - SASS
     - Git / GitHub
 

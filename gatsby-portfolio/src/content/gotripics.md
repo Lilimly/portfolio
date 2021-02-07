@@ -13,6 +13,8 @@ Créer mon blog de voyage avec le CMS Wordpress.
 ### Les technologies utilisées
 
     - Wordpress
+    - Google Analytics
+    - Google Search Console
 
 ### Le projet
 

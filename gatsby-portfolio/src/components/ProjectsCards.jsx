@@ -7,6 +7,8 @@ import mysqlIcon from "@iconify/icons-cib/mysql"
 import mongodbIcon from "@iconify/icons-cib/mongodb"
 import expressIcon from "@iconify/icons-logos/express"
 import graphqlIcon from "@iconify-icons/cib/graphql"
+import nuxtJs from '@iconify-icons/cib/nuxt-js';
+
 
 //headers img
 import HeaderGotripics from "./GatsbyImages/HeaderGotripics.js"
@@ -34,6 +36,12 @@ export default function ProjectsCards() {
                   title="Vue JS"
                   size="2x"
                 />
+                <Icon 
+                  icon={nuxtJs} 
+                  color="#eb5a77" 
+                  width="36" 
+                  height="36" 
+                />
                 <FontAwesomeIcon
                   icon={["fab", "sass"]}
                   title="SASS"
@@ -42,11 +50,6 @@ export default function ProjectsCards() {
                 <FontAwesomeIcon
                   icon={["fab", "git-square"]}
                   title="Git"
-                  size="2x"
-                />
-                <FontAwesomeIcon
-                  icon={["fab", "github"]}
-                  title="GitHub"
                   size="2x"
                 />
               </div>
