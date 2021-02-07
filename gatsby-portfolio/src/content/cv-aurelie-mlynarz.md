@@ -30,6 +30,8 @@ J'ai commencé par découper les différents éléments, puis les ai traduits en
 
 Afin que cette page s'adapte à toutes tailles d'écran, j'ai défini un format **responsive** qui transforme ce cv en une colonne sur les écrans de moins de 1000 pixels.
 
+![site responsive](./img-cv/responsive-cv.jpeg)
+
 ### Pour consulter le projet
 
 Pour ce projet, j'ai utilisé le **logiciel de versionning Git**. Il est hébergé gratuitement avec **GitHub Pages**.

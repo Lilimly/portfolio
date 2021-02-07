@@ -182,6 +182,13 @@ nav .header-div .hamburger {
   text-align: left;
 }
 
+.main-div .project-page .project-content h4 {
+  font-size: 1.5em;
+  color: #3e3e80;
+  font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+
 .main-div .project-page .project-content p {
   font-size: 1.2em;
 }
@@ -204,7 +211,6 @@ nav .header-div .hamburger {
 }
 
 .main-div .project-page .project-content ul {
-  font-size: 1.2em;
   color: #3e3e80;
 }
 
