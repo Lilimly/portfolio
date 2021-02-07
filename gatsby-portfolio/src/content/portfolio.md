@@ -27,24 +27,24 @@ Pour créer ce projet, j'ai choisi d'utiliser le **générateur de site statique
 #### Pourquoi un SSG ?
 Les générateurs de sites statiques sont une **alternative** aux systèmes de gestion de contenu (CMS) basés sur des bases de données, tels que **WordPress** et **Drupal**.
 
-Ils permettent de récupérer toutes les données une seule fois, puis de les enregistrer sans faire d'appels à un backend à chaque visite d'un utilisateur.
+Ils permettent de récupérer l'**ensemble des données en une seule fois**, puis de les enregistrer. Celà évite de faire des appels à un backend à chaque visite d'un utilisateur.
 
-Ainsi, ils **réduisent la complexité** du site, ce qui améliore la **vitesse**, la **sécurité** et **facilite l'hébergement et l'expérience des développeurs**.
+Les SSG **réduisent ainsi la complexité** du site, ce qui améliore la **vitesse**, la **sécurité** et **facilite l'hébergement et l'expérience des développeurs**.
 
 #### Le choix de GatsbyJS
 GatsbyJS, est donc un SSG construit avec **ReactJS** et alimenté par **GraphQL**. 
 
-Ses **3 principaux avantages** sont les suivants:
+Ses **3 principaux avantages** :
 
 * **La vitesse**
 
-Étant construit avec ReactJS, Gatsby ne génére pas de page à chaque requête, rendant ainsi le site plus rapide.
-L'**expérience utilisateur** est donc plus beaucoup plus **fluide**.
+Construit avec ReactJS, Gatsby ne génére pas de page à chaque requête. 
+Celà rend le site plus rapide et donc l'**expérience utilisateur** plus **fluide**.
 
 * **Plus de sécurité** 
 
 Comme il n'y a que des fichiers statiques et **pas de base de données**, le site ne risque pas de se faire pirater grand chose.
-Et si un fichier statique est perdu, on pourra le générer de nouveau.
+Et si un fichier statique est perdu, on peut le générer de nouveau.
 
 * **Une économie sur le coûts d'hébergement** 
 
@@ -56,7 +56,7 @@ Par exemple, ce portfolio est hébergé gratuitement sur **Netlify**.
 #### Traitement des requêtes avec GraphQL
 Comme l'indique son nom, Graph QL(Query Language) est un **language de requêtes** pour API. 
 Il permet de manipuler de la donnée de façon **simple, flexible et précise**. 
-Les requêtes sont déclaratives et personnalisées: on ne va récupérer que **les données dont on a besoin** et **dans l'ordre que l'on souhaite**. 
+Les requêtes sont déclaratives et personnalisées: on ne va récupérer que **les données dont on a besoin** et **dans l'ordre qu'on le souhaite**. 
 
 C'est également un **environnement d'éxécution** qui interpréte et structure les requêtes à partir d'un schéma.
 
