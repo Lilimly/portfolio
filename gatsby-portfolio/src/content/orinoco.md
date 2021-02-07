@@ -18,7 +18,7 @@ Développer le frontend d'une application de vente en ligne.
     - SASS
     - Git / GitHub
 
-### Les étapes du projet
+### Le projet
 
 Le site se compose de :
 

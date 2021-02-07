@@ -16,7 +16,7 @@ Transformer une maquette en site web.
     - CSS3
     - Git / GitHub
 
-### Les étapes du projet
+### Le projet
 
 Pour que votre site soit **votre reflet** et **réponde à vos besoins** et ainsi qu'à **ceux de vos clients**, je peux vous aider en le créant à partir d'une **maquette de votre choix**.
 

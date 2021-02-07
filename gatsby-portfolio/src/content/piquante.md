@@ -15,7 +15,7 @@ Développer le backend d'une application d'avis gastronomique.
     - Serveur : Node.JS / Express.JS
     - Base de données : MongoDB
 
-### Les étapes du projet
+### Le projet
 
 Le site se compose de :
 

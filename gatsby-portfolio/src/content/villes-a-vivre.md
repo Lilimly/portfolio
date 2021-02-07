@@ -16,7 +16,7 @@ Développer une partie du frontend d'un site d'avis et de comparaison de villes.
     - SASS
     - Git / GitHub
 
-### Les étapes du projet
+### Le projet
 
 Développement d'une partie du Frontend de ce site de comparaisons de villes développé en Vue.JS.
 

@@ -16,7 +16,7 @@ Développement fullstack du réseau social d'une entreprise.
     - Coté Back : Node.JS / Express.JS
     - Base de données : mySQL / Sequelize
 
-### Les étapes du projet
+### Le projet
 
 Le site se compose de :
 

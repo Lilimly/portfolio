@@ -19,7 +19,7 @@ Optimiser le référencement SEO d'un site web existant.
     - GTmetrix
     - Git / GitHub
 
-### Les étapes du projet
+### Le projet
 
 Après une démarche d'audit du site, j'ai établit des **recommandations d'optimisation** portant principalement sur la **vitesse**, le **poids des pages du site**, l'**accessibilité** et le respect des **normes W3C**.
 
