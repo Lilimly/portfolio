@@ -22,6 +22,8 @@ Créer le portfolio de mon entreprise.
 
 Pour créer ce projet, j'ai choisi d'utiliser le **générateur de site statique Gatsby**.
 
+![Accueil portfolio](./img-portfolio/accueil-portfolio.jpeg)
+
 **Pourquoi ce choix ?**
 
 Les générateurs de sites statiques sont une **alternative** aux systèmes de gestion de contenu (CMS) basés sur des bases de données, tels que **WordPress** et **Drupal**.
@@ -38,7 +40,7 @@ Ils **réduisent la complexité** du site ce qui améliore la **vitesse**, la **
 
 - parce que notre site est statique, nous pouvons même **renoncer complètement aux serveurs web et aux équilibreurs de charge**. Au lieu de cela, le site est hébergé avec un réseau de diffusion de contenu qui évolue en fonction du trafic.
 
-![Site vitrine](./img-portfolio/accueil-portfolio.jpeg)
+![Section projets - Portfolio](./img-portfolio/projets-portfolio.jpeg)
 
 ### Pour consulter le projet
 
