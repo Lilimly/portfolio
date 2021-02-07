@@ -89,8 +89,8 @@ const IndexPage = () => {
       <section className="section" id="projets">
         <h2>Projets réalisés</h2>
         <p>
-          Pour comprendre <strong>ce que je peux vous apporter</strong>,
-          voici les différents <strong>projets</strong> que j'ai réalisés.
+          Pour comprendre <strong>ce que je peux vous apporter</strong>, voici
+          les différents <strong>projets</strong> que j'ai réalisés.
           <br />
           Vous avez une question ? <br />
           <Link
