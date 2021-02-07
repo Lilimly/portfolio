@@ -800,6 +800,7 @@ nav .header-div .hamburger {
 
 .main-div #contact p {
   text-align: center;
+  font-weight: bold;
 }
 
 .main-div #contact .button-top {
@@ -1221,7 +1222,18 @@ nav .header-div .hamburger {
     font-size: 0.8em;
   }
   .main-div .project-page .project-content {
-    padding: 1em;
+    padding: 1em 0.5em 1em 0.5em;
+  }
+  .main-div .project-page .project-content h1 {
+    font-size: 1.8em;
+    margin: auto auto 1em auto;
+  }
+  .main-div .project-page .project-content h2 {
+    font-size: 1.6em;
+    margin: auto;
+  }
+  .main-div .project-page .project-content h3 {
+    font-size: 1.4em;
   }
   .main-div #welcome .section-content {
     width: 100%;
@@ -1409,8 +1421,14 @@ nav .header-div .hamburger {
   .main-div h2 {
     font-size: 1.5em;
   }
+  .main-div .project-page h1 {
+    margin: auto auto 1em auto;
+  }
+  .main-div .project-page h2 {
+    margin: auto;
+  }
   .main-div .project-page .project-content {
-    padding: 1em;
+    padding: 2em 0.6em 1em 0.6em;
   }
   .main-div #welcome .section-content {
     padding: 0.5em;
@@ -1626,7 +1644,13 @@ nav .header-div .hamburger {
     font-size: 1.9em;
   }
   .main-div .project-page .project-content {
-    padding: 2em;
+    padding: 2em 1em 2em 1em;
+  }
+  .main-div .project-page .project-content h1 {
+    margin: auto auto 1em auto;
+  }
+  .main-div .project-page .project-content h2 {
+    margin: auto;
   }
   .main-div #welcome .section-content {
     width: 90%;

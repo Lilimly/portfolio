@@ -12,8 +12,11 @@ Développer le backend d'une application d'avis gastronomique.
 
 ### Les technologies utilisées
 
-    - Serveur : Node.JS / Express.JS
-    - Base de données : MongoDB
+    - Serveur : 
+    Node.JS / Express.JS
+    
+    - Base de données : 
+    MongoDB
 
 ### Le projet
 
