@@ -36,7 +36,7 @@ Afin que cette page s'adapte à toutes tailles d'écran, j'ai défini un format 
 
 ![site responsive](./img-cv/responsive-cv.jpeg)
 
-### Pour consulter le projet
+### Consulter le projet
 
 Pour ce projet, j'ai utilisé le **logiciel de versionning Git**. Il est hébergé gratuitement avec **GitHub Pages**.
 

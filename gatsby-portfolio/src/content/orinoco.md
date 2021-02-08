@@ -62,7 +62,7 @@ Pour vérifier le bon fonctionnement des différentes étapes de l'application, 
 - les différents points à tester : les **actions demandées**.
 - la façon dont doit se comporter l'application : les **résultats attendus**.
 
-### Pour consulter le projet
+### Consulter le projet
 
 Pour ce projet, j'ai utilisé le **logiciel de versionning Git**.
 

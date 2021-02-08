@@ -8,7 +8,7 @@ img: "./articles/header-portfolio.jpeg"
 
 ### Ma mission
 
-Créer mon portfolio.
+Créer mon portfolio avec le SSG Gatsby.
 
 ### Les technologies utilisées
 
@@ -20,9 +20,7 @@ Créer mon portfolio.
 
 ### Le projet
 
-Pour créer ce projet, j'ai choisi d'utiliser le **générateur de site statique Gatsby**.
-
-![Accueil portfolio](./img-portfolio/accueil-portfolio.jpeg)
+Pour développer ce projet, j'ai choisi d'utiliser le **générateur de site statique Gatsby**.
 
 #### Pourquoi un SSG ?
 
@@ -31,6 +29,8 @@ Les générateurs de sites statiques sont une **alternative** aux systèmes de g
 Ils permettent de récupérer l'**ensemble des données en une seule fois**, puis de les enregistrer. Celà évite de faire des appels à un backend à chaque visite d'un utilisateur.
 
 Les SSG **réduisent ainsi la complexité** du site, ce qui améliore la **vitesse**, la **sécurité** et **facilite l'hébergement et l'expérience des développeurs**.
+
+![Accueil portfolio](./img-portfolio/accueil-portfolio.jpeg)
 
 #### Le choix de GatsbyJS
 
@@ -65,7 +65,7 @@ C'est également un **environnement d'éxécution** qui interpréte et structure
 
 ![Page projet Gotripics - Portfolio](./img-portfolio/page-projet-portfolio.jpeg)
 
-### Pour consulter le projet
+### Consulter le projet
 
 Pour ce projet, j'ai utilisé le **logiciel de versionning Git**.
 

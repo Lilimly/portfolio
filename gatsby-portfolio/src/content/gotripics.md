@@ -34,19 +34,19 @@ Au cours d'un voyage d'**un an autour du monde** j'ai décidé de créer mon **b
 
 #### Compétences développées
 
-Dans ce cadre j'ai développé les **compétences** suivantes :
+La création de ce blog m'a permis de développer les **compétences** suivantes :
 
-- Développement du site avec le **CMS Wordpress**
+- Développement d'un site avec le **CMS Wordpress**
 - Optimisation du **référencement SEO**
 - Définition de la **stratégie**, des **objectifs** et du **planning éditorial**
 - **Création du contenu** du site et des réseaux sociaux
-- **Veille concurrentielle** et évolutions Web et réseaux sociaux
+- **Veille concurrentielle** et évolutions Web / réseaux sociaux
 - **Animation** et **modération** d'une communauté de **4000 abonnés**
 - Suivi et analyse de l'évolution des **chiffres d'audience**
 - Élaboration et suivi des **newsletters**
 
 ![article Gotripics](./img-gotripics/article-gotripics.jpeg)
 
-### Pour consulter le projet
+### Consulter le projet
 
 Vous pouvez retrouver mon blog à l'adresse [gotripics.com](https://www.gotripics.com/ "Consulter mon blog").

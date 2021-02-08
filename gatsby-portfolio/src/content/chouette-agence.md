@@ -45,7 +45,7 @@ Après une démarche d'audit du site, j'ai établit des **recommandations d'opti
 - le **poids des pages du site** est passé de **3.79 à 1.11 MB**
 - la **vitesse de chargement** est passé de **1.6 à 0.6 secondes**.
 
-### Pour consulter le projet
+### Consulter le projet
 
 Pour l'ensemble de ce projet j'ai utilisé le **logiciel de versionning Git**. Les deux versions du projet sont hébergés gratuitement avec **GitHub Pages**.
 

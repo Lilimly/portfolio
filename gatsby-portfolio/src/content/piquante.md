@@ -16,7 +16,7 @@ Développer le backend d'une application d'avis gastronomique.
     Node.JS / Express.JS
     
     - Base de données : 
-    MongoDB
+    MongoDB / Mongoose / MongoDB Atlas
 
 ### Le projet
 
@@ -55,7 +55,7 @@ L'utilisateur peut également créer une nouvelle sauce. Pour plus de sécurité
 
 ![Page création d'une sauce](./img-piquante/post-piquante.jpeg)
 
-### Pour consulter le projets
+### Consulter le projets
 
 Pour ce projet, j'ai utilisé le **logiciel de versionning Git**.
 

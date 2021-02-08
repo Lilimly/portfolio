@@ -39,11 +39,11 @@ Pour accéder au réseau social, l'utilisateur devra créer un compte, ce qui l'
 
 Une fois authentifié, l'utilisateur accéde à la page d'accueil qui affiche l'ensemble des articles postés, dans l'ordre **du plus récent au plus ancien**.
 
+![Page d'accueil](./img-groupomania/accueil-groupomania.jpeg)
+
 #### Ajout d'un article
 
 Chaque utilisateur a la possibilité de publier un nouvel article.
-
-![Page d'accueil](./img-groupomania/accueil-groupomania.jpeg)
 
 #### Les pages articles
 
@@ -65,7 +65,7 @@ Un utilisateur pourra uniquement modifier ou supprimer son propre compte.
 
 Afin de modérer ce réseau social, un compte **administrateur** est défini. Ce dernier pourra modifier ou supprimer des articles, des commentaires mais également des comptes utilisateurs.
 
-### Pour consulter le projet
+### Consulter le projet
 
 Pour ce projet, j'ai utilisé le **logiciel de versionning Git**.
 

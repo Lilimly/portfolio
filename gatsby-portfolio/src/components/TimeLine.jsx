@@ -79,7 +79,7 @@ const TimeLine = () => (
         OpenClassrooms | Paris
       </h4>
       <div>
-        <p>6 projets réalisés au cours de la formation.</p>
+        <p>6 mois - 6 projets réalisés</p>
         <p className="strong-p">Compétences développées :</p>
         <ul>
           <li>
@@ -181,14 +181,17 @@ const TimeLine = () => (
     >
       <h3 className="vertical-timeline-element-title">Directrice de crèche</h3>
       <h4 className="vertical-timeline-element-subtitle">Paris</h4>
-      <p>Encadrement et évaluation d’une équipe pluridisciplinaire.</p>
+      <p>Créche associative de 30 berceaux.</p>
       <p className="strong-p">Compétences développées :</p>
       <ul>
+        <li>
+          Encadrement et évaluation d'une équipe pluridisciplinaire de 10 personnes
+        </li>
+        <li>Accompagnement et éveil d’un groupe d’enfants de 6 mois à 3 ans</li>
         <li>
           Elaboration et mise en place du projet pédagogique en collaboration
           avec l’équipe éducative
         </li>
-        <li>Accompagnement et éveil d’un groupe d’enfants de 6 mois à 3 ans</li>
         <li>Animation des réunions pédagogiques et informatives</li>
         <li>
           Travail en lien avec nos partenaires (Mairie, Psychologue,
@@ -207,6 +210,7 @@ const TimeLine = () => (
         Educatrice de Jeunes Enfants
       </h3>
       <h4 className="vertical-timeline-element-subtitle">Paris</h4>
+      <p>Créche associative de 30 berceaux.</p>
       <p className="strong-p">Compétences développées :</p>
       <ul>
         <li>Accompagnement et éveil d’un groupe d’enfants de 6 mois à 3 ans</li>

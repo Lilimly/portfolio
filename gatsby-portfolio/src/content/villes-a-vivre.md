@@ -25,6 +25,6 @@ Développement d'une partie du Frontend de ce site de comparaisons de villes dé
 
 ![villes à vivre](./img-vav/accueil-vav.jpeg)
 
-### Pour consulter le projet
+### Consulter le projet
 
 Un peu de patience, vous pourrez bientot consulter ce projet !
