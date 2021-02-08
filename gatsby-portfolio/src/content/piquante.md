@@ -12,10 +12,10 @@ Développer le backend d'une application d'avis gastronomique.
 
 ### Les technologies utilisées
 
-    - Serveur : 
+    - Serveur :
     Node.JS / Express.JS
-    
-    - Base de données : 
+
+    - Base de données :
     MongoDB / Mongoose / MongoDB Atlas
 
 ### Le projet
@@ -43,7 +43,7 @@ Une fois authentiflié, l'utilisateur est dirigé sur la page d'accueil qui pré
 
 #### les pages produits
 
-Une page produit affiche les informations précises de la sauce. 
+Une page produit affiche les informations précises de la sauce.
 
 L'application offre la possibilité d'ajouter un "like" ou un "dislike" à la sauce.
 

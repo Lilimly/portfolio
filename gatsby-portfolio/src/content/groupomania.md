@@ -12,13 +12,13 @@ Développement fullstack du réseau social d'une entreprise.
 
 ### Les technologies utilisées
 
-    - Front : 
+    - Front :
     JavaScript / React / Bootstrap
 
-    - Back : 
+    - Back :
     Node.JS / Express.JS
-    
-    - Base de données : 
+
+    - Base de données :
     mySQL / Sequelize
 
 ### Le projet

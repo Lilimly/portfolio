@@ -7,8 +7,8 @@ import mysqlIcon from "@iconify/icons-cib/mysql"
 import mongodbIcon from "@iconify/icons-cib/mongodb"
 import expressIcon from "@iconify/icons-logos/express"
 import graphqlIcon from "@iconify-icons/cib/graphql"
-import nuxtJs from '@iconify-icons/cib/nuxt-js';
-import googleAnalytics from '@iconify-icons/mdi/google-analytics';
+import nuxtJs from "@iconify-icons/cib/nuxt-js"
+import googleAnalytics from "@iconify-icons/mdi/google-analytics"
 
 //headers img
 import HeaderGotripics from "./GatsbyImages/HeaderGotripics.js"
@@ -37,12 +37,7 @@ export default function ProjectsCards() {
                   size="2x"
                 />
                 <span title="Nuxt JS">
-                  <Icon 
-                    icon={nuxtJs} 
-                    color="#eb5a77" 
-                    width="36" 
-                    height="36" 
-                  />
+                  <Icon icon={nuxtJs} color="#eb5a77" width="36" height="36" />
                 </span>
                 <FontAwesomeIcon
                   icon={["fab", "sass"]}
@@ -76,7 +71,12 @@ export default function ProjectsCards() {
                   size="2x"
                 />
                 <span title="Google Analytics">
-                  <Icon icon={googleAnalytics} color="#eb5a77" width="36" height="36" />
+                  <Icon
+                    icon={googleAnalytics}
+                    color="#eb5a77"
+                    width="36"
+                    height="36"
+                  />
                 </span>
                 <FontAwesomeIcon
                   icon={["fab", "mailchimp"]}

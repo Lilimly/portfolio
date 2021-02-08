@@ -185,7 +185,8 @@ const TimeLine = () => (
       <p className="strong-p">Compétences développées :</p>
       <ul>
         <li>
-          Encadrement et évaluation d'une équipe pluridisciplinaire de 10 personnes
+          Encadrement et évaluation d'une équipe pluridisciplinaire de 10
+          personnes
         </li>
         <li>Accompagnement et éveil d’un groupe d’enfants de 6 mois à 3 ans</li>
         <li>

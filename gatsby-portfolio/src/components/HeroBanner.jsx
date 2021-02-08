@@ -8,7 +8,10 @@ const HeroBanner = () => {
       <p>
         Je suis Aurélie, <strong>développeuse web fullstack</strong>.
       </p>
-      <p><strong>Ma mission</strong> : vous aider à créer un site web qui vous corresponde.</p>
+      <p>
+        <strong>Ma mission</strong> : vous aider à créer un site web qui vous
+        corresponde.
+      </p>
       <p>
         Pour savoir comment, consultez{" "}
         <Link
