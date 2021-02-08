@@ -110,11 +110,6 @@ export default function ProjectsCards() {
                     color="#ee738b"
                   />
                 </span>
-                <FontAwesomeIcon
-                  icon={["fab", "react"]}
-                  title="React JS"
-                  size="2x"
-                />
                 <span title="GraphQL">
                   <Icon
                     icon={graphqlIcon}
@@ -124,6 +119,11 @@ export default function ProjectsCards() {
                     height="36"
                   />
                 </span>
+                <FontAwesomeIcon
+                  icon={["fab", "react"]}
+                  title="React JS"
+                  size="2x"
+                />
                 <span title="Netlify">
                 <Icon 
                   icon={netlifyIcon} 

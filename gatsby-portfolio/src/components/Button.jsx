@@ -6,7 +6,10 @@ import { faRocket } from "@fortawesome/free-solid-svg-icons"
 export default function Button() {
   const [isVisible, setIsVisible] = useState(false)
 
-  // Show button when page is scrolled upto given distance
+  function scrollToTop() {
+    scroll.scrollToTop()
+  }
+
   const toggleVisibility = () => {
     if (window.pageYOffset > 600) {
       setIsVisible(true)
@@ -15,12 +18,14 @@ export default function Button() {
     }
   }
 
-  function scrollToTop() {
-    scroll.scrollToTop()
-  }
-
   useEffect(() => {
+
     window.addEventListener("scroll", toggleVisibility)
+
+    return () => {
+      window.removeEventListener("scroll", toggleVisibility)
+    }
+
   }, [])
 
   return (
