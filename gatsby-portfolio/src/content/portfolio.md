@@ -17,6 +17,7 @@ Créer mon portfolio avec le SSG Gatsby.
     - GraphQL
     - SASS
     - Git / GitHub
+    - Netlify
 
 ### Le projet
 

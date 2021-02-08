@@ -9,6 +9,8 @@ import expressIcon from "@iconify/icons-logos/express"
 import graphqlIcon from "@iconify-icons/cib/graphql"
 import nuxtJs from "@iconify-icons/cib/nuxt-js"
 import googleAnalytics from "@iconify-icons/mdi/google-analytics"
+import netlifyIcon from '@iconify/icons-cib/netlify';
+
 
 //headers img
 import HeaderGotripics from "./GatsbyImages/HeaderGotripics.js"
@@ -122,11 +124,14 @@ export default function ProjectsCards() {
                     height="36"
                   />
                 </span>
-                <FontAwesomeIcon
-                  icon={["fab", "sass"]}
-                  title="SASS"
-                  size="2x"
+                <span title="Netlify">
+                <Icon 
+                  icon={netlifyIcon} 
+                  color="#eb5a77" 
+                  width="36" 
+                  height="36" 
                 />
+                </span>
               </div>
               <Link to="/projets/portfolio/" title="Plus de détails">
                 <button>

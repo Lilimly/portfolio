@@ -211,7 +211,7 @@ const TimeLine = () => (
         Educatrice de Jeunes Enfants
       </h3>
       <h4 className="vertical-timeline-element-subtitle">Paris</h4>
-      <p>Créche associative de 30 berceaux.</p>
+      <p>Halte garderie privée de 30 berceaux.</p>
       <p className="strong-p">Compétences développées :</p>
       <ul>
         <li>Accompagnement et éveil d’un groupe d’enfants de 6 mois à 3 ans</li>
