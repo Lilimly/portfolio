@@ -19,13 +19,11 @@ export default function Button() {
   }
 
   useEffect(() => {
-
     window.addEventListener("scroll", toggleVisibility)
 
     return () => {
       window.removeEventListener("scroll", toggleVisibility)
     }
-
   }, [])
 
   return (
