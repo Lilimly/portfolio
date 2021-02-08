@@ -23,6 +23,8 @@ Optimiser le référencement SEO d'un site web existant.
 
 Après une démarche d'audit du site, j'ai établit des **recommandations d'optimisation** portant principalement sur la **vitesse**, le **poids des pages du site**, l'**accessibilité** et le respect des **normes W3C**.
 
+#### Mes actions d'optimisation
+
 **Mes 10 actions d'optimisation ont étés les suivantes** :
 
 - Optimiser l’utilisation des mots clés
@@ -35,6 +37,8 @@ Après une démarche d'audit du site, j'ai établit des **recommandations d'opti
 - Accessibilité : améliorer le visuel
 - Accessibilité : optimiser les descriptions
 - Améliorer le responsive du site
+
+#### Les résultats obtenus
 
 **Après la mise en place de ces actions** :
 

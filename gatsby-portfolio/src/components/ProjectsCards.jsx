@@ -8,7 +8,7 @@ import mongodbIcon from "@iconify/icons-cib/mongodb"
 import expressIcon from "@iconify/icons-logos/express"
 import graphqlIcon from "@iconify-icons/cib/graphql"
 import nuxtJs from '@iconify-icons/cib/nuxt-js';
-
+import googleAnalytics from '@iconify-icons/mdi/google-analytics';
 
 //headers img
 import HeaderGotripics from "./GatsbyImages/HeaderGotripics.js"
@@ -36,12 +36,14 @@ export default function ProjectsCards() {
                   title="Vue JS"
                   size="2x"
                 />
-                <Icon 
-                  icon={nuxtJs} 
-                  color="#eb5a77" 
-                  width="36" 
-                  height="36" 
-                />
+                <span title="Nuxt JS">
+                  <Icon 
+                    icon={nuxtJs} 
+                    color="#eb5a77" 
+                    width="36" 
+                    height="36" 
+                  />
+                </span>
                 <FontAwesomeIcon
                   icon={["fab", "sass"]}
                   title="SASS"
@@ -71,6 +73,14 @@ export default function ProjectsCards() {
                 <FontAwesomeIcon
                   icon={["fab", "wordpress-simple"]}
                   title="Wordpress"
+                  size="2x"
+                />
+                <span title="Google Analytics">
+                  <Icon icon={googleAnalytics} color="#eb5a77" width="36" height="36" />
+                </span>
+                <FontAwesomeIcon
+                  icon={["fab", "mailchimp"]}
+                  title="Mailchimp"
                   size="2x"
                 />
               </div>
@@ -229,13 +239,13 @@ export default function ProjectsCards() {
                   size="2x"
                 />
                 <FontAwesomeIcon
-                  icon={["fab", "git-square"]}
-                  title="Git"
+                  icon={["fab", "html5"]}
+                  title="HTML 5"
                   size="2x"
                 />
                 <FontAwesomeIcon
-                  icon={["fab", "github"]}
-                  title="GitHub"
+                  icon={["fab", "git-square"]}
+                  title="Git"
                   size="2x"
                 />
               </div>

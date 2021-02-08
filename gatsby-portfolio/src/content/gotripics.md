@@ -13,6 +13,7 @@ Créer mon blog de voyage avec le CMS Wordpress.
 ### Les technologies utilisées
 
     - Wordpress
+    - Mailchimp
     - Google Analytics
     - Google Search Console
 
@@ -20,7 +21,18 @@ Créer mon blog de voyage avec le CMS Wordpress.
 
 Au cours d'un voyage d'**un an autour du monde** j'ai décidé de créer mon **blog de voyages**.
 
+![page d'accueil Gotripics](./img-gotripics/accueil-gotripics.jpeg)
+
+#### Composition du site
+
+- une page d'accueil répertoriant les derniers carnets de voyage
+- des pages articles, classées par continent et par pays
+- une page biographie
+- des liens vers les comptes Instagram, Facebook et Pinterest liés au blog
+
 ![carnets de voyage](./img-gotripics/carnet-voyage-gotripics.jpeg)
+
+#### Compétences développées
 
 Dans ce cadre j'ai développé les **compétences** suivantes :
 

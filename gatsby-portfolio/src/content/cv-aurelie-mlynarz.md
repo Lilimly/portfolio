@@ -20,6 +20,8 @@ Transformer une maquette en site web.
 
 Pour que votre site soit **votre reflet** et **réponde à vos besoins** et ainsi qu'à **ceux de vos clients**, je peux vous aider en le créant à partir d'une **maquette de votre choix**.
 
+#### Intégration d'un maquette
+
 Prenons ici l'exemple de mon CV. Pour le réaliser je suis partie de la maquette suivante :
 
 ![Maquette d'origine](./img-cv/maquette-cv.jpeg)
@@ -27,6 +29,8 @@ Prenons ici l'exemple de mon CV. Pour le réaliser je suis partie de la maquette
 J'ai commencé par découper les différents éléments, puis les ai traduits en **HTML5 et CSS3** pour les intégrer à la page web :
 
 ![cv Aurélie Mlynarz](./img-cv/cv-aurelie-mlynarz.jpeg)
+
+#### Un site responsive
 
 Afin que cette page s'adapte à toutes tailles d'écran, j'ai défini un format **responsive** qui transforme ce cv en une colonne sur les écrans de moins de 1000 pixels.
 
