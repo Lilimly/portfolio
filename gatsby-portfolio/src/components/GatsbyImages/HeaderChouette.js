@@ -10,7 +10,7 @@ const HeaderChouette = () => {
       ) {
         childImageSharp {
           fluid {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_withWebp
           }
         }
       }

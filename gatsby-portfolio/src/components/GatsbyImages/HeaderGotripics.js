@@ -8,7 +8,7 @@ const HeaderGotripics = () => {
       placeholderImage: file(relativePath: { eq: "header-gotripics.jpeg" }) {
         childImageSharp {
           fluid {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_withWebp
           }
         }
       }

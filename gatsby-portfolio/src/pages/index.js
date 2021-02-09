@@ -17,15 +17,15 @@ const IndexPage = () => {
       query {
         heroBanner: file(relativePath: { eq: "img-header.jpeg" }) {
           childImageSharp {
-            fluid {
-              ...GatsbyImageSharpFluid
+            fluid(maxWidth: 1920, quality: 100) {
+              ...GatsbyImageSharpFluid_withWebp
             }
           }
         }
         contact: file(relativePath: { eq: "laptop-desk.jpeg" }) {
           childImageSharp {
-            fluid {
-              ...GatsbyImageSharpFluid
+            fluid(maxWidth: 1920, quality: 100) {
+              ...GatsbyImageSharpFluid_withWebp
             }
           }
         }
