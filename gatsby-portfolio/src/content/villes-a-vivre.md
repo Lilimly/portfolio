@@ -1,7 +1,7 @@
 ---
 title: "Villes à vivre"
 date: "2020-11-10"
-img: "./articles/hearder-vav.jpeg"
+img: "./articles/header-vav.jpeg"
 ---
 
 ## Développement du frontend du site

@@ -8,7 +8,7 @@ const HeaderPiquante = () => {
       placeholderImage: file(relativePath: { eq: "header-piquante.jpeg" }) {
         childImageSharp {
           fluid {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_withWebp
           }
         }
       }

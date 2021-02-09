@@ -5,10 +5,10 @@ import Img from "gatsby-image"
 const HeaderVav = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "hearder-vav.jpeg" }) {
+      placeholderImage: file(relativePath: { eq: "header-vav.jpeg" }) {
         childImageSharp {
           fluid {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_withWebp
           }
         }
       }

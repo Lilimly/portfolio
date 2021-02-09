@@ -8,7 +8,7 @@ const HeaderGroupomania = () => {
       placeholderImage: file(relativePath: { eq: "header-groupomania.jpeg" }) {
         childImageSharp {
           fluid {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_withWebp
           }
         }
       }
