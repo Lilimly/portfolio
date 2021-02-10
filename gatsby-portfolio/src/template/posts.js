@@ -12,7 +12,7 @@ const Posts = ({ data }) => {
 
   return (
     <Layout>
-      <SEO title={'Projet ' + post.frontmatter.title} />
+      <SEO title={"Projet " + post.frontmatter.title} />
       <article className="project-page">
         {post.frontmatter.img && (
           <Img fluid={post.frontmatter.img.childImageSharp.fluid} />
@@ -49,9 +49,9 @@ export const query = graphql`
         date(formatString: "DD/MM/YYYY")
         img {
           childImageSharp {
-          fluid(maxWidth: 1920, quality: 100) {
-            ...GatsbyImageSharpFluid_withWebp
-          }
+            fluid(maxWidth: 1920, quality: 100) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
           }
         }
       }

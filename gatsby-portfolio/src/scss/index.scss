@@ -554,6 +554,21 @@ nav {
           }
         }
       }
+      #cv {
+          border: 1px solid $primary-color;
+          border-radius: 5px;
+          transition: transform 300ms ease-in-out;
+          a {
+            text-decoration: none;
+          }
+          &:hover {
+            border: 1px solid $text_link_color;
+            background-color: $text_link_color;
+            a {
+              color: $body_color;
+            }
+          }
+      }
     }
     .info-site {
       margin: auto;

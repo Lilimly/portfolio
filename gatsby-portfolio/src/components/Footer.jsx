@@ -61,6 +61,17 @@ export default function Footer() {
             <FontAwesomeIcon icon={faGlobeAmericas} />
           </a>
         </button>
+        <button id="cv">
+          <a
+            href={"https://lilimly.github.io/cv_aurelie_mlynarz/"}
+            target="_blank"
+            rel="noopener noreferrer"
+            alt="CV"
+            title="CV"
+          >
+            cv
+          </a>
+        </button>
       </div>
       <div className="info-site">
         © {new Date().getFullYear()}

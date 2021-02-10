@@ -1122,6 +1122,28 @@ nav .header-div .hamburger {
           transform: scale(2);
 }
 
+.main-div footer .button-div #cv {
+  border: 1px solid #eb5a77;
+  border-radius: 5px;
+  -webkit-transition: -webkit-transform 300ms ease-in-out;
+  transition: -webkit-transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+}
+
+.main-div footer .button-div #cv a {
+  text-decoration: none;
+}
+
+.main-div footer .button-div #cv:hover {
+  border: 1px solid #5c5cb6;
+  background-color: #5c5cb6;
+}
+
+.main-div footer .button-div #cv:hover a {
+  color: #fcfcfc;
+}
+
 .main-div footer .info-site {
   margin: auto;
 }

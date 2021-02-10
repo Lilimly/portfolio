@@ -89,7 +89,8 @@ const IndexPage = () => {
       <section className="section" id="projets">
         <h2>Projets réalisés</h2>
         <p>
-          Vous avez un projet et vous souhaitez que je vous apporte mon expertise ?<br />
+          Vous avez un projet et vous souhaitez que je vous apporte mon
+          expertise ?<br />
           <Link
             title="contact"
             to="contact"
@@ -99,8 +100,8 @@ const IndexPage = () => {
             duration={500}
           >
             Écrivez-moi
-          </Link>
-          {" "} et nous en discuterons !
+          </Link>{" "}
+          et nous en discuterons !
         </p>
         <div className="projects">
           <ProjectsCards />

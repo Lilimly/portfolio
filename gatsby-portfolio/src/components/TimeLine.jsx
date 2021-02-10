@@ -51,6 +51,18 @@ const TimeLine = () => (
             <strong>Logiciel de versioning utilisé</strong> : Git et GitHub.
           </li>
         </ul>
+        <p>
+          Consultez{" "}
+          <a
+            href={"https://lilimly.github.io/cv_aurelie_mlynarz/"}
+            target="_blank"
+            rel="noopener noreferrer"
+            alt="CV"
+            title="CV"
+          >
+            mon CV
+          </a>
+        </p>
         <div className="button-timeline">
           <Link
             title="Voir les projets"
