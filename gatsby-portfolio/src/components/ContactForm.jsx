@@ -54,10 +54,8 @@ class ContactForm extends React.PureComponent {
     const formData = {}
     Object.keys(this.refs).map(key => (formData[key] = this.refs[key].value))
 
-    console.log(formData)
-
     const axiosOptions = {
-      url: /localhost:8000/,
+      url: '/',
       method: "post",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       data: qs.stringify(formData),
