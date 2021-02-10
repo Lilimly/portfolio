@@ -42,7 +42,7 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <SEO title="Présentation" />
+      <SEO title="" />
       <BackgroundImage
         Tag="section"
         id="welcome"
@@ -70,7 +70,7 @@ const IndexPage = () => {
             acquis la maîtrise de différentes technologies et réalisé mes
             premiers projets.
             <br />
-            Forte des compétences acquises, je souhaite aujourd'hui{" "}
+            Forte de ces nouvelles compétences, je souhaite aujourd'hui{" "}
             <Link
               title="contact"
               to="contact"
@@ -89,10 +89,7 @@ const IndexPage = () => {
       <section className="section" id="projets">
         <h2>Projets réalisés</h2>
         <p>
-          Pour comprendre <strong>ce que je peux vous apporter</strong>, voici
-          les différents <strong>projets</strong> que j'ai réalisés.
-          <br />
-          Vous avez une question ? <br />
+          Vous avez un projet et vous souhaitez que je vous apporte mon expertise ?<br />
           <Link
             title="contact"
             to="contact"
@@ -102,8 +99,8 @@ const IndexPage = () => {
             duration={500}
           >
             Écrivez-moi
-          </Link>{" "}
-          et nous pourrons en discuter !
+          </Link>
+          {" "} et nous en discuterons !
         </p>
         <div className="projects">
           <ProjectsCards />

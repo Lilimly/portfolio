@@ -1,5 +1,5 @@
 ---
-title: "Gotripics - Blog de Voyage"
+title: "Gotripics"
 date: "2018-10-01"
 img: "./articles/header-gotripics.jpeg"
 ---
@@ -19,7 +19,7 @@ Créer mon blog de voyage avec le CMS Wordpress.
 
 ### Le projet
 
-Au cours d'un voyage d'**un an autour du monde** j'ai décidé de créer mon **blog de voyages**.
+Au cours d'un voyage d'**un an autour du monde**, débuté en octobre 2018, j'ai décidé de créer mon **blog de voyages**.
 
 ![page d'accueil Gotripics](./img-gotripics/accueil-gotripics.jpeg)
 

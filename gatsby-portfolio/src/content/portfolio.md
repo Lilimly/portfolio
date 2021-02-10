@@ -8,7 +8,7 @@ img: "./articles/header-portfolio.jpeg"
 
 ### Ma mission
 
-Créer mon portfolio avec le SSG Gatsby.
+Création de mon portfolio.
 
 ### Les technologies utilisées
 
@@ -46,25 +46,22 @@ Celà rend le site plus rapide et donc l'**expérience utilisateur** plus **flui
 
 - **Plus de sécurité**
 
-Comme il n'y a que des fichiers statiques et **pas de base de données**, le site ne risque pas de se faire pirater grand chose.
-Et si un fichier statique est perdu, on peut le générer de nouveau.
+Le site étant statique, il est **moins vulnérable** aux attaques et aux tentatives de piratage.
 
 - **Une économie sur le coûts d'hébergement**
 
-Contrairement à un site dynamique, l'hébergement d'un site GatsbyJS peut se faire sur différents type de serveurs, ce qui **réduit le coût de l’hébergement**.
+Contrairement à un site dynamique, l'hébergement d'un site GatsbyJS peut se faire sur différents types de serveurs, ce qui **réduit le coût de l’hébergement**.
 Par exemple, ce portfolio est hébergé gratuitement sur **Netlify**.
 
 ![Section projets - Portfolio](./img-portfolio/projets-portfolio.jpeg)
 
 #### Traitement des requêtes avec GraphQL
 
-Comme l'indique son nom, Graph QL(Query Language) est un **language de requêtes** pour API.
+Comme l'indique son nom, GraphQL (Query Language) est un **langage de requêtes** pour API.
 Il permet de manipuler de la donnée de façon **simple, flexible et précise**.
-Les requêtes sont déclaratives et personnalisées: on ne va récupérer que **les données dont on a besoin** et **dans l'ordre qu'on le souhaite**.
+Les requêtes sont déclaratives et personnalisées: on ne va récupérer que **les données dont on a besoin** et **dans l'ordre que l'on souhaite**.
 
-C'est également un **environnement d'éxécution** qui interpréte et structure les requêtes à partir d'un schéma.
-
-![Page projet Gotripics - Portfolio](./img-portfolio/page-projet-portfolio.jpeg)
+C'est également un **environnement d'exécution** qui interpréte et structure les requêtes à partir d'un schéma.
 
 ### Consulter le projet
 

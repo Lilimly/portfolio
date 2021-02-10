@@ -41,7 +41,7 @@ Une fois authentiflié, l'utilisateur est dirigé sur la page d'accueil qui pré
 
 ![Page d'accueil](./img-piquante/accueil-piquante.jpeg)
 
-#### les pages produits
+#### Les pages produits
 
 Une page produit affiche les informations précises de la sauce.
 

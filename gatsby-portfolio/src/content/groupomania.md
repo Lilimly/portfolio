@@ -33,7 +33,7 @@ Développement fullstack du réseau social d'une entreprise.
 
 #### Page d'inscription / de connexion
 
-Pour accéder au réseau social, l'utilisateur devra créer un compte, ce qui l'enregistrera de manière **sécurisé** dans notre base de données **mySQL** (email et mot de passe cryptés).
+Pour accéder au réseau social, l'utilisateur devra créer un compte, ce qui l'enregistrera de manière **sécurisée** dans notre base de données **mySQL** (email et mot de passe cryptés).
 
 #### Page d'accueil
 
@@ -49,7 +49,7 @@ Chaque utilisateur a la possibilité de publier un nouvel article.
 
 En cliquant sur un article, l'utilisateur peut consulter son intégralité. Un utilisateur pourra uniquement modifier ou supprimer un article qu'il aura créé.
 
-Il pourra également y laisser un commentaire.
+Il pourra également laisser un commentaire.
 
 ![Page article](./img-groupomania/article-groupomania.jpeg)
 

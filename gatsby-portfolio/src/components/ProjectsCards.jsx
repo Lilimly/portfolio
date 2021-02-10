@@ -19,7 +19,6 @@ import HeaderGroupomania from "./GatsbyImages/HeaderGroupomania.js"
 import HeaderPiquante from "./GatsbyImages/HeaderPiquante.js"
 import HeaderOrinoco from "./GatsbyImages/HeaderOrinoco.js"
 import HeaderChouette from "./GatsbyImages/HeaderChouette.js"
-import HeaderCv from "./GatsbyImages/HeaderCv.js"
 
 export default function ProjectsCards() {
   return (
@@ -290,42 +289,6 @@ export default function ProjectsCards() {
                 />
               </div>
               <Link to="/projets/chouette-agence/" title="Plus de détails">
-                <button>
-                  <span>Voir le projet</span>
-                </button>
-              </Link>
-            </div>
-          </div>
-        </div>
-        <div className="projects-items">
-          <div className="projects-content">
-            <HeaderCv />
-            <div className="projects-text">
-              <h3>CV</h3>
-              <h4>Intégration d'une maquette</h4>
-              <div className="tech-icon">
-                <FontAwesomeIcon
-                  icon={["fab", "html5"]}
-                  title="HTML 5"
-                  size="2x"
-                />
-                <FontAwesomeIcon
-                  icon={["fab", "css3-alt"]}
-                  title="CSS 3"
-                  size="2x"
-                />
-                <FontAwesomeIcon
-                  icon={["fab", "git-square"]}
-                  title="Git"
-                  size="2x"
-                />
-                <FontAwesomeIcon
-                  icon={["fab", "github"]}
-                  title="GitHub"
-                  size="2x"
-                />
-              </div>
-              <Link to="/projets/cv-aurelie-mlynarz/" title="Plus de détails">
                 <button>
                   <span>Voir le projet</span>
                 </button>

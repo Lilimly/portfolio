@@ -12,7 +12,7 @@ const Posts = ({ data }) => {
 
   return (
     <Layout>
-      <SEO title={post.frontmatter.title} />
+      <SEO title={'Projet ' + post.frontmatter.title} />
       <article className="project-page">
         {post.frontmatter.img && (
           <Img fluid={post.frontmatter.img.childImageSharp.fluid} />
@@ -20,7 +20,6 @@ const Posts = ({ data }) => {
         <div className="project-content">
           <h1>{post.frontmatter.title}</h1>
           <MDXRenderer>{post.body}</MDXRenderer>
-          <p className="date">Projet réalisé le {post.frontmatter.date}</p>
           <AnchorLink to="/#projets" title="Retour aux projets">
             <button>
               <span>Retour aux projets</span>

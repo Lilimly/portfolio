@@ -4,7 +4,7 @@ date: "2020-07-15"
 img: "./articles/header-orinoco.jpeg"
 ---
 
-## Création d'un de site e-commerce
+## Création d'un site e-commerce
 
 ### Ma mission
 
@@ -37,7 +37,7 @@ A la connexion sur le site, la page d'accueil nous affiche les différents ourso
 
 #### Les pages produits
 
-Au clic sur l'une des cartes, une page produit apporte des informations plus détaillées. Elle offre également la possibilité de choisir la couleur de l'ourson et de l'ajouter au panier :
+Au clic sur l'une des cartes, une page produit apporte des informations plus détaillées. Elle offre également la possibilité de choisir la couleur de l'ourson et de l'ajouter au panier.
 
 ![Page produit](./img-orinoco/page-produit-orinoco.jpeg)
 
@@ -45,7 +45,7 @@ Au clic sur l'une des cartes, une page produit apporte des informations plus dé
 
 Dans la barre de navigation du site, un lien permet de consulter son panier à tout moment.
 
-Cette page panier offre un récapitulatif des articles commandés, le prix total et le formulaire de commande.
+Cette page offre un récapitulatif des articles commandés, le prix total et le formulaire de commande.
 
 ![Page panier](./img-orinoco/panier-orinoco.jpeg)
 
