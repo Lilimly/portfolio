@@ -88,7 +88,7 @@ class ContactForm extends React.PureComponent {
       <div className="big-form">
         <form
           ref={this.domRef}
-          name="Contact Form"
+          name="contact-form"
           method="post"
           data-netlify="true"
           action="/"
