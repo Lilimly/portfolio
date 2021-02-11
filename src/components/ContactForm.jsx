@@ -81,8 +81,11 @@ class ContactForm extends React.PureComponent {
           isShowing: true,
           feedbackMsg:
             "Votre message m'a bien été envoyé ! Je vous remercie et vous réponds au plus vite. ",
+          user: "",
+          email: "",
+          subject: "",
+          message: "",
         })
-        this.domRef.current.reset()
       })
       .catch(error =>
         this.setState({
@@ -178,7 +181,11 @@ class ContactForm extends React.PureComponent {
                 <div className="modal">
                   <p>{this.state.feedbackMsg}</p>
                   <div className="button-div">
-                    <button onClick={this.handleClick} title="Retour au site">
+                    <button
+                      className="modal-button"
+                      onClick={this.handleClick}
+                      title="Retour au site"
+                    >
                       <span>Retour au site</span>
                     </button>
                   </div>

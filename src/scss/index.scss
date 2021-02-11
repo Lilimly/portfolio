@@ -51,12 +51,12 @@ nav {
       color: $body_color;
     }
     .nav-menu {
-      display: flex;
-      justify-content: space-between;
+      width: 60%;
+      margin: auto;
+      @include flex_space_between;
+      margin: auto;
       list-style: none;
       align-items: stretch;
-      margin: auto 2em auto auto;
-      width: 60%;
       .nav-item {
         margin: auto auto 0em auto;
         a {
@@ -232,6 +232,7 @@ nav {
   #parcours {
     padding: 1.5em 1em 1em 1em;
     background-color: $body_color;
+    overflow-x: hidden; 
     @include section-style;
     h2 {
       font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
@@ -313,7 +314,6 @@ nav {
         box-shadow: $box-shadow;
         border: 3px solid $body-color;
         background-color: $primary-color;
-        
         svg {
           color: $body-color;
           width: 24px;
@@ -363,6 +363,9 @@ nav {
                 color: $primary-color;
                 font-size: 1.8em;
                 font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+                &:hover {
+                  text-decoration: underline;
+                }
               }
               h4 {
                 color: $text-color;
@@ -403,6 +406,7 @@ nav {
     padding: 1.5em 0em 4em 0em;
     background-color: $body_color;
     background-attachment: fixed;
+    z-index: 9995 !important;
     @include section-style;
     &:before {
       background-attachment: fixed;
@@ -465,7 +469,6 @@ nav {
                   border: 1.5px solid $primary-color;
                   box-shadow: $primary-box-shadow;
                 }
-
               }
             }
           }
@@ -485,13 +488,13 @@ nav {
             left: 0;
             width: 100vw;
             height: 100vh;
-            z-index: 1040;
-            background-color: rgba(0, 0, 0, 0.6);
+            z-index: 9996 !important;
+            background-color: rgba(0, 0, 0, 0.75);
             .modal-wrapper {
               position: fixed;
               top: 0;
               left: 0;
-              z-index: 1050;
+              z-index: 9997 !important;
               width: 100%;
               height: 100%;
               overflow-x: hidden;
@@ -500,7 +503,7 @@ nav {
               display: flex;
               align-items: center;
               .modal {
-                z-index: 100;
+                z-index: 9998 !important;
                 background: #fff;
                 border: 4px solid $primary-color;
                 position: relative;
@@ -512,7 +515,7 @@ nav {
                 p {
                   color: $primary-color;
                 }
-                button {
+                .modal-button {
                   @include button;
                   margin: 2em;
                   padding: 15px 40px;
@@ -608,19 +611,18 @@ nav {
         }
       }
       .nav-menu {
-        display: flex;
-        flex-direction: column;
+        @include column;
         justify-content: top;
-        width: 100%;
-        height: 60vh;
         position: absolute;
+        width: 100%;
+        height: max-content;
         top: 60px;
         left: -100%;
         opacity: 1;
-        transition: all 0.5s ease;
+        transition: all 0.5s ease-in-out;
       }
       .nav-menu.active {
-        background: $primary_color;
+        background-color: rgba(0, 0, 0, 0.9);
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
@@ -628,18 +630,20 @@ nav {
         .nav-item {
           text-align: center;
           margin: 0em;
-          padding: 2rem;
+          padding: 2.5rem;
           width: 100%;
           display: table;
           a {
-            color: $text_color;
+            color: $primary_color;
+            font-weight: bold
           }
           .active {
             color: $body_color;
+            font-weight: bold
           }
         }
         .nav-item:hover {
-          background-color: $text_color;
+          background-color: rgba(0, 0, 0, 0.8);
           border-radius: 0;
           a {
             color: $primary_color;
@@ -766,7 +770,7 @@ nav {
       }
       .the-form {
         .big-form {
-          width: 80%;
+          width: 98%;
           form {
             .button-div {
               button {
@@ -831,19 +835,18 @@ nav {
         }
       }
       .nav-menu {
-        display: flex;
-        flex-direction: column;
+        @include column;
         justify-content: top;
-        width: 100%;
-        height: 60vh;
         position: absolute;
+        width: 100%;
+        height: max-content;
         top: 60px;
         left: -100%;
         opacity: 1;
-        transition: all 0.5s ease;
+        transition: all 0.5s ease-in-out;
       }
       .nav-menu.active {
-        background: $primary_color;
+        background-color: rgba(0, 0, 0, 0.9);
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
@@ -855,14 +858,16 @@ nav {
           width: 100%;
           display: table;
           a {
-            color: $text_color;
+            color: $primary_color;
+            font-weight: bold
           }
           .active {
             color: $body_color;
+            font-weight: bold
           }
         }
         .nav-item:hover {
-          background-color: $text_color;
+          background-color: rgba(0, 0, 0, 0.8);
           border-radius: 0;
           a {
             color: $primary_color;
@@ -972,12 +977,12 @@ nav {
       }
       .the-form {
         .big-form {
-          width: 80%;
+          width: 98%;
           form {
             .modal-div {
               .modal-wrapper {   
                 .modal {
-                  width: 90%;
+                  width: 80%;
                   padding: 1em;
                   button {
                     margin: 1em;
@@ -998,7 +1003,7 @@ nav {
 {
   nav {
     .header-div {
-      justify-content: space-between;
+      @include flex_space_between;
       .gatsby-image-wrapper {
         width: 11em;
         height: 3.8em;
@@ -1012,6 +1017,7 @@ nav {
         transition: transform 300ms ease-in-out;
         border: none;
         border-radius: 25%;
+        z-index: 2;
         &:hover {
           transform: scale(1.6);
           cursor: pointer;
@@ -1021,19 +1027,18 @@ nav {
         }
       }
       .nav-menu {
-        display: flex;
-        flex-direction: column;
+        @include column;
         justify-content: top;
-        width: 100%;
-        height: 60vh;
         position: absolute;
+        width: 100%;
+        height: max-content;
         top: 70px;
         left: -100%;
         opacity: 1;
-        transition: all 0.5s ease;
+        transition: all 0.5s ease-in-out;
       }
       .nav-menu.active {
-        background: $primary_color;
+        background-color: rgba(0, 0, 0, 0.9);
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
@@ -1041,18 +1046,20 @@ nav {
         .nav-item {
           text-align: center;
           margin: 0em;
-          padding: 2rem;
+          padding: 3rem;
           width: 100%;
           display: table;
           a {
-            color: $text_color;
+            color: $primary_color;
+            font-weight: bold
           }
           .active {
             color: $body_color;
+            font-weight: bold
           }
         }
         .nav-item:hover {
-          background-color:  $text_color;
+          background-color: rgba(0, 0, 0, 0.8);
           border-radius: 0;
           a {
             color: $primary_color;
@@ -1124,12 +1131,12 @@ nav {
       }
       .the-form {
         .big-form {
-          width: 70%;
+          width: 98%;
           form {
             .modal-div {
               .modal-wrapper {   
                 .modal {
-                  width: 90%;
+                  width: 80%;
                   padding: 1em;
                   button {
                     margin: 1em;

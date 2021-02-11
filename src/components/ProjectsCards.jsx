@@ -26,9 +26,16 @@ export default function ProjectsCards() {
       <div className="projects-div">
         <div className="projects-items">
           <div className="projects-content">
-            <HeaderVav />
+            <Link to="/projets/villes-a-vivre/">
+              <HeaderVav />
+            </Link>
             <div className="projects-text">
-              <h3>Villes à Vivre</h3>
+              <Link
+                to="/projets/villes-a-vivre/"
+                title="Voir le projet Villes à Vivre"
+              >
+                <h3>Villes à Vivre</h3>
+              </Link>
               <h4>Développement du frontend du site</h4>
               <div className="tech-icon">
                 <FontAwesomeIcon
@@ -50,7 +57,10 @@ export default function ProjectsCards() {
                   size="2x"
                 />
               </div>
-              <Link to="/projets/villes-a-vivre/" title="Plus de détails">
+              <Link
+                to="/projets/villes-a-vivre/"
+                title="Voir le projet Villes à Vivre"
+              >
                 <button>
                   <span>Voir le projet</span>
                 </button>
@@ -60,9 +70,13 @@ export default function ProjectsCards() {
         </div>
         <div className="projects-items">
           <div className="projects-content">
-            <HeaderGotripics />
+            <Link to="/projets/gotripics/">
+              <HeaderGotripics />
+            </Link>
             <div className="projects-text">
-              <h3>Gotripics</h3>
+              <Link to="/projets/gotripics/" title="Voir le projet Gotripics">
+                <h3>Gotripics</h3>
+              </Link>
               <h4>Création d'un blog de voyage</h4>
               <div className="tech-icon">
                 <FontAwesomeIcon
@@ -84,7 +98,7 @@ export default function ProjectsCards() {
                   size="2x"
                 />
               </div>
-              <Link to="/projets/gotripics/" title="Plus de détails">
+              <Link to="/projets/gotripics/" title="Voir le projet Gotripics">
                 <button>
                   <span>Voir le projet</span>
                 </button>
@@ -94,9 +108,13 @@ export default function ProjectsCards() {
         </div>
         <div className="projects-items">
           <div className="projects-content">
-            <HeaderPortfolio />
+            <Link to="/projets/portfolio/">
+              <HeaderPortfolio />
+            </Link>
             <div className="projects-text">
-              <h3>Portfolio</h3>
+              <Link to="/projets/portfolio/" title="Voir le projet Portfolio">
+                <h3>Portfolio</h3>
+              </Link>
               <h4>Création de mon portfolio</h4>
               <div className="tech-icon">
                 <span title="Gatsby">
@@ -131,7 +149,7 @@ export default function ProjectsCards() {
                   />
                 </span>
               </div>
-              <Link to="/projets/portfolio/" title="Plus de détails">
+              <Link to="/projets/portfolio/" title="Voir le projet Portfolio">
                 <button>
                   <span>Voir le projet</span>
                 </button>
@@ -141,9 +159,16 @@ export default function ProjectsCards() {
         </div>
         <div className="projects-items">
           <div className="projects-content">
-            <HeaderGroupomania />
+            <Link to="/projets/groupomania/">
+              <HeaderGroupomania />
+            </Link>
             <div className="projects-text">
-              <h3>Groupomania</h3>
+              <Link
+                to="/projets/groupomania/"
+                title="Voir le projet Groupomania"
+              >
+                <h3>Groupomania</h3>
+              </Link>
               <h4>Création d'un réseau social d’entreprise</h4>
               <div className="tech-icon">
                 <FontAwesomeIcon
@@ -174,7 +199,10 @@ export default function ProjectsCards() {
                   />
                 </span>
               </div>
-              <Link to="/projets/groupomania/" title="Plus de détails">
+              <Link
+                to="/projets/groupomania/"
+                title="Voir le projet Groupomania"
+              >
                 <button>
                   <span>Voir le projet</span>
                 </button>
@@ -184,9 +212,13 @@ export default function ProjectsCards() {
         </div>
         <div className="projects-items">
           <div className="projects-content">
-            <HeaderPiquante />
+            <Link to="/projets/piquante/">
+              <HeaderPiquante />
+            </Link>
             <div className="projects-text">
-              <h3>Piquante</h3>
+              <Link to="/projets/piquante/" title="Voir le projet Piquante">
+                <h3>Piquante</h3>
+              </Link>
               <h4>Construction d'une API sécurisée</h4>
               <div className="tech-icon">
                 <FontAwesomeIcon
@@ -216,7 +248,7 @@ export default function ProjectsCards() {
                   size="2x"
                 />
               </div>
-              <Link to="/projets/piquante/" title="Plus de détails">
+              <Link to="/projets/piquante/" title="Voir le projet Piquante">
                 <button>
                   <span>Voir le projet</span>
                 </button>
@@ -226,9 +258,13 @@ export default function ProjectsCards() {
         </div>
         <div className="projects-items">
           <div className="projects-content">
-            <HeaderOrinoco />
+            <Link to="/projets/orinoco/">
+              <HeaderOrinoco />
+            </Link>
             <div className="projects-text">
-              <h3>Orinoco</h3>
+              <Link to="/projets/orinoco/" title="Voir le projet Orinoco">
+                <h3>Orinoco</h3>
+              </Link>
               <h4>Création d'un de site e-commerce</h4>
               <div className="tech-icon">
                 <FontAwesomeIcon
@@ -252,7 +288,7 @@ export default function ProjectsCards() {
                   size="2x"
                 />
               </div>
-              <Link to="/projets/orinoco/" title="Plus de détails">
+              <Link to="/projets/orinoco/" title="Voir le projet Orinoco">
                 <button>
                   <span>Voir le projet</span>
                 </button>
@@ -262,9 +298,16 @@ export default function ProjectsCards() {
         </div>
         <div className="projects-items">
           <div className="projects-content">
-            <HeaderChouette />
+            <Link to="/projets/chouette-agence/">
+              <HeaderChouette />
+            </Link>
             <div className="projects-text">
-              <h3>Chouette Agence</h3>
+              <Link
+                to="/projets/chouette-agence/"
+                title="Voir le projet Chouette Agence"
+              >
+                <h3>Chouette Agence</h3>
+              </Link>
               <h4>Optimisation SEO</h4>
               <div className="tech-icon">
                 <FontAwesomeIcon
@@ -288,7 +331,10 @@ export default function ProjectsCards() {
                   size="2x"
                 />
               </div>
-              <Link to="/projets/chouette-agence/" title="Plus de détails">
+              <Link
+                to="/projets/chouette-agence/"
+                title="Voir le projet Chouette Agence"
+              >
                 <button>
                   <span>Voir le projet</span>
                 </button>
