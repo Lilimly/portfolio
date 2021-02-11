@@ -1,5 +1,5 @@
 import React from "react"
-import axios from "axios"
+//import axios from "axios"
 import * as qs from "query-string"
 
 class ContactForm extends React.PureComponent {
@@ -54,14 +54,11 @@ class ContactForm extends React.PureComponent {
     const formData = {}
     Object.keys(this.refs).map(key => (formData[key] = this.refs[key].value))
 
-    const axiosOptions = {
-      url: "/",
+    fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      data: qs.stringify(formData),
-    }
-
-    axios(axiosOptions)
+      body: qs.stringify(formData),
+    })
       .then(response => {
         this.setState({
           isShowing: true,
