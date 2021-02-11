@@ -1,6 +1,10 @@
 import React from "react"
-//import axios from "axios"
-import * as qs from "query-string"
+
+const encode = data => {
+  return Object.keys(data)
+    .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+    .join("&")
+}
 
 class ContactForm extends React.PureComponent {
   constructor(props) {
@@ -12,6 +16,10 @@ class ContactForm extends React.PureComponent {
       rows: 3,
       minRows: 3,
       maxRows: 20,
+      user: "",
+      email: "",
+      subject: "",
+      message: "",
     }
     this.handleClick = this.handleClick.bind(this)
     this.handleChange = this.handleChange.bind(this)
@@ -39,6 +47,7 @@ class ContactForm extends React.PureComponent {
     this.setState({
       value: event.target.value,
       rows: currentRows < maxRows ? currentRows : maxRows,
+      [event.target.name]: event.target.value,
     })
   }
 
@@ -51,13 +60,21 @@ class ContactForm extends React.PureComponent {
 
   handleSubmit(event) {
     event.preventDefault()
-    const formData = {}
-    Object.keys(this.refs).map(key => (formData[key] = this.refs[key].value))
+    const user = this.state.user
+    const email = this.state.email
+    const subject = this.state.subject
+    const message = this.state.message
 
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: qs.stringify(formData),
+      body: encode({
+        "form-name": "contact-form",
+        user,
+        email,
+        subject,
+        message,
+      }),
     })
       .then(response => {
         this.setState({
@@ -67,12 +84,12 @@ class ContactForm extends React.PureComponent {
         })
         this.domRef.current.reset()
       })
-      .catch(err =>
+      .catch(error =>
         this.setState({
           isShowing: true,
           feedbackMsg:
             "Une erreur s'est produite : " +
-            err +
+            error +
             ". N'hésitez pas à recommencer !",
         })
       )
@@ -80,7 +97,7 @@ class ContactForm extends React.PureComponent {
 
   render() {
     const { isShowing } = this.state
-
+    const { user, email, message, subject } = this.state
     return (
       <div className="big-form">
         <form
@@ -98,10 +115,12 @@ class ContactForm extends React.PureComponent {
               <input
                 title="Votre nom"
                 type="text"
-                name="name"
+                name="user"
+                value={user}
+                onChange={this.handleChange}
                 placeholder="Votre nom"
                 id="name"
-                ref="name"
+                ref="user"
                 required
               />
             </label>
@@ -111,6 +130,8 @@ class ContactForm extends React.PureComponent {
                 title="Votre adresse mail"
                 type="email"
                 name="email"
+                value={email}
+                onChange={this.handleChange}
                 placeholder="Votre adresse mail"
                 id="email"
                 ref="email"
@@ -123,6 +144,8 @@ class ContactForm extends React.PureComponent {
                 title="Sujet de votre mail"
                 type="text"
                 name="subject"
+                value={subject}
+                onChange={this.handleChange}
                 placeholder="Sujet du message"
                 id="subject"
                 ref="subject"
@@ -135,6 +158,7 @@ class ContactForm extends React.PureComponent {
                 title="Votre message"
                 name="message"
                 placeholder="Votre message"
+                value={message}
                 id="message"
                 rows={this.state.rows}
                 ref="message"
