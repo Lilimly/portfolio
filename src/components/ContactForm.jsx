@@ -56,7 +56,7 @@ class ContactForm extends React.PureComponent {
 
     const axiosOptions = {
       url: "/",
-      method: "post",
+      method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       data: qs.stringify(formData),
     }
@@ -64,7 +64,6 @@ class ContactForm extends React.PureComponent {
     axios(axiosOptions)
       .then(response => {
         this.setState({
-          isShowing: true,
           feedbackMsg:
             "Votre message m'a bien été envoyé ! Je vous remercie et vous réponds au plus vite. ",
         })
@@ -72,7 +71,6 @@ class ContactForm extends React.PureComponent {
       })
       .catch(err =>
         this.setState({
-          isShowing: true,
           feedbackMsg:
             "Une erreur s'est produite : " +
             err +
@@ -89,13 +87,12 @@ class ContactForm extends React.PureComponent {
         <form
           ref={this.domRef}
           name="contact-form"
-          method="post"
+          method="POST"
           data-netlify="true"
-          action="/"
           data-netlify-honeypot="bot-field"
           onSubmit={event => this.handleSubmit(event)}
         >
-          <input type="hidden" name="form-name" value="Contact Form" />
+          <input type="hidden" name="form-name" value="contact-form" />
           <div className="form-div">
             <label>
               Nom
@@ -173,3 +170,5 @@ class ContactForm extends React.PureComponent {
 }
 
 export default ContactForm
+
+// isShowing: true,
