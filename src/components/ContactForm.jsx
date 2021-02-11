@@ -64,6 +64,7 @@ class ContactForm extends React.PureComponent {
     axios(axiosOptions)
       .then(response => {
         this.setState({
+          isShowing: true,
           feedbackMsg:
             "Votre message m'a bien été envoyé ! Je vous remercie et vous réponds au plus vite. ",
         })
@@ -71,6 +72,7 @@ class ContactForm extends React.PureComponent {
       })
       .catch(err =>
         this.setState({
+          isShowing: true,
           feedbackMsg:
             "Une erreur s'est produite : " +
             err +
@@ -170,5 +172,3 @@ class ContactForm extends React.PureComponent {
 }
 
 export default ContactForm
-
-// isShowing: true,
