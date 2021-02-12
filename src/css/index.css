@@ -1220,6 +1220,15 @@ nav .header-div .hamburger {
   .main-div .project-page .project-content h3 {
     font-size: 1.4em;
   }
+  .main-div #welcome {
+    background-attachment: scroll !important;
+  }
+  .main-div #welcome:before {
+    background-attachment: scroll !important;
+  }
+  .main-div #welcome:after {
+    background-attachment: scroll !important;
+  }
   .main-div #welcome .section-content {
     width: 100%;
     font-size: 1em;
@@ -1286,6 +1295,15 @@ nav .header-div .hamburger {
   }
   .main-div #projets .projects .projects-div .projects-items a button span {
     font-size: 0.8em;
+  }
+  .main-div #contact {
+    background-attachment: scroll !important;
+  }
+  .main-div #contact:before {
+    background-attachment: scroll !important;
+  }
+  .main-div #contact:after {
+    background-attachment: scroll !important;
   }
   .main-div #contact h2 {
     padding-top: 1em;
@@ -1419,6 +1437,15 @@ nav .header-div .hamburger {
   .main-div .project-page .project-content {
     padding: 2em 0.6em 1em 0.6em;
   }
+  .main-div #welcome {
+    background-attachment: scroll !important;
+  }
+  .main-div #welcome:before {
+    background-attachment: scroll !important;
+  }
+  .main-div #welcome:after {
+    background-attachment: scroll !important;
+  }
   .main-div #welcome .section-content {
     padding: 0.5em;
     width: 90%;
@@ -1522,6 +1549,15 @@ nav .header-div .hamburger {
     -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
     margin: auto;
+  }
+  .main-div #contact {
+    background-attachment: scroll !important;
+  }
+  .main-div #contact:before {
+    background-attachment: scroll !important;
+  }
+  .main-div #contact:after {
+    background-attachment: scroll !important;
   }
   .main-div #contact h2 {
     padding-top: 1em;
@@ -1649,6 +1685,15 @@ nav .header-div .hamburger {
   .main-div .project-page .project-content h2 {
     margin: auto;
   }
+  .main-div #welcome {
+    background-attachment: scroll !important;
+  }
+  .main-div #welcome:before {
+    background-attachment: scroll !important;
+  }
+  .main-div #welcome:after {
+    background-attachment: scroll !important;
+  }
   .main-div #welcome .section-content {
     width: 90%;
   }
@@ -1684,6 +1729,15 @@ nav .header-div .hamburger {
   .main-div #projets .projects .projects-div {
     -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
+  }
+  .main-div #contact {
+    background-attachment: scroll !important;
+  }
+  .main-div #contact:before {
+    background-attachment: scroll !important;
+  }
+  .main-div #contact:after {
+    background-attachment: scroll !important;
   }
   .main-div #contact h2 {
     padding-top: 1em;

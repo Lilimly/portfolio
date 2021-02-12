@@ -682,6 +682,13 @@ nav {
       }
     }
     #welcome {
+      background-attachment: scroll !important;
+      &:before {
+        background-attachment: scroll !important;
+      }
+      &:after {
+        background-attachment: scroll !important;
+      }
       .section-content {
         width: 100%;
         font-size: 1em;
@@ -762,6 +769,13 @@ nav {
       }
     }
     #contact {
+      background-attachment: scroll !important;
+      &:before {
+        background-attachment: scroll !important;
+      }
+      &:after {
+        background-attachment: scroll !important;
+      }
       h2 {
         padding-top: 1em;
       }
@@ -898,6 +912,13 @@ nav {
       }
     }
     #welcome {
+      background-attachment: scroll !important;
+      &:before {
+        background-attachment: scroll !important;
+      }
+      &:after {
+        background-attachment: scroll !important;
+      }
       .section-content {
         padding: 0.5em;
         width: 90%;
@@ -968,6 +989,13 @@ nav {
       }
     }
     #contact {
+      background-attachment: scroll !important;
+      &:before {
+        background-attachment: scroll !important;
+      }
+      &:after {
+        background-attachment: scroll !important;
+      }
       h2 {
         padding-top: 1em;
       }
@@ -1090,6 +1118,13 @@ nav {
       }
     }
     #welcome {
+      background-attachment: scroll !important;
+      &:before {
+        background-attachment: scroll !important;
+      }
+      &:after {
+        background-attachment: scroll !important;
+      }
       .section-content {
         width: 90%;
       }
@@ -1122,6 +1157,13 @@ nav {
       }
     }
     #contact {
+      background-attachment: scroll !important;
+      &:before {
+        background-attachment: scroll !important;
+      }
+      &:after {
+        background-attachment: scroll !important;
+      }
       h2 {
         padding-top: 1em;
       }
