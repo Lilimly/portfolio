@@ -3,9 +3,11 @@ module.exports = {
     title: `Aurélie Mlynarz - Développement Web Freelance`,
     description: `Développeuse web freelance, je vous aide à créer un site web qui vous corresponde et améliore la visibilité de votre entreprise.`,
     author: `Aurélie Mlynarz`,
+    siteUrl: `https://www.aureliemlynarz.com`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
