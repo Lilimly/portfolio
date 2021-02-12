@@ -2,9 +2,10 @@ import React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
+import openGraphImg from "../images/img-header.jpeg"
 
 function SEO({ description, lang, meta, title }) {
-  const { site, heroBanner } = useStaticQuery(
+  const { site } = useStaticQuery(
     graphql`
       query {
         site {
@@ -14,24 +15,12 @@ function SEO({ description, lang, meta, title }) {
             author
           }
         }
-        heroBanner: file(relativePath: { eq: "img-header.jpeg" }) {
-          childImageSharp {
-            fluid(maxWidth: 1920, quality: 100) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
-          }
-        }
       }
     `
   )
 
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
-  if (!heroBanner?.childImageSharp?.fluid) {
-    return <div>Picture not found</div>
-  }
-
-  const imageHeader = heroBanner.childImageSharp.fluid
 
   return (
     <Helmet
@@ -59,7 +48,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:image`,
-          content: imageHeader,
+          content: openGraphImg,
         },
         {
           name: `twitter:card`,
