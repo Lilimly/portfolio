@@ -35,7 +35,6 @@ const Layout = ({ children }) => {
         <CookieConsent
           enableDeclineButton
           flipButtons
-          debug={true}
           location="bottom"
           buttonText="Accepter"
           cookieValue={true}
