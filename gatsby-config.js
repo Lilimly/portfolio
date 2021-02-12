@@ -3,11 +3,22 @@ module.exports = {
     title: `Aurélie Mlynarz - Développement Web Freelance`,
     description: `Développeuse web freelance, je vous aide à créer un site web qui vous corresponde et améliore la visibilité de votre entreprise.`,
     author: `Aurélie Mlynarz`,
-    siteUrl: `https://www.aureliemlynarz.com`
+    siteUrl: `https://www.aureliemlynarz.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-gdpr-cookies`,
+      options: {
+        googleAnalytics: {
+          trackingId: "G-X9K4ZGPXV9",
+          cookieName: "G-X9K4ZGPXV9",
+          anonymize: true,
+        },
+        environments: ["production", "development"],
+      },
+    },
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {

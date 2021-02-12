@@ -4,6 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import { Link } from "react-scroll"
 import { MDXProvider } from "@mdx-js/react"
 import "./layout.css"
+import CookieConsent from "react-cookie-consent"
 import { library } from "@fortawesome/fontawesome-svg-core"
 import { faGlobeAmericas, faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import { fab } from "@fortawesome/free-brands-svg-icons"
@@ -31,6 +32,40 @@ const Layout = ({ children }) => {
       <div className="main-div">
         <main>{children}</main>
         <Footer />
+        <CookieConsent
+          enableDeclineButton
+          flipButtons
+          debug={true}
+          location="bottom"
+          buttonText="Accepter"
+          cookieValue={true}
+          declineCookieValue={false}
+          sameSite="lax"
+          cookieSecurity={true}
+          ariaAcceptLabel="Accept cookies"
+          ariaDeclineLabel="Decline cookies"
+          declineButtonText="Non merci"
+          cookieName="G-X9K4ZGPXV9"
+          buttonStyle={{
+            margin: "1em",
+            color: "#fcfcfc",
+            fontSize: "15px",
+            background: "#eb5a77",
+            fontWeight: "bold",
+            padding: "10px",
+          }}
+          declineButtonStyle={{
+            margin: "1em",
+            color: "#eb5a77",
+            fontSize: "15px",
+            background: "#fcfcfc",
+            fontWeight: "bold",
+            padding: "10px",
+          }}
+          expires={30}
+        >
+          Ce site utilise des cookies pour améliorer votre expérience.
+        </CookieConsent>
       </div>
     </MDXProvider>
   )
