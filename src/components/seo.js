@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
 function SEO({ description, lang, meta, title }) {
-  const { site } = useStaticQuery(
+  const { site, heroBanner } = useStaticQuery(
     graphql`
       query {
         site {
@@ -14,12 +14,24 @@ function SEO({ description, lang, meta, title }) {
             author
           }
         }
+        heroBanner: file(relativePath: { eq: "img-header.jpeg" }) {
+          childImageSharp {
+            fluid(maxWidth: 1920, quality: 100) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
+        }
       }
     `
   )
 
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
+  if (!heroBanner?.childImageSharp?.fluid) {
+    return <div>Picture not found</div>
+  }
+
+  const imageHeader = heroBanner.childImageSharp.fluid
 
   return (
     <Helmet
@@ -44,6 +56,10 @@ function SEO({ description, lang, meta, title }) {
         {
           property: `og:type`,
           content: `website`,
+        },
+        {
+          property: `og:image`,
+          content: imageHeader,
         },
         {
           name: `twitter:card`,
