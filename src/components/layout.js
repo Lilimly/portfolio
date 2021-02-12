@@ -61,7 +61,7 @@ const Layout = ({ children }) => {
             fontWeight: "bold",
             padding: "10px",
           }}
-          expires={30}
+          expires={365}
         >
           Ce site utilise des cookies pour améliorer votre expérience.
         </CookieConsent>
