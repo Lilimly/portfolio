@@ -44,7 +44,7 @@ const Layout = ({ children }) => {
           ariaAcceptLabel="Accept cookies"
           ariaDeclineLabel="Decline cookies"
           declineButtonText="Non merci"
-          cookieName="Cookie Analytics"
+          cookieName="G-X9K4ZGPXV9"
           buttonStyle={{
             margin: "1em",
             color: "#fcfcfc",

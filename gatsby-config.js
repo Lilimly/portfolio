@@ -13,7 +13,7 @@ module.exports = {
       options: {
         googleAnalytics: {
           trackingId: "G-X9K4ZGPXV9",
-          cookieName: "Cookie Analytics",
+          cookieName: "G-X9K4ZGPXV9",
           anonymize: true,
         },
         environments: ["production", "development"],
