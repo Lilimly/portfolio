@@ -39,7 +39,7 @@ const Layout = ({ children }) => {
           buttonText="Accepter"
           cookieValue={true}
           declineCookieValue={false}
-          sameSite="lax"
+          sameSite="none"
           cookieSecurity={true}
           ariaAcceptLabel="Accept cookies"
           ariaDeclineLabel="Decline cookies"
