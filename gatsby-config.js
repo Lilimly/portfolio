@@ -13,7 +13,7 @@ module.exports = {
       options: {
         googleAnalytics: {
           trackingId: "G-X9K4ZGPXV9",
-          cookieName: "gatsby-plugin-gdpr-cookies",
+          cookieName: "ga-cookie-secure",
           anonymize: true,
         },
         environments: ["production", "development"],

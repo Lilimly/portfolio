@@ -42,7 +42,7 @@ const Layout = ({ children }) => {
           ariaAcceptLabel="Accept cookies"
           ariaDeclineLabel="Decline cookies"
           declineButtonText="Non merci"
-          cookieName="gatsby-plugin-gdpr-cookies"
+          cookieName="ga-cookie-secure"
           buttonStyle={{
             margin: "1em",
             color: "#fcfcfc",
