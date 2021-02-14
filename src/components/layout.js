@@ -37,14 +37,12 @@ const Layout = ({ children }) => {
           flipButtons
           location="bottom"
           buttonText="Accepter"
-          cookieValue={true}
-          declineCookieValue={false}
           sameSite="none"
           cookieSecurity={true}
           ariaAcceptLabel="Accept cookies"
           ariaDeclineLabel="Decline cookies"
           declineButtonText="Non merci"
-          cookieName="G-X9K4ZGPXV9"
+          cookieName="gatsby-plugin-gdpr-cookies"
           buttonStyle={{
             margin: "1em",
             color: "#fcfcfc",
