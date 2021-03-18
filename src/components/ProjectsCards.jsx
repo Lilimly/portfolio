@@ -10,6 +10,8 @@ import graphqlIcon from "@iconify-icons/cib/graphql"
 import nuxtJs from "@iconify-icons/cib/nuxt-js"
 import googleAnalytics from "@iconify-icons/mdi/google-analytics"
 import netlifyIcon from "@iconify/icons-cib/netlify"
+import leafletIcon from '@iconify/icons-logos/leaflet';
+
 
 //headers img
 import HeaderGotripics from "./GatsbyImages/HeaderGotripics.js"
@@ -47,15 +49,17 @@ export default function ProjectsCards() {
                   <Icon icon={nuxtJs} color="#eb5a77" width="36" height="36" />
                 </span>
                 <FontAwesomeIcon
-                  icon={["fab", "sass"]}
-                  title="SASS"
+                  icon={["fab", "algolia"]}
+                  title="Algolia"
                   size="2x"
                 />
-                <FontAwesomeIcon
-                  icon={["fab", "git-square"]}
-                  title="Git"
-                  size="2x"
+                <span title="Leaflet">
+                  <Icon 
+                    icon={leafletIcon} 
+                    width="42" 
+                    height="42" 
                 />
+                </span>
               </div>
               <Link
                 to="/projets/villes-a-vivre/"

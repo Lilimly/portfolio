@@ -10,7 +10,7 @@ const HeroBanner = () => {
       </p>
       <p>
         <strong>Ma mission</strong> : vous aider à créer un site web qui vous
-        corresponde.
+        correspond.
       </p>
       <p>
         Pour savoir comment, consultez{" "}

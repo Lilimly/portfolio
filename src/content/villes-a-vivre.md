@@ -14,6 +14,8 @@ Développer le frontend d'un site d'avis et de comparaison de villes.
 
     - Vue JS
     - Nuxt JS
+    - Algolia
+    - Leaflet
     - SASS
     - Git / GitHub
 
