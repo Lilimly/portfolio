@@ -60,11 +60,11 @@ export default function Header() {
                 offset={-70}
                 duration={500}
               >
-                Bienvenue !
+                Bienvenue
               </Link>
             ) : (
               <AnchorLink to="/#welcome" title="Bienvenue">
-                Bienvenue !
+                Bienvenue
               </AnchorLink>
             )}
           </li>

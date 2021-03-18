@@ -4,7 +4,7 @@ import { Link } from "react-scroll"
 const HeroBanner = () => {
   return (
     <div className="section-content">
-      <h1>Bienvenue !</h1>
+      <h1>Bienvenue</h1>
       <p>
         Je suis Aurélie, <strong>développeuse web fullstack</strong>.
       </p>
