@@ -10,8 +10,7 @@ import graphqlIcon from "@iconify-icons/cib/graphql"
 import nuxtJs from "@iconify-icons/cib/nuxt-js"
 import googleAnalytics from "@iconify-icons/mdi/google-analytics"
 import netlifyIcon from "@iconify/icons-cib/netlify"
-import leafletIcon from '@iconify/icons-logos/leaflet';
-
+import leafletIcon from "@iconify/icons-logos/leaflet"
 
 //headers img
 import HeaderGotripics from "./GatsbyImages/HeaderGotripics.js"
@@ -54,11 +53,7 @@ export default function ProjectsCards() {
                   size="2x"
                 />
                 <span title="Leaflet">
-                  <Icon 
-                    icon={leafletIcon} 
-                    width="42" 
-                    height="42" 
-                />
+                  <Icon icon={leafletIcon} width="42" height="42" />
                 </span>
               </div>
               <Link

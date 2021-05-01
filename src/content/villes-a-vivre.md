@@ -19,14 +19,8 @@ Développer le frontend d'un site d'avis et de comparaison de villes.
     - SASS
     - Git / GitHub
 
-### Le projet
-
-Le projet est en cours de développement.
-
-Un petit aperçu en attendant d'en savoir plus !
-
 ![villes à vivre](./img-vav/accueil-vav.jpeg)
 
 ### Consulter le projet
 
-Un peu de patience, vous pourrez bientot consulter ce projet !
+Consultez [Villes à Vivre](https://www.villesavivre.fr/ "Consulter Villes à Vivre"), site d'avis et de comparaison des communes de France.
