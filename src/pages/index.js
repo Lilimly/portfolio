@@ -57,8 +57,9 @@ const IndexPage = () => {
         <div className="presentation">
           <PhotoAurelie />
           <p>
-            Développeuse web fullstack, spécialisée dans le frontend, je mets
-            mes compétences à votre service pour <br />
+            Développeuse fullstack web et mobile, spécialisée dans les
+            technologies <strong>React, React Native et Nest JS</strong>, je
+            mets mes compétences au service de <br />
             <Link
               title="contact"
               to="contact"
@@ -67,23 +68,15 @@ const IndexPage = () => {
               offset={-80}
               duration={500}
             >
-              créer un site web qui vous correspond.
+              votre projet.
             </Link>
             <br />
-            <strong>100% autonome</strong>, <strong>à l'écoute</strong> de mes
-            clients, et <strong>force de proposition</strong>, je suis prête à
-            m'investir pleinement dans votre projet et à m'adapter à vos
+            <strong>100% autonome</strong>, <strong>à l'écoute</strong>, et{" "}
+            <strong>force de proposition</strong>, je suis prête à m'investir
+            pleinement dans le projet de votre entreprise et à m'adapter à vos
             besoins.
             <br />
-            Je vous apporte mon expertise pour :{" "}
-            <strong>l'intégration de maquettes</strong>, la création de votre{" "}
-            <strong>site vitrine</strong> / <strong>e-commerce</strong>, ou
-            encore le <strong>rafraîchissement</strong> et l'
-            <strong>
-              optimisation du référencement SEO d'un site existant
-            </strong>
-            .<br />
-            N'hésitez pas à consulter l'ensemble des{" "}
+            N'hésitez pas à consulter les{" "}
             <Link
               title="contact"
               to="projets"
@@ -92,9 +85,9 @@ const IndexPage = () => {
               offset={-80}
               duration={500}
             >
-              projets
+              travaux
             </Link>{" "}
-            sur lesquels j'ai travaillé !
+            auxquels j'ai participé !
           </p>
         </div>
         <TimeLine />

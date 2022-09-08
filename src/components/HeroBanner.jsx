@@ -6,14 +6,14 @@ const HeroBanner = () => {
     <div className="section-content">
       <h1>Bienvenue</h1>
       <p>
-        Je suis Aurélie, <strong>développeuse Fullstack web et mobile</strong>.
+        Je suis Aurélie, <strong>développeuse fullstack web et mobile</strong>.
       </p>
-      <p>
+      {/* <p>
         <strong>Ma mission</strong> : vous aider à créer un site web qui vous
         correspond.
-      </p>
+      </p> */}
       <p>
-        Pour savoir comment, consultez{" "}
+        Consultez{" "}
         <Link
           title="Parcours"
           to="parcours"
@@ -24,7 +24,7 @@ const HeroBanner = () => {
         >
           mon parcours
         </Link>{" "}
-        et{" "}
+        ainsi que {" "}
         <Link
           title="Projets"
           to="projets"
