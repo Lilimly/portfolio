@@ -59,7 +59,7 @@ const IndexPage = () => {
           <p>
             Développeuse fullstack web et mobile, spécialisée dans les
             technologies <strong>React, React Native et Nest JS</strong>, je
-            mets mes compétences au service de <br />
+            mets mes compétences au service de{" "}
             <Link
               title="contact"
               to="contact"
@@ -73,8 +73,7 @@ const IndexPage = () => {
             <br />
             <strong>100% autonome</strong>, <strong>à l'écoute</strong>, et{" "}
             <strong>force de proposition</strong>, je suis prête à m'investir
-            pleinement dans le projet de votre entreprise et à m'adapter à vos
-            besoins.
+            pleinement dans votre entreprise et à m'adapter à vos besoins.
             <br />
             N'hésitez pas à consulter les{" "}
             <Link
@@ -85,16 +84,16 @@ const IndexPage = () => {
               offset={-80}
               duration={500}
             >
-              travaux
+              projets
             </Link>{" "}
-            auxquels j'ai participé !
+            sur lesquels j'ai travaillé !
           </p>
         </div>
         <TimeLine />
       </section>
       <section className="section" id="projets">
         <h2>Projets réalisés</h2>
-        <p>
+        {/* <p>
           Vous avez un projet et vous souhaitez que je vous apporte mon
           expertise ?<br />
           <Link
@@ -108,7 +107,7 @@ const IndexPage = () => {
             Écrivez-moi
           </Link>{" "}
           et nous pourrons en discuter !
-        </p>
+        </p> */}
         <div className="projects">
           <ProjectsCards />
         </div>
@@ -122,7 +121,7 @@ const IndexPage = () => {
       >
         <h2>Me contacter</h2>
         <p>
-          Une question, un devis ?<br />
+          Des questions ?<br />
           Écrivez-moi et je vous répondrai aussi rapidement que possible !
         </p>
         <div className="the-form">

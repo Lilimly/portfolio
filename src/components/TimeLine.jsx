@@ -21,20 +21,21 @@ const TimeLine = () => (
       icon={<FontAwesomeIcon icon={["fab", "react"]} title="React Icon" />}
     >
       <h3 className="vertical-timeline-element-title">
-        KOJI (ESN)
+        Développeuse web et mobile fullstack
       </h3>
-      <h4 className="vertical-timeline-element-subtitle">Paris</h4>
+      <h4 className="vertical-timeline-element-subtitle">KOJI | Paris</h4>
       <div>
-        <p>Développeuse fullstack, web et mobile.</p>
+        {/* <p>Développeuse fullstack, web et mobile.</p> */}
         <p className="strong-p">Compétences développées :</p>
         <ul>
           <li>
             <strong>Technologies front - web</strong> :
-            React, VueJS, Tailwind, SASS.
+            React, VueJS, TypeScript, Tailwind, SASS.
           </li>
           <li>
-            <strong>Technologies front - mobile</strong> : React Native,
-            XCode / Apple Developer / TestFlight, Android Studio / Google.
+            <strong>Technologies front - mobile</strong> : React Native <br />
+            <strong>IOS : </strong>XCode / Apple Store Connect / TestFlight<br />
+            <strong>Android : </strong>Android Studio / Google Play Console.
           </li>
           <li>
             <strong>Technologie back</strong> : NestJS.
@@ -80,11 +81,11 @@ const TimeLine = () => (
       icon={<FontAwesomeIcon icon={["fab", "react"]} title="React Icon" />}
     >
       <h3 className="vertical-timeline-element-title">
-        Développeuse Freelance
+      Développeuse web fullstack 
       </h3>
-      <h4 className="vertical-timeline-element-subtitle">Paris</h4>
+      <h4 className="vertical-timeline-element-subtitle">Freelance | Paris</h4>
       <div>
-        <p>Développeuse web fullstack.</p>
+        {/* <p>Développeuse web fullstack.</p> */}
         <p className="strong-p">Compétences développées :</p>
         <ul>
           <li>
@@ -189,6 +190,7 @@ const TimeLine = () => (
       icon={<FontAwesomeIcon icon={faGlobeAmericas} title="World icon" />}
     >
       <h3 className="vertical-timeline-element-title">Tour du monde !</h3>
+      <h4 className="vertical-timeline-element-subtitle">Année sabbatique</h4>
       <div>
         <p>
           Un an de voyage autour du monde durant lequel j'ai développé mon blog
@@ -226,7 +228,7 @@ const TimeLine = () => (
       date="2010 - 2018"
       icon={<FontAwesomeIcon icon={faGraduationCap} title="Graduation icon" />}
     >
-      <h3 className="vertical-timeline-element-title">CAFERUIS</h3>
+      <h3 className="vertical-timeline-element-title">Formation CAFERUIS</h3>
       <h4 className="vertical-timeline-element-subtitle">ETSUP | Paris</h4>
       <p>
         Obtention du Certificat d'Aptitude aux Fonctions d'Encadrement et de
@@ -239,7 +241,7 @@ const TimeLine = () => (
       icon={<FontAwesomeIcon icon={faBaby} title="Baby icon" />}
     >
       <h3 className="vertical-timeline-element-title">Directrice de crèche</h3>
-      <h4 className="vertical-timeline-element-subtitle">Paris</h4>
+      <h4 className="vertical-timeline-element-subtitle">ABC Puériculture | Paris</h4>
       <p>Créche associative de 30 berceaux.</p>
       <p className="strong-p">Compétences développées :</p>
       <ul>
@@ -269,7 +271,7 @@ const TimeLine = () => (
       <h3 className="vertical-timeline-element-title">
         Educatrice de Jeunes Enfants
       </h3>
-      <h4 className="vertical-timeline-element-subtitle">Paris</h4>
+      <h4 className="vertical-timeline-element-subtitle">Am Stram Gram | Paris</h4>
       <p>Halte garderie privée de 30 berceaux.</p>
       <p className="strong-p">Compétences développées :</p>
       <ul>
@@ -287,7 +289,7 @@ const TimeLine = () => (
       date="2004"
       icon={<FontAwesomeIcon icon={faGraduationCap} title="Graduation icon" />}
     >
-      <h3 className="vertical-timeline-element-title">Diplôme d'Etat d'EJE</h3>
+      <h3 className="vertical-timeline-element-title">Formation Diplôme d'Etat d'EJE</h3>
       <h4 className="vertical-timeline-element-subtitle">IRTS | Talence</h4>
       <p>Obtention du Diplôme d'Etat d'Educatrice de Jeunes Enfants.</p>
     </VerticalTimelineElement>

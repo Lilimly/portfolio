@@ -76,7 +76,7 @@ export default function Footer() {
       <div className="info-site">
         © {new Date().getFullYear()}
         {`  `}
-        Aurélie Mlynarz, Développeuse web freelance.
+        Aurélie Mlynarz, Développeuse web et mobile.
       </div>
     </footer>
   )
