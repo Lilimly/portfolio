@@ -58,8 +58,9 @@ const IndexPage = () => {
           <PhotoAurelie />
           <p>
             Développeuse fullstack web et mobile, spécialisée dans les
-            technologies <strong>React, React Native et Nest JS</strong>, je
-            mets mes compétences au service de{" "}
+            technologies{" "}
+            <strong>React, React Native, TypeScript et Nest JS</strong>, je mets
+            mes compétences au service de{" "}
             <Link
               title="contact"
               to="contact"

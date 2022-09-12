@@ -59,7 +59,7 @@ const TimeLine = () => (
             mon CV
           </a>
         </p>
-        <div className="button-timeline">
+        {/* <div className="button-timeline">
           <Link
             title="Voir les projets"
             to="projets"
@@ -72,7 +72,7 @@ const TimeLine = () => (
               <span>Voir les projets</span>
             </button>
           </Link>
-        </div>
+        </div> */}
       </div>
     </VerticalTimelineElement>
     <VerticalTimelineElement
