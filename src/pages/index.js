@@ -57,8 +57,10 @@ const IndexPage = () => {
         <div className="presentation">
           <PhotoAurelie />
           <p>
-            Développeuse web fullstack, spécialisée dans le frontend, je mets
-            mes compétences à votre service pour <br />
+            Développeuse fullstack web et mobile, spécialisée dans les
+            technologies{" "}
+            <strong>React, React Native, TypeScript et Nest JS</strong>, je mets
+            mes compétences au service de{" "}
             <Link
               title="contact"
               to="contact"
@@ -67,23 +69,14 @@ const IndexPage = () => {
               offset={-80}
               duration={500}
             >
-              créer un site web qui vous correspond.
+              votre projet.
             </Link>
             <br />
-            <strong>100% autonome</strong>, <strong>à l'écoute</strong> de mes
-            clients, et <strong>force de proposition</strong>, je suis prête à
-            m'investir pleinement dans votre projet et à m'adapter à vos
-            besoins.
+            <strong>100% autonome</strong>, <strong>à l'écoute</strong>, et{" "}
+            <strong>force de proposition</strong>, je suis prête à m'investir
+            pleinement dans votre entreprise et à m'adapter à vos besoins.
             <br />
-            Je vous apporte mon expertise pour :{" "}
-            <strong>l'intégration de maquettes</strong>, la création de votre{" "}
-            <strong>site vitrine</strong> / <strong>e-commerce</strong>, ou
-            encore le <strong>rafraîchissement</strong> et l'
-            <strong>
-              optimisation du référencement SEO d'un site existant
-            </strong>
-            .<br />
-            N'hésitez pas à consulter l'ensemble des{" "}
+            N'hésitez pas à consulter les{" "}
             <Link
               title="contact"
               to="projets"
@@ -101,7 +94,7 @@ const IndexPage = () => {
       </section>
       <section className="section" id="projets">
         <h2>Projets réalisés</h2>
-        <p>
+        {/* <p>
           Vous avez un projet et vous souhaitez que je vous apporte mon
           expertise ?<br />
           <Link
@@ -115,7 +108,7 @@ const IndexPage = () => {
             Écrivez-moi
           </Link>{" "}
           et nous pourrons en discuter !
-        </p>
+        </p> */}
         <div className="projects">
           <ProjectsCards />
         </div>
@@ -129,7 +122,7 @@ const IndexPage = () => {
       >
         <h2>Me contacter</h2>
         <p>
-          Une question, un devis ?<br />
+          Des questions ?<br />
           Écrivez-moi et je vous répondrai aussi rapidement que possible !
         </p>
         <div className="the-form">
