@@ -72,9 +72,11 @@ const IndexPage = () => {
               votre projet.
             </Link>
             <br />
-            <strong>100% autonome</strong>, <strong>à l'écoute</strong>, et{" "}
-            <strong>force de proposition</strong>, je suis prête à m'investir
-            pleinement dans votre entreprise et à m'adapter à vos besoins.
+            <strong>100% autonome</strong>, <strong>à l'écoute</strong>,{" "}
+            <strong>force de proposition </strong>et{" "}
+            <strong>à la recherche de nouveaux défis</strong>, je suis prête à
+            m'investir pleinement dans votre entreprise et à m'adapter à vos
+            besoins.
             <br />
             N'hésitez pas à consulter les{" "}
             <Link

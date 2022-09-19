@@ -11,6 +11,7 @@ import {
   faGlobeAmericas,
   faGraduationCap,
   faBaby,
+  faLaptopCode,
 } from "@fortawesome/free-solid-svg-icons"
 
 const TimeLine = () => (
@@ -79,7 +80,7 @@ const TimeLine = () => (
     <VerticalTimelineElement
       className="vertical-timeline-element--work"
       date="2020 - 2021"
-      icon={<FontAwesomeIcon icon={["fab", "react"]} title="React Icon" />}
+      icon={<FontAwesomeIcon icon={faLaptopCode} title="React Icon" />}
     >
       <h3 className="vertical-timeline-element-title">
       Développeuse web fullstack 
