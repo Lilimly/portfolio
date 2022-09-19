@@ -54,27 +54,12 @@ const TimeLine = () => (
             href={"https://lilimly.github.io/cv_aurelie_mlynarz/"}
             target="_blank"
             rel="noopener noreferrer"
-            alt="CV (en cours de refonte)"
-            title="CV (en cours de refonte)"
+            alt="CV"
+            title="CV"
           >
             mon CV
           </a>
-          {" "} (en cours de refonte)
         </p>
-        {/* <div className="button-timeline">
-          <Link
-            title="Voir les projets"
-            to="projets"
-            spy={true}
-            smooth={true}
-            offset={-80}
-            duration={500}
-          >
-            <button>
-              <span>Voir les projets</span>
-            </button>
-          </Link>
-        </div> */}
       </div>
     </VerticalTimelineElement>
     <VerticalTimelineElement

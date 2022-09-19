@@ -66,8 +66,8 @@ export default function Footer() {
             href={"https://lilimly.github.io/cv_aurelie_mlynarz/"}
             target="_blank"
             rel="noopener noreferrer"
-            alt="CV (en cours de refonte)"
-            title="CV (en cours de refonte)"
+            alt="CV"
+            title="CV"
           >
             cv
           </a>
