@@ -6,7 +6,7 @@ const PhotoAurelie = () => {
   const data = useStaticQuery(graphql`
     query {
       placeholderImage: file(
-        relativePath: { eq: "aurelie-mlynarz-photo.jpeg" }
+        relativePath: { eq: "aurelie-mlynarz-photo.jpg" }
       ) {
         childImageSharp {
           fluid(maxWidth: 280) {
