@@ -8,12 +8,13 @@ img: "./articles/header-vav.jpeg"
 
 ### Ma mission
 
-Développer le frontend d'un site d'avis et de comparaison de villes.
+Développer le frontend web et mobile d'un site d'avis et de comparaison de villes.
 
 ### Les technologies utilisées
 
     - Vue JS
-    - Nuxt JS
+    - React Native
+    - TypeScript
     - Algolia
     - Leaflet
     - SASS

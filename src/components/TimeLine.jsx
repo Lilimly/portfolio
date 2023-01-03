@@ -5,6 +5,7 @@ import {
 } from "react-vertical-timeline-component"
 import "react-vertical-timeline-component/style.min.css"
 import { Link } from "react-scroll"
+import { Link as GatsbyLink } from "gatsby"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
   faCode,
@@ -18,7 +19,7 @@ const TimeLine = () => (
   <VerticalTimeline>
     <VerticalTimelineElement
       className="vertical-timeline-element--work"
-      date="2021 - present"
+      date="2021 - présent"
       icon={<FontAwesomeIcon icon={["fab", "react"]} title="React Icon" />}
     >
       <h3 className="vertical-timeline-element-title">
@@ -64,53 +65,39 @@ const TimeLine = () => (
     </VerticalTimelineElement>
     <VerticalTimelineElement
       className="vertical-timeline-element--work"
-      date="2020 - 2021"
+      date="2020 - présent"
       icon={<FontAwesomeIcon icon={faLaptopCode} title="React Icon" />}
     >
       <h3 className="vertical-timeline-element-title">
-      Développeuse web fullstack 
+        Développeuse web et mobile fullstack
       </h3>
-      <h4 className="vertical-timeline-element-subtitle">Freelance | Paris</h4>
+      <h4 className="vertical-timeline-element-subtitle">Villes à Vivre | Paris</h4>
       <div>
         {/* <p>Développeuse web fullstack.</p> */}
         <p className="strong-p">Compétences développées :</p>
         <ul>
           <li>
-            <strong>Technologies maitrisées coté front</strong> : JavaScript,
-            HTML5, CSS3, SASS.
+            <strong>Technologies front - web</strong> :
+            VueJS, SASS.
           </li>
           <li>
-            <strong>Framework front</strong> : ReactJS, Bootstrap.
-          </li>
-          <li>
-            <strong>Technologies maitrisées coté back</strong> : NodeJS.
-          </li>
-          <li>
-            <strong>Framework back</strong> : ExpressJS.
-          </li>
-          <li>
-            <strong>Base de données</strong> : MongoDB, mySQL.
-          </li>
-          <li>
-            <strong>CMS</strong> : Wordpress.
+            <strong>Technologies front - mobile</strong> : React Native, TypeScript <br />
+            <strong>IOS : </strong>XCode / Apple Store Connect / TestFlight<br />
+            <strong>Android : </strong>Android Studio / Google Play Console.
           </li>
           <li>
             <strong>Logiciel de versioning utilisé</strong> : Git et GitHub.
           </li>
         </ul>
         <div className="button-timeline">
-          <Link
-            title="Voir les projets"
-            to="projets"
-            spy={true}
-            smooth={true}
-            offset={-80}
-            duration={500}
+          <GatsbyLink
+            to="/projets/villes-a-vivre/"
+            title="Voir le projet Villes à Vivre"
           >
             <button>
-              <span>Voir les projets</span>
+              <span>Voir le projet</span>
             </button>
-          </Link>
+          </GatsbyLink>
         </div>
       </div>
     </VerticalTimelineElement>
