@@ -69,7 +69,7 @@ const TimeLine = () => (
       icon={<FontAwesomeIcon icon={faLaptopCode} title="React Icon" />}
     >
       <h3 className="vertical-timeline-element-title">
-        Développeuse web et mobile fullstack
+        Développeuse web et mobile frontend
       </h3>
       <h4 className="vertical-timeline-element-subtitle">Villes à Vivre | Paris</h4>
       <div>

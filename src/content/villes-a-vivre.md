@@ -4,7 +4,7 @@ date: "2020-11-10"
 img: "./articles/header-vav.jpeg"
 ---
 
-## Développement du frontend du site
+## Développement du frontend web et mobile
 
 ### Ma mission
 
