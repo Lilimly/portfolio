@@ -19,7 +19,6 @@ import HeaderPortfolio from "./GatsbyImages/HeaderPortfolio.js"
 import HeaderGroupomania from "./GatsbyImages/HeaderGroupomania.js"
 import HeaderPiquante from "./GatsbyImages/HeaderPiquante.js"
 import HeaderOrinoco from "./GatsbyImages/HeaderOrinoco.js"
-import HeaderChouette from "./GatsbyImages/HeaderChouette.js"
 
 export default function ProjectsCards() {
   return (
@@ -295,7 +294,7 @@ export default function ProjectsCards() {
             </div>
           </div>
         </div>
-        <div className="projects-items">
+        {/* <div className="projects-items">
           <div className="projects-content">
             <Link to="/projets/chouette-agence/">
               <HeaderChouette />
@@ -340,7 +339,7 @@ export default function ProjectsCards() {
               </Link>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   )
