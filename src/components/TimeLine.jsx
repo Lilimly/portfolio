@@ -19,7 +19,44 @@ const TimeLine = () => (
   <VerticalTimeline>
     <VerticalTimelineElement
       className="vertical-timeline-element--work"
-      date="2021 - présent"
+      date="2023 - présent"
+      icon={<FontAwesomeIcon icon={["fab", "react"]} title="React Icon" />}
+    >
+      <h3 className="vertical-timeline-element-title">
+        Développeuse web et mobile fullstack
+      </h3>
+      <h4 className="vertical-timeline-element-subtitle">Doct'UP | Lyon</h4>
+      <div>
+        <p className="strong-p">Compétences développées :</p>
+        <ul>
+          <li>
+            <strong>Technologies utilisées</strong> :<br />
+            <strong>React Native</strong><br />
+            <strong>IOS : </strong>XCode / Apple Store Connect / TestFlight<br />
+            <strong>Android : </strong>Android Studio / Google Play Console<br />
+            <strong>Environnement Google Cloud / Firebase</strong>
+          </li>
+          <li>
+            <strong>Logiciel de versioning utilisé</strong> : Git et GitHub.
+          </li>
+        </ul>
+        <p>
+          Consultez{" "}
+          <a
+            href={"https://lilimly.github.io/cv_aurelie_mlynarz/"}
+            target="_blank"
+            rel="noopener noreferrer"
+            alt="CV"
+            title="CV"
+          >
+            mon CV
+          </a>
+        </p>
+      </div>
+    </VerticalTimelineElement>
+    <VerticalTimelineElement
+      className="vertical-timeline-element--work"
+      date="2021 - 2023"
       icon={<FontAwesomeIcon icon={["fab", "react"]} title="React Icon" />}
     >
       <h3 className="vertical-timeline-element-title">
@@ -27,7 +64,6 @@ const TimeLine = () => (
       </h3>
       <h4 className="vertical-timeline-element-subtitle">KOJI | Paris</h4>
       <div>
-        {/* <p>Développeuse fullstack, web et mobile.</p> */}
         <p className="strong-p">Compétences développées :</p>
         <ul>
           <li>
@@ -73,7 +109,6 @@ const TimeLine = () => (
       </h3>
       <h4 className="vertical-timeline-element-subtitle">Villes à Vivre | Paris</h4>
       <div>
-        {/* <p>Développeuse web fullstack.</p> */}
         <p className="strong-p">Compétences développées :</p>
         <ul>
           <li>
