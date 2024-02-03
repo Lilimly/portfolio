@@ -36,9 +36,6 @@ const TimeLine = () => (
             <strong>Android : </strong>Android Studio / Google Play Console<br />
             <strong>Environnement Google Cloud / Firebase</strong>
           </li>
-          <li>
-            <strong>Logiciel de versioning utilisé</strong> : Git et GitHub.
-          </li>
         </ul>
         <p>
           Consultez{" "}
@@ -81,9 +78,6 @@ const TimeLine = () => (
           <li>
             <strong>Base de données</strong> : PostgreSQL, mySQL, Maria DB.
           </li>
-          <li>
-            <strong>Logiciel de versioning utilisé</strong> : Git et GitHub.
-          </li>
         </ul>
         <p>
           Consultez{" "}
@@ -119,9 +113,6 @@ const TimeLine = () => (
             <strong>Technologies front - mobile</strong> : React Native, TypeScript <br />
             <strong>IOS : </strong>XCode / Apple Store Connect / TestFlight<br />
             <strong>Android : </strong>Android Studio / Google Play Console.
-          </li>
-          <li>
-            <strong>Logiciel de versioning utilisé</strong> : Git et GitHub.
           </li>
         </ul>
         <div className="button-timeline">
