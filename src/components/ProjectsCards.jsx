@@ -294,52 +294,6 @@ export default function ProjectsCards() {
             </div>
           </div>
         </div>
-        {/* <div className="projects-items">
-          <div className="projects-content">
-            <Link to="/projets/chouette-agence/">
-              <HeaderChouette />
-            </Link>
-            <div className="projects-text">
-              <Link
-                to="/projets/chouette-agence/"
-                title="Voir le projet Chouette Agence"
-              >
-                <h3>Chouette Agence</h3>
-              </Link>
-              <h4>Optimisation SEO</h4>
-              <div className="tech-icon">
-                <FontAwesomeIcon
-                  icon={["fab", "js-square"]}
-                  title="JavaScript"
-                  size="2x"
-                />
-                <FontAwesomeIcon
-                  icon={["fab", "html5"]}
-                  title="HTML 5"
-                  size="2x"
-                />
-                <FontAwesomeIcon
-                  icon={["fab", "css3-alt"]}
-                  title="CSS 3"
-                  size="2x"
-                />
-                <FontAwesomeIcon
-                  icon={["fab", "git-square"]}
-                  title="Git"
-                  size="2x"
-                />
-              </div>
-              <Link
-                to="/projets/chouette-agence/"
-                title="Voir le projet Chouette Agence"
-              >
-                <button>
-                  <span>Voir le projet</span>
-                </button>
-              </Link>
-            </div>
-          </div>
-        </div> */}
       </div>
     </>
   )
