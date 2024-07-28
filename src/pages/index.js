@@ -57,10 +57,10 @@ const IndexPage = () => {
         <div className="presentation">
           <PhotoAurelie />
           <p>
-            Développeuse fullstack web et mobile, spécialisée dans les
-            technologies{" "}
-            <strong>React, React Native, TypeScript et Nest JS</strong>, je mets
-            mes compétences au service de{" "}
+            Développeuse fullstack d'applications mobiles, spécialisée en{" "}
+            <strong>React Native, React</strong> et <strong>TypeScript</strong>, 
+            <br />
+            je mets mes compétences au service de{" "}
             <Link
               title="contact"
               to="contact"
@@ -69,14 +69,14 @@ const IndexPage = () => {
               offset={-80}
               duration={500}
             >
-              votre projet.
+              vos projets.
             </Link>
             <br />
-            <strong>100% autonome</strong>, <strong>à l'écoute</strong>,{" "}
-            <strong>force de proposition </strong>et{" "}
-            <strong>à la recherche de nouveaux défis</strong>, je suis prête à
-            m'investir pleinement dans votre entreprise et à m'adapter à vos
-            besoins.
+            <strong>Autonome</strong> et <strong>à l'écoute</strong>,{" "}
+            je suis <strong>proactive</strong> et{" "}
+            constamment en quête<strong> de nouveaux défis</strong>.
+            <br />
+            Je suis prête à m'investir pleinement dans votre entreprise et à m'adapter à vos besoins spécifiques.
             <br />
             N'hésitez pas à consulter les{" "}
             <Link

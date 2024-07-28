@@ -23,19 +23,24 @@ const TimeLine = () => (
       icon={<FontAwesomeIcon icon={["fab", "react"]} title="React Icon" />}
     >
       <h3 className="vertical-timeline-element-title">
-        Développeuse web et mobile fullstack
+        Développeuse mobile fullstack
       </h3>
       <h4 className="vertical-timeline-element-subtitle">Doct'UP | Lyon</h4>
       <div>
-        <p className="strong-p">Compétences développées :</p>
+        <p className="strong-p">Technologies utilisées :</p>
         <ul>
           <li>
-            <strong>Technologies utilisées</strong> :<br />
-            <strong>React Native</strong><br />
-            <strong>IOS : </strong>XCode / Apple Store Connect / TestFlight<br />
-            <strong>Android : </strong>Android Studio / Google Play Console<br />
-            <strong>Environnement Google Cloud / Firebase</strong>
+            <strong>React Native</strong> / <strong>TypeScript</strong>
           </li>
+          <li>
+          <strong>IOS : </strong>XCode / Apple Store Connect / TestFlight
+          </li>
+          <li>
+            <strong>Android : </strong>Android Studio / Google Play Console
+            </li>
+            <li>
+            <strong>Environnement Google Cloud / Firebase</strong>
+            </li>
         </ul>
         <p>
           Consultez{" "}
@@ -61,7 +66,7 @@ const TimeLine = () => (
       </h3>
       <h4 className="vertical-timeline-element-subtitle">KOJI | Paris</h4>
       <div>
-        <p className="strong-p">Compétences développées :</p>
+        <p className="strong-p">Technologies utilisées :</p>
         <ul>
           <li>
             <strong>Technologies front - web</strong> :
@@ -76,7 +81,7 @@ const TimeLine = () => (
             <strong>Technologie back</strong> : NestJS.
           </li>
           <li>
-            <strong>Base de données</strong> : PostgreSQL, mySQL, Maria DB.
+            <strong>Base de données</strong> : PostgreSQL
           </li>
         </ul>
         <p>
